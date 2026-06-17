@@ -17,6 +17,7 @@ data/raw/*
 !data/raw/.gitkeep
 !data/raw/sample_task_a.tsv
 !data/raw/sample_task_a.jsonl
+!data/raw/task-a-en.tsv
 
 data/processed/*
 !data/processed/.gitkeep
