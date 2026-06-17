@@ -56,7 +56,7 @@ def clean_joke(text: str) -> str:
     text = re.sub(r"^(sure[,.!]?\s*)", "", text, flags=re.IGNORECASE)
     text = re.sub(r"^(here('s| is)\s+a\s+joke[:\s-]*)", "", text, flags=re.IGNORECASE)
     text = re.sub(r"^(joke|answer|response)\s*:\s*", "", text, flags=re.IGNORECASE)
-    return text.strip().strip('"')
+    return " ".join(text.strip().strip('"').split())
 
 
 def _has_banned_preface(lowered: str) -> bool:
@@ -65,7 +65,7 @@ def _has_banned_preface(lowered: str) -> bool:
 
 
 def _looks_like_explanation(lowered: str) -> bool:
-    return any(marker in lowered for marker in ("this joke", "the humor", "explanation:", "because it"))
+    return any(marker in lowered for marker in ("this joke", "the humor", "explanation:", "the punchline is"))
 
 
 def _contains_word(lowered: str, word: str) -> bool:

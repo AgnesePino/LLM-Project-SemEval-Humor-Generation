@@ -34,13 +34,13 @@ def generate_dataset(
     rag_apply_to: str = "all",
     limit: int | None = None,
 ) -> list[dict[str, Any]]:
+    items = load_dataset(input_path)
+    if limit is not None:
+        items = items[:limit]
     model_cfg = resolve_model_config(model_key, models_config_path)
     require_gpu_for_real_run(mock)
     require_hf_token(model_cfg, mock)
     runner = get_runner(model_cfg, generation_cfg, mock)
-    items = load_dataset(input_path)
-    if limit is not None:
-        items = items[:limit]
     max_words = generation_cfg.get("validation", {}).get("max_words", 45)
     rows: list[dict[str, Any]] = []
     for item in tqdm(items, desc=f"Generating {model_key}/{method}"):
