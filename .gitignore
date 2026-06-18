@@ -22,8 +22,6 @@ data/raw/*
 data/processed/*
 !data/processed/.gitkeep
 
-data/generated/*
-!data/generated/.gitkeep
 data/judged/*
 !data/judged/.gitkeep
 data/final/*
