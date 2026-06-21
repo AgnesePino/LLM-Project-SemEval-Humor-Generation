@@ -14,7 +14,7 @@ def build_generation_prompt(item: dict[str, str], contexts: list[str] | None = N
     context_block = ""
     if contexts:
         bullets = "\n".join(f"- {ctx}" for ctx in contexts)
-        context_block = f"\nOptional inspiration examples:\n{bullets}\n"
+        context_block = f"\nOptional background facts from retrieval. Use them only if helpful; do not quote them:\n{bullets}\n"
     if item["input_type"] == "headline":
         return (
             f"{SYSTEM_PROMPT}\n{context_block}\n"

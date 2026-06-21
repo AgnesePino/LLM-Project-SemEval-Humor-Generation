@@ -1,0 +1,22 @@
+models_config: "configs/models.yaml"
+generation_config: "configs/generation.yaml"
+retriever:
+  backend: "hf-wikipedia"
+  hf_dataset: "not-lain/wikipedia"
+  hf_revision: "embedded"
+  n_docs: 25000
+  embedding_model: "mixedbread-ai/mxbai-embed-large-v1"
+  text_column: "text"
+  embedding_column: "embeddings"
+  query_device: "cpu"
+  max_context_chars: 1200
+  fallback_backend: "tfidf"
+  corpus_path: "data/processed/rag_corpus.jsonl"
+  default_k: 4
+  allowed_k: [2, 4]
+  apply_to: "headline"
+generation:
+  temperature: 0.75
+  top_p: 0.9
+  max_new_tokens: 96
+  load_in_4bit: true

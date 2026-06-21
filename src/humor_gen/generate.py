@@ -76,5 +76,8 @@ def _retrieve_contexts(retriever: RetrieverProtocol | None, item: dict[str, str]
         return []
     if apply_to in {"word_pair", "word-pair"} and item["input_type"] != "word_pair":
         return []
-    query = item["headline"] if item["input_type"] == "headline" else f"{item['word1']} {item['word2']}"
+    if item["input_type"] == "headline":
+        query = f"Background facts and context about: {item['headline']}"
+    else:
+        query = f"Meaning, usage, and related concepts for: {item['word1']} and {item['word2']}"
     return retriever.retrieve(query, k)

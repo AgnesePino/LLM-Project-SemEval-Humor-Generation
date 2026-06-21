@@ -2,6 +2,8 @@ pandas
 numpy
 pyyaml
 tqdm
+datasets
+sentence-transformers
 matplotlib
 scikit-learn
 pytest
