@@ -20,7 +20,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--rag-config", default="configs/rag.yaml")
     parser.add_argument("--generation-config", default=None)
     parser.add_argument("--models-config", default=None)
-    parser.add_argument("--k", type=int, default=None, help="Number of retrieved contexts, usually 2 or 4.")
+    parser.add_argument("--k", type=int, default=None, help="Number of retrieved contexts (default from RAG config).")
     parser.add_argument("--n-docs", type=int, default=None, help="Number of HF Wikipedia documents to load.")
     parser.add_argument("--apply-to", choices=["all", "headline", "word_pair"], default=None)
     parser.add_argument("--mock", action="store_true")
@@ -39,7 +39,7 @@ def main() -> None:
     generation_cfg = load_yaml(args.generation_config or rag_cfg.get("generation_config", "configs/generation.yaml"))
     models_config_path = args.models_config or rag_cfg.get("models_config", "configs/models.yaml")
     k = args.k if args.k is not None else rag_cfg.get("retriever", {}).get("default_k", 2)
-    allowed_k = rag_cfg.get("retriever", {}).get("allowed_k", [2, 4])
+    allowed_k = rag_cfg.get("retriever", {}).get("allowed_k", [2, 4, 5])
     if k not in allowed_k:
         raise ValueError(f"k={k} is not allowed by config. Allowed values: {allowed_k}")
     apply_to = args.apply_to or rag_cfg.get("retriever", {}).get("apply_to", "all")
@@ -56,6 +56,7 @@ def main() -> None:
         k=k,
         rag_apply_to=apply_to,
         limit=args.limit,
+        selection_cfg=rag_cfg.get("selection", {}),
     )
     write_jsonl(rows, args.output, overwrite=True)
 
