@@ -74,7 +74,7 @@ class HFWikipediaRetriever:
         text_column: str = "text",
         embedding_column: str = "embeddings",
         max_context_chars: int = 1200,
-        query_device: str = "cpu",
+        query_device: str = "cuda",  # FIX: Cambiato a "cuda" per sfruttare la tua RTX 4070
         cache_dir: str | None = None,
     ):
         try:
@@ -127,7 +127,7 @@ def build_retriever(input_path: str, rag_cfg: dict, mock: bool = False) -> Retri
             text_column=retriever_cfg.get("text_column", "text"),
             embedding_column=retriever_cfg.get("embedding_column", "embeddings"),
             max_context_chars=int(retriever_cfg.get("max_context_chars", 1200)),
-            query_device=retriever_cfg.get("query_device", "cpu"),
+            query_device=retriever_cfg.get("query_device", "cuda"), # Sfrutta la GPU
             cache_dir=retriever_cfg.get("cache_dir"),
         )
     documents = load_corpus(retriever_cfg.get("corpus_path"), input_path)
@@ -145,15 +145,16 @@ def load_corpus(corpus_path: str | None, input_path: str) -> list[str]:
     docs: list[str] = []
     if corpus_path and Path(corpus_path).exists():
         for row in read_jsonl(corpus_path):
-            text = row.get("text") or row.get("joke") or row.get("headline")
+            text = row.get("text") or row.get("joke") or row.get("headline") or row.get("news_headline")
             if text:
                 docs.append(str(text))
     if not docs:
         for item in load_dataset(input_path):
             if item["input_type"] == "headline":
-                docs.append(f"Headline humor example about: {item['headline']}")
+                headline_text = item.get("headline", "")
+                docs.append(f"Headline humor example about: {headline_text}")
             else:
-                docs.append(f"Word-pair humor example using {item['word1']} and {item['word2']}.")
+                docs.append(f"Word-pair humor example using {item.get('word1', '-')} and {item.get('word2', '-')}.")
     if not docs:
         raise ValueError("RAG corpus is empty.")
     return docs

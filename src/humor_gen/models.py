@@ -4,6 +4,7 @@ import hashlib
 import logging
 from typing import Any
 
+# Importiamo le funzioni aggiornate dai tuoi moduli
 from humor_gen.prompts import build_generation_prompt, build_judge_prompt
 from humor_gen.validate import clean_joke
 
@@ -17,11 +18,13 @@ class MockGenerator:
     def generate_joke(self, item: dict[str, str], contexts: list[str] | None = None) -> str:
         if item["input_type"] == "word_pair":
             return (
-                f"My {item['word1']} hired a {item['word2']} as a life coach; "
+                f"My {item.get('word1', 'word1')} hired a {item.get('word2', 'word2')} as a life coach; "
                 "now every crisis comes with garnish and confidence."
             )
-        keyword = _headline_keyword(item["headline"])
-        return f"{item['headline']} sounds serious until the {keyword} department hires a punchline consultant."
+            
+        headline_text = item.get("headline", "")
+        keyword = _headline_keyword(headline_text)
+        return f"{headline_text} sounds serious until the {keyword} department hires a punchline consultant."
 
     def judge(self, item: dict[str, str], joke_a: str, joke_b: str) -> dict[str, Any]:
         score_a = _mock_score(item, joke_a)
@@ -97,10 +100,11 @@ class HFGenerator:
             output_ids = self.model.generate(
                 input_ids,
                 do_sample=True,
-                temperature=self.generation.get("temperature", 0.8),
+                # FIX: Abbassata la temperatura di default a 0.4 per blindare i vincoli rigidi
+                temperature=self.generation.get("temperature", 0.4),
                 top_p=self.generation.get("top_p", 0.9),
-                max_new_tokens=self.generation.get("max_new_tokens", 96),
-                repetition_penalty=self.generation.get("repetition_penalty", 1.08),
+                max_new_tokens=self.generation.get("max_new_tokens", 60), # 60 è ottimale per impedire logorrea
+                repetition_penalty=self.generation.get("repetition_penalty", 1.12),
                 pad_token_id=self.tokenizer.pad_token_id,
             )
         generated_ids = output_ids[0][input_ids.shape[-1] :]
@@ -119,6 +123,8 @@ def _headline_keyword(headline: str) -> str:
 
 
 def _mock_score(item: dict[str, str], joke: str) -> int:
-    digest = int(hashlib.md5((item["id"] + joke).encode("utf-8")).hexdigest(), 16)
+    # Uscita sicura tramite .get() per scongiurare KeyError su ID mancanti nel mock
+    record_id = item.get("id") or item.get("ID", "000")
+    digest = int(hashlib.md5((record_id + joke).encode("utf-8")).hexdigest(), 16)
     compact_bonus = 1 if len(joke.split()) <= 28 else 0
     return 2 + digest % 3 + compact_bonus
