@@ -26,13 +26,17 @@ def normalize_row(row: dict[str, Any], idx: int = 0) -> dict[str, str]:
     row = {str(k).strip(): "" if v is None else str(v).strip() for k, v in row.items()}
     item_id = row.get("id") or row.get("ID") or row.get("example_id") or f"row_{idx:05d}"
     input_type = _canonical_type(row)
-    headline = _clean_missing(row.get("headline") or row.get("news_title") or row.get("title") or "")
-    word1 = _clean_missing(row.get("word1") or row.get("word_1") or row.get("word_a") or "")
+    
+    # Estensione protetta: supporta sia le chiavi interne che quelle ufficiali SemEval (news_headline / news_title)
+    headline = _clean_missing(row.get("headline") or row.get("news_headline") or row.get("news_title") or row.get("title") or "")
+    word1 = _clean_missing(row.get("word1") or row.get("word_1") or row.get("word_a") or row.get("word_inclusion") or "")
     word2 = _clean_missing(row.get("word2") or row.get("word_2") or row.get("word_b") or "")
+    
     if input_type == "headline" and not headline:
         raise ValueError(f"Row {item_id} is headline-based but has no headline.")
     if input_type == "word_pair" and (not word1 or not word2):
         raise ValueError(f"Row {item_id} is word_pair but does not contain both words.")
+        
     return {
         "id": item_id,
         "input_type": input_type,
@@ -72,9 +76,11 @@ def _canonical_type(row: dict[str, str]) -> str:
         return "headline"
     if raw in {"word_pair", "word-pair", "word_inclusion", "word inclusion", "words"}:
         return "word_pair"
-    headline = _clean_missing(row.get("headline") or row.get("news_title") or row.get("title") or "")
-    word1 = _clean_missing(row.get("word1") or row.get("word_1") or "")
+        
+    headline = _clean_missing(row.get("headline") or row.get("news_headline") or row.get("news_title") or row.get("title") or "")
+    word1 = _clean_missing(row.get("word1") or row.get("word_1") or row.get("word_inclusion") or "")
     word2 = _clean_missing(row.get("word2") or row.get("word_2") or "")
+    
     if headline:
         return "headline"
     if word1 and word2:

@@ -41,15 +41,22 @@ def generate_dataset(
     require_gpu_for_real_run(mock)
     require_hf_token(model_cfg, mock)
     runner = get_runner(model_cfg, generation_cfg, mock)
-    max_words = generation_cfg.get("validation", {}).get("max_words", 45)
+    
+    # Estrazione sicura del limite massimo di parole (allineato alla validazione)
+    gen_opts = generation_cfg.get("generation", generation_cfg)
+    max_words = gen_opts.get("max_words", 45)
+    
     rows: list[dict[str, Any]] = []
     for item in tqdm(items, desc=f"Generating {model_key}/{method}"):
         contexts = _retrieve_contexts(retriever, item, k, rag_apply_to)
         joke = runner.generate_joke(item, contexts=contexts)
+        
+        # Validazione iniziale (verrà rifinita o corretta a caldo dalla CLI se attiva)
         valid, errors = validate_joke(joke, item, max_words=max_words)
+        
         rows.append(
             {
-                "id": item["id"],
+                "id": item.get("id") or item.get("ID"),
                 "input_type": item["input_type"],
                 "input": output_input_text(item),
                 "model": model_key,
@@ -63,6 +70,7 @@ def generate_dataset(
                     "prompt_input": build_prompt_input(item),
                     "rag_contexts": contexts,
                     "rag_k": k if contexts else 0,
+                    "full_prompt": item.get("metadata", {}).get("full_prompt", "") # Mantiene traccia per i retry
                 },
             }
         )
@@ -72,12 +80,18 @@ def generate_dataset(
 def _retrieve_contexts(retriever: RetrieverProtocol | None, item: dict[str, str], k: int, apply_to: str) -> list[str]:
     if retriever is None or k <= 0:
         return []
-    if apply_to == "headline" and item["input_type"] != "headline":
+        
+    input_type = item["input_type"]
+    
+    if apply_to == "headline" and input_type != "headline":
         return []
-    if apply_to in {"word_pair", "word-pair"} and item["input_type"] != "word_pair":
+    if apply_to in {"word_pair", "word-pair", "word_inclusion"} and input_type != "word_pair":
         return []
-    if item["input_type"] == "headline":
-        query = f"Background facts and context about: {item['headline']}"
+        
+    if input_type == "headline":
+        headline_text = item.get("headline", "")
+        query = f"Background facts and context about: {headline_text}"
     else:
-        query = f"Meaning, usage, and related concepts for: {item['word1']} and {item['word2']}"
+        query = f"Meaning, usage, and related concepts for: {item.get('word1', '')} and {item.get('word2', '')}"
+        
     return retriever.retrieve(query, k)
