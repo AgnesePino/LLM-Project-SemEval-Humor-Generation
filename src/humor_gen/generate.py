@@ -11,8 +11,6 @@ except ImportError:  # pragma: no cover - convenience fallback for bare local mo
 
 from humor_gen.data import build_prompt_input, load_dataset
 from humor_gen.models import get_runner
-from humor_gen.reranker import PreferenceRewardScorer
-from humor_gen.selection import generate_many_and_select
 from humor_gen.utils import output_input_text, require_gpu_for_real_run, require_hf_token, resolve_model_config
 from humor_gen.validate import validate_joke
 
@@ -200,6 +198,9 @@ def _generate_best_of_n_row(
             },
             "reranker": {
                 "type": reranker_type,
+                # Alias kept so downstream readers (including the run_best_of_n path) can rely
+                # on a single key regardless of which generation entry point produced the row.
+                "scorer_type": reranker_type,
                 "winner_index_among_valid": winner_index_among_valid,
                 "reasoning": judge_reasoning,
                 "num_sampled_candidates": num_candidates,

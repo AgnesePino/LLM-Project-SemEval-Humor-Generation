@@ -9,15 +9,16 @@ from humor_gen.utils import read_jsonl
 
 
 def load_generated_dir(path: str) -> list[dict[str, Any]]:
+    # rglob so nested layouts like data/generated/{baseline,rag}/*.jsonl are picked up.
     rows: list[dict[str, Any]] = []
-    for file in sorted(Path(path).glob("*.jsonl")):
+    for file in sorted(Path(path).rglob("*.jsonl")):
         rows.extend(read_jsonl(file))
     return rows
 
 
 def load_judged_dir(path: str) -> list[dict[str, Any]]:
     rows: list[dict[str, Any]] = []
-    for file in sorted(Path(path).glob("*.jsonl")):
+    for file in sorted(Path(path).rglob("*.jsonl")):
         rows.extend(read_jsonl(file))
     return rows
 

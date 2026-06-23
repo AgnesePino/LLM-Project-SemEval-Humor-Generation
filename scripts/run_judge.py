@@ -8,7 +8,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 from humor_gen.judge import run_tournament
-from humor_gen.utils import check_output_path, load_yaml, setup_logging, write_jsonl
+from humor_gen.utils import check_output_path, load_yaml, require_project_venv, setup_logging, write_jsonl
 
 
 def parse_args() -> argparse.Namespace:
@@ -28,6 +28,7 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
+    require_project_venv()
     setup_logging(args.verbose)
     generation_cfg = load_yaml(args.config)
     models_cfg = load_yaml(args.models_config)

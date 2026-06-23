@@ -1,154 +1,195 @@
 # Humor Generation – SemEval 2026 Task 1 (MWAHAHA)
-**LLM for Software Engineering – Course Project (2025/2026)**
 
+**LLM for Software Engineering – Course Project (2025/2026)**  
 *Politecnico di Torino*
 
 ## Overview
 
-This repository contains the implementation of a humor generation system developed for SemEval 2026 – Task 1 (MWAHAHA), Subtask A.
-The objective of the task is to generate creative and humorous text following specific textual constraints as part of the LLM for Software Engineering course project.
+This repository implements a humor generation system for SemEval 2026 – Task 1 (MWAHAHA), Subtask A.
+It generates creative English jokes under textual constraints and improves them through retrieval,
+best-of-N selection with an LLM judge, and optional DPO preference fine-tuning.
+
+The project runs locally from command-line scripts inside the repository `.venv`. Real model runs
+require a CUDA-capable NVIDIA GPU; deterministic `--mock` runs can be used to test the pipeline
+without loading a model.
 
 ## Task Description
 
-Subtask A focuses on humor generation under two textual constraints:
-1. Word Inclusion: The system receives two rare words and must generate a joke that includes both words.
+Both supported input types produce one joke or punchline:
 
-2. News Title Humor: The system receives a news title and must produce a joke or humorous punchline related to that headline.
+1. **Word Inclusion** – given two words, generate a joke that naturally includes both.
+2. **News Title Humor** – given a news headline, generate a related punchline.
 
-Although the official task supports English, Spanish, and Chinese, this project works exclusively with English for simplicity.
+The official task supports English, Spanish, and Chinese; this project works in **English only**.
 
-## Current Scope
+## Local setup
 
-This project implements a **Colab/Jupyter-first workflow** for **Subtask A only**:
+Prerequisites:
 
-- **Word Inclusion**: generate a joke that includes two given words.
-- **News Title Humor**: generate a joke or punchline inspired by a news headline.
+- Linux with Python 3.12 and `venv` support;
+- for real model execution, a recent NVIDIA GPU, compatible driver, and CUDA runtime;
+- enough disk space for Python packages, Hugging Face models, datasets, and checkpoints.
 
-The local repository stores code, notebooks, and small sample files. Model execution is intended to run on Google Colab or another remote Jupyter runtime, not on the local machine.
+Create the project environment and install runtime dependencies:
 
-## Repository Structure
+```bash
+./scripts/setup_venv.sh
+source .venv/bin/activate
+```
+
+For development tools and tests, use:
+
+```bash
+./scripts/setup_venv.sh --dev
+source .venv/bin/activate
+```
+
+The setup script uses `python3` by default. To select another Python 3.12 executable:
+
+```bash
+PYTHON=python3.12 ./scripts/setup_venv.sh
+```
+
+All commands below must be run from the repository root with `.venv` active. The CLI scripts reject
+execution from a different Python environment to prevent accidental dependency mismatches.
+
+For gated Hugging Face models, accept the model licence and expose the token only in the local shell:
+
+```bash
+export HF_TOKEN="your_token_here"
+```
+
+Do not commit tokens or `.env` files.
+
+## CLI workflow
+
+| Step | Script | What it does |
+|------|--------|--------------|
+| 1 | `run_generate.py` | Baseline generation and validation |
+| 2 | `run_rag_generate.py` | Retrieval-augmented generation |
+| 3 | `run_best_of_n.py` | Generate and rerank multiple candidates |
+| 4 | `run_judge.py` | Blind model tournament with an LLM judge |
+| 5 | `build_preferences.py` | Build DPO preference pairs from judgments |
+| 6 | `run_dpo.py` | Optional DPO/LoRA training |
+| 7 | `analyze_results.py` | Create CSV summaries and figures |
+
+### Baseline generation
+
+```bash
+python scripts/run_generate.py --model llama \
+  --input data/raw/task-a-en.tsv \
+  --output data/generated/baseline/llama_base.jsonl --overwrite
+```
+
+Add `--mock` for a deterministic run that does not load the real model. `--limit N` processes only
+the first `N` inputs.
+
+### RAG and best-of-N generation
+
+```bash
+python scripts/run_rag_generate.py --model llama \
+  --input data/raw/task-a-en.tsv \
+  --output data/generated/rag/llama_rag.jsonl \
+  --rag-config configs/rag.yaml --k 4 --apply-to headline --overwrite
+```
+
+Best-of-N is controlled by the `selection` block in `configs/rag.yaml`. When enabled, each output row
+stores the sampled candidates and judge decision in `metadata.candidates` and `metadata.reranker`.
+
+It can also be run without retrieval:
+
+```bash
+python scripts/run_best_of_n.py --model llama \
+  --input data/raw/task-a-en.tsv --n 5 \
+  --output data/generated/llama_best_of_n.jsonl --overwrite
+```
+
+### Blind tournament and preference data
+
+```bash
+python scripts/run_judge.py --input-dir data/generated/baseline \
+  --output data/judged/base_judgments.jsonl --method base --overwrite
+
+python scripts/build_preferences.py \
+  --judgments data/judged/base_judgments.jsonl \
+  --outputs-dir data/generated \
+  --output data/final/preferences.jsonl --overwrite
+```
+
+The judge rebuilds items from generated outputs when `--dataset` is omitted, keeping example IDs
+aligned with the compared jokes.
+
+### Optional DPO/LoRA training
+
+```bash
+python scripts/run_dpo.py --config configs/dpo.yaml
+```
+
+Training uses the preferences and output directory configured in `configs/dpo.yaml`. It requires a
+working local CUDA environment and sufficient GPU memory.
+
+### Results analysis
+
+```bash
+python scripts/analyze_results.py \
+  --generated-dir data/generated \
+  --judged-dir data/judged \
+  --output-dir reports/figures
+```
+
+## Mock smoke test
+
+The execution path can be checked without a GPU:
+
+```bash
+python scripts/run_generate.py --model llama \
+  --input data/raw/sample_task_a.tsv \
+  --output /tmp/llama_base_demo.jsonl --mock --overwrite
+
+python scripts/run_best_of_n.py --model llama \
+  --input data/raw/sample_task_a.tsv --n 5 \
+  --output /tmp/llama_best_of_n.jsonl --mock --overwrite
+```
+
+## Tests
+
+After installing development dependencies:
+
+```bash
+PYTHONPATH=src python -m pytest -q
+python -m ruff check src scripts tests
+```
+
+## Repository structure
 
 ```text
+configs/                 # YAML configs: models, generation, RAG, DPO
 data/
-  raw/                  # Local official datasets, not committed
-  samples/              # Small synthetic examples committed to the repo
-  prepared/             # Converted JSONL inputs, generated by notebooks
-  generated/
-    base/               # Model generations from base models
-  evaluated/
-    base/               # Validation reports and later model comparisons
-notebooks/              # Colab/Jupyter workflows
-src/humor_generation/
-  generation/           # Reusable generation logic
-  evaluation/           # Reusable constraint checks
-  utils/                # Reusable I/O and conversion helpers
-src/data_preparation/   # Notebook-facing data preparation entry points
-src/generation/base/    # Notebook-facing base generation entry points
-src/evaluation/         # Notebook-facing evaluation entry points
+  raw/                   # Official-style TSV and small JSONL samples
+  processed/             # Optional RAG corpus
+  generated/             # Baseline, RAG and best-of-N outputs
+  judged/                # Blind tournament judgments
+  final/                 # DPO preference dataset
+scripts/                 # Local CLI entry points and .venv bootstrap
+src/humor_gen/           # Reusable pipeline library
+reports/                 # Final report and generated figures
+tests/                   # Unit tests
+requirements.txt         # Runtime and GPU/model dependencies
+requirements-dev.txt     # Runtime plus test and lint tools
 ```
 
-This mirrors the reference project's high-level separation between data, generation, and evaluation, but keeps our implementation smaller and notebook-driven.
+## Model presets
 
-## How To Work With Colab
+Model presets are defined in `configs/models.yaml`:
 
-Open this notebook:
+| Preset | Model | Notes |
+|--------|-------|-------|
+| `llama` | `unsloth/Meta-Llama-3.1-8B-Instruct-bnb-4bit` | 4-bit; may require `HF_TOKEN` |
+| `qwen` | `unsloth/Qwen2.5-7B-Instruct-bnb-4bit` | 4-bit |
+| `mistral` | `unsloth/mistral-7b-instruct-v0.3-bnb-4bit` | 4-bit |
 
-```text
-notebooks/colab_generation.ipynb
-```
+## Data policy
 
-Then use the Google Colab extension in VS Code or open it directly in Google Colab.
-
-Recommended runtime:
-
-```text
-Runtime > Change runtime type > T4 GPU
-```
-
-The notebook performs the full workflow:
-
-1. Mount Google Drive.
-2. Enter the project folder.
-3. Install dependencies on the remote runtime.
-4. Convert the TSV dataset to internal JSONL.
-5. Run generation with a HuggingFace model.
-6. Save outputs under `data/generated/base/`.
-7. Validate constraint satisfaction under `data/evaluated/base/`.
-
-## Convert Official Task A TSV
-
-The expected official-style TSV format is:
-
-```text
-id    word1    word2    headline
-```
-
-Rows with a headline are converted to `news_headline`. Rows with words are converted to `word_inclusion`.
-For Word Inclusion, **both `word1` and `word2` are mandatory**; rows with only one word are rejected by the converter.
-
-```bash
-PYTHONPATH=src python3 -m data_preparation.prepare_task_a \
-  --input data/samples/sample_task_a.tsv \
-  --output data/prepared/sample_task_a.jsonl
-```
-
-## Run Models on Google Colab
-
-For GPU generation, use the HuggingFace/Colab script:
-
-```bash
-pip install -e ".[colab]"
-```
-
-Available model presets:
-
-| Preset | Model | Note |
-|--------|-------|------|
-| `llama` | `meta-llama/Llama-3.2-3B-Instruct` | Llama family, but not the same Llama 3.1 8B used by the reference project |
-| `qwen` | `Qwen/Qwen2.5-3B-Instruct` | Qwen family, smaller than the reference Qwen 2.5 7B |
-| `mistral` | `mistralai/Mistral-7B-Instruct-v0.3` | Third independent instruct model, replacing Gemma |
-
-Example:
-
-```bash
-PYTHONPATH=src python3 -m generation.base.generate_hf \
-  --model llama \
-  --input data/prepared/sample_task_a.jsonl \
-  --output data/generated/base/llama_sample_predictions.jsonl
-```
-
-You can switch model with `--model qwen` or `--model mistral`. You can also override the preset:
-
-```bash
-PYTHONPATH=src python3 -m generation.base.generate_hf \
-  --model-id Qwen/Qwen2.5-1.5B-Instruct \
-  --input data/prepared/sample_task_a.jsonl \
-  --output data/generated/base/custom_model_predictions.jsonl
-```
-
-Some models, especially Llama, may require accepting the license on HuggingFace and logging in from Colab.
-
-## Validate Outputs
-
-After generation:
-
-```bash
-PYTHONPATH=src python3 -m evaluation.validate_outputs \
-  --input data/prepared/sample_task_a.jsonl \
-  --predictions data/generated/base/qwen_sample_predictions.jsonl \
-  --report data/evaluated/base/qwen_validation_report.json
-```
-
-## Data Policy
-
-Do not commit official CodaBench datasets, generated full prediction files, or the reference project copied locally. The repository keeps only small synthetic samples, notebooks, and code. Real datasets should stay local under `data/raw/` or be uploaded privately to Google Drive.
-
-## Development Plan
-
-1. Download the official data from CodaBench and inspect its schema.
-2. Convert the official TSV to the internal JSONL format from Colab.
-3. Generate outputs on Colab with Llama, Qwen, and Mistral.
-4. Validate that Word Inclusion outputs contain both required words.
-5. Generate multiple candidates per input.
-6. Rank candidates using heuristics, LLM-as-a-judge, or pairwise comparison.
-7. Evaluate manually on a small sample and document recurring failure cases.
+Do not commit official CodaBench datasets or full prediction dumps. The repository keeps small
+samples, code, and a few illustrative generated files. Generated samples marked `"mock": true` are
+deterministic fixtures used to demonstrate output structure.

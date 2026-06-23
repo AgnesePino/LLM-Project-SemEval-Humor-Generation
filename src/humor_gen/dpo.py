@@ -7,7 +7,7 @@ from humor_gen.utils import read_jsonl, require_gpu_for_real_run, require_hf_tok
 
 
 def run_dpo_training(config: dict[str, Any], mock: bool = False) -> None:
-    """Run optional DPO/LoRA training. Intended for Colab GPU runtimes."""
+    """Run optional DPO/LoRA training on a local CUDA GPU."""
     if mock:
         output_dir = Path(config.get("output_dir", "checkpoints/mock_dpo"))
         output_dir.mkdir(parents=True, exist_ok=True)
@@ -21,7 +21,7 @@ def run_dpo_training(config: dict[str, Any], mock: bool = False) -> None:
         from trl import DPOTrainer
         import torch
     except ImportError as exc:
-        raise RuntimeError("DPO requires Colab dependencies. Install requirements-colab.txt.") from exc
+        raise RuntimeError("DPO dependencies are missing. Install requirements.txt in the project .venv.") from exc
     model_key = config.get("base_model", "llama")
     model_cfg = resolve_model_config(model_key, config.get("models_config", "configs/models.yaml"))
     require_hf_token(model_cfg, mock=False)

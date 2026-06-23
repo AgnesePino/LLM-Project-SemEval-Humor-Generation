@@ -43,7 +43,8 @@ def build_preferences(judgments_path: str, outputs_dir: str) -> list[dict[str, A
 
 def _items_from_outputs(outputs_dir: str) -> dict[str, dict[str, str]]:
     items: dict[str, dict[str, str]] = {}
-    for path in sorted(Path(outputs_dir).glob("*.jsonl")):
+    # rglob so generation outputs stored under subfolders (baseline/, rag/) resolve correctly.
+    for path in sorted(Path(outputs_dir).rglob("*.jsonl")):
         for row in read_jsonl(path):
             if row["id"] in items:
                 continue

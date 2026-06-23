@@ -72,7 +72,8 @@ def run_tournament(
 
 def load_generation_outputs(input_dir: str, method: str) -> dict[str, dict[str, dict[str, Any]]]:
     outputs: dict[str, dict[str, dict[str, Any]]] = {}
-    for path in sorted(Path(input_dir).glob("*.jsonl")):
+    # rglob so an --input-dir like data/generated also reaches baseline/ and rag/ subfolders.
+    for path in sorted(Path(input_dir).rglob("*.jsonl")):
         for row in read_jsonl(path):
             if row.get("method") != method:
                 continue

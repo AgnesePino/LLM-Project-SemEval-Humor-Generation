@@ -3,10 +3,22 @@ from __future__ import annotations
 import json
 import logging
 import os
+import sys
 from pathlib import Path
 from typing import Any
 
 import yaml
+
+
+def require_project_venv() -> None:
+    project_root = Path(__file__).resolve().parents[2]
+    expected_venv = (project_root / ".venv").resolve()
+    active_prefix = Path(sys.prefix).resolve()
+    if active_prefix != expected_venv:
+        raise RuntimeError(
+            "This command must run inside the project virtual environment. "
+            "Run 'source .venv/bin/activate' first."
+        )
 
 
 def setup_logging(verbose: bool = False) -> None:
@@ -72,9 +84,9 @@ def require_gpu_for_real_run(mock: bool) -> None:
     try:
         import torch
     except ImportError as exc:
-        raise RuntimeError("Real model execution requires torch. Install requirements-colab.txt.") from exc
+        raise RuntimeError("Real model execution requires torch. Install requirements.txt in the project .venv.") from exc
     if not torch.cuda.is_available():
-        raise RuntimeError("GPU is not available. Use --mock locally or run on Google Colab with a GPU runtime.")
+        raise RuntimeError("CUDA GPU is not available. Check the local NVIDIA driver or use --mock.")
 
 
 def require_hf_token(model_cfg: dict[str, Any], mock: bool) -> None:
@@ -84,7 +96,7 @@ def require_hf_token(model_cfg: dict[str, Any], mock: bool) -> None:
     if not token:
         raise RuntimeError(
             f"{model_cfg.get('display_name', 'This model')} may require a HuggingFace token. "
-            "Set HF_TOKEN in Colab after accepting the model license."
+            "Set HF_TOKEN in the local environment after accepting the model license."
         )
 
 

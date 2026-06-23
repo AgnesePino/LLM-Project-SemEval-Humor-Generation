@@ -8,7 +8,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
 from humor_gen.metrics import create_figures, generation_summary, load_generated_dir, load_judged_dir, win_rate_summary, write_csv
-from humor_gen.utils import setup_logging
+from humor_gen.utils import require_project_venv, setup_logging
 
 
 def parse_args() -> argparse.Namespace:
@@ -22,6 +22,7 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
+    require_project_venv()
     setup_logging(args.verbose)
     output = Path(args.output_dir)
     output.mkdir(parents=True, exist_ok=True)

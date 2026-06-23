@@ -17,6 +17,7 @@ from humor_gen.utils import (
     output_input_text,
     require_gpu_for_real_run,
     require_hf_token,
+    require_project_venv,
     resolve_model_config,
     setup_logging,
     write_jsonl,
@@ -42,6 +43,7 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
+    require_project_venv()
     setup_logging(args.verbose)
     cfg = load_yaml(args.config)
     models_config_path = args.models_config or cfg.get("models_config", "configs/models.yaml")

@@ -14,7 +14,7 @@ Explain baseline generation, validation, RAG variants, blind LLM-as-a-judge tour
 
 ## 4. Experimental Setup
 
-Document dataset version, Colab GPU, generation parameters, RAG `k`, judge mapping and mock/local checks.
+Document dataset version, local GPU, generation parameters, RAG `k`, judge mapping and mock/local checks.
 
 ## 5. Results
 
