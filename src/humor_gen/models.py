@@ -119,16 +119,48 @@ class HFGenerator:
     ) -> dict[str, Any]:
         import json
         import re
+        import time
 
-        prompt = build_judge_prompt(item, joke_a, joke_b)
-        text = self._generate_text(prompt, generation_overrides=generation_overrides)
-        try:
-            return json.loads(text)
-        except json.JSONDecodeError:
-            match = re.search(r"\{.*\}", text, flags=re.DOTALL)
-            if not match:
-                raise ValueError(f"Judge did not return JSON: {text[:300]}")
-            return json.loads(match.group(0))
+        # Protezione 1: Puliamo preventivamente le battute dalle virgolette doppie per evitare di rompere il JSON
+        joke_a_clean = joke_a.replace('"', "'")
+        joke_b_clean = joke_b.replace('"', "'")
+
+        prompt = build_judge_prompt(item, joke_a_clean, joke_b_clean)
+        
+        # Predisponiamo gli override forzando a 512 i token del giudice (scavalca i vecchi preset da 60 token dello YAML)
+        overrides = generation_overrides or {}
+        if "max_new_tokens" not in overrides:
+            overrides["max_new_tokens"] = 512
+
+        max_retries = 3
+        for attempt in range(max_retries):
+            try:
+                text = self._generate_text(prompt, generation_overrides=overrides)
+                
+                # Livello 1: Tentativo di parsing diretto del testo completo
+                try:
+                    return json.loads(text)
+                except json.JSONDecodeError:
+                    pass
+                
+                # Livello 2: Se fallisce, estraiamo solo il blocco strutturato tramite Regex
+                match = re.search(r"\{.*\}", text, flags=re.DOTALL)
+                if match:
+                    return json.loads(match.group(0))
+                
+                raise json.JSONDecodeError("Nessun blocco JSON rilevato nell'output", text, 0)
+                
+            except (json.JSONDecodeError, Exception) as e:
+                print(f"\n⚠️ [Tentativo {attempt + 1}/{max_retries}] Errore JSON dal Giudice. Rigenero la risposta...")
+                time.sleep(1)
+                
+        # Protezione 3: Fallback finale di emergenza se tutti i tentativi falliscono (evita il crash della pipeline)
+        print("🚨 Impossibile recuperare un JSON valido dopo 3 tentativi. Applico fallback di pareggio.")
+        return {
+            "winner": "TIE",
+            "reasoning": "Fallback attivato automaticamente a causa di output JSON corrotto o incompleto generato dal modello.",
+            "scores": {"humor": {"A": 0, "B": 0}}
+        }
 
     def _generate_text(
         self,
@@ -156,7 +188,7 @@ class HFGenerator:
             "do_sample": do_sample,
             "max_new_tokens": generation_overrides.get(
                 "max_new_tokens",
-                self.generation.get("max_new_tokens", 60),
+                self.generation.get("max_new_tokens", 512),
             ),
             "repetition_penalty": generation_overrides.get(
                 "repetition_penalty",
@@ -200,7 +232,6 @@ def _headline_keyword(headline: str) -> str:
 
 
 def _mock_score(item: dict[str, str], joke: str) -> int:
-    # Uscita sicura tramite .get() per scongiurare KeyError su ID mancanti nel mock
     record_id = item.get("id") or item.get("ID", "000")
     digest = int(hashlib.md5((record_id + joke).encode("utf-8")).hexdigest(), 16)
     compact_bonus = 1 if len(joke.split()) <= 28 else 0

@@ -1,0 +1,4 @@
+model,method,total,valid,invalid,constraint_satisfaction_rate,invalid_output_rate,average_joke_length
+llama,rag,20,20,0,1.0,0.0,19.0
+mistral,rag,20,20,0,1.0,0.0,17.55
+qwen,rag,20,15,5,0.75,0.25,15.1
