@@ -32,15 +32,37 @@ def run_tournament(
     items = _load_items_from_outputs(outputs) if output_input_path is None else {row["id"]: row for row in load_dataset(output_input_path)}
     rows: list[dict[str, Any]] = []
     rng = random.Random(seed)
+    
+    # === VARIABILI DI CONTROLLO MEMORIA VRAM ===
+    current_judge = None
+    runner = None
+
     for matchup in models_config.get("judge_tournament", []):
         model_a = matchup["model_a"]
         model_b = matchup["model_b"]
         judge_key = matchup["judge"]
         if model_a not in outputs or model_b not in outputs:
             continue
-        judge_cfg = resolve_model_config(judge_key, models_config_path)
-        require_hf_token(judge_cfg, mock)
-        runner = get_runner(judge_cfg, generation_cfg, mock)
+            
+        # === STRATEGIA DI SVUOTAMENTO VRAM DINAMICO ===
+        # Se il giudice cambia rispetto al match precedente, liberiamo la scheda video
+        if judge_key != current_judge and runner is not None:
+            del runner
+            import gc
+            import torch
+            gc.collect()
+            if torch.cuda.is_available():
+                torch.cuda.empty_cache()
+            runner = None
+            current_judge = None
+
+        # Carichiamo il modello in GPU solo se non è già presente in memoria
+        if runner is None:
+            judge_cfg = resolve_model_config(judge_key, models_config_path)
+            require_hf_token(judge_cfg, mock)
+            runner = get_runner(judge_cfg, generation_cfg, mock)
+            current_judge = judge_key
+
         shared_ids = sorted(set(outputs[model_a]) & set(outputs[model_b]) & set(items))
         for item_id in tqdm(shared_ids, desc=f"Judging {model_a} vs {model_b} by {judge_key}"):
             true_left = {"model": model_a, "joke": outputs[model_a][item_id]["generated_joke"]}
@@ -67,12 +89,21 @@ def run_tournament(
                     },
                 }
             )
+            
+    # Pulizia finale di cortesia al termine di tutto il torneo
+    if runner is not None:
+        del runner
+        import gc
+        import torch
+        gc.collect()
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+            
     return rows
 
 
 def load_generation_outputs(input_dir: str, method: str) -> dict[str, dict[str, dict[str, Any]]]:
     outputs: dict[str, dict[str, dict[str, Any]]] = {}
-    # rglob so an --input-dir like data/generated also reaches baseline/ and rag/ subfolders.
     for path in sorted(Path(input_dir).rglob("*.jsonl")):
         for row in read_jsonl(path):
             if row.get("method") != method:
