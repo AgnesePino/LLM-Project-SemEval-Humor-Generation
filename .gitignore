@@ -1,48 +1,17 @@
+# Python virtual environments
 .venv/
+venv/
+env/
+ENV/
+
+# Python cache and build artifacts
 __pycache__/
 *.py[cod]
+*$py.class
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
 .ipynb_checkpoints/
-.env
-.env.*
 
-outputs/
-checkpoints/
-wandb/
-runs/
-cache/
-hf_cache/
-
-data/raw/*
-!data/raw/.gitkeep
-!data/raw/sample_task_a.tsv
-!data/raw/sample_task_a.jsonl
-!data/raw/task-a-en.tsv
-
-data/processed/*
-!data/processed/.gitkeep
-
-data/judged/*
-!data/judged/.gitkeep
-data/final/*
-!data/final/.gitkeep
-
-data/models/
-
-# Model/training artifacts
-models/
-*.safetensors
-*.bin
-*.pt
-*.pth
-*.ckpt
-
-# Large compressed artifacts
-*.zip
-*.tar
-*.tar.gz
-*.tgz
-*.7z
-
-group11_public_data/
-semeval2026-task1-mwahaha-main/
