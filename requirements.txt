@@ -1,0 +1,6 @@
+# Notebook progress bars
+tqdm>=4.66
+
+# Optional humor classifiers used by --humor-model
+torch>=2.2
+transformers>=4.40
