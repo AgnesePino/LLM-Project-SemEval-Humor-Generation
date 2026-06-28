@@ -1,16 +1,6 @@
-torch
-transformers
-accelerate
-bitsandbytes
-datasets
-peft
-trl
-unsloth
-sentence-transformers
-faiss-cpu
-pandas
-numpy
-pyyaml
-tqdm
-matplotlib
-scikit-learn
+# Notebook progress bars
+tqdm>=4.66
+
+# Optional humor classifiers used by --humor-model
+torch>=2.2
+transformers>=4.40
