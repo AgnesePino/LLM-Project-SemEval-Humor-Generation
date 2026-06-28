@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2078",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Paris court blocks auction of earliest-known calculator",
+    "raw": {
+      "id": "en_2078",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Paris court blocks auction of earliest-known calculator"
+    }
+  },
+  "winner": "Why did the ancient abacus refuse to attend the auction in Paris? Because it was afraid it might end up as a roman numeral-cruncher!",
+  "candidates": [
+    {
+      "text": "Why was the first calculator feeling down? Because it got blocked from being sold at an auction in Paris.",
+      "style": "reversal",
+      "seed": 280602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191355538368225,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and ties to the headline, but the humor is weak and relies on a forced pun rather than genuine wit.\"}",
+      "humor_score": 0.9956777691841125,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the ancient abacus refuse to attend the auction in Paris? Because it was afraid it might end up as a roman numeral-cruncher!",
+      "style": "wordplay",
+      "seed": 280601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1908289909362795,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline and uses wordplay with 'roman numeral-cruncher,' but it lacks specificity and feels a bit forced. The connection between the abacus and the Paris court auction is weak, reducing overall impact.\"}",
+      "humor_score": 0.9954144954681396,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the calculator refuse to go on a date with the abacus? It said, \"I don't want to be 'sum' old-fashioned.",
+      "style": "absurd literalism",
+      "seed": 280603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190579426288605,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the wordplay on 'sum' and 'some,' but it lacks specificity to the headline and feels a bit forced in its connection to the calculator and abacus.\"}",
+      "humor_score": 0.9952897131443024,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the ancient abacus refuse to sell at the auction? Because it wanted to add up to more than just a sum total!",
+      "style": "topical punchline",
+      "seed": 280605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.188267600536347,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks strong specificity and surprise; 'add up to more than just a sum total' is a mild play on words rather than a sharp punchline.\"}",
+      "humor_score": 0.9941338002681732,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The Eiffel Tower calculates that this auction could have added a bit of value to their revenue.",
+      "style": "deadpan understatement",
+      "seed": 280604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.208732795715332,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and uses a well-known landmark, but the humor is weak and relies on a forced pun rather than a clever twist.\"}",
+      "humor_score": 0.004366397857666016,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

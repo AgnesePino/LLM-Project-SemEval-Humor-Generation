@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2296",
+    "kind": "word_inclusion",
+    "word1": "measure",
+    "word2": "fridge",
+    "headline": null,
+    "raw": {
+      "id": "en_2296",
+      "word1": "measure",
+      "word2": "fridge",
+      "headline": "-"
+    }
+  },
+  "winner": "Why did the ruler refuse to share the fridge with the protractor? Because he didn't want to measure up.",
+  "candidates": [
+    {
+      "text": "Why did the ruler refuse to share the fridge with the protractor? Because he didn't want to measure up.",
+      "style": "deadpan understatement",
+      "seed": 498604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189560067653656,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses the required words 'measure' and 'fridge' in a somewhat clever pun, but the setup is a bit forced and the humor is mild. The surprise factor is low due to the predictable twist.\"}",
+      "humor_score": 0.994780033826828,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the measuring tape refuse to go into the fridge? It said, \"I'm not cold-cut material!",
+      "style": "wordplay",
+      "seed": 498601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:measure"
+    },
+    {
+      "text": "Why was the fridge always in trouble at school? Because it couldn't stop measuring temperatures without permission!",
+      "style": "reversal",
+      "seed": 498602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:measure"
+    },
+    {
+      "text": "Why did the measurement refuse to go into the fridge? Because it said, \"I'd rather chill outside and not lose my chill factor!",
+      "style": "absurd literalism",
+      "seed": 498603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:measure"
+    },
+    {
+      "text": "Why was the fridge always in a panic? Because it kept losing track of its measurements!",
+      "style": "topical punchline",
+      "seed": 498605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:measure"
+    }
+  ]
+}

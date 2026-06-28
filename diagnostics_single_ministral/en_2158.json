@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2158",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Wicked: For Good predicted to hit new box office record - but the reviews suggest otherwise",
+    "raw": {
+      "id": "en_2158",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Wicked: For Good predicted to hit new box office record - but the reviews suggest otherwise"
+    }
+  },
+  "winner": "Apparently, the new box office record was expecting a 'For Good' performance from 'Wicked,' but it seems they were 'for-tunetly' mistaken.",
+  "candidates": [
+    {
+      "text": "A musical named \"Good: For Wicked\" is expected to shatter box office records, but critics seem to have other opinions... they can't stop raving about how terrible it is!",
+      "style": "reversal",
+      "seed": 360602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.89534502029419,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Playful wordplay on the original title, concise and surprising twist with a clever punchline about critics 'raving' about how terrible it is.\"}",
+      "humor_score": 0.5476725101470947,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "It seems Wicked: For Good is breaking records at the box office, but the critics are saying it's more like 'Wicked: For So-So'.",
+      "style": "wordplay",
+      "seed": 360601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.663335132598878,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on the movie title with 'For So-So' deliver a clever twist, aligning well with the headline's contrast between box office success and poor reviews.\"}",
+      "humor_score": 0.4316675662994385,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Wicked: For Good... Seems like the audience is saying, \"Not so good for box office!",
+      "style": "topical punchline",
+      "seed": 360605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.6942681789398195,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'For Good' and 'Not so good,' but it's a bit generic and lacks surprise or specificity. The pun is clear but not particularly original.\"}",
+      "humor_score": 0.7471340894699097,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "It seems 'For Good' is breaking records at the box office, but apparently, the audience is finding it more 'Boo-rd' than 'Brilliant'!",
+      "style": "absurd literalism",
+      "seed": 360603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.482041895389557,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with wordplay on 'Boo-rd' and 'Brilliant,' and it ties directly to the headline. However, it's slightly generic in its approach and could be more surprising.\"}",
+      "humor_score": 0.24102094769477844,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Apparently, the new box office record was expecting a 'For Good' performance from 'Wicked,' but it seems they were 'for-tunetly' mistaken.",
+      "style": "deadpan understatement",
+      "seed": 360604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.239312291145325,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with wordplay on 'for good' and 'for-tunetly,' but the pun could be tighter and the explanation of the review aspect is a bit vague.\"}",
+      "humor_score": 0.11965614557266235,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

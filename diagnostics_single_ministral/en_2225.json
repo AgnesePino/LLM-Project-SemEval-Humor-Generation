@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2225",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Giants’ Abdul Carter is rushing to get past his public punishment",
+    "raw": {
+      "id": "en_2225",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Giants’ Abdul Carter is rushing to get past his public punishment"
+    }
+  },
+  "winner": "Why did Giants' Abdul Carter rush to get past his public punishment? Because he was determined to outrun his time-out!",
+  "candidates": [
+    {
+      "text": "Why did the giant hurry to catch up with his public punishment? Because he didn't want to be tardy for his carceration.",
+      "style": "deadpan understatement",
+      "seed": 427604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1820852875709535,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat forced with the word 'carceration' and lacks a clear connection to the headline's context.\"}",
+      "humor_score": 0.9910426437854767,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Giants' Abdul Carter rush to get past his public punishment? Because he was determined to outrun his time-out!",
+      "style": "topical punchline",
+      "seed": 427605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1005638360977175,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and uses a play on words with 'time-out,' but the connection to 'public punishment' is weak and lacks surprise. The humor is mild and could be more tightly tied to the headline.\"}",
+      "humor_score": 0.9502819180488586,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Giants' Abdul Carter rush through his public punishment? Because he was afraid of being grounded forever!",
+      "style": "wordplay",
+      "seed": 427601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.5762018918991085,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"Lacks specificity and surprise; the joke is generic and doesn't tie well to the headline's context.\"}",
+      "humor_score": 0.9881009459495544,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the Giants' Abdul Carter running so fast? To beat traffic and avoid his private reward!",
+      "style": "reversal",
+      "seed": 427602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.536852574348449,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is confusing and doesn't clearly connect the public punishment mentioned in the headline with the punchline. The reference to 'private reward' is unclear and lacks specificity.\"}",
+      "humor_score": 0.9684262871742249,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Giants' Abdul Carter rush to get past his public punishment? Because he was on a strict time-out and didn't want to be late for his detention!",
+      "style": "absurd literalism",
+      "seed": 427603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.358920431137085,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is generic and relies on a tired schoolyard pun rather than being specific to Abdul Carter or the Giants. It lacks surprise and fails to connect humorously with the headline.\"}",
+      "humor_score": 0.8794602155685425,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

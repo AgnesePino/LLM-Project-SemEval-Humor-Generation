@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2050",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "House passes bill to strip Senate phone investigations language from funding bill",
+    "raw": {
+      "id": "en_2050",
+      "word1": "-",
+      "word2": "-",
+      "headline": "House passes bill to strip Senate phone investigations language from funding bill"
+    }
+  },
+  "winner": "If this keeps up, soon we'll have a house where they can talk freely, but the senate will be left holding a dead phone... bill.",
+  "candidates": [
+    {
+      "text": "If this keeps up, soon we'll have a house where they can talk freely, but the senate will be left holding a dead phone... bill.",
+      "style": "absurd literalism",
+      "seed": 252603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.488643550872803,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on 'dead phone' and 'bill' are clever and specific, aligning well with the headline. Brevity and surprise contribute to its humor.\"}",
+      "humor_score": 0.5443217754364014,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Senate's phone get detached from the funding bill? Because it was tired of being on hold all day!",
+      "style": "topical punchline",
+      "seed": 252605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.187668931484223,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and the pun is a bit forced.\"}",
+      "humor_score": 0.9938344657421112,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Senate refuse to answer the House's calls? Because it was a non-calling clause!",
+      "style": "wordplay",
+      "seed": 252601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.166343104839325,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'non-calling clause,' but it's a bit forced and doesn't fully align with the specifics of the headline. It lacks some surprise and feels slightly generic.\"}",
+      "humor_score": 0.9831715524196625,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the house pass a bill to remove phone investigation language from a funding bill? Because they wanted to ensure that the senate was left in the dark about their calls.",
+      "style": "deadpan understatement",
+      "seed": 252604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.958846402168274,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'left in the dark,' but it's a bit forced and lacks the punch of a more surprising or specific twist.\"}",
+      "humor_score": 0.879423201084137,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The Senate, with a swift vote, decided to embed their investigation numbers into the phone book instead of stripping them out. Now everyone can reach them easily, but they're still reluctant to take your calls!",
+      "style": "reversal",
+      "seed": 252602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.43393976688385,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the phone book twist, but it's a bit forced and doesn't directly tie back to the headline's specifics about stripping language from a funding bill.\"}",
+      "humor_score": 0.11696988344192505,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

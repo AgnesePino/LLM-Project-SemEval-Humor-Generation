@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2259",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Cooking Recipes, advice and inspiration for everyday cooking, special occasions and more.",
+    "raw": {
+      "id": "en_2259",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Cooking Recipes, advice and inspiration for everyday cooking, special occasions and more."
+    }
+  },
+  "winner": "Why did the recipe refuse to attend the wedding? Because it said it was only good for everyday cooking, special occasions, and more... but certainly not for marriage!",
+  "candidates": [
+    {
+      "text": "Why did the recipe go to therapy? Because it had too many cooks in its life!",
+      "style": "topical punchline",
+      "seed": 461605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.788287031650544,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'too many cooks' are classic but effective here, with a clever twist involving therapy for a recipe. It's concise, surprising, and ties directly to the cooking theme.\"}",
+      "humor_score": 0.9941435158252716,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the recipe refuse to attend the wedding? Because it said it was only good for everyday cooking, special occasions, and more... but certainly not for marriage!",
+      "style": "reversal",
+      "seed": 461602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.982907831668854,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a play on the headline's keywords, but the punchline feels slightly forced and the humor is mild.\"}",
+      "humor_score": 0.9914539158344269,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the recipe book go to culinary therapy? It had too many mixed feelings about its role in life.",
+      "style": "wordplay",
+      "seed": 461601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.964205205440521,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a play on 'mixed feelings' and 'mixed' ingredients, but it's slightly generic and could be more specific to the cooking theme.\"}",
+      "humor_score": 0.9821026027202606,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Even if you burn the cake, at least it's a \"special occasion\" in your oven.",
+      "style": "deadpan understatement",
+      "seed": 461604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.890977442264557,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, uses wordplay on 'special occasion,' and ties back to the headline, but the humor is mild and could be more surprising.\"}",
+      "humor_score": 0.9454887211322784,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the recipe go to therapy? Because it had too many unresolved ingredients!",
+      "style": "absurd literalism",
+      "seed": 461603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.187372040748596,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'ingredients' and 'issues,' but it's a bit generic and lacks specificity. The setup could be more surprising, and the humor feels slightly forced.\"}",
+      "humor_score": 0.9936860203742981,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

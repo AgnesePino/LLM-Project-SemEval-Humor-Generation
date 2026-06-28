@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2164",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Food that could be ruining your sleep – and how to fix it",
+    "raw": {
+      "id": "en_2164",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Food that could be ruining your sleep – and how to fix it"
+    }
+  },
+  "winner": "Apparently, my late-night pizza consumption isn't just keeping me up - it's also redecorating my bedroom with a series of REM dreams. Good thing they're offering sleep seminars... for cheesy foods.",
+  "candidates": [
+    {
+      "text": "A friend asks, \"Why haven't you been sleeping well lately?\" You reply, \"Oh, turns out I've been eating too much sheep-cheese before bed.\" Friend looks puzzled and you explain, \"I guess I should have known that counting sheep would eventually keep me awake!",
+      "style": "reversal",
+      "seed": 366602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.791693854331971,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, surprising, and specific with a clever twist on the common 'counting sheep' idiom. It ties directly to the headline's topic and uses natural English effectively.\"}",
+      "humor_score": 0.9958469271659851,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Apparently, my late-night pizza consumption isn't just keeping me up - it's also redecorating my bedroom with a series of REM dreams. Good thing they're offering sleep seminars... for cheesy foods.",
+      "style": "deadpan understatement",
+      "seed": 366604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.78843002319336,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative and specific with a clever twist on REM dreams and sleep seminars; concise and surprising.\"}",
+      "humor_score": 0.9942150115966797,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why can't spaghetti ever have a good night's rest? Because it keeps getting tangled in its dreams!",
+      "style": "wordplay",
+      "seed": 366601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.390902543067932,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on 'tangled in its dreams' are clever and specific to the topic of food affecting sleep.\"}",
+      "humor_score": 0.9954512715339661,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the sandwich unable to get a good night's rest? Because it was too stuffed with late-night snacks!",
+      "style": "absurd literalism",
+      "seed": 366603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189979982376099,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and surprise; it's a mild pun that feels a bit forced.\"}",
+      "humor_score": 0.9949899911880493,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why can't insomniacs enjoy spicy food? Because hot peppers have a knack for keeping everyone awake... night after night!",
+      "style": "topical punchline",
+      "seed": 366605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1896200299263,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant to the headline but lacks specificity and surprise. The pun on 'hot peppers' is mild and predictable, and the connection to insomnia is not strongly made.\"}",
+      "humor_score": 0.99481001496315,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

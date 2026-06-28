@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2065",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Kissing is an ‘evolutionary conundrum.’ Scientists just mapped its unexpected origins",
+    "raw": {
+      "id": "en_2065",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Kissing is an ‘evolutionary conundrum.’ Scientists just mapped its unexpected origins"
+    }
+  },
+  "winner": "Why was the map of kissing a bit perplexed? Because it had trouble wrapping its arms around the evolutionary conundrum!",
+  "candidates": [
+    {
+      "text": "Why did the scientist bring a map to the kiss-off party? Because he wanted to chart the evolutionary conundrum of goodbyes!",
+      "style": "reversal",
+      "seed": 267602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.188578021526337,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and surprise. The pun on 'kiss-off party' is mild and not strongly tied to the scientific context of evolutionary conundrums.\"}",
+      "humor_score": 0.9942890107631683,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the map say \"Kiss me?\" Because it was evolutionarily perplexed and needed a smooch to figure out its origins!",
+      "style": "absurd literalism",
+      "seed": 267603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.188407969474793,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat playful and ties into the headline, but it's a bit forced and lacks clarity. The pun on 'map' and 'smooch' is weak, and the connection to evolutionary conundrum isn't clearly made.\"}",
+      "humor_score": 0.9942039847373962,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did scientists create a map of kissing origins? Because they needed directions for getting out of this lip-lock predicament!",
+      "style": "topical punchline",
+      "seed": 267605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.187632632255554,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline and uses a play on words with 'map' and 'directions,' but the humor feels forced and lacks the surprise or specificity that would make it more effective.\"}",
+      "humor_score": 0.9938163161277771,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Ah, evolution's latest puzzle - kissing! It's a complete mystery... or at least that's what my lips said after last night.",
+      "style": "deadpan understatement",
+      "seed": 267604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.18654180765152,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline and has a mild punchline, but it lacks specificity and surprise. The reference to 'my lips said' feels generic and doesn't tie directly to the scientific angle of the headline.\"}",
+      "humor_score": 0.9932709038257599,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the map of kissing a bit perplexed? Because it had trouble wrapping its arms around the evolutionary conundrum!",
+      "style": "wordplay",
+      "seed": 267601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.186350476741791,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline and uses a play on words with 'map' and 'wrapping its arms around,' but it lacks specificity and the surprise element is weak. The humor is mild and not strongly tied to the scientific context mentioned in the headline.\"}",
+      "humor_score": 0.9931752383708954,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

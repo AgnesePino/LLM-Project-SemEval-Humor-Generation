@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2239",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "The words you can't say on the internet There's a secret list of words you can't say on social media – at least, that's what everyone seems to think.",
+    "raw": {
+      "id": "en_2239",
+      "word1": "-",
+      "word2": "-",
+      "headline": "The words you can't say on the internet There's a secret list of words you can't say on social media – at least, that's what everyone seems to think."
+    }
+  },
+  "winner": "Why did the internet censor go broke? Because it kept blocking words from its vocabulary!",
+  "candidates": [
+    {
+      "text": "I heard there's a secret list of words you can't say on the internet. I guess it includes 'can't' and 'secret'.",
+      "style": "deadpan understatement",
+      "seed": 441604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.781676280498505,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on the idea of a secret list, concise and specific with clever wordplay.\"}",
+      "humor_score": 0.9908381402492523,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the internet censor go broke? Because it kept blocking words from its vocabulary!",
+      "style": "topical punchline",
+      "seed": 441605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189348590373993,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and surprise. It's a generic pun that doesn't fully engage with the concept of internet censorship or the idea of a secret list of words.\"}",
+      "humor_score": 0.9946742951869965,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the internet always in trouble with its language teacher? Because it couldn't stop swearing off certain words!",
+      "style": "wordplay",
+      "seed": 441601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189049553871155,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'swearing off certain words,' but it's a bit generic and lacks specificity. The setup about the internet and a language teacher is a common trope, reducing surprise and impact.\"}",
+      "humor_score": 0.9945247769355774,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the internet always in trouble? Because it kept swearing under its breath!",
+      "style": "absurd literalism",
+      "seed": 441603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.186535489559174,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and surprise. It's a mild pun that doesn't fully engage with the concept of 'secret words' or internet censorship.\"}",
+      "humor_score": 0.9932677447795868,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the dictionary so upset about social media? It couldn't find its own words on there!",
+      "style": "reversal",
+      "seed": 441602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.185688924789429,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'words' and 'dictionary,' but it's a bit generic and lacks specificity to the headline's focus on social media restrictions.\"}",
+      "humor_score": 0.9928444623947144,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

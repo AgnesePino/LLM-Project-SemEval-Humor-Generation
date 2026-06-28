@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2004",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Dick Cheney funeral: George W. Bush delivers eulogy",
+    "raw": {
+      "id": "en_2004",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Dick Cheney funeral: George W. Bush delivers eulogy"
+    }
+  },
+  "winner": "At the end of his eulogy, George W. Bush turned to Dick Cheney and said, \"I promise I'll never let you down again... from a distance.",
+  "candidates": [
+    {
+      "text": "At the end of the service, George W. Bush turned to Dick Cheney and said, \"Well, I guess that means it's my turn to drive now.",
+      "style": "reversal",
+      "seed": 206602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.192116367816926,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on the 'driving' reference, concise and specific to the context of Cheney's role as VP.\"}",
+      "humor_score": 0.6960581839084625,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At the end of the service, George W. Bush turned to Dick and said, \"Well, old buddy, I guess that's one less vice we have to worry about.",
+      "style": "wordplay",
+      "seed": 206601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.159490036964417,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, specific, and uses a play on words with 'vice' (both as in vice president and a bad habit), which creates surprise and humor.\"}",
+      "humor_score": 0.6797450184822083,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At the end of his eulogy, George W. Bush turned to Dick Cheney and said, \"I promise I'll never let you down again... from a distance.",
+      "style": "topical punchline",
+      "seed": 206605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.827210354804993,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on the relationship between Bush and Cheney, concise and specific with a clever play on distance.\"}",
+      "humor_score": 0.5136051774024963,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At the Dick Cheney funeral, Barack Obama stood up and said, \"Well, I guess we finally found a place where two old war hawks can't start a conflict.",
+      "style": "absurd literalism",
+      "seed": 206603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.872910690307617,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and has a mild surprise element, but it's not particularly funny or concise. It also relies on political references that may not be universally understood.\"}",
+      "humor_score": 0.8364553451538086,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At the Dick Cheney funeral, Vice President Biden delivered a moving speech... about his love for sub sandwiches.",
+      "style": "deadpan understatement",
+      "seed": 206604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.4209843397140505,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the humor is weak due to the lack of a clear connection between Vice President Biden and sub sandwiches. The setup also slightly misattributes the eulogy delivery.\"}",
+      "humor_score": 0.6104921698570251,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

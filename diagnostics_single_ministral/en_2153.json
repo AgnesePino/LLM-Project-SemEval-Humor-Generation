@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2153",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "What does controversial ‘driver-only operation’ mean for UK railways?",
+    "raw": {
+      "id": "en_2153",
+      "word1": "-",
+      "word2": "-",
+      "headline": "What does controversial ‘driver-only operation’ mean for UK railways?"
+    }
+  },
+  "winner": "A driver-only operation means that on UK railways, the conductor will now be replaced by a selfie stick... and I must say, the commute is looking a bit more lonely these days.",
+  "candidates": [
+    {
+      "text": "Why did the train blush at the station? It heard about the driver-only operation and realized it might be out of a job!",
+      "style": "wordplay",
+      "seed": 355601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.19057936668396,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the topic but lacks specificity and relies on a weak pun that may not clearly connect to 'driver-only operation.' It's mildly funny but could be more surprising and concise.\"}",
+      "humor_score": 0.99528968334198,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't trains in the UK ever get lost nowadays? Because they always follow the driver-only GPS operation!",
+      "style": "absurd literalism",
+      "seed": 355603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.188037347793579,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the topic but lacks specificity and relies on a weak pun that may not be immediately clear or surprising.\"}",
+      "humor_score": 0.9940186738967896,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the train conductors refuse to take a nap during their shift? Because they were told it was now driver-only operation!",
+      "style": "reversal",
+      "seed": 355602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.187852513790131,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the topic but lacks clarity and surprise. The pun on 'driver-only operation' is weak and may not be immediately understood without context.\"}",
+      "humor_score": 0.9939262568950653,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the train blush at the station? It heard the news about driver-only operation and realized it's going to be a one-night stand with conductors from now on.",
+      "style": "topical punchline",
+      "seed": 355605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1860918521881105,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the 'one-night stand' metaphor, but the connection to 'driver-only operation' is weak and not clearly explained. It lacks specificity in relating the railway change to the humor, making it less effective.\"}",
+      "humor_score": 0.9930459260940552,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A driver-only operation means that on UK railways, the conductor will now be replaced by a selfie stick... and I must say, the commute is looking a bit more lonely these days.",
+      "style": "deadpan understatement",
+      "seed": 355604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.121067178249359,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the 'selfie stick' twist, but it lacks specificity about 'driver-only operation' and feels a bit forced. The humor is light but not particularly surprising or well-aligned with the topic.\"}",
+      "humor_score": 0.9605335891246796,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

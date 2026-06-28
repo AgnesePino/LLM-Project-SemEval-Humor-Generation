@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2072",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "As it happened World Cup 2026 playoffs draw: reaction and updates",
+    "raw": {
+      "id": "en_2072",
+      "word1": "-",
+      "word2": "-",
+      "headline": "As it happened World Cup 2026 playoffs draw: reaction and updates"
+    }
+  },
+  "winner": "Which teams are preparing for the World Cup 2026 playoffs? I don't know, but I'm hearing they're drawing up a list with pencils... and erasers!",
+  "candidates": [
+    {
+      "text": "Why was the soccer ball feeling overwhelmed at the World Cup 2026 playoffs draw? Because it got drafted!",
+      "style": "absurd literalism",
+      "seed": 274603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.990219712257385,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, uses a play on words ('drafted' referring to both sports drafts and the ball being involved in the draw), and ties into the World Cup context. However, it lacks deeper specificity and could be more surprising.\"}",
+      "humor_score": 0.9951098561286926,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the soccer ball feeling down after the World Cup 2026 playoffs draw? Because it heard it would be sitting on the bench instead of the field!",
+      "style": "reversal",
+      "seed": 274602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.990209639072418,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, uses a relatable soccer-related pun, and ties into the headline with specificity. However, it lacks deeper surprise or originality compared to stronger humor.\"}",
+      "humor_score": 0.9951048195362091,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Which teams are preparing for the World Cup 2026 playoffs? I don't know, but I'm hearing they're drawing up a list with pencils... and erasers!",
+      "style": "topical punchline",
+      "seed": 274605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.821904897689819,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise and uses a play on 'drawing up a list' with pencils and erasers, which adds a light-hearted twist. It's specific to the context of the playoffs draw but could be more surprising or original.\"}",
+      "humor_score": 0.9109524488449097,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't soccer balls ever get stressed during the World Cup? Because they're always well-rounded, even when it comes to playoffs!",
+      "style": "wordplay",
+      "seed": 274601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.170219552516937,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the topic but lacks specificity and surprise; 'well-rounded' is a mild pun that feels generic rather than clever.\"}",
+      "humor_score": 0.9851097762584686,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "When they said \"World Cup 2026 playoffs draw\", I immediately thought, \"Wow, someone must have lost their soccer ball again.",
+      "style": "deadpan understatement",
+      "seed": 274604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.155271303653717,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the context, but the humor is weak and relies on a forced pun that doesn't land well.\"}",
+      "humor_score": 0.9776356518268585,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

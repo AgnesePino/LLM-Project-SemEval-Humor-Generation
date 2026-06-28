@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2233",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Nvidia earnings clear lofty hurdle set by analysts amid fears about an AI bubble",
+    "raw": {
+      "id": "en_2233",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Nvidia earnings clear lofty hurdle set by analysts amid fears about an AI bubble"
+    }
+  },
+  "winner": "Why did Nvidia bring a ladder to the financial race? Because they wanted to reach the peak earnings set by analysts, even if it was amidst talk of an AI bubble!",
+  "candidates": [
+    {
+      "text": "Why did Nvidia have trouble jumping over the hurdle? Because it was afraid of popping the bubble!",
+      "style": "absurd literalism",
+      "seed": 435603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.38419862985611,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on 'bubble' and 'hurdle' are clever and specific to the headline, with a natural flow and good surprise factor.\"}",
+      "humor_score": 0.9920993149280548,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Nvidia bring a ladder to the financial race? Because they wanted to reach the peak earnings set by analysts, even if it was amidst talk of an AI bubble!",
+      "style": "wordplay",
+      "seed": 435601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.880850553512573,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with the ladder metaphor and ties well to the headline, but the humor is slightly forced and the punchline could be more surprising.\"}",
+      "humor_score": 0.9404252767562866,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A man walks into a bank and asks the teller, \"I'd like to deposit my shares in Nvidia. I've heard there might be a bubble...\" The teller replies, \"Yes, but you seem to have misplaced them during the 'hurdle clearance'.",
+      "style": "deadpan understatement",
+      "seed": 435604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.181363594532013,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke attempts to tie the headline's context to a classic setup but falls short with a weak punchline that doesn't clearly connect to the 'hurdle clearance' or AI bubble theme.\"}",
+      "humor_score": 0.9906817972660065,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Nvidia's earnings cross the street? Because it wanted to burst its own AI bubble!",
+      "style": "reversal",
+      "seed": 435602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.177190673351288,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'burst its own AI bubble,' but the setup ('Why did Nvidia's earnings cross the street?') feels forced and generic. The humor could be more tightly tied to the headline specifics.\"}",
+      "humor_score": 0.9885953366756439,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the AI stock refuse to cross the road? Because it saw a lofty hurdle set by analysts and got scared of the AI bubble!",
+      "style": "topical punchline",
+      "seed": 435605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.127465260028839,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but relies on a weak pun and lacks specificity in connecting the AI bubble to the stock's hesitation.\"}",
+      "humor_score": 0.9637326300144196,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

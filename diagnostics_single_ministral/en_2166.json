@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2166",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Netherlands takes big step to defuse dispute with China that threatened car production",
+    "raw": {
+      "id": "en_2166",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Netherlands takes big step to defuse dispute with China that threatened car production"
+    }
+  },
+  "winner": "Why did the Dutchman bring a fuse to his car assembly plant in China? To ensure there was no spark in their relationship!",
+  "candidates": [
+    {
+      "text": "Why did the Dutchman bring a fuse to his car assembly plant in China? To deflate any tension that might inflate into a big dispute!",
+      "style": "topical punchline",
+      "seed": 368605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.178647589683533,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks clarity and punch. The pun on 'deflate' and 'inflate' is present, but the setup could be more directly tied to the dispute and car production mentioned in the headline.\"}",
+      "humor_score": 0.9893237948417664,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Dutchman bring a fuse to his car assembly plant in China? To ensure there was no spark in their relationship!",
+      "style": "reversal",
+      "seed": 368602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.159465801715851,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks clarity and punch. The reference to 'fuse' and 'spark' is a bit forced and doesn't clearly tie into the dispute or car production context.\"}",
+      "humor_score": 0.9797329008579254,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The Dutch decided to disarm their tulips instead of their cars, hoping this might ease tension with China.",
+      "style": "absurd literalism",
+      "seed": 368603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.897567045688629,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the pun on 'disarm' with tulips is a bit forced and not clearly connected to the headline's context of car production.\"}",
+      "humor_score": 0.3487835228443146,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Dutch stallion refuse to argue with a Chinese dynamite salesman? He didn't want to \"Nether-explode\" his car production.",
+      "style": "wordplay",
+      "seed": 368601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    },
+    {
+      "text": "The Dutch are now working diligently to ensure peace, one car part at a time.",
+      "style": "deadpan understatement",
+      "seed": 368604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

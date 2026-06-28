@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2223",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Washington’s governor declares emergency so Seattle airport will get fuel despite pipeline leak",
+    "raw": {
+      "id": "en_2223",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Washington’s governor declares emergency so Seattle airport will get fuel despite pipeline leak"
+    }
+  },
+  "winner": "Why did Seattle's airport bring in backup fuel? Because their usual pipeline was leaking... and Washington couldn't pipe down!",
+  "candidates": [
+    {
+      "text": "Why did Seattle's airport bring in backup fuel? Because their usual pipeline was leaking... and Washington couldn't pipe down!",
+      "style": "topical punchline",
+      "seed": 425605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.789271998405457,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'pipe down' and the situation are clever and specific, with good surprise factor and brevity.\"}",
+      "humor_score": 0.9946359992027283,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Seattle Airport bring its own gas station? Because Washington's governor said they were in a \"pipe-leak\" emergency!",
+      "style": "wordplay",
+      "seed": 425601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.165901851654053,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'pipe-leak' emergency, but it's a bit forced and lacks punch. It references the headline but doesn't fully capture the absurdity or specificity of the situation.\"}",
+      "humor_score": 0.9829509258270264,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Seattle's runway just got a whole lot more interesting... with fewer planes.",
+      "style": "deadpan understatement",
+      "seed": 425604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.011180174350739,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks clear connection to the pipeline leak or emergency declaration. It's brief and has a mild surprise element, but the humor feels weak and underdeveloped.\"}",
+      "humor_score": 0.9055900871753693,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the governor declare an emergency at Seattle's airport? To ensure they ran out of planes and had plenty of fuel!",
+      "style": "reversal",
+      "seed": 425602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.991711390018463,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the headline, but the punchline is a bit forced and doesn't fully align with the logic of the situation. The humor relies on a play on 'ran out of planes' which is not clearly connected to the fuel issue.\"}",
+      "humor_score": 0.8958556950092316,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the governor declare an emergency at Seattle airport? Because he was running out of runway!",
+      "style": "absurd literalism",
+      "seed": 425603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.58397010564804,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"Lacks specificity to the headline and relies on a generic pun without connecting to the pipeline leak or fuel shortage context.\"}",
+      "humor_score": 0.9919850528240204,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2194",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Pageant veteran sets sights on Miss Universe crown 2:41",
+    "raw": {
+      "id": "en_2194",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Pageant veteran sets sights on Miss Universe crown 2:41"
+    }
+  },
+  "winner": "At last, after decades of winning titles like \"Miss Local Street Corner\" and \"Miss Suburban Mailbox,\" she's finally aiming for a universal achievement: Miss Universe crown... version 2.41.",
+  "candidates": [
+    {
+      "text": "Why did the pageant veteran bring binoculars to the Miss Universe contest? Because she heard there was a height requirement!",
+      "style": "wordplay",
+      "seed": 396601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.791665661334992,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'height requirement' are clever and specific to pageants, with a surprise twist.\"}",
+      "humor_score": 0.9958328306674957,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A pageant veteran, upon hearing that there might be a new Miss Universe contestant from Mars, replied with a confident twinkle in her eye, \"Well, I've been to Venus twice!",
+      "style": "topical punchline",
+      "seed": 396605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.434088516235352,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist with planetary references, concise and specific, with a touch of dry humor.\"}",
+      "humor_score": 0.3170442581176758,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At last, after decades of winning titles like \"Miss Local Street Corner\" and \"Miss Suburban Mailbox,\" she's finally aiming for a universal achievement: Miss Universe crown... version 2.41.",
+      "style": "deadpan understatement",
+      "seed": 396604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.046033191680909,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Humorous twist on pageant titles with tech-like versioning, concise and specific.\"}",
+      "humor_score": 0.1230165958404541,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A pageant veteran was found gazing intently at a compass, muttering \"Just need to find the North Pole, then I'm all set for Miss Universe crown 2:41.",
+      "style": "absurd literalism",
+      "seed": 396603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.0440500497817995,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the compass and North Pole reference, but the connection to 'Miss Universe crown 2:41' feels forced and lacks clarity. It's not fully surprising or specific enough to be highly funny.\"}",
+      "humor_score": 0.9220250248908997,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "After years of crowning beauties, our pageant veteran is finally stepping down... to enter Miss Universe for the first time!",
+      "style": "reversal",
+      "seed": 396602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.017920720577241,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on pageant veteran's career shift, concise and specific with a clever play on 'stepping down'.\"}",
+      "humor_score": 0.10896036028862,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

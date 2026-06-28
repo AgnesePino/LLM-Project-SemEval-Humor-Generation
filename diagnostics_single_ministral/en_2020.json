@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2020",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "I made mistakes on TV, he made his on a field'",
+    "raw": {
+      "id": "en_2020",
+      "word1": "-",
+      "word2": "-",
+      "headline": "I made mistakes on TV, he made his on a field'"
+    }
+  },
+  "winner": "The weather forecaster said, \"Tomorrow will be sunny with a chance of me repeating yesterday's forecast.\" The quarterback replied, \"That's nothing, on the field I have a 50% chance of repeating last week's pass!",
+  "candidates": [
+    {
+      "text": "A man said, \"I messed up on live TV.\" The athlete replied, \"Well, I made my fumbles on the field!",
+      "style": "wordplay",
+      "seed": 222601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.9894901514053345,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clear and plays on the word 'fumbles,' which works well in both contexts. It's concise and has a nice twist, though the setup could be slightly tighter for maximum impact.\"}",
+      "humor_score": 0.9947450757026672,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The interviewer said, \"You made mistakes on TV,\" and the athlete replied, \"Well, at least I didn't make mine in front of millions watching a game!",
+      "style": "reversal",
+      "seed": 222602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.858435034751892,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise and has a mild twist with the comparison between TV and a field, but the humor is somewhat generic and lacks strong specificity or surprise.\"}",
+      "humor_score": 0.929217517375946,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The weather forecaster said, \"Tomorrow will be sunny with a chance of me repeating yesterday's forecast.\" The quarterback replied, \"That's nothing, on the field I have a 50% chance of repeating last week's pass!",
+      "style": "topical punchline",
+      "seed": 222605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.684152865409851,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, specific, and uses a clever twist with the weather forecaster and quarterback comparing their chances of repeating mistakes.\"}",
+      "humor_score": 0.6420764327049255,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The weatherman said it would be sunny and clear, but it turned out to be cloudy with a chance of footballs.",
+      "style": "absurd literalism",
+      "seed": 222603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.259388637542725,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the connection to the headline is weak and the humor feels forced.\"}",
+      "humor_score": 0.029694318771362305,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "I guess we both learned that live performances can be a bit risky... one of us just happened to be playing in front of millions.",
+      "style": "deadpan understatement",
+      "seed": 222604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

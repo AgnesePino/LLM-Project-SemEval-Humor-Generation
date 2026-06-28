@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2272",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Why an AI 'godfather' is quitting Meta after 12 years",
+    "raw": {
+      "id": "en_2272",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Why an AI 'godfather' is quitting Meta after 12 years"
+    }
+  },
+  "winner": "A godfather left Meta after 12 years, but now he's starting a new company called \"Meta-Father,\" where instead of creating AI, he'll be teaching AI how to be good fathers.",
+  "candidates": [
+    {
+      "text": "An AI godfather left Meta after 12 years, because he grew tired of making offers they can't refuse... from silicon chips instead of corners in Brooklyn.",
+      "style": "absurd literalism",
+      "seed": 474603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.725650715827943,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, surprising, and specific, with a clever twist on the 'Godfather' reference and AI context.\"}",
+      "humor_score": 0.962825357913971,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "After 12 years, Meta's AI Godfather decided to retire and return to his roots - Silicon Valley... because he found out he'd been living in Mark-Zuckerberg-ia all this time!",
+      "style": "topical punchline",
+      "seed": 474605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.913529026508332,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Funny wordplay on 'Silicon Valley' and 'Mark-Zuckerberg-ia,' specific to the context of Meta and its founder, with a surprising twist that aligns well with the headline.\"}",
+      "humor_score": 0.5567645132541656,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the AI godfather leave Meta after twelve years? Because he wanted a new \"algorithm\" in his life!",
+      "style": "wordplay",
+      "seed": 474601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.176267278194428,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'algorithm' and 'new life,' but it's a bit generic and lacks specificity about the AI 'godfather' or Meta. The humor is mild and not particularly surprising.\"}",
+      "humor_score": 0.9881336390972137,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A godfather left Meta after 12 years, but now he's starting a new company called \"Meta-Father,\" where instead of creating AI, he'll be teaching AI how to be good fathers.",
+      "style": "reversal",
+      "seed": 474602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.8845072984695435,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a play on 'Meta-Father' and the twist about teaching AI to be good fathers. It's specific and surprising but could be more concise.\"}",
+      "humor_score": 0.44225364923477173,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At last, the AI godfather finally decided to hang up his digital shades and retire from Meta... after 12 long minutes.",
+      "style": "deadpan understatement",
+      "seed": 474604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.309939694404602,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'digital shades' and '12 long minutes,' but it's a bit forced and lacks the punch of a more surprising twist.\"}",
+      "humor_score": 0.554969847202301,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

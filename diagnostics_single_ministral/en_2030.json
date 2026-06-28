@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2030",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "You're a disgrace': Dramatic scene as House avoids Rep. Cory Mills censure vote",
+    "raw": {
+      "id": "en_2030",
+      "word1": "-",
+      "word2": "-",
+      "headline": "You're a disgrace': Dramatic scene as House avoids Rep. Cory Mills censure vote"
+    }
+  },
+  "winner": "At the House meeting, even the chairs were blushing when they realized they hadn't been censured yet.",
+  "candidates": [
+    {
+      "text": "Why was Representative Cory Mills feeling a bit underappreciated at the house party? Because everyone was avoiding him like it was a censure vote.",
+      "style": "topical punchline",
+      "seed": 232605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.181097221374512,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'avoiding him' and 'censure vote,' but it's a bit forced and lacks specificity. The humor is mild and could be more surprising.\"}",
+      "humor_score": 0.9905486106872559,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the house run away from the censure vote? Because it was terrified of being called a disgrace by Rep. Cory Mills!",
+      "style": "absurd literalism",
+      "seed": 232603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.123375606536865,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat forced and relies on a pun that doesn't fully land. It's brief and specific to the headline but lacks surprise and feels a bit generic in its approach.\"}",
+      "humor_score": 0.9616878032684326,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the House decide against censuring Rep. Cory Mills? Because they feared he might write a tell-all book titled \"Avoiding Censure: My Scandalous Career in Congress.",
+      "style": "wordplay",
+      "seed": 232601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.923776400089264,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the book title reference, but it lacks punch and feels a bit forced. It also doesn't fully align with the headline's dramatic tone.\"}",
+      "humor_score": 0.861888200044632,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A dramatic scene unfolded in the House as Representative Cory Mills successfully led a motion to censure himself for being such a model of decorum and productivity.",
+      "style": "reversal",
+      "seed": 232602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.811263728141785,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on the headline with specific reference to 'model of decorum and productivity,' which contrasts humorously with the original dramatic context.\"}",
+      "humor_score": 0.005631864070892334,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At the House meeting, even the chairs were blushing when they realized they hadn't been censured yet.",
+      "style": "deadpan understatement",
+      "seed": 232604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.636811983585358,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the personification of chairs blushing, but it lacks specificity to the headline and feels a bit forced in its connection to the censure vote.\"}",
+      "humor_score": 0.21840599179267883,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

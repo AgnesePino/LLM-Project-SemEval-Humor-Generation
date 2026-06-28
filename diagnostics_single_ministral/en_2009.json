@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2009",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "I stayed at one of only two hotels in Malta’s Silent City",
+    "raw": {
+      "id": "en_2009",
+      "word1": "-",
+      "word2": "-",
+      "headline": "I stayed at one of only two hotels in Malta’s Silent City"
+    }
+  },
+  "winner": "In Malta's Silent City, I found my peace... at least until the hotel phone started ringing non-stop, \"Ring-a-ling-a-lings\" in the land of \"Hush-a-byes.",
+  "candidates": [
+    {
+      "text": "In Malta's Silent City, I booked a room with a voice-activated pillow - fell asleep, and it said \"Checking out... Checking out...",
+      "style": "reversal",
+      "seed": 211602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.788640308380128,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist with the voice-activated pillow, ties directly to the headline, concise and specific.\"}",
+      "humor_score": 0.9943201541900635,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Malta's Silent City, I found a hotel that whispers sweet nothings... into your earplugs!",
+      "style": "topical punchline",
+      "seed": 211605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.775811064243317,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative use of 'whispers sweet nothings' with a twist involving earplugs, showing specificity and surprise while keeping it concise and humorous.\"}",
+      "humor_score": 0.9879055321216583,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Silent City, I booked the louder hotel... by accident.",
+      "style": "deadpan understatement",
+      "seed": 211604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.769400703907014,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on 'silent city' with a clever play on expectations and accidental booking.\"}",
+      "humor_score": 0.9847003519535065,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Malta's Silent City, I found my peace... at least until the hotel phone started ringing non-stop, \"Ring-a-ling-a-lings\" in the land of \"Hush-a-byes.",
+      "style": "wordplay",
+      "seed": 211601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.966063916683197,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, specific, and uses wordplay effectively with 'Ring-a-ling-a-lings' and 'Hush-a-byes.' It ties humor to the headline but could be more surprising or punchier.\"}",
+      "humor_score": 0.9830319583415985,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the hotel in Malta's Silent City insist on whispering? Because it was checking-in, not shouting-in!",
+      "style": "absurd literalism",
+      "seed": 211603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.187032353878021,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'checking-in' vs. 'shouting-in,' but it lacks specificity about Malta’s Silent City and feels a bit forced. It's not offensive, but it could be more surprising and concise.\"}",
+      "humor_score": 0.9935161769390106,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

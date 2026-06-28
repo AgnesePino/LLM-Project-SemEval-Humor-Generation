@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2294",
+    "kind": "word_inclusion",
+    "word1": "drill",
+    "word2": "book",
+    "headline": null,
+    "raw": {
+      "id": "en_2294",
+      "word1": "drill",
+      "word2": "book",
+      "headline": "-"
+    }
+  },
+  "winner": "In a library, a drill bit was checking out a book titled \"How to Drill a Hole in This Book.\" The librarian asked, \"Why are you reading that?\" The drill bit replied, \"I want to improve my reading skills!",
+  "candidates": [
+    {
+      "text": "In a library, a drill bit was checking out a book titled \"How to Drill a Hole in This Book.\" The librarian asked, \"Why are you reading that?\" The drill bit replied, \"I want to improve my reading skills!",
+      "style": "absurd literalism",
+      "seed": 496603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.384463751316071,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, surprising, and specific with the required words 'drill' and 'book.' It uses a play on the literal and figurative meaning of 'drilling,' which adds humor.\"}",
+      "humor_score": 0.9922318756580353,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the drill reading a book? Because it couldn't find its bit of literature!",
+      "style": "reversal",
+      "seed": 496602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.991368591785431,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke uses the required words 'drill' and 'book' in a clever pun ('bit of literature'), showing good specificity and surprise. It is concise and natural, though the humor is mild and relies on a play on words that may not resonate with all audiences.\"}",
+      "humor_score": 0.9956842958927155,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the drill at the library so popular? Because everyone kept checking it out of the book!",
+      "style": "wordplay",
+      "seed": 496601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191768777370453,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses the required words and has a basic pun structure, but the humor is weak and the punchline feels forced with poor wordplay.\"}",
+      "humor_score": 0.9958843886852264,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In a library, a drill suddenly starts spinning. A librarian picks up a book to quiet it down.",
+      "style": "deadpan understatement",
+      "seed": 496604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.908485007286072,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the connection between 'drill' and 'book' feels a bit forced. The setup could be more clearly tied to the punchline for greater humor impact.\"}",
+      "humor_score": 0.8542425036430359,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't books ever go to parties? Because they're always afraid of getting drilled!",
+      "style": "topical punchline",
+      "seed": 496605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:drill,book"
+    }
+  ]
+}

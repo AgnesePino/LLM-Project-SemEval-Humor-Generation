@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2184",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Witness History The Spanish king reclaims his throne",
+    "raw": {
+      "id": "en_2184",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Witness History The Spanish king reclaims his throne"
+    }
+  },
+  "winner": "The Spanish king found his throne at a thrift store for a bargain price. It said \"One man's crown is another man's recliner.",
+  "candidates": [
+    {
+      "text": "Why did the Spanish king bring a ladder when he reclaimed his throne? Because he wanted to reach the highest point of his career...again!",
+      "style": "topical punchline",
+      "seed": 386605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.18652708530426,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat forced and lacks a clear connection between the ladder and reclaiming the throne. It's brief and uses a common pun structure, but the surprise and specificity are weak.\"}",
+      "humor_score": 0.9932635426521301,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Spanish king bring a ladder when he reclaimed his throne? To reach the crow on his neck!",
+      "style": "absurd literalism",
+      "seed": 386603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.176436853408814,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the connection between the ladder and the crow on his neck feels a bit forced and lacks a clear punchline that ties back to reclaiming the throne.\"}",
+      "humor_score": 0.9882184267044067,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Spanish king take a step back on his coronation day? Because he wanted to re-Throne-a-round!",
+      "style": "wordplay",
+      "seed": 386601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.175318491458893,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat forced with the pun on 're-Throne-a-round,' which doesn't fully land. It's brief and specific to the headline but lacks stronger surprise or deeper humor.\"}",
+      "humor_score": 0.9876592457294464,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The Spanish king found a throne that history had misplaced!",
+      "style": "reversal",
+      "seed": 386602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.992531824111939,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative wordplay on 'reclaims his throne' and 'history had misplaced,' concise and surprising.\"}",
+      "humor_score": 0.09626591205596924,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The Spanish king found his throne at a thrift store for a bargain price. It said \"One man's crown is another man's recliner.",
+      "style": "deadpan understatement",
+      "seed": 386604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.183424007892609,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the connection between the headline and the punchline feels a bit forced. The thrift store angle is clever, but the humor could be more tightly aligned with the historical context of reclaiming a throne.\"}",
+      "humor_score": 0.4917120039463043,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

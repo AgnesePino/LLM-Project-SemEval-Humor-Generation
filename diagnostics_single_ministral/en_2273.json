@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2273",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Plan to revitalise Rathkeale town centre launched",
+    "raw": {
+      "id": "en_2273",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Plan to revitalise Rathkeale town centre launched"
+    }
+  },
+  "winner": "In Rathkeale, they're planning to launch a revitalization project in their town center. But locals are worried, as rumors circulate that they might be replacing old buildings with a giant hamster ball... and we all know how fast those things can move!",
+  "candidates": [
+    {
+      "text": "Why was Rathkeale's town center feeling under the weather? Because it needed a little re-vital-Tea!",
+      "style": "wordplay",
+      "seed": 475601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.964707911014557,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a pun on 're-vital-Tea' that ties into the headline, but the humor is somewhat predictable and relies heavily on the wordplay rather than deeper wit.\"}",
+      "humor_score": 0.9823539555072784,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Rathkeale launch a plan to revitalize its town center? Because even ghost towns need a makeover!",
+      "style": "topical punchline",
+      "seed": 475605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.133755576610565,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant and uses a play on 'ghost towns,' but it lacks specificity about Rathkeale and feels a bit generic.\"}",
+      "humor_score": 0.9668777883052826,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Rathkeale, they're planning to launch a revitalization project in their town center. But locals are worried, as rumors circulate that they might be replacing old buildings with a giant hamster ball... and we all know how fast those things can move!",
+      "style": "absurd literalism",
+      "seed": 475603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.299466979503632,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the headline, but the humor feels a bit forced and relies on an unusual comparison that may not land well with all audiences.\"}",
+      "humor_score": 0.5497334897518158,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Rathkeale, they're planning to launch a scheme to make the town center lively... and by lively, they mean to finally get rid of all those quiet residents!",
+      "style": "reversal",
+      "seed": 475602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.757921171188355,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and uses wordplay on 'lively' and 'quiet residents,' but the humor feels a bit forced and relies on a stereotype that may not resonate broadly.\"}",
+      "humor_score": 0.27896058559417725,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Rathkeale, plans for a lively downtown experience include installing streetlamps... and a single park bench for visitors to contemplate their newfound solitude.",
+      "style": "deadpan understatement",
+      "seed": 475604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.22212655544281,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and has a mild ironic twist, but the humor is underdeveloped and relies on a predictable contrast between 'revitalise' and 'solitude.' It lacks stronger punch or deeper surprise.\"}",
+      "humor_score": 0.01106327772140503,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

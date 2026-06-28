@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2280",
+    "kind": "word_inclusion",
+    "word1": "deseed",
+    "word2": "pepper",
+    "headline": null,
+    "raw": {
+      "id": "en_2280",
+      "word1": "deseed",
+      "word2": "pepper",
+      "headline": "-"
+    }
+  },
+  "winner": "Why did the pepper go to a therapist? Because it needed to be deseed of its anger issues!",
+  "candidates": [
+    {
+      "text": "Why did the pepper go to a therapist? Because it needed to be deseed of its anger issues!",
+      "style": "absurd literalism",
+      "seed": 482603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.182827663421631,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses the required words and has a basic pun structure, but the humor is weak and the punchline feels forced. The 'deseed' wordplay is somewhat clear but not particularly clever or surprising.\"}",
+      "humor_score": 0.9914138317108154,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "When I heard someone say they were cooking without a pepper, I thought, \"How are they going to deseed it then?",
+      "style": "deadpan understatement",
+      "seed": 482604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.175446581840515,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses the required words and has a basic setup with a twist, but the humor is weak and relies on a somewhat forced pun.\"}",
+      "humor_score": 0.9877232909202576,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the jalapeño join the band? To become a deseeder of peppers, of course!",
+      "style": "wordplay",
+      "seed": 482601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:deseed,pepper"
+    },
+    {
+      "text": "Why did the peppercorn apply for a job at the bakery? Because it wanted to deseed its past life as a spicy snack!",
+      "style": "reversal",
+      "seed": 482602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:pepper"
+    },
+    {
+      "text": "Why did the pepper go to the spice therapist? Because it had a hard time deseeding its anger!",
+      "style": "topical punchline",
+      "seed": 482605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:deseed"
+    }
+  ]
+}

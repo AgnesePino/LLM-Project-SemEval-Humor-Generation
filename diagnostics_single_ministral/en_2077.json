@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2077",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "George W. Bush memorializes his VP Dick Cheney at funeral",
+    "raw": {
+      "id": "en_2077",
+      "word1": "-",
+      "word2": "-",
+      "headline": "George W. Bush memorializes his VP Dick Cheney at funeral"
+    }
+  },
+  "winner": "Why did George W. Bush bring a ladder to Dick Cheney's funeral? He wanted to pay his respects from a safe distance!",
+  "candidates": [
+    {
+      "text": "Why did George W. Bush bring a ladder to Dick Cheney's funeral? He wanted to pay his respects from a safe distance!",
+      "style": "topical punchline",
+      "seed": 279605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.177273762226105,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and uses a play on 'safe distance,' but the reference to George W. Bush and Dick Cheney may not be surprising enough for those familiar with their relationship. It's clean but lacks deeper punch.\"}",
+      "humor_score": 0.9886368811130524,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At George W. Bush's funeral, a moment of silence was held for everyone else.",
+      "style": "deadpan understatement",
+      "seed": 279604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.040039050579072,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on the headline with concise, specific humor that plays on the irony of the situation.\"}",
+      "humor_score": 0.12001952528953552,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At the funeral, George W. Bush said, \"I may have missed a few spots when painting Dick Cheney's portrait, but I'm sure he'll never feel overlooked again.",
+      "style": "wordplay",
+      "seed": 279601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.672697615623474,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and uses a play on words with 'painting' and 'overlooked,' but the humor feels forced and lacks natural flow. The reference to painting a portrait is not strongly connected to the context of a funeral, reducing its surprise and overall effectiveness.\"}",
+      "humor_score": 0.23634880781173706,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At George W. Bush's funeral, a touching moment occurred when former Vice President Dick Cheney was unveiled... as a new statue in honor of his longtime partner.",
+      "style": "absurd literalism",
+      "seed": 279603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.541045379638672,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the setup is confusing and lacks clarity. The mention of a 'statue' as a memorial feels misplaced given the headline context, which may reduce its humor impact.\"}",
+      "humor_score": 0.17052268981933594,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At George W. Bush's funeral, Dick Cheney quietly whispered to him, \"I remember you too.",
+      "style": "reversal",
+      "seed": 279602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 4.557053363323211,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is somewhat related but lacks surprise and specificity; it also misplaces the roles (Cheney would not be at Bush's funeral, and vice versa).\"}",
+      "humor_score": 0.47852668166160583,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

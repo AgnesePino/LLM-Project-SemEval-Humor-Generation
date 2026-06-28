@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2014",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "‘Kim Kardashian had no pretensions that she was a great actress’: Glenn Close hits back at zero-star All’s Fair reviews",
+    "raw": {
+      "id": "en_2014",
+      "word1": "-",
+      "word2": "-",
+      "headline": "‘Kim Kardashian had no pretensions that she was a great actress’: Glenn Close hits back at zero-star All’s Fair reviews"
+    }
+  },
+  "winner": "Glenn Close, upon hearing about Kim Kardashian's new acting gig, said 'I guess that makes me All's Fair in love and reviews.'",
+  "candidates": [
+    {
+      "text": "Glenn Close, after reading the reviews for \"All's Fair\": \"I guess now I know what Kim Kardashian feels like when she gets a five-star review.",
+      "style": "deadpan understatement",
+      "seed": 216604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.5018921375274665,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, surprising, and specific, drawing a clever parallel between Glenn Close and Kim Kardashian with a twist on expectations and reviews.\"}",
+      "humor_score": 0.3509460687637329,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Glenn Close on hearing about Kim Kardashian's acting ambitions: \"Well, at least I have a star in my movie reviews... though it might be a little closer to Kim than I'd like!",
+      "style": "reversal",
+      "seed": 216602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.451626002788544,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever and ties the headline to a humorous response from Glenn Close, using wordplay on 'star' in movie reviews and Kim Kardashian's fame. It’s specific and surprising but could be tighter for maximum impact.\"}",
+      "humor_score": 0.7258130013942719,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Glenn Close, in response to 'All's Fair' reviews: \"Well, at least Kim Kardashian knows I'm not pretending to be a great actress!",
+      "style": "topical punchline",
+      "seed": 216605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.41984338760376,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the twist on 'pretending,' but it's a bit forced and lacks the sharp specificity and surprise that would make it stand out in a humor competition.\"}",
+      "humor_score": 0.10992169380187988,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Glenn Close, upon hearing about Kim Kardashian's new acting gig, said 'I guess that makes me All's Fair in love and reviews.'",
+      "style": "wordplay",
+      "seed": 216601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.297225248813629,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'All’s Fair,' but it lacks specificity and misses the opportunity to tie in Glenn Close's actual response or the context of the zero-star reviews.\"}",
+      "humor_score": 0.048612624406814575,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Glenn Close, in response to Kim Kardashian's latest film role, \"All's Fair,\" said, \"I can assure you that stars aren't given for being 'fair' in this business.",
+      "style": "absurd literalism",
+      "seed": 216603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.218153667449951,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with a play on 'All’s Fair' and the idea of stars being given for fairness, but it's a bit forced and lacks the punchiness needed to stand out in a humor competition.\"}",
+      "humor_score": 0.009076833724975586,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

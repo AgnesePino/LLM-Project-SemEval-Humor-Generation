@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2069",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Stocks move lower, erasing morning rally driven by Nvidia earnings",
+    "raw": {
+      "id": "en_2069",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Stocks move lower, erasing morning rally driven by Nvidia earnings"
+    }
+  },
+  "winner": "A stock trader, excited about the Nvidia earnings report, woke up early and made a spectacular breakfast - a massive stack of pancakes... only to find out that his stocks had moved lower, erasing the morning rally, leaving him with just syrup on his plate.",
+  "candidates": [
+    {
+      "text": "A stock trader, excited about the Nvidia earnings report, woke up early and made a spectacular breakfast - a massive stack of pancakes... only to find out that his stocks had moved lower, erasing the morning rally, leaving him with just syrup on his plate.",
+      "style": "reversal",
+      "seed": 271602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.949766516685486,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is specific to the headline, uses a relatable scenario with a surprising twist, and ties the stock market outcome to a humorous image (syrup on the plate). However, it's slightly long and could be more concise.\"}",
+      "humor_score": 0.9748832583427429,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the stock market go to therapy after reading the Nvidia earnings report? Because it had a tough time recovering from its morning rally!",
+      "style": "wordplay",
+      "seed": 271601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1887208938598635,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the therapy metaphor, but the punchline feels a bit forced and lacks strong specificity to the context of stocks moving lower after a rally.\"}",
+      "humor_score": 0.9943604469299316,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the stock market go on a rollercoaster ride? Because it heard about Nvidia's earnings and decided to play a game of \"buy low, sell high\" before lunch!",
+      "style": "absurd literalism",
+      "seed": 271603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.183175158500672,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the rollercoaster metaphor and references Nvidia's earnings, but it lacks specificity about the stock market's reaction and feels a bit generic in its humor.\"}",
+      "humor_score": 0.9915875792503357,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the stock market go on a rollercoaster ride? Because it heard Nvidia's earnings report and thought it was time for a graphics card drop!",
+      "style": "topical punchline",
+      "seed": 271605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.171275806427002,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline and uses a play on 'graphics card' which ties to Nvidia, but the humor feels forced and the punchline lacks surprise and specificity.\"}",
+      "humor_score": 0.985637903213501,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Even Nvidia can't guarantee a sunny day after the morning rain.",
+      "style": "deadpan understatement",
+      "seed": 271604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.462012243270874,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and surprise. The metaphor is generic and doesn't directly tie to Nvidia's earnings or stock movement.\"}",
+      "humor_score": 0.131006121635437,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

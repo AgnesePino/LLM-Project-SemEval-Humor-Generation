@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2031",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "The most important questions to ask when picking a health care plan",
+    "raw": {
+      "id": "en_2031",
+      "word1": "-",
+      "word2": "-",
+      "headline": "The most important questions to ask when picking a health care plan"
+    }
+  },
+  "winner": "Why should you never pick a healthcare plan based on its catchy jingle? Because even if it \"puts a little love in your heart,\" you might find yourself broke when it's time for a major operation!",
+  "candidates": [
+    {
+      "text": "Why should you never pick a healthcare plan based on its catchy jingle? Because even if it \"puts a little love in your heart,\" you might find yourself broke when it's time for a major operation!",
+      "style": "topical punchline",
+      "seed": 233605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.860233092308045,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, surprising, and specific, with a clever twist on the idea of catchy jingles in healthcare plans. It also ties humor to the topic effectively.\"}",
+      "humor_score": 0.7301165461540222,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't insurance companies ever pick their own healthcare plans? Because they can't decide which one will avoid them the most!",
+      "style": "reversal",
+      "seed": 233602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.146106433868408,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with a play on 'avoid them the most,' but it's a bit forced and lacks specificity in relating to healthcare plan selection. The setup could be more directly tied to the headline topic.\"}",
+      "humor_score": 0.9730532169342041,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "What's the most essential question when choosing a trampoline healthcare plan? Will it cover my falls...or am I on my own again this year?",
+      "style": "absurd literalism",
+      "seed": 233603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.144929718971253,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the trampoline twist, but it's a bit forced and lacks clarity. The reference to 'falls' connects loosely to healthcare, but the humor doesn't land as strongly due to ambiguity.\"}",
+      "humor_score": 0.9724648594856262,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why should you pick your healthcare plan like you'd choose a spouse? Because both can leave you in debt for life... and neither will ever put out!",
+      "style": "wordplay",
+      "seed": 233601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.702548575401306,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the topic, but the comparison between healthcare plans and spouses is a common trope that lacks originality. The punchline is crude and risks being offensive due to its sexual innuendo.\"}",
+      "humor_score": 0.7512742877006531,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Did you consider if they offer a 'happy hour' discount for emergency room visits?",
+      "style": "deadpan understatement",
+      "seed": 233604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

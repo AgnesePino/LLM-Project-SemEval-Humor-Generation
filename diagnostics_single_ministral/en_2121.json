@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2121",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Garda among six arrested over missing €100k drug seizure",
+    "raw": {
+      "id": "en_2121",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Garda among six arrested over missing €100k drug seizure"
+    }
+  },
+  "winner": "Why was the garda arrested for a missing €100k drug seizure? Because he was caught red-handed in a handbag sewing circle!",
+  "candidates": [
+    {
+      "text": "Why was the garda arrested for a missing €100k drug seizure? Because he was caught red-handed in a handbag sewing circle!",
+      "style": "absurd literalism",
+      "seed": 323603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191153955459595,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the headline, but 'handbag sewing circle' is a weak pun that doesn't strongly connect to the context of a drug seizure or Garda involvement.\"}",
+      "humor_score": 0.9955769777297974,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the garda arrested for the missing drug seizure? Because he couldn't keep his hands off the euro-tennis ball!",
+      "style": "wordplay",
+      "seed": 323601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1877780079841616,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the headline, but 'euro-tennis ball' is a weak pun that doesn't clearly connect to the missing €100k or the garda's role. The humor is mild and lacks strong punch.\"}",
+      "humor_score": 0.9938890039920807,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the garda get arrested for the missing drug seizure? Because he failed to secure the perimeter.",
+      "style": "deadpan understatement",
+      "seed": 323604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.185347390174866,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and uses wordplay on 'secure the perimeter,' but it's a bit generic and lacks surprising humor.\"}",
+      "humor_score": 0.9926736950874329,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the police officer arrested for losing a drug seizure? Because he couldn't find his high-CSHARP skills!",
+      "style": "topical punchline",
+      "seed": 323605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.586438930034637,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is weak and relies on a forced pun ('high-CSHARP') that doesn't clearly connect to the situation described in the headline. It lacks specificity and surprise, making it less funny.\"}",
+      "humor_score": 0.9932194650173187,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The drugs were found, but unfortunately, the Garda is still missing €100k.",
+      "style": "reversal",
+      "seed": 323602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.412234139442444,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the headline, but it's a bit generic in its setup and doesn't fully land due to the awkward phrasing of 'the Garda is still missing €100k.'\"}",
+      "humor_score": 0.10611706972122192,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

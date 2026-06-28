@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2190",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "William and Catherine meet Paddington at Royal Variety Performance",
+    "raw": {
+      "id": "en_2190",
+      "word1": "-",
+      "word2": "-",
+      "headline": "William and Catherine meet Paddington at Royal Variety Performance"
+    }
+  },
+  "winner": "At the Royal Variety Performance, even the marmalade sandwiches were knighted!",
+  "candidates": [
+    {
+      "text": "At the Royal Variety Performance, Paddington found himself quite bemused, as he met the Queen and Duke for the first time... but it was Catherine who asked, \"Would you care for a marmalade sandwich?",
+      "style": "reversal",
+      "seed": 392602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.377964305877686,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, specific, and includes a surprising twist with Catherine offering a marmalade sandwich, which ties into Paddington's well-known preference.\"}",
+      "humor_score": 0.7889821529388428,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At the Royal Variety Performance, William turned to Catherine and asked, \"Do you think Paddington's marmalade sandwich has a royal warrant now?",
+      "style": "topical punchline",
+      "seed": 392605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.92665468454361,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on a royal warrant, ties in Paddington's marmalade sandwich specifically, concise and natural.\"}",
+      "humor_score": 0.5633273422718048,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Paddington bear find meeting William and Catherine so pawsome? Because he was thrilled they were royal-y friendly!",
+      "style": "wordplay",
+      "seed": 392601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.174331736564636,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the pun on 'pawsome' and 'royal-y friendly,' but it feels a bit forced and lacks deeper specificity or surprise related to the context of the Royal Variety Performance.\"}",
+      "humor_score": 0.9871658682823181,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At the Royal Variety Performance, William and Catherine were left bewildered as they couldn't seem to find a proper marmalade sandwich for Paddington.",
+      "style": "deadpan understatement",
+      "seed": 392604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.727835190296173,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and ties into the headline, but it lacks surprise and feels a bit generic. The humor is mild and relies on a well-known reference without adding much originality.\"}",
+      "humor_score": 0.26391759514808655,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At the Royal Variety Performance, even the marmalade sandwiches were knighted!",
+      "style": "absurd literalism",
+      "seed": 392603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.500034856796265,
+      "judge_score": 6.0,
+      "judge_raw": "\n\n{\"score\": 6, \"reason\": \"The joke is somewhat related to the headline but lacks direct connection to William, Catherine, or Paddington. It's a bit generic and doesn't fully leverage the specific context of the Royal Variety Performance.\"}",
+      "humor_score": 0.3500174283981323,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2192",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "What is the mysterious Yantar 'spy ship' - and is it mapping Britain's undersea cables?",
+    "raw": {
+      "id": "en_2192",
+      "word1": "-",
+      "word2": "-",
+      "headline": "What is the mysterious Yantar 'spy ship' - and is it mapping Britain's undersea cables?"
+    }
+  },
+  "winner": "Why did the British submarine go to school? To learn how to avoid being mapped by the Yantar 'spy ship'!",
+  "candidates": [
+    {
+      "text": "Why did the Russian spy ship, Yantar, bring a map when it sailed around Britain? Because it was hoping to find its own cable connection!",
+      "style": "absurd literalism",
+      "seed": 394603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191137027740479,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and has a mild twist, but the punchline is underdeveloped and lacks clarity. The connection between 'map' and 'cable connection' is not strongly established, reducing the surprise and humor impact.\"}",
+      "humor_score": 0.9955685138702393,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the spy ship, Yantar, bring a map when visiting Britain? Because it was looking for the 'undersea cable' street!",
+      "style": "wordplay",
+      "seed": 394601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.19079293012619,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the pun on 'undersea cable' street, but it's a bit forced and lacks specificity about the Yantar or its activities. The humor is mild and could be more surprising.\"}",
+      "humor_score": 0.9953964650630951,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Yantar spy ship need a map of Britain's undersea cables? Because it wanted to see if the Britons were sending Morse Code from Atlantis!",
+      "style": "topical punchline",
+      "seed": 394605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189099621772766,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the Atlantis twist, but the reference feels a bit forced and lacks strong specificity to the Yantar or undersea cables. It's mildly funny but could be more surprising and concise.\"}",
+      "humor_score": 0.9945498108863831,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The Yantar spy ship? Just them, casually cruising around, measuring the depth of my soup bowl during lunch breaks.",
+      "style": "deadpan understatement",
+      "seed": 394604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.17532057762146,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the 'measuring the depth of my soup bowl' line, but it lacks specificity to the Yantar ship and its potential connection to undersea cables. The humor feels a bit forced and disconnected from the headline's context.\"}",
+      "humor_score": 0.98766028881073,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the British submarine go to school? To learn how to avoid being mapped by the Yantar 'spy ship'!",
+      "style": "reversal",
+      "seed": 394602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.136319708824158,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and surprise. It's a mild pun but doesn't fully engage with the 'mapping undersea cables' angle.\"}",
+      "humor_score": 0.9681598544120789,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

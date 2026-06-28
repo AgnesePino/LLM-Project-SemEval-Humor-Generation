@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2170",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "A Man on the Inside season two review – Ted Danson’s despicably bland show is everything wrong with TV",
+    "raw": {
+      "id": "en_2170",
+      "word1": "-",
+      "word2": "-",
+      "headline": "A Man on the Inside season two review – Ted Danson’s despicably bland show is everything wrong with TV"
+    }
+  },
+  "winner": "Apparently, there's a TV show where Ted Danson plays a man... on the inside of a blender. Unfortunately, I heard it got canceled because they couldn't find enough ingredients for Season 2.",
+  "candidates": [
+    {
+      "text": "Why was Ted Danson's show like a boring potluck dish? Because everyone brings the vanilla ice cream.",
+      "style": "reversal",
+      "seed": 372602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.193644595146179,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and uses a relatable metaphor, but 'vanilla ice cream' feels too generic to effectively highlight the show's blandness. The humor is mild and lacks stronger surprise or punch.\"}",
+      "humor_score": 0.9968222975730896,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was Ted Danson's character in A Man on the Inside season two always stuck in traffic? Because he couldn't get past the pilot episode!",
+      "style": "absurd literalism",
+      "seed": 372603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.180198740959168,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, playing on the show's premise and the idea of a 'pilot episode.' However, it's slightly generic in its setup and doesn't fully land due to weak punchline execution.\"}",
+      "humor_score": 0.9900993704795837,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Apparently, there's a TV show where Ted Danson plays a man... on the inside of a blender. Unfortunately, I heard it got canceled because they couldn't find enough ingredients for Season 2.",
+      "style": "deadpan understatement",
+      "seed": 372604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.175383460521698,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific with the blender twist, but the setup is a bit forced and the humor falls flat due to the generic complaint about TV shows.\"}",
+      "humor_score": 0.987691730260849,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In A Man on the Inside Season Two, even Ted Danson's character struggled to stand out from the bland wallpaper.",
+      "style": "wordplay",
+      "seed": 372601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.249130618572235,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and ties the blandness of the show to both the character and the wallpaper, but it's a bit forced and lacks the punch needed for maximum humor.\"}",
+      "humor_score": 0.024565309286117554,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Ted Danson's character on 'A Man on the Inside' start a side gig? To spice up his life with some extra seasoning!",
+      "style": "topical punchline",
+      "seed": 372605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 4.741926896572114,
+      "judge_score": 3.5,
+      "judge_raw": "\n\n{\"score\": 3.5, \"reason\": \"The joke is generic and lacks surprise; 'spice up his life with some extra seasoning' is a clichéd pun that doesn't engage with the critique of the show or Ted Danson's performance.\"}",
+      "humor_score": 0.9709634482860565,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2008",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "How the EU botched its attempt to regulate AI",
+    "raw": {
+      "id": "en_2008",
+      "word1": "-",
+      "word2": "-",
+      "headline": "How the EU botched its attempt to regulate AI"
+    }
+  },
+  "winner": "The EU decided to regulate AI using a team of untrained, mischievous house cats. Needless to say, chaos ensued and now we have purr-fectly legal selfie-taking toasters!",
+  "candidates": [
+    {
+      "text": "The EU announced today that they've managed to successfully program an AI to botch regulation attempts... It's called \"European Bureaucracy Version 2.0\".",
+      "style": "reversal",
+      "seed": 210602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.323871779441834,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Smart wordplay on 'botch' and 'European Bureaucracy Version 2.0' offers both surprise and specificity, aligning well with the headline.\"}",
+      "humor_score": 0.7619358897209167,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the EU's AI regulation team need a mulligan? Because their first attempt was so chaotic, it could have been designed by a neural network that just learned to play golf!",
+      "style": "wordplay",
+      "seed": 210601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.975658595561981,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, uses a surprising analogy (neural network learning golf), and ties back to the EU's AI regulation failure. However, the humor is somewhat mild and the golf reference may not resonate as strongly with all audiences.\"}",
+      "humor_score": 0.9878292977809906,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The EU announced today that they've successfully managed to program a robot... to fill out bureaucratic paperwork.",
+      "style": "deadpan understatement",
+      "seed": 210604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.685828530788422,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Surprising twist on AI regulation, concise and specific with a touch of irony.\"}",
+      "humor_score": 0.6429142653942108,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the EU's AI regulation effort need a reboot? Because when it came to regulations, they kept getting tangled up in their own algorithms!",
+      "style": "topical punchline",
+      "seed": 210605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.172872376441956,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant and uses a play on words with 'algorithms' and 'tangled up,' but the humor feels a bit forced and lacks specificity about the EU's AI regulation issues.\"}",
+      "humor_score": 0.9864361882209778,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The EU decided to regulate AI using a team of untrained, mischievous house cats. Needless to say, chaos ensued and now we have purr-fectly legal selfie-taking toasters!",
+      "style": "absurd literalism",
+      "seed": 210603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.8051273941993715,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the cat twist and 'purr-fectly legal' pun, but it's a bit forced and lacks specificity in how the EU botched regulation. The toaster detail feels disconnected from the main topic.\"}",
+      "humor_score": 0.8025636970996857,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

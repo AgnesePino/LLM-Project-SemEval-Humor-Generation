@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2067",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "In times of sweeping change, clarity matters most.",
+    "raw": {
+      "id": "en_2067",
+      "word1": "-",
+      "word2": "-",
+      "headline": "In times of sweeping change, clarity matters most."
+    }
+  },
+  "winner": "A man walks into a bar during times of sweeping change and orders a glass of clarity. The bartender asks, \"What's that?\" The man replies, \"Just a simple drink to help me navigate this confusing era.\" After a moment, he takes a sip and suddenly starts seeing in reverse. He hands the glass back to the bartender and says, \"I think I ordered my clarity on the rocks... with a twist!",
+  "candidates": [
+    {
+      "text": "Why did the windshield wiper go to therapy? Because in times of sweeping change, even the wipers need clarity!",
+      "style": "wordplay",
+      "seed": 269601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.785559642314912,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'sweeping change' and 'clarity' are clever and specific, with a natural flow that ties back to the headline.\"}",
+      "humor_score": 0.9927798211574554,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the chameleon so confused during a political debate? Because in times of sweeping change, even his ability to blend in didn't help him understand who's blurting what!",
+      "style": "topical punchline",
+      "seed": 269605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.534286437034606,
+      "judge_score": 8.2,
+      "judge_raw": "\n\n{\"score\": 8.2, \"reason\": \"Surprising twist with the chameleon in a political debate, good specificity and relevance to the headline.\"}",
+      "humor_score": 0.9871432185173035,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A man walks into a bar during times of sweeping change and orders a glass of clarity. The bartender asks, \"What's that?\" The man replies, \"Just a simple drink to help me navigate this confusing era.\" After a moment, he takes a sip and suddenly starts seeing in reverse. He hands the glass back to the bartender and says, \"I think I ordered my clarity on the rocks... with a twist!",
+      "style": "reversal",
+      "seed": 269602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.974520921707153,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a good twist at the end, but the setup could be more concise and the humor slightly forced in parts.\"}",
+      "humor_score": 0.9872604608535767,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A man walks into a bar during a storm, asking for something clear. The bartender replies, \"I'm sorry sir, we've only got a sweeping cleaner and some change.",
+      "style": "absurd literalism",
+      "seed": 269603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.185116481781006,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke has some wordplay with 'sweeping change' and 'clear,' but the connection to the headline is weak and the punchline feels forced.\"}",
+      "humor_score": 0.9925582408905029,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In times of sweeping change, even a broom can't help but ponder the importance of having a dustpan.",
+      "style": "deadpan understatement",
+      "seed": 269604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.433836829662323,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the personification of a broom, but it feels slightly forced and lacks strong surprise or specificity. The connection to the headline's message about clarity is weak.\"}",
+      "humor_score": 0.1169184148311615,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

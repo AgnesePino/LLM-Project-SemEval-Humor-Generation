@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2142",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "How Cold War foes became close colleagues — until toilets got in the way",
+    "raw": {
+      "id": "en_2142",
+      "word1": "-",
+      "word2": "-",
+      "headline": "How Cold War foes became close colleagues — until toilets got in the way"
+    }
+  },
+  "winner": "Why did the Cold War rivals refuse to high-five? They were afraid they might touch each other's toilet seats.",
+  "candidates": [
+    {
+      "text": "Why did former Cold War adversaries struggle to become best friends? Because their ideological differences were flushed down the drain... literally!",
+      "style": "reversal",
+      "seed": 344602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.513234553337096,
+      "judge_score": 8.2,
+      "judge_raw": "\n\n{\"score\": 8.2, \"reason\": \"Puns on 'flushed down the drain' tie ideology to toilets humorously; concise and specific, with a surprising twist.\"}",
+      "humor_score": 0.9766172766685486,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the former Cold War enemies have a spat at the United Nations? Because they couldn't agree on whose turn it was to flush the Soviet toilet paper!",
+      "style": "wordplay",
+      "seed": 344601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.188068819046021,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and has a mild surprise element, but the humor feels forced and relies on an awkward premise (toilet paper in the UN). It lacks natural flow and broader comedic appeal.\"}",
+      "humor_score": 0.9940344095230103,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Cold War rivals refuse to high-five? They were afraid they might touch each other's toilet seats.",
+      "style": "topical punchline",
+      "seed": 344605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.183870148658753,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and ties the headline's theme to a humorous situation, but the connection between Cold War rivals and toilet seats feels forced and lacks specificity. The humor is mild and relies on a common bathroom joke rather than a clever twist.\"}",
+      "humor_score": 0.9919350743293762,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Soviet and American astronauts have trouble becoming friends during spacewalks? Because they couldn't see eye to eye due to the international differences in toilet standards!",
+      "style": "absurd literalism",
+      "seed": 344603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    },
+    {
+      "text": "When it comes to diplomacy, there's nothing that can flush relations faster than a disagreement over toilet paper brands.",
+      "style": "deadpan understatement",
+      "seed": 344604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

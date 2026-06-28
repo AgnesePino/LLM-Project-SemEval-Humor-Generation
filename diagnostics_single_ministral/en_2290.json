@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2290",
+    "kind": "word_inclusion",
+    "word1": "wash",
+    "word2": "bicycle",
+    "headline": null,
+    "raw": {
+      "id": "en_2290",
+      "word1": "wash",
+      "word2": "bicycle",
+      "headline": "-"
+    }
+  },
+  "winner": "Why did the bicycle wash its hands before dinner? Because it didn't want to get greased up!",
+  "candidates": [
+    {
+      "text": "Why did the bicycle wash its hands before dinner? Because it didn't want to get greased up!",
+      "style": "reversal",
+      "seed": 492602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192300629615784,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses both required words and has a basic pun, but the humor is weak and predictable with little surprise or depth.\"}",
+      "humor_score": 0.9961503148078918,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the bicycle go to wash its hands? Because it wanted to keep clean and grease-free!",
+      "style": "wordplay",
+      "seed": 492601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.183387708663941,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"Includes required words, is concise and specific, but the humor is somewhat predictable and lacks deeper surprise or cleverness.\"}",
+      "humor_score": 0.9916938543319702,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the bicycle take a bath? Because it was two-tired!",
+      "style": "absurd literalism",
+      "seed": 492603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:wash"
+    },
+    {
+      "text": "I just found a new way to recycle my old bicycles. Now, they're all in the washing machine.",
+      "style": "deadpan understatement",
+      "seed": 492604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:wash,bicycle"
+    },
+    {
+      "text": "Why did the bicycle take a bath? Because it was feeling a little greasy!",
+      "style": "topical punchline",
+      "seed": 492605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:wash"
+    }
+  ]
+}

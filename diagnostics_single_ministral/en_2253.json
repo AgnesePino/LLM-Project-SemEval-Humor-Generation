@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2253",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Ambassador offers Japanese PM ‘unshakeable’ support after Beijing imposes economic measures",
+    "raw": {
+      "id": "en_2253",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Ambassador offers Japanese PM ‘unshakeable’ support after Beijing imposes economic measures"
+    }
+  },
+  "winner": "The Japanese Prime Minister, after offering the Ambassador an \"unshakable\" friendship, casually mentioned, \"But if things get tough, don't forget I can always call China for some 'shakeable' support!",
+  "candidates": [
+    {
+      "text": "Why did the ambassador bring a jello mold to the meeting with the Japanese PM? Because he wanted to offer \"unshakeable\" support in every wobble!",
+      "style": "wordplay",
+      "seed": 455601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.36727991104126,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, uses a surprising metaphor (jello mold for 'unshakeable' support), and ties directly to the headline with specificity and wordplay.\"}",
+      "humor_score": 0.9836399555206299,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the ambassador bring a shaker to dinner with the prime minister? Because he wanted to offer 'unshakeable' support!",
+      "style": "absurd literalism",
+      "seed": 455603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.944563567638397,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, uses wordplay on 'unshakeable' and 'shaker,' and ties into the headline. However, it lacks deeper specificity to the context of the economic measures or the relationship between the countries involved.\"}",
+      "humor_score": 0.9722817838191986,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't ambassadors ever play Jenga with the Prime Minister? Because they always offer unshakeable support!",
+      "style": "topical punchline",
+      "seed": 455605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.179153513908386,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and the connection between Jenga and economic measures is weak.\"}",
+      "humor_score": 0.9895767569541931,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The Japanese Prime Minister, after offering the Ambassador an \"unshakable\" friendship, casually mentioned, \"But if things get tough, don't forget I can always call China for some 'shakeable' support!",
+      "style": "reversal",
+      "seed": 455602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.913712251186372,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'unshakeable' vs. 'shakeable' are clever and specific to the headline, with a surprising twist that ties back to the context of economic measures from Beijing.\"}",
+      "humor_score": 0.056856125593185425,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The Ambassador promised the Japanese Prime Minister a handshake-able support, but sadly it seems even his grip can't withstand Beijing's economic measures.",
+      "style": "deadpan understatement",
+      "seed": 455604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.23924161195755,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke plays on 'unshakeable' with 'handshake-able,' which is a clever twist. However, the second part about the grip not withstanding economic measures feels slightly forced and less impactful.\"}",
+      "humor_score": 0.019620805978775024,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2123",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "One Tech Tip: Do’s and don’ts of using AI to help with schoolwork",
+    "raw": {
+      "id": "en_2123",
+      "word1": "-",
+      "word2": "-",
+      "headline": "One Tech Tip: Do’s and don’ts of using AI to help with schoolwork"
+    }
+  },
+  "winner": "Why did the student bring an AI to the test? Because they heard it was programmed to ace exams and never cheat... or so they thought! It turns out AI just can't resist a little \"AI-dentity theft\" every now and then.",
+  "candidates": [
+    {
+      "text": "Why did the student bring an AI to the test? Because they heard it was programmed to ace exams and never cheat... or so they thought! It turns out AI just can't resist a little \"AI-dentity theft\" every now and then.",
+      "style": "wordplay",
+      "seed": 325601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.384115660190583,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on 'AI-dentity theft' are clever and specific, delivering a surprise twist. The joke is concise, natural, and ties directly to the topic of AI use in schoolwork.\"}",
+      "humor_score": 0.9920578300952911,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the homework so frustrated with its new teacher's assistant? Because it kept suggesting it use AI instead of studying!",
+      "style": "reversal",
+      "seed": 325602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191055130958557,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant to the topic but lacks specificity and surprise. It's a basic pun that feels generic and doesn't fully engage with the tech tip theme.\"}",
+      "humor_score": 0.9955275654792786,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the student bring a hamster to their online class? Because he heard AI can help with schoolwork and he thought it was a pet-project!",
+      "style": "absurd literalism",
+      "seed": 325603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1909985661506655,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'pet-project,' but it's a bit forced and lacks specificity in connecting the hamster to AI assistance for schoolwork.\"}",
+      "humor_score": 0.9954992830753326,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why should you avoid using AI for schoolwork? Because even the smartest AI can't replace a teacher's stern glare when you haven't done your homework.",
+      "style": "deadpan understatement",
+      "seed": 325604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.17525703907013,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and uses a relatable scenario, but the humor is mild and relies on a predictable contrast between AI and teachers. It lacks surprise and feels slightly forced in its attempt to be funny.\"}",
+      "humor_score": 0.9876285195350647,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the student bring a broom to school? To sweep away all those pesky AI-generated answers!",
+      "style": "topical punchline",
+      "seed": 325605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.159005236625672,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the connection between a broom and AI-generated answers feels weak and forced, reducing its overall humor impact.\"}",
+      "humor_score": 0.9795026183128357,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

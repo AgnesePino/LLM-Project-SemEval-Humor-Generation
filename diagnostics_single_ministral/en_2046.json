@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2046",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "What is life like living permanently on board a cruise ship?",
+    "raw": {
+      "id": "en_2046",
+      "word1": "-",
+      "word2": "-",
+      "headline": "What is life like living permanently on board a cruise ship?"
+    }
+  },
+  "winner": "Living permanently on a cruise ship is just like being stuck in a perpetual buffet line - the views are always changing, but you're still serving yourself the same meals every day!",
+  "candidates": [
+    {
+      "text": "How's life on that permanent cruise ship? Well, they say it's always smooth seas ahead - except when the entertainment director decides to take up sailing lessons!",
+      "style": "wordplay",
+      "seed": 248601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.952280223369598,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, specific, and includes a surprising twist with the entertainment director taking sailing lessons. However, it could be more original and impactful.\"}",
+      "humor_score": 0.9761401116847992,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Living permanently on a cruise ship is just like being stuck in a perpetual buffet line - the views are always changing, but you're still serving yourself the same meals every day!",
+      "style": "reversal",
+      "seed": 248602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.717936336994171,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, uses a relatable analogy (buffet line), and provides a specific twist with the 'same meals every day' part. However, it lacks some surprise and could be more original.\"}",
+      "humor_score": 0.8589681684970856,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Living permanently on a cruise ship feels just like being stuck in an endless buffet line - the scenery changes, but you're still trapped indoors.",
+      "style": "deadpan understatement",
+      "seed": 248604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.367170333862305,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, specific, and uses a relatable analogy (buffet line) to highlight the monotony of life on a cruise ship. However, it lacks some surprise and could be more original.\"}",
+      "humor_score": 0.6835851669311523,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the sailor refuse to get off the cruise ship? Because he was afraid of dock-a-phobia!",
+      "style": "topical punchline",
+      "seed": 248605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1917116165161135,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'dock-a-phobia,' but it's a bit forced and lacks specificity about life on a cruise ship. The humor is mild and not fully aligned with the headline's context.\"}",
+      "humor_score": 0.9958558082580566,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the sailor become a permanent resident of the cruise ship instead of a dock? Because he was tired of being tied down!",
+      "style": "absurd literalism",
+      "seed": 248603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190926742553711,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'tied down,' but it's a bit generic and lacks specificity about life on a cruise ship. The humor is mild and could be more surprising.\"}",
+      "humor_score": 0.9954633712768555,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

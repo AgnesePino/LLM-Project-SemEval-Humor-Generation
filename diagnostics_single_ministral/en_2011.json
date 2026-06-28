@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2011",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Is it okay if I don’t love my partner all the time?",
+    "raw": {
+      "id": "en_2011",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Is it okay if I don’t love my partner all the time?"
+    }
+  },
+  "winner": "Why did the relationship go through a rough patch during the winter? Because it couldn't stand the cold shoulder.",
+  "candidates": [
+    {
+      "text": "Why did the partner refuse a refund for their broken clock? Because time heals all love... even when it's not ticking!",
+      "style": "wordplay",
+      "seed": 213601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192996335029602,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks direct connection and clarity. The pun on 'time heals all love' is a bit forced and doesn't clearly tie back to the theme of not loving a partner all the time.\"}",
+      "humor_score": 0.996498167514801,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the partner apply for a job at the bakery? Because they needed someone who didn't have to love the dough all the time.",
+      "style": "deadpan understatement",
+      "seed": 213604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189762544631958,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'love the dough,' but it's a bit forced and lacks emotional depth. The setup could be more engaging, and the punchline feels slightly generic.\"}",
+      "humor_score": 0.994881272315979,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the partner get upset when asked about love? Because he thought they were on a break!",
+      "style": "reversal",
+      "seed": 213602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.187947225570679,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the setup is a bit weak and the punchline relies on a misunderstanding that feels forced.\"}",
+      "humor_score": 0.9939736127853394,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the relationship go through a rough patch during the winter? Because it couldn't stand the cold shoulder.",
+      "style": "topical punchline",
+      "seed": 213605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.175426435470581,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'cold shoulder,' but it's a bit generic and lacks specificity. The setup could be more engaging, and the humor feels slightly forced.\"}",
+      "humor_score": 0.9877132177352905,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the square feel unloved sometimes? Because it didn't always meet all four corners of its partner.",
+      "style": "absurd literalism",
+      "seed": 213603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.160672557353974,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the shape metaphor, but the punchline is a bit forced and lacks clarity. The connection between 'not loving all the time' and the square not meeting all four corners is weak and may not land well for most audiences.\"}",
+      "humor_score": 0.9803362786769867,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

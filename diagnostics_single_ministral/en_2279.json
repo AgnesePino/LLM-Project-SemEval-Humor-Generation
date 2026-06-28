@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2279",
+    "kind": "word_inclusion",
+    "word1": "spray",
+    "word2": "fridge",
+    "headline": null,
+    "raw": {
+      "id": "en_2279",
+      "word1": "spray",
+      "word2": "fridge",
+      "headline": "-"
+    }
+  },
+  "winner": "Why did the can of spray paint move across the kitchen floor? It was attracted to the fridge magnet.",
+  "candidates": [
+    {
+      "text": "Why did the can of spray paint refuse to go into the fridge? Because it preferred a chilly garage, not a cold refrigerator!",
+      "style": "absurd literalism",
+      "seed": 481603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.193279397487641,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses the required words and has a basic pun, but the humor is weak and the setup feels forced. The surprise element is minimal, and the punchline lacks originality.\"}",
+      "humor_score": 0.9966396987438202,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the tomato apply for a job at the fridge? Because it wanted to be chilled and ready to be spray-peened!",
+      "style": "reversal",
+      "seed": 481602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192513597011566,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"Includes required words but the joke is somewhat forced and the connection between 'spray-peened' and a fridge is unclear, reducing surprise and funniness.\"}",
+      "humor_score": 0.9962567985057831,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the can of spray paint move across the kitchen floor? It was attracted to the fridge magnet.",
+      "style": "deadpan understatement",
+      "seed": 481604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191702020168305,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses both required words and has a basic setup with a twist, but the humor is weak and the connection between spray paint and a fridge magnet feels forced and not particularly surprising.\"}",
+      "humor_score": 0.9958510100841522,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the fridge humming? Because it couldn't stop spray-singing!",
+      "style": "wordplay",
+      "seed": 481601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189597022533417,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses the required words but relies on a somewhat forced pun ('spray-singing') that lacks clarity and natural flow.\"}",
+      "humor_score": 0.9947985112667084,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the fridge upset at the party? Because someone accidentally sprayed it with whipped cream!",
+      "style": "topical punchline",
+      "seed": 481605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:spray"
+    }
+  ]
+}

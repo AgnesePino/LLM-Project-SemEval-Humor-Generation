@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2088",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "So long, plastic wet wipes - but should we be flushing the new ones?",
+    "raw": {
+      "id": "en_2088",
+      "word1": "-",
+      "word2": "-",
+      "headline": "So long, plastic wet wipes - but should we be flushing the new ones?"
+    }
+  },
+  "winner": "Why are new wet wipes like a stubborn houseguest? Because no matter how many times you flush them, they just won't go down the drain!",
+  "candidates": [
+    {
+      "text": "Why are new wet wipes like a stubborn houseguest? Because no matter how many times you flush them, they just won't go down the drain!",
+      "style": "topical punchline",
+      "seed": 290605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.793061840534211,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, surprising, and specific to the topic of wet wipes. It uses a relatable analogy (a stubborn houseguest) in a clever way that ties back to the headline's question about flushing new wipes.\"}",
+      "humor_score": 0.9965309202671051,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the plastic wet wipe start a band? Because it wanted to flush its hits down the toilet.",
+      "style": "absurd literalism",
+      "seed": 290603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.193362605571747,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the topic, but the pun on 'flush its hits' is a bit forced and not particularly funny.\"}",
+      "humor_score": 0.9966813027858734,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the plastic wet wipe refuse to flush itself? Because it's worried it might start a paper revolution!",
+      "style": "reversal",
+      "seed": 290602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191440951824188,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the 'paper revolution' pun, but it's a bit forced and lacks specificity to the headline's context about new wet wipes.\"}",
+      "humor_score": 0.9957204759120941,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't they call sewers the \"Great Flushers\"? Because now, even wet wipes are joining in!",
+      "style": "wordplay",
+      "seed": 290601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.187479448318482,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and surprise. It's a mild pun that doesn't fully tie into the context of wet wipes or sewers.\"}",
+      "humor_score": 0.9937397241592407,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A man walks into a restroom, sees a sign that reads \"No more plastic wet wipes,\" and mutters, \"I guess now we'll just have to be cleaner than ever.",
+      "style": "deadpan understatement",
+      "seed": 290604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.17067266702652,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'cleaner than ever,' but it lacks specificity and surprise. The setup is generic and doesn't fully tie into the headline's focus on new wipes or flushing them.\"}",
+      "humor_score": 0.9853363335132599,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

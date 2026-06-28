@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2207",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "What does your graduate scheme goody bag say about you?",
+    "raw": {
+      "id": "en_2207",
+      "word1": "-",
+      "word2": "-",
+      "headline": "What does your graduate scheme goody bag say about you?"
+    }
+  },
+  "winner": "A graduate's goody bag? More like a crystal ball predicting a lifetime of corporate swag!",
+  "candidates": [
+    {
+      "text": "What does an empty grad scheme goody bag say about you? It screams \"I've got my own lunchbox... and dreams!",
+      "style": "reversal",
+      "seed": 409602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.792443144321442,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Funny and concise with a clever twist on the expectation of goody bags, showing creativity and specificity.\"}",
+      "humor_score": 0.9962215721607208,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Your goody bag contained a diplomasaur plushie? I guess you're prehistorically employable.",
+      "style": "deadpan understatement",
+      "seed": 409604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.776470470428468,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative wordplay with 'prehistorically employable' and a specific, relatable image of a diplomasaur plushie.\"}",
+      "humor_score": 0.9882352352142334,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A graduate's goody bag? More like a crystal ball predicting a lifetime of corporate swag!",
+      "style": "topical punchline",
+      "seed": 409605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.497798132896424,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist with 'crystal ball' and 'corporate swag,' concise and specific to the headline.\"}",
+      "humor_score": 0.8488990664482117,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A graduate's goody bag says, \"I came first in free giveaways.",
+      "style": "wordplay",
+      "seed": 409601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.557167363166809,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'came first' and 'free giveaways,' but it lacks specificity and feels a bit generic. The humor is mild and could be more surprising or refined.\"}",
+      "humor_score": 0.6785836815834045,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A graduate's swag bag reveals they value a well-stocked office fridge more than a solid education.",
+      "style": "absurd literalism",
+      "seed": 409603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.710389983654022,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the humor feels a bit forced and relies on a niche premise (graduate swag bags). It lacks broader relatability and punch.\"}",
+      "humor_score": 0.2551949918270111,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

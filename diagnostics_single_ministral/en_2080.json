@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2080",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "The AI Shift: Do we prefer talking to machines rather than each other?",
+    "raw": {
+      "id": "en_2080",
+      "word1": "-",
+      "word2": "-",
+      "headline": "The AI Shift: Do we prefer talking to machines rather than each other?"
+    }
+  },
+  "winner": "Why did the machine decide to go on a date instead of chatting with humans? Because it found human conversation to be one-sided and prefers AI, where both parties always listen without interruption!",
+  "candidates": [
+    {
+      "text": "Why did the machine decide to go on a date instead of chatting with humans? Because it found human conversation to be one-sided and prefers AI, where both parties always listen without interruption!",
+      "style": "reversal",
+      "seed": 282602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.962253928184509,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, uses a pun on 'AI' and 'listen without interruption,' and ties back to the headline's theme. However, it lacks deeper surprise and could be more specific in its humor.\"}",
+      "humor_score": 0.9811269640922546,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the machine join a conversation group? Because it found human chatter more engaging than its own circuitry!",
+      "style": "absurd literalism",
+      "seed": 282603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1897643327713014,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'circuitry' and 'chatter,' but it lacks specificity and feels a bit generic. The setup could be more surprising, and the punchline doesn't fully land due to vague phrasing.\"}",
+      "humor_score": 0.9948821663856506,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't people talk to each other anymore? Because they're too busy chatting up The AI Shift!",
+      "style": "wordplay",
+      "seed": 282601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.188984227180481,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks originality and surprise. It's a mild play on words but doesn't fully engage with the topic of preferring machines over people.\"}",
+      "humor_score": 0.9944921135902405,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the human join a conversation with two AIs? To break the monotony of talking to just one AI.",
+      "style": "deadpan understatement",
+      "seed": 282604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.187622439861298,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the twist of preferring machines over humans, but it's a bit generic and lacks specificity. The humor is mild and relies on a predictable setup.\"}",
+      "humor_score": 0.9938112199306488,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the person sit down for a chat with Siri instead of their friend? Because they found the AI shift less draining!",
+      "style": "topical punchline",
+      "seed": 282605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.186062586307526,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'AI shift' and 'draining,' but it's a bit generic and lacks specificity. The setup could be more surprising, and the humor feels slightly forced.\"}",
+      "humor_score": 0.9930312931537628,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

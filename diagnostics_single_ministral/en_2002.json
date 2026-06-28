@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2002",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Carra: Liverpool must sign in January - even after summer spending spree",
+    "raw": {
+      "id": "en_2002",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Carra: Liverpool must sign in January - even after summer spending spree"
+    }
+  },
+  "winner": "Why did Carra suggest Liverpool buy more cars in January, even after their summer carnival of spending? Because apparently, they were still in need of a \"spree-change\"!",
+  "candidates": [
+    {
+      "text": "Why did Liverpool's wallet go on a diet after their summer spending spree? Because Carra said they must sign in January too!",
+      "style": "topical punchline",
+      "seed": 204605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.975643455982208,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, uses a pun on 'diet' and 'spending spree,' and ties in the specific context of Liverpool and Carra. However, it lacks some surprise and could be more specific about why January signings are needed.\"}",
+      "humor_score": 0.9878217279911041,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Liverpool's wallet say \"January\" after its summer spending spree? Because it was already feeling a little Carra-load!",
+      "style": "wordplay",
+      "seed": 204601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191829514503479,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the wordplay on 'Carra-load,' but it's a bit forced and not fully aligned with the headline's context. The humor is mild and lacks strong surprise or specificity.\"}",
+      "humor_score": 0.9959147572517395,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Carra suggest Liverpool buy more cars in January, even after their summer carnival of spending? Because apparently, they were still in need of a \"spree-change\"!",
+      "style": "absurd literalism",
+      "seed": 204603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.079840910434723,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'spree-change,' but it's a bit forced and lacks natural flow. The reference to 'summer carnival of spending' is vague and doesn't clearly tie back to the headline. It could be more specific and punchier.\"}",
+      "humor_score": 0.9399204552173615,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Carra recommend against a signing in January, even after Liverpool's summer shopping spree? Because he figured they already had enough bags from their spending!",
+      "style": "reversal",
+      "seed": 204602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.979294073581696,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'bags' from shopping, but it's a bit forced and lacks specificity to the context of football transfers. The surprise element is weak, and the humor could be more tightly tied to the headline.\"}",
+      "humor_score": 0.8896470367908478,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Liverpool's budget for winter coats must also be increased - even after their summer spending spree on scarves and hats.",
+      "style": "deadpan understatement",
+      "seed": 204604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.248030495643616,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the winter coat metaphor, but it's a bit forced and lacks the punch of a more surprising twist. It's specific to the context but doesn't fully land due to its generic setup.\"}",
+      "humor_score": 0.02401524782180786,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

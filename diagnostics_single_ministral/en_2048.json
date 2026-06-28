@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2048",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Group words that share a common thread.",
+    "raw": {
+      "id": "en_2048",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Group words that share a common thread."
+    }
+  },
+  "winner": "Why did the words refuse to participate in the group activity? Because they insisted on going their own way, even though they shared a common thread!",
+  "candidates": [
+    {
+      "text": "Why did the words refuse to participate in the group activity? Because they insisted on going their own way, even though they shared a common thread!",
+      "style": "reversal",
+      "seed": 250602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.350816333293915,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on 'common thread' and 'going their own way' are clever and specific, with a good surprise factor.\"}",
+      "humor_score": 0.9754081666469574,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the dictionary go to jail? Because it kept stealing all the other words' prefixes and suffixes.",
+      "style": "absurd literalism",
+      "seed": 250603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191501331329346,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'stealing prefixes and suffixes,' but it's a bit forced and lacks specificity in connecting to the headline about grouping words. It also feels slightly generic compared to more concise and surprising alternatives.\"}",
+      "humor_score": 0.9957506656646729,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the lexicographer bring a ladder to the picnic? To reach for unusual word combinations!",
+      "style": "topical punchline",
+      "seed": 250605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.186843764781952,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the ladder and picnic setup, but the connection to 'unusual word combinations' feels a bit forced and less specific to the headline's request for grouping words with a common thread.\"}",
+      "humor_score": 0.993421882390976,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the synonyms form a club? Because they shared a common bond.",
+      "style": "wordplay",
+      "seed": 250601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1830482006073,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'common bond' and 'synonyms,' but it's a bit generic and lacks surprise or specificity. The setup could be more engaging.\"}",
+      "humor_score": 0.9915241003036499,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the words break up? Because they couldn't stand being grouped together anymore.",
+      "style": "deadpan understatement",
+      "seed": 250604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.178520154953003,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'grouped together,' but it lacks specificity and the surprise element is weak. The explanation feels forced and doesn't fully align with the headline's request for grouping words with a common thread.\"}",
+      "humor_score": 0.9892600774765015,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

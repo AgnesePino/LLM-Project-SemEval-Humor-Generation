@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2095",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Is modular construction the answer to the housing crisis",
+    "raw": {
+      "id": "en_2095",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Is modular construction the answer to the housing crisis"
+    }
+  },
+  "winner": "A builder was asked if modular construction is the answer to the housing crisis and he replied, \"Well, I guess we'll find out once we start putting up the wrong houses in the right places!",
+  "candidates": [
+    {
+      "text": "In a world where Lego sets have become increasingly expensive, modular construction might just be the solution to our financial crisis... one brick at a time.",
+      "style": "deadpan understatement",
+      "seed": 297604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.243029201030732,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, surprising, and specific, drawing a clever parallel between Lego sets and modular construction while addressing both the housing and financial crises with humor.\"}",
+      "humor_score": 0.9215146005153656,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In a twist of fate, it seems our carpenter friends have been upgraded to architects! It's as if Lego blocks have grown up and decided to build your dream homes! Welcome to the modular housing revolution!",
+      "style": "wordplay",
+      "seed": 297601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.866522359848023,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative comparison to Lego blocks adds a surprising and specific twist, with playful language that aligns well with the topic.\"}",
+      "humor_score": 0.5332611799240112,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A carpenter, plumber, electrician, and bricklayer walked into a bar. The bartender asked, \"What is this motley crew doing here?\" The carpenter said, \"We're modular construction, and we've come to assemble a house right over the barstools.",
+      "style": "absurd literalism",
+      "seed": 297603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.178748679161072,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke has a decent setup with the tradespeople walking into a bar, but the punchline feels forced and doesn't clearly tie back to modular construction or the housing crisis. It lacks surprise and specificity.\"}",
+      "humor_score": 0.9893743395805359,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't we solve the housing crisis with Lego blocks? Because even a child knows that stacking tiny bricks isn't a foundation for a home!",
+      "style": "topical punchline",
+      "seed": 297605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.11861242055893,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the Lego comparison, but it's a bit generic and lacks specificity in addressing modular construction. The humor is mild and relies on a simple pun rather than deeper insight.\"}",
+      "humor_score": 0.9593062102794647,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A builder was asked if modular construction is the answer to the housing crisis and he replied, \"Well, I guess we'll find out once we start putting up the wrong houses in the right places!",
+      "style": "reversal",
+      "seed": 297602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1144806265830995,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke has a mild twist with the misplacement of houses, but it lacks specificity and the surprise element is weak. The humor is somewhat generic and could be more tightly focused on modular construction's specifics.\"}",
+      "humor_score": 0.9572403132915497,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2109",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "‘A different vibe’: New York welcomes the luxury private cinema experience",
+    "raw": {
+      "id": "en_2109",
+      "word1": "-",
+      "word2": "-",
+      "headline": "‘A different vibe’: New York welcomes the luxury private cinema experience"
+    }
+  },
+  "winner": "A group of New Yorkers, tired of the crowds and noise, decided to welcome a herd of silent cows into their city. \"A different vibe\" indeed! Now they have a luxury private cinema experience where you can watch the latest blockbusters with a backdrop of grazing bovines.",
+  "candidates": [
+    {
+      "text": "In New York, they're now offering a luxury private cinema experience. I guess that means if you get popcorn on your Gucci suit, they won't kick you out - they'll just charge you for dry cleaning.",
+      "style": "deadpan understatement",
+      "seed": 311604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.35518982410431,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, specific, and uses a surprising twist on luxury service in New York. It ties well with the headline and uses relatable imagery (Gucci suit and dry cleaning) for humor.\"}",
+      "humor_score": 0.9775949120521545,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't they play movies at a luxurious private cinema in New York? Because it has its own unique reel-y vibe!",
+      "style": "wordplay",
+      "seed": 311601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.827109408378601,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses a pun on 'reel' and 'vibe,' which is somewhat clever, but the setup is weak and the humor feels forced. It doesn't fully align with the headline's context or deliver much surprise.\"}",
+      "humor_score": 0.8135547041893005,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In New York, they're creating a whole new dimension for movie-goers... Now you can pay an arm and a leg just to see your own reflection on the popcorn bucket!",
+      "style": "topical punchline",
+      "seed": 311605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.635607194900513,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the context of luxury cinemas, but the humor feels a bit forced and the punchline doesn't fully land due to awkward phrasing.\"}",
+      "humor_score": 0.7178035974502563,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The mayor of New York, upon hearing about the new luxury private cinema, declared, \"From now on, we're renaming Central Park as a 'different vibe' communal cinema experience.",
+      "style": "reversal",
+      "seed": 311602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.029038310050964,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever and specific, playing on the headline's phrase 'a different vibe' by reimagining Central Park as a cinema. It’s surprising and ties well to the context, though it could be more concise.\"}",
+      "humor_score": 0.014519155025482178,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A group of New Yorkers, tired of the crowds and noise, decided to welcome a herd of silent cows into their city. \"A different vibe\" indeed! Now they have a luxury private cinema experience where you can watch the latest blockbusters with a backdrop of grazing bovines.",
+      "style": "absurd literalism",
+      "seed": 311603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.984837365150452,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the connection between silent cows and a luxury cinema experience feels forced and lacks natural flow.\"}",
+      "humor_score": 0.39241868257522583,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

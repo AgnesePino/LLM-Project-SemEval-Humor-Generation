@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2238",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "How to connect with old friends and why it matters",
+    "raw": {
+      "id": "en_2238",
+      "word1": "-",
+      "word2": "-",
+      "headline": "How to connect with old friends and why it matters"
+    }
+  },
+  "winner": "Why reconnect with old friends? Because they're the ones who know your \"old\" passwords!",
+  "candidates": [
+    {
+      "text": "Why try to reconnect with old friends? Because you can't add new memories to your phone's contacts app.",
+      "style": "deadpan understatement",
+      "seed": 440604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.580586910247803,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever and specific, drawing a humorous comparison between reconnecting with friends and adding contacts to a phone. It's concise and surprising, though the humor is somewhat subtle and may not resonate as strongly with all audiences.\"}",
+      "humor_score": 0.7902934551239014,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the old friend text you after all these years? Because they heard your phone number was finally on Facebook Marketplace!",
+      "style": "topical punchline",
+      "seed": 440605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192122828960419,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the connection to Facebook Marketplace feels forced and not clearly tied to reconnecting with old friends.\"}",
+      "humor_score": 0.9960614144802094,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the old friend need a step ladder to reconnect? Because they hadn't spoken in so long that they were out of each other's social network!",
+      "style": "absurd literalism",
+      "seed": 440603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.17026538848877,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the step ladder metaphor, but it lacks specificity and feels a bit forced. The connection to social networks is a modern touch, but the punchline could be tighter for maximum impact.\"}",
+      "humor_score": 0.9851326942443848,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the old friend refuse to reconnect? Because he didn't want to reminisce about their college days - they were too broke to afford social media back then!",
+      "style": "reversal",
+      "seed": 440602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.146978569030762,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the setup could be tighter for maximum impact. The punchline works but feels a bit forced in context.\"}",
+      "humor_score": 0.9734892845153809,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why reconnect with old friends? Because they're the ones who know your \"old\" passwords!",
+      "style": "wordplay",
+      "seed": 440601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.932953667640686,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the connection to passwords feels forced and not fully aligned with the headline's message about emotional or social reconnection.\"}",
+      "humor_score": 0.866476833820343,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

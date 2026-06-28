@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2257",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Wales to host Bosnia in World Cup qualifying play-off semi-final",
+    "raw": {
+      "id": "en_2257",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Wales to host Bosnia in World Cup qualifying play-off semi-final"
+    }
+  },
+  "winner": "In Wales, the locals are already planning their national costume for the upcoming play-off: a traditional dragon hoodie and a 'We're Bosnia' t-shirt.",
+  "candidates": [
+    {
+      "text": "In Wales, sheep are now being trained for penalty shootouts in preparation for their World Cup qualifier against Bosnia... after all, they've been honing their aim for centuries!",
+      "style": "absurd literalism",
+      "seed": 459603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.636167573928834,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative and specific joke with a clever twist on Welsh sheep training for penalties, ties directly to the headline, and is concise and surprising.\"}",
+      "humor_score": 0.4180837869644165,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the potato from Wales so excited? Because it's about to face off against Bosnia in the chip qualifying tournament!",
+      "style": "reversal",
+      "seed": 459602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.158688259124756,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the pun on 'chip qualifying tournament,' but it's a bit forced and lacks strong surprise or specificity. The connection between Wales, Bosnia, and potatoes is weak.\"}",
+      "humor_score": 0.9793441295623779,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Bosnia bring a map to the match against Wales? To find the Welsh Dragon!",
+      "style": "topical punchline",
+      "seed": 459605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.156235826015473,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat forced and lacks a clear punchline; the connection between the map and the Welsh Dragon is weak and not particularly surprising or specific.\"}",
+      "humor_score": 0.9781179130077362,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Bosnia bring a map to Wales? To find out where the semi-finals were being held!",
+      "style": "wordplay",
+      "seed": 459601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.101700913906098,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat forced and lacks a clear punchline; the connection between bringing a map and the semi-final location feels weak and generic.\"}",
+      "humor_score": 0.9508504569530487,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Wales, the locals are already planning their national costume for the upcoming play-off: a traditional dragon hoodie and a 'We're Bosnia' t-shirt.",
+      "style": "deadpan understatement",
+      "seed": 459604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.130543828010559,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, specific, and uses a surprising twist with the 'We're Bosnia' t-shirt. It ties in Welsh culture humorously but could be more clearly connected to the context of the World Cup play-off.\"}",
+      "humor_score": 0.06527191400527954,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2086",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Frida Kahlo self-portrait poised to shatter auction records",
+    "raw": {
+      "id": "en_2086",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Frida Kahlo self-portrait poised to shatter auction records"
+    }
+  },
+  "winner": "A self-portrait by Frida Kahlo was poised to break auction records... or, as she put it, \"Just another day in my mirror.",
+  "candidates": [
+    {
+      "text": "A painting says, \"I'm about to break some serious records at the auction.\" The auctioneer replies, \"Well Frida, I hope you're ready to be framed!",
+      "style": "topical punchline",
+      "seed": 288605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.757667708396912,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Playful wordplay on 'framed' with a nod to Kahlo's legacy, concise and specific.\"}",
+      "humor_score": 0.9788338541984558,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A self-portrait by Frida Kahlo was poised to break auction records... or, as she put it, \"Just another day in my mirror.",
+      "style": "deadpan understatement",
+      "seed": 288604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.288389551639558,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Smart wordplay on Kahlo's famous self-portraits and her quote, with a touch of historical specificity and brevity.\"}",
+      "humor_score": 0.7441947758197784,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Frida Kahlo refuse to join a band? Because she was afraid of breaking up the art auction records!",
+      "style": "wordplay",
+      "seed": 288601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189053905010224,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but relies on a weak pun and lacks specificity. The connection between Frida Kahlo joining a band and auction records feels forced.\"}",
+      "humor_score": 0.9945269525051117,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A Frida Kahlo self-portrait was poised to set new records for low self-esteem at garage sales.",
+      "style": "reversal",
+      "seed": 288602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.333307933807373,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the humor relies on a forced pun that feels a bit awkward and doesn't fully align with the headline's context.\"}",
+      "humor_score": 0.06665396690368652,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At the auction, Frida Kahlo said, \"I can't wait to meet my new portrait who is poised to shatter auction records!",
+      "style": "absurd literalism",
+      "seed": 288603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.304118824005127,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the twist of Frida Kahlo referencing her own portrait, but it's a bit forced and lacks punch. It also has a minor grammatical issue ('my new portrait' implies a different portrait, not hers).\"}",
+      "humor_score": 0.05205941200256348,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

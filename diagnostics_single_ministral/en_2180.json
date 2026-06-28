@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2180",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "G20 billionaires could end world poverty in one year's earnings: Oxfam",
+    "raw": {
+      "id": "en_2180",
+      "word1": "-",
+      "word2": "-",
+      "headline": "G20 billionaires could end world poverty in one year's earnings: Oxfam"
+    }
+  },
+  "winner": "Why did the G20 billionaire bring a magnifying glass to the beach? To start a fire big enough to burn away world poverty in just one day's earnings!",
+  "candidates": [
+    {
+      "text": "If you gave a billionaire a dime for every time they said \"I didn't realize I had that much spare change,\" we could end world poverty... and still have enough left over for a Starbucks latte.",
+      "style": "topical punchline",
+      "seed": 382605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.733255851268769,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on the headline with a specific, relatable image (Starbucks latte) and natural humor.\"}",
+      "humor_score": 0.9666279256343842,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "If a beggar found a dollar on the street and declared himself the wealthiest person in the world, would that make G20 billionaires homeless?",
+      "style": "absurd literalism",
+      "seed": 382603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.901641535758973,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on wealth inequality with concise, specific imagery\"}",
+      "humor_score": 0.5508207678794861,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A single coin dropped by one of those G20 billionaires would probably be enough to buy a sandwich for everyone experiencing poverty... if they could find a penny among all those mountains of dollars.",
+      "style": "deadpan understatement",
+      "seed": 382604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.703616380691528,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, surprising, and specific, using a relatable image (a sandwich) to highlight the disparity between wealth and poverty. However, it could be more tightly focused for maximum impact.\"}",
+      "humor_score": 0.8518081903457642,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the G20 billionaire bring a magnifying glass to the beach? To start a fire big enough to burn away world poverty in just one day's earnings!",
+      "style": "wordplay",
+      "seed": 382601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.186073672771454,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline and uses a surprising twist with the magnifying glass. However, it's a bit forced and lacks specificity in connecting the billionaire's action directly to ending world poverty.\"}",
+      "humor_score": 0.9930368363857269,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the billionaire refuse to donate to eradicate world poverty? Because he was waiting for an invitation from the G20!",
+      "style": "reversal",
+      "seed": 382602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.179362845420838,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks surprise and specificity; it's a bit generic and relies on a common trope.\"}",
+      "humor_score": 0.9896814227104187,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

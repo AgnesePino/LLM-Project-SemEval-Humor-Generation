@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2043",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "SpaceX launches second satellite to monitor sea level changes",
+    "raw": {
+      "id": "en_2043",
+      "word1": "-",
+      "word2": "-",
+      "headline": "SpaceX launches second satellite to monitor sea level changes"
+    }
+  },
+  "winner": "SpaceX has launched a new satellite... now they just need to find something for it to watch change besides Elon's hairline.",
+  "candidates": [
+    {
+      "text": "SpaceX has launched a new satellite... now they just need to find something for it to watch change besides Elon's hairline.",
+      "style": "deadpan understatement",
+      "seed": 245604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.744708704948426,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on the headline with a specific, relatable reference to Elon Musk's hairline, which adds humor while staying concise and relevant.\"}",
+      "humor_score": 0.9723543524742126,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did SpaceX launch a second satellite? Because the first one got lost at high tide!",
+      "style": "wordplay",
+      "seed": 245601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191473495960236,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the headline, but 'got lost at high tide' feels a bit forced and lacks natural humor flow.\"}",
+      "humor_score": 0.9957367479801178,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did SpaceX send a satellite to watch the tide pool at low tide? Because they wanted to monitor the low-level changes in the galaxy!",
+      "style": "absurd literalism",
+      "seed": 245603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.172064018249512,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative but the connection between monitoring sea levels and 'low-level changes in the galaxy' feels forced and lacks specificity. The pun on 'low tide' and 'low-level changes' is weak and not particularly surprising.\"}",
+      "humor_score": 0.9860320091247559,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "SpaceX blasts off another satellite, now they can finally track the height of Mars' tides!",
+      "style": "reversal",
+      "seed": 245602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.786646139621735,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the connection between monitoring sea level changes and Mars' tides feels forced and lacks a clear punchline.\"}",
+      "humor_score": 0.2933230698108673,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the astronaut bring a beach ball to space? To keep tabs on the rising tide!",
+      "style": "topical punchline",
+      "seed": 245605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

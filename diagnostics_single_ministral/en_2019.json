@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2019",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Gaelic games in action at Asian Youth Championing in Hanoi, Vietnam",
+    "raw": {
+      "id": "en_2019",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Gaelic games in action at Asian Youth Championing in Hanoi, Vietnam"
+    }
+  },
+  "winner": "Why were the Scottish Highlanders sweating in a Vietnamese noodle bar? Because they were playing Gaelic games in action at an Asian Slurping Championship in Hanoi!",
+  "candidates": [
+    {
+      "text": "Why was the potato found playing Gaelic football in Hanoi? Because it heard there was a spud-tacular tournament in Vietnam!",
+      "style": "absurd literalism",
+      "seed": 221603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.993137538433075,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, uses wordplay with 'spud-tacular' which ties to both the potato and the event, and incorporates the specific locations mentioned in the headline. However, it's somewhat generic in its setup and could be more surprising.\"}",
+      "humor_score": 0.9965687692165375,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Irish leprechaun travel all the way to Hanoi, Vietnam? Because he heard there was a pot of Gaelic games waiting for him!",
+      "style": "wordplay",
+      "seed": 221601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.193542790412903,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the leprechaun and pot of gold twist, but 'pot of Gaelic games' is a weak pun and lacks specificity or surprise.\"}",
+      "humor_score": 0.9967713952064514,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why were the Scottish Highlanders sweating in a Vietnamese noodle bar? Because they were playing Gaelic games in action at an Asian Slurping Championship in Hanoi!",
+      "style": "reversal",
+      "seed": 221602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189521920681,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the pun on 'Slurping Championship,' but it's a bit forced and lacks clarity. The connection between Gaelic games and noodle slurping isn't strong enough to be fully surprising or specific.\"}",
+      "humor_score": 0.9947609603404999,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Irish potato chip go to Vietnam? It wanted to play in the Gaelic games at the Asian Youth Championing in Hanoi!",
+      "style": "topical punchline",
+      "seed": 221605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.156996858119965,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and ties the headline elements together, but it's a bit forced and relies on a weak pun ('play in the Gaelic games' as if a potato chip could participate). It lacks originality and feels more like a stretch than a clever punchline.\"}",
+      "humor_score": 0.9784984290599823,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Hanoi, Vietnam, they're not just playing chess or checkers - they've got Gaelic checkers and chess going on.",
+      "style": "deadpan understatement",
+      "seed": 221604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 4.421170091629028,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"Lacks specificity and surprise; 'Gaelic checkers and chess' is vague and not clearly connected to the headline.\"}",
+      "humor_score": 0.41058504581451416,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

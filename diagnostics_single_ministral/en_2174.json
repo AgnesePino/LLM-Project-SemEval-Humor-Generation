@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2174",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Giant, floating pumpkin races draw large crowds to annual event in Oregon",
+    "raw": {
+      "id": "en_2174",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Giant, floating pumpkin races draw large crowds to annual event in Oregon"
+    }
+  },
+  "winner": "Why did the giant pumpkin need a life jacket at the race in Oregon? Because it was afraid of squash-ing boats!",
+  "candidates": [
+    {
+      "text": "Why did the giant pumpkin need a life jacket at the race in Oregon? Because it was afraid of squash-ing boats!",
+      "style": "topical punchline",
+      "seed": 376605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.39222093820572,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on 'squash' and 'boats' are clever and specific to the headline, with good surprise and natural flow.\"}",
+      "humor_score": 0.9961104691028595,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Which Oregonian competition attracts the most spectators, yet refuses to move an inch? The immovable, colossal squash derby!",
+      "style": "reversal",
+      "seed": 376602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.466050374507905,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'immovable' and 'derby' add surprise and specificity, aligning well with the headline's context.\"}",
+      "humor_score": 0.333025187253952,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the gourd refuse to join the race? Because it was afraid of getting squashed in a pumpkin derby!",
+      "style": "wordplay",
+      "seed": 376601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190678131580353,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks strong surprise and specificity; 'pumpkin derby' is a minor twist but not as impactful as it could be.\"}",
+      "humor_score": 0.9953390657901764,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the pumpkin refuse to race at the Oregon event? Because it feared becoming a gourd-less leader!",
+      "style": "absurd literalism",
+      "seed": 376603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1606553316116335,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'gourd-less leader,' but it's a bit forced and lacks the specificity and surprise that would make it stand out in a humor competition.\"}",
+      "humor_score": 0.9803276658058167,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At the Oregon event, spectators were surprised to find that the giant, floating pumpkins were actually quite stationary.",
+      "style": "deadpan understatement",
+      "seed": 376604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.2400151014328005,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the humor is weak due to a lack of wit or cleverness.\"}",
+      "humor_score": 0.020007550716400146,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

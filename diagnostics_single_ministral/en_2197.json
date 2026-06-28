@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2197",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "England’s World Cup squad: Who’s on the plane and who has work to do?",
+    "raw": {
+      "id": "en_2197",
+      "word1": "-",
+      "word2": "-",
+      "headline": "England’s World Cup squad: Who’s on the plane and who has work to do?"
+    }
+  },
+  "winner": "The English World Cup squad: It turns out, there's a pilot named Rooney, but a bloke named Stones is grounded due to his refusal to check in his baggage!",
+  "candidates": [
+    {
+      "text": "Why was England's World Cup squad stuck in traffic? Because Harry Kane had a flight to catch, but Raheem Sterling still needed to fill out his timesheet.",
+      "style": "reversal",
+      "seed": 399602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.652078092098236,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is specific to the context of the headline, using real players with a clever twist involving work and football. It's somewhat surprising but could be more concise and impactful.\"}",
+      "humor_score": 0.826039046049118,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did England's World Cup player get sent back home? Because his passport said \"work\" instead of \"goal\".",
+      "style": "wordplay",
+      "seed": 399601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190610182285309,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative but lacks specificity and has a weak punchline that doesn't strongly tie to the headline's context.\"}",
+      "humor_score": 0.9953050911426544,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't England's World Cup players get seats with armrests? Because they can't pass or dribble between them!",
+      "style": "topical punchline",
+      "seed": 399605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1733084440231325,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific to the topic but relies on a weak pun that doesn't fully land. The connection between armrests and passing/dribbling is forced and lacks surprise or depth.\"}",
+      "humor_score": 0.9866542220115662,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The English World Cup squad: It turns out, there's a pilot named Rooney, but a bloke named Stones is grounded due to his refusal to check in his baggage!",
+      "style": "absurd literalism",
+      "seed": 399603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.196827721595764,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific with names but lacks clear connection to the headline's context about who is on the plane and who has work to do. The humor is mild and relies on puns that may not land as effectively for all audiences.\"}",
+      "humor_score": 0.4984138607978821,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The pilot asked for volunteers to switch places with whoever booked the plane tickets for England's World Cup squad. Silence ensued as no one dared claim responsibility.",
+      "style": "deadpan understatement",
+      "seed": 399604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.029314398765564,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, surprising, and specific to the context of booking plane tickets for a sports squad. However, it lacks some punch and could be more directly tied to the 'who has work to do' aspect of the headline.\"}",
+      "humor_score": 0.014657199382781982,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

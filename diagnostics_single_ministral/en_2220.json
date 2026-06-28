@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2220",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "The needs of ordinary people must be placed at the centre of the world’s agenda",
+    "raw": {
+      "id": "en_2220",
+      "word1": "-",
+      "word2": "-",
+      "headline": "The needs of ordinary people must be placed at the centre of the world’s agenda"
+    }
+  },
+  "winner": "At long last, let's finally discuss how to fold a newspaper for that perfect fit in a coat pocket of the average person. World peace is secondary, really.",
+  "candidates": [
+    {
+      "text": "Why don't ordinary people ever get invited to global meetings? Because they always insist on pushing their own agendas!",
+      "style": "topical punchline",
+      "seed": 422605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.9624112248420715,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, uses wordplay on 'agenda,' and ties back to the headline, but the humor is mild and the surprise factor could be stronger.\"}",
+      "humor_score": 0.9812056124210358,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the round table struggling with decision-making? Because it kept spinning around the needs of the ordinary square pegs.",
+      "style": "wordplay",
+      "seed": 422601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.152538669109345,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks clarity and punch. The metaphor of 'square pegs' doesn't clearly tie back to 'ordinary people,' reducing surprise and specificity.\"}",
+      "humor_score": 0.9762693345546722,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the round world insist on putting squares at the center of its agenda? Because it believed that a well-centered square could make all corners equal!",
+      "style": "absurd literalism",
+      "seed": 422603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.743590247631073,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the wordplay on 'round world' and 'squares,' but it's a bit forced and lacks clear connection to the headline's serious tone. It's not offensive, but it falls short in specificity and natural flow.\"}",
+      "humor_score": 0.7717951238155365,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At long last, let's finally discuss how to fold a newspaper for that perfect fit in a coat pocket of the average person. World peace is secondary, really.",
+      "style": "deadpan understatement",
+      "seed": 422604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.738949608802796,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the humor feels forced and doesn't fully align with the headline's serious tone. It lacks a strong punchline and feels more like a non-sequitur than a genuine comedic response.\"}",
+      "humor_score": 0.7694748044013977,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The world's agenda must be rearranged to cater to the whims of those who can afford the highest bids.",
+      "style": "reversal",
+      "seed": 422602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 3.6135436654090882,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is somewhat related but lacks surprise and specificity; it's generic and doesn't clearly align with the headline's emphasis on ordinary people.\"}",
+      "humor_score": 0.006771832704544067,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

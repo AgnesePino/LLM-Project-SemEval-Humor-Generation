@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2159",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "In a small Alaska town, Canada-U.S. tensions are upending a longstanding relationship",
+    "raw": {
+      "id": "en_2159",
+      "word1": "-",
+      "word2": "-",
+      "headline": "In a small Alaska town, Canada-U.S. tensions are upending a longstanding relationship"
+    }
+  },
+  "winner": "A local Alaskan grocery store is now asking customers to bring their own border control.",
+  "candidates": [
+    {
+      "text": "Why did the U.S.-Canada border fence in that small Alaska town need a divorce lawyer? Because it was having a border dispute with its partner!",
+      "style": "wordplay",
+      "seed": 361601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190990400314331,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the divorce lawyer twist, but the setup is a bit forced and the humor relies on a generic 'border dispute' rather than leveraging the specific context of Alaska or the town's relationship.\"}",
+      "humor_score": 0.9954952001571655,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the border fence between Alaska and Canada get a divorce? Because their once harmonious coexistence was upended by too much tension!",
+      "style": "reversal",
+      "seed": 361602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1840994477272035,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant to the headline but relies on a generic 'divorce' metaphor and lacks specificity about Alaska or Canada-U.S. tensions.\"}",
+      "humor_score": 0.9920497238636017,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the border guard in Alaska get a promotion? Because he knew how to handle a chilly Canada-U.S. relationship!",
+      "style": "topical punchline",
+      "seed": 361605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.182895791530609,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline and uses a pun on 'chilly' which connects to both the cold climate and tense relationship. However, it's a bit generic and lacks specificity in tying back to the small Alaska town or the longstanding relationship aspect.\"}",
+      "humor_score": 0.9914478957653046,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Canada refuse to play tug-of-war with the small Alaska town? They said it would upend their longstanding relationship!",
+      "style": "absurd literalism",
+      "seed": 361603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.9672800421714784,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks originality and surprise; 'tug-of-war' feels forced and generic.\"}",
+      "humor_score": 0.8836400210857391,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A local Alaskan grocery store is now asking customers to bring their own border control.",
+      "style": "deadpan understatement",
+      "seed": 361604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.564192736148835,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, surprising, and specific to the headline's context, using a play on 'border control' in a grocery store setting.\"}",
+      "humor_score": 0.08209636807441711,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

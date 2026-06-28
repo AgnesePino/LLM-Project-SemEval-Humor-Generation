@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2125",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "The winter's first icy spell and what it means for homeless people",
+    "raw": {
+      "id": "en_2125",
+      "word1": "-",
+      "word2": "-",
+      "headline": "The winter's first icy spell and what it means for homeless people"
+    }
+  },
+  "winner": "Why don't homeless people ever play chess in winter? Because they can't stand the chill of ICE-landic defense!",
+  "candidates": [
+    {
+      "text": "Why don't homeless people ever play chess in the winter? Because they can't stand the icy opening!",
+      "style": "wordplay",
+      "seed": 327601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.188928437232971,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'icy opening' in chess, but it's a bit generic and risks being insensitive due to the topic.\"}",
+      "humor_score": 0.9944642186164856,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't homeless people ever play chess in winter? Because they can't stand the chill of ICE-landic defense!",
+      "style": "topical punchline",
+      "seed": 327605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.185337436199188,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses a pun on 'ICE-landic defense' which is somewhat clever, but the setup is weak and the connection to homeless people in winter feels forced and insensitive.\"}",
+      "humor_score": 0.9926687180995941,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the homeless person bring a snowman to bed last night? He wanted to sleep like the rest of the frozen population.",
+      "style": "absurd literalism",
+      "seed": 327603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.5918791651725765,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is somewhat forced and lacks genuine humor; the pun on 'frozen population' is weak and not particularly surprising or specific to the headline's context.\"}",
+      "humor_score": 0.9959395825862885,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the homeless man refuse to buy salt during the first icy spell? Because he already had enough ice cream!",
+      "style": "reversal",
+      "seed": 327602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.591238713264465,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is somewhat forced and relies on a weak pun that doesn't directly relate to the headline's context or the serious issue it addresses.\"}",
+      "humor_score": 0.9956193566322327,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Homeless people are bracing themselves for a chilly season of increased air conditioning costs.",
+      "style": "deadpan understatement",
+      "seed": 327604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 1.7385358572006226,
+      "judge_score": 2.0,
+      "judge_raw": "\n\n{\"score\": 2.0, \"reason\": \"The joke is confusing and misses the point of the headline. It incorrectly links homeless people with air conditioning costs, which are not relevant to their situation.\"}",
+      "humor_score": 0.06926792860031128,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

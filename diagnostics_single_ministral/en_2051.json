@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2051",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "We did it!': Countries celebrate World Cup qualification",
+    "raw": {
+      "id": "en_2051",
+      "word1": "-",
+      "word2": "-",
+      "headline": "We did it!': Countries celebrate World Cup qualification"
+    }
+  },
+  "winner": "Oh joy! Now that we've qualified for the World Cup, we can finally start losing games with pride!",
+  "candidates": [
+    {
+      "text": "Well, it's certainly a world-shattering event... we qualified for a cup that can hold water.",
+      "style": "deadpan understatement",
+      "seed": 253604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.051985216140747,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'world-shattering' and 'cup that can hold water,' but it lacks specificity and feels a bit forced in context.\"}",
+      "humor_score": 0.9259926080703735,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The cat declared triumphantly, \"We did it!\": Bowls celebrated International Washing qualification.",
+      "style": "absurd literalism",
+      "seed": 253603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.833491694927216,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the pun on 'International Washing qualification,' but it lacks clarity and the connection to the original headline is weak.\"}",
+      "humor_score": 0.3167458474636078,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Oh joy! Now that we've qualified for the World Cup, we can finally start losing games with pride!",
+      "style": "reversal",
+      "seed": 253602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.292030823230744,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the context of World Cup qualification, but it relies on a common sports-related punchline about losing with pride, which can feel generic.\"}",
+      "humor_score": 0.046015411615371704,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't football teams ever get lost? Because they always know their goal-ations.",
+      "style": "wordplay",
+      "seed": 253601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    },
+    {
+      "text": "Why don't football teams ever get lost? Because they always qualify for navigation.",
+      "style": "topical punchline",
+      "seed": 253605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

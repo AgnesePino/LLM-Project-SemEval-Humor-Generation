@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2131",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Movie Review: Joel Edgerton delivers a profound, understated performance in ‘Train Dreams’",
+    "raw": {
+      "id": "en_2131",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Movie Review: Joel Edgerton delivers a profound, understated performance in ‘Train Dreams’"
+    }
+  },
+  "winner": "In 'Train Dreams', Joel Edgerton delivered a profound performance... so profound, he was even nominated for an Oscar in his sleep!",
+  "candidates": [
+    {
+      "text": "Why didn't Joel Edgerton sleep on a train? Because he was dreaming 'Train Dreams'!",
+      "style": "wordplay",
+      "seed": 333601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189893794059754,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'Train Dreams,' but it's a bit forced and lacks depth. It references the movie title well but doesn't fully engage with the context of Joel Edgerton's performance or the film itself.\"}",
+      "humor_score": 0.9949468970298767,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Joel Edgerton take a nap on the train set during the filming of 'Train Dreams'? Because he was following his director's instructions to the letter...literally!",
+      "style": "absurd literalism",
+      "seed": 333603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.182455134391785,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and uses the movie title effectively, but the humor feels forced and relies on a weak pun ('to the letter...literally'). It lacks surprise and natural flow.\"}",
+      "humor_score": 0.9912275671958923,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was Joel Edgerton on the train during his sleep? Because 'Train Dreams' became his reality.",
+      "style": "reversal",
+      "seed": 333602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.172166359424591,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative but lacks clarity and punch. The reference to 'Train Dreams' being his reality is a mild play on words, but the setup about being on the train during sleep feels forced and doesn't fully land.\"}",
+      "humor_score": 0.9860831797122955,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In 'Train Dreams', Joel Edgerton delivered a profound performance... so profound, he was even nominated for an Oscar in his sleep!",
+      "style": "topical punchline",
+      "seed": 333605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.574378871917725,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, surprising, and specific, with a clever twist on the idea of being nominated for an Oscar in sleep.\"}",
+      "humor_score": 0.0871894359588623,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In a stunning turn of events, moviegoers report they had the most vivid and lifelike dreams after watching Joel Edgerton's performance in 'Train Dreams.'",
+      "style": "deadpan understatement",
+      "seed": 333604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.215596747398377,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and ties the performance to dreams, but it's a bit generic and lacks specificity. The connection between Edgerton's performance and vivid dreams is clever but not particularly funny or original.\"}",
+      "humor_score": 0.007798373699188232,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

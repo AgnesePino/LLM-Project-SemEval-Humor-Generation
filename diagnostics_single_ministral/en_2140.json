@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2140",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Can you guess the distance between Australian cities? It's not as easy as you think",
+    "raw": {
+      "id": "en_2140",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Can you guess the distance between Australian cities? It's not as easy as you think"
+    }
+  },
+  "winner": "Why did the koala have trouble navigating Australia? Because he found the distance between Aussie cities harder to bear than eucalyptus leaves!",
+  "candidates": [
+    {
+      "text": "Why can't Sydney and Melbourne ever remember their anniversary? Because it's not as easy as they think to guess the distance between them!",
+      "style": "reversal",
+      "seed": 342602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.957736968994141,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever and ties directly to the headline with a play on memory and distance, but the humor is slightly predictable and lacks deeper surprise.\"}",
+      "humor_score": 0.9788684844970703,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "What's the difference between an Australian city map and a riddle? One has mysteriously placed cities and the other is a map of riddles.",
+      "style": "deadpan understatement",
+      "seed": 342604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.193240177631378,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'map' and 'riddle,' but it's a bit generic and lacks specificity about Australian cities. The surprise factor is low, and the humor could be more tightly tied to the headline.\"}",
+      "humor_score": 0.9966200888156891,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't kangaroos ever have trouble navigating in Australian cities? Because they use a map-aroo!",
+      "style": "absurd literalism",
+      "seed": 342603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192772519588471,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the pun on 'map-aroo,' but it's a bit generic and doesn't directly tie into the headline about distance between cities. It lacks specificity and surprise.\"}",
+      "humor_score": 0.9963862597942352,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't Aussies ever play hide and seek with maps? Because finding their cities is no picnic!",
+      "style": "wordplay",
+      "seed": 342601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.19038827419281,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and the surprise element. The pun on 'no picnic' is weak and generic.\"}",
+      "humor_score": 0.995194137096405,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the koala have trouble navigating Australia? Because he found the distance between Aussie cities harder to bear than eucalyptus leaves!",
+      "style": "topical punchline",
+      "seed": 342605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.184575033187866,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks strong surprise and specificity. The pun on 'harder to bear' is mild and not strongly connected to the koala's typical behavior.\"}",
+      "humor_score": 0.9922875165939331,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2027",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Miriam Toews: A loud voice in a town once ruled by silence",
+    "raw": {
+      "id": "en_2027",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Miriam Toews: A loud voice in a town once ruled by silence"
+    }
+  },
+  "winner": "In a town where whispers were king, Miriam Toews arrived and declared, \"I'm louder than a library lion!",
+  "candidates": [
+    {
+      "text": "In a town where even a whisper was shushed, now they're all ears for Miriam Toews... because she's speaking loud and clear!",
+      "style": "topical punchline",
+      "seed": 229605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.855203676223756,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'shushed' and 'all ears' add surprise and specificity, ties well to the headline, and is concise with natural English.\"}",
+      "humor_score": 0.5276018381118774,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In a quaint village where even the crickets were trained to be quiet, Miriam Toews became so loud that she could be heard whispering at the top of her lungs.",
+      "style": "absurd literalism",
+      "seed": 229603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.829361009597779,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising and specific metaphor with clever wordplay on 'loud' and 'whispering'; concise and natural.\"}",
+      "humor_score": 0.01468050479888916,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Miriam Toews' new town, even a whisper could be heard as a sermon.",
+      "style": "deadpan understatement",
+      "seed": 229604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.822325277328492,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising and specific metaphor with a touch of wit.\"}",
+      "humor_score": 0.011162638664245605,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In a town where whispers were king, Miriam Toews arrived and declared, \"I'm louder than a library lion!",
+      "style": "wordplay",
+      "seed": 229601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.565751695632935,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, surprising, and specific, with a clever comparison to a library lion that ties into the context of silence.\"}",
+      "humor_score": 0.08287584781646729,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In a town where everyone was whispering, even the wind dared not roar, Miriam Toews stood up and said with a booming voice, \"I've got nothing but fresh air to share!",
+      "style": "reversal",
+      "seed": 229602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.263064813613892,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke has a decent setup with the contrast between silence and Toews' loud voice, but the punchline feels slightly forced and less impactful. The reference to 'fresh air' doesn't strongly tie back to the context of the town's silence or Toews' role as a writer.\"}",
+      "humor_score": 0.0315324068069458,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

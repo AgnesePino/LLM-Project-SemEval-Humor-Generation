@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2275",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Kids do not want to go to child-free weddings either",
+    "raw": {
+      "id": "en_2275",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Kids do not want to go to child-free weddings either"
+    }
+  },
+  "winner": "A kid, overhearing his parents' conversation about a child-free wedding, asks, \"So, no kids allowed at the 'wedding without wedgies'?",
+  "candidates": [
+    {
+      "text": "A kid overheard, \"They're having a child-free wedding?\" He replied, \"Guess they want the reception to be 'grown-ups only'!",
+      "style": "topical punchline",
+      "seed": 477605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.59120296239853,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on the phrase 'grown-ups only,' concise and specific to the headline topic.\"}",
+      "humor_score": 0.8956014811992645,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A kid, overhearing his parents' conversation about a child-free wedding, asks, \"So, no kids allowed at the 'wedding without wedgies'?",
+      "style": "wordplay",
+      "seed": 477601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.862390923500062,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Smart wordplay on 'wedgies' and 'child-free,' concise and surprising with a specific scenario.\"}",
+      "humor_score": 0.5311954617500305,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the child refuse to attend the pet-free circus? Because he heard there would be no elephants!",
+      "style": "absurd literalism",
+      "seed": 477603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1863994121551515,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks direct connection and misses the mark on specificity and surprise.\"}",
+      "humor_score": 0.9931997060775757,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A wedding without kids, and not even a sandbox for the adults? No wonder the kids are turning down that offer!",
+      "style": "reversal",
+      "seed": 477602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.960628283023834,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the twist of implying kids are also turned off by child-free weddings, but it's a bit forced and lacks punch.\"}",
+      "humor_score": 0.8803141415119171,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Well, at least they're consistent. They didn't want to go to school either.",
+      "style": "deadpan understatement",
+      "seed": 477604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.331955742835999,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and concise, but the connection between not wanting to go to weddings and school feels a bit forced and lacks specificity.\"}",
+      "humor_score": 0.5659778714179993,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

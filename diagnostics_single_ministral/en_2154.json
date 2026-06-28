@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2154",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "One of the world’s most influential philanthropies is changing its name. Here’s why it matters.",
+    "raw": {
+      "id": "en_2154",
+      "word1": "-",
+      "word2": "-",
+      "headline": "One of the world’s most influential philanthropies is changing its name. Here’s why it matters."
+    }
+  },
+  "winner": "Why did the philanthropy change its name? It wanted to switch from being 'Gates' to 'Gates Open.'",
+  "candidates": [
+    {
+      "text": "Why did the philanthropy change its name? Because it got a new case of alias-itis!",
+      "style": "absurd literalism",
+      "seed": 356603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.187621545791626,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the play on 'alias-itis,' but it's a bit forced and lacks specificity to the context of philanthropy renaming itself.\"}",
+      "humor_score": 0.993810772895813,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the philanthropy decide to change its name? Because it was tired of being a silent donor!",
+      "style": "reversal",
+      "seed": 356602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.176475238800049,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'silent donor,' but it lacks specificity to the philanthropy mentioned in the headline and feels a bit generic.\"}",
+      "humor_score": 0.9882376194000244,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the philanthropy change its name? It wanted to switch from being 'Gates' to 'Gates Open.'",
+      "style": "wordplay",
+      "seed": 356601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.375353944301605,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'Gates Open,' but it's a bit generic and doesn't fully tie into the headline's context or significance.\"}",
+      "humor_score": 0.5876769721508026,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the philanthropy change its name? Because it wanted a more influential alias!",
+      "style": "topical punchline",
+      "seed": 356605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.540195322036743,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is somewhat related to the headline but lacks surprise and specificity. It's generic and relies on a predictable pun rather than offering a fresh or clever twist.\"}",
+      "humor_score": 0.9700976610183716,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The Bill and Melinda Gates Foundation will now be known as the \"Bill and Ex-wife Foundation.\" They're really trying to broaden their horizons.",
+      "style": "deadpan understatement",
+      "seed": 356604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

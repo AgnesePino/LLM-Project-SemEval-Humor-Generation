@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2007",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Instagram to start closing Australian teen accounts ahead of social media ban",
+    "raw": {
+      "id": "en_2007",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Instagram to start closing Australian teen accounts ahead of social media ban"
+    }
+  },
+  "winner": "Why did the Aussie teens start taking selfies with their passports? Because Instagram is closing accounts, and they didn't want to end up stranded on social media island!",
+  "candidates": [
+    {
+      "text": "Why did the Aussie teens start taking selfies with their passports? Because Instagram is closing accounts, and they didn't want to end up stranded on social media island!",
+      "style": "wordplay",
+      "seed": 209601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.98745322227478,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a good play on 'stranded on social media island,' but the setup could be tighter for maximum surprise and impact.\"}",
+      "humor_score": 0.9937266111373901,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Instagram pack its bags and leave Australia? Because it heard about the Aussie rule that all teenagers must go to bed at sunset!",
+      "style": "absurd literalism",
+      "seed": 209603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.187398326396942,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative and ties the headline to a humorous scenario, but the 'Aussie rule' about bedtime at sunset feels a bit generic and not strongly connected to the social media ban context.\"}",
+      "humor_score": 0.9936991631984711,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Instagram account flee Australia? Because it heard about the pending teen ban and decided it was time for a vacation.",
+      "style": "reversal",
+      "seed": 209602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.183152210712433,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the personification of an Instagram account, but 'vacation' feels a bit generic and doesn't fully align with the specific context of a social media ban. It's understandable but lacks sharper surprise or specificity.\"}",
+      "humor_score": 0.9915761053562164,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why are Australian teens so shocked about their Instagram accounts being closed? They thought they were blocked, not adopted!",
+      "style": "topical punchline",
+      "seed": 209605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1809296131134035,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the headline, but 'adopted' doesn't clearly connect to account closures. The humor feels a bit forced and lacks natural flow.\"}",
+      "humor_score": 0.9904648065567017,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Instagram is starting to say goodbye to some young Australians... Permanently. It's part of their new policy on long-term commitments.",
+      "style": "deadpan understatement",
+      "seed": 209604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.914268028736115,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the humor is weak and relies on a forced double meaning of 'long-term commitments.' It lacks punch and feels more like a missed opportunity for a stronger pun or twist.\"}",
+      "humor_score": 0.8571340143680573,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

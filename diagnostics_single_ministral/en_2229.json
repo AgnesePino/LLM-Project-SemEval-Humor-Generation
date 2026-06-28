@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2229",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Europe’s tech sector is evolving fast. Is it fast enough?",
+    "raw": {
+      "id": "en_2229",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Europe’s tech sector is evolving fast. Is it fast enough?"
+    }
+  },
+  "winner": "Why did Europe's tech sector dash across a busy street during rush hour? Because it was evolving so quickly, even traffic lights couldn't keep up!",
+  "candidates": [
+    {
+      "text": "Why did Europe's tech sector dash across a busy street during rush hour? Because it was evolving so quickly, even traffic lights couldn't keep up!",
+      "style": "absurd literalism",
+      "seed": 431603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.377152287960053,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, uses a surprising metaphor (tech sector dashing across a street), and ties back to the headline with specificity. It's funnier than average and avoids generic humor.\"}",
+      "humor_score": 0.9885761439800262,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Europe's tech sector slow down just when it was supposed to speed up? Because it couldn't keep up with its own evolution!",
+      "style": "reversal",
+      "seed": 431602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.881637334823608,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, uses a play on 'evolution' and 'speed up,' and ties back to the headline. However, it's slightly generic in its surprise element and could be more specific to tech sector challenges.\"}",
+      "humor_score": 0.9408186674118042,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Europe's tech sector is evolving fast. I heard they're even considering the creation of a new app... called \"Traffic Lights: The Next Generation.",
+      "style": "deadpan understatement",
+      "seed": 431604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1362195134162905,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and surprising, but the humor feels a bit forced and lacks depth. The reference to 'Traffic Lights: The Next Generation' is a mild play on words but doesn't fully capitalize on the potential of the setup.\"}",
+      "humor_score": 0.9681097567081451,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Europe's tech sector rush into a race against time? Because they heard the motto was \"Fast and Evolving First!",
+      "style": "wordplay",
+      "seed": 431601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.11217041015625,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat playful but lacks strong punchline and feels a bit forced with the 'motto' reference.\"}",
+      "humor_score": 0.956085205078125,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't Europe's tech companies ever get lost? Because they're always evolving, even when taking a wrong turn!",
+      "style": "topical punchline",
+      "seed": 431605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.100316655635834,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline and uses a play on 'evolving,' but the humor is weak and the pun feels forced. It lacks specificity and surprise.\"}",
+      "humor_score": 0.9501583278179169,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

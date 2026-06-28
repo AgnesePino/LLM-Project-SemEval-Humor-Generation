@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2240",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Remote telescope farm helps far away stargazers beat light pollution",
+    "raw": {
+      "id": "en_2240",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Remote telescope farm helps far away stargazers beat light pollution"
+    }
+  },
+  "winner": "Even in the vastness of space, city folks still find a way to over-illuminate the night sky with their porch lights... Now there's a remote telescope farm for those who can't stand the glare from distant suburbs!",
+  "candidates": [
+    {
+      "text": "Why did the city folk start a telescope farm in the countryside? To finally get a clear view of their own backyard!",
+      "style": "absurd literalism",
+      "seed": 442603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.776935982704163,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on 'backyard' with a clear pun and good specificity to the headline topic.\"}",
+      "humor_score": 0.9884679913520813,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the city folk move their telescopes to a remote farm? To get some space... from all that urban glow!",
+      "style": "wordplay",
+      "seed": 442601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.978698015213013,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise and uses wordplay on 'space' and 'urban glow,' which ties back to the headline. It's somewhat predictable but still clever and specific to the context.\"}",
+      "humor_score": 0.9893490076065063,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the city dweller buy a remote telescope? To beat his own kind of light pollution!",
+      "style": "topical punchline",
+      "seed": 442605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.184614908695221,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'light pollution,' but it's a bit generic and lacks specificity. The setup could be more surprising, and the punchline feels slightly forced.\"}",
+      "humor_score": 0.9923074543476105,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Even in the vastness of space, city folks still find a way to over-illuminate the night sky with their porch lights... Now there's a remote telescope farm for those who can't stand the glare from distant suburbs!",
+      "style": "reversal",
+      "seed": 442602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.486400020122528,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant and has a mild twist, but the humor feels forced and the connection between porch lights and light pollution from suburbs is unclear. It lacks specificity and punch.\"}",
+      "humor_score": 0.643200010061264,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Even in the middle of a bustling city, you can still see stars... just not your own.",
+      "style": "deadpan understatement",
+      "seed": 442604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

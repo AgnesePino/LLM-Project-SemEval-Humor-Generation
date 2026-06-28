@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2227",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "‘AI is scary territory’: art teachers – one 64, one 29 – on cuts, creativity and life in a career that’s under threat",
+    "raw": {
+      "id": "en_2227",
+      "word1": "-",
+      "word2": "-",
+      "headline": "‘AI is scary territory’: art teachers – one 64, one 29 – on cuts, creativity and life in a career that’s under threat"
+    }
+  },
+  "winner": "AI is scary territory indeed. I recently encountered an AI art teacher at a gallery opening... It was very abstract and confusing. But then again, I didn't understand Picasso either when he was just getting started.",
+  "candidates": [
+    {
+      "text": "Why did the two art teachers break into a cold sweat when they heard AI was coming for their jobs? Because one was 64 and the other was 29... and together they formed an advanced painting system!",
+      "style": "topical punchline",
+      "seed": 429605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.993004262447357,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, uses the specific ages from the headline, and delivers a mild surprise by linking the teachers to an 'advanced painting system.' However, it's somewhat generic in its humor and lacks deeper punchline impact.\"}",
+      "humor_score": 0.9965021312236786,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "AI is scary territory indeed. I recently encountered an AI art teacher at a gallery opening... It was very abstract and confusing. But then again, I didn't understand Picasso either when he was just getting started.",
+      "style": "deadpan understatement",
+      "seed": 429604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.973552465438843,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever and specific, drawing a humorous parallel between AI art and Picasso. It's concise and surprising, though the reference to Picasso might feel slightly forced for some.\"}",
+      "humor_score": 0.9867762327194214,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the AI join the art class? Because it wanted to paint the town red...or maybe just grayscale.",
+      "style": "absurd literalism",
+      "seed": 429603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191876184940338,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant to the topic but lacks strong surprise or specificity. The pun on 'red' and 'grayscale' is mild and not particularly tied to the context of art teachers or AI threats.\"}",
+      "humor_score": 0.9959380924701691,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't AI systems make good art teachers? Because they're always trying to cut corners!",
+      "style": "reversal",
+      "seed": 429602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.18704743385315,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant to the headline but lacks specificity and surprise. The pun on 'cut corners' ties loosely to the topic of AI and art teachers, but it feels a bit forced and generic.\"}",
+      "humor_score": 0.9935237169265747,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the AI program join the art class? It wanted to get a brush with greatness!",
+      "style": "wordplay",
+      "seed": 429601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1689298272132875,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant to the topic but lacks specificity and surprise; 'brush with greatness' is a common phrase and doesn't strongly tie into the context of AI in art education.\"}",
+      "humor_score": 0.9844649136066437,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

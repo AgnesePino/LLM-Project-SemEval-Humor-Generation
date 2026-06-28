@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2235",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Best laptop Black Friday 2025 deals, picked by a tech expert",
+    "raw": {
+      "id": "en_2235",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Best laptop Black Friday 2025 deals, picked by a tech expert"
+    }
+  },
+  "winner": "A tech-savvy donkey was asked for its opinion on the Best Laptop Black Friday 2025 deals and replied, \"I'd have to say the carrot-based laptop with a keyboard made of hay is really making waves in the field.",
+  "candidates": [
+    {
+      "text": "Why did the tech expert bring a shovel during Black Friday laptop sales in 2025? Because he heard they were digging for gold!",
+      "style": "topical punchline",
+      "seed": 437605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.793109703063966,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist with a tech-related context, concise and specific joke that ties into the headline\"}",
+      "humor_score": 0.9965548515319824,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the tech expert bring a shovel to the Black Friday laptop sale in 2025? Because he heard you could dig for the best deals!",
+      "style": "wordplay",
+      "seed": 437601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.792471933364869,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising and specific twist with a tech-related pun, concise and natural humor\"}",
+      "humor_score": 0.9962359666824341,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A tech expert has confirmed that the best laptop on Black Friday 2025 will be significantly more affordable... compared to the rest of your life savings.",
+      "style": "deadpan understatement",
+      "seed": 437604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.422129380702973,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on affordability relative to life savings, concise and specific to the headline topic.\"}",
+      "humor_score": 0.8110646903514862,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "What did the tech expert say on Black Friday 2025 when he saw the worst laptop ever? \"It's obviously picked by a tech expert!",
+      "style": "reversal",
+      "seed": 437602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.990883886814117,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a twist on the headline, but it's slightly generic and relies heavily on the setup rather than a punchline that surprises fully.\"}",
+      "humor_score": 0.9954419434070587,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A tech-savvy donkey was asked for its opinion on the Best Laptop Black Friday 2025 deals and replied, \"I'd have to say the carrot-based laptop with a keyboard made of hay is really making waves in the field.",
+      "style": "absurd literalism",
+      "seed": 437603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.985102963447571,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the animal twist and unexpected elements, but the humor falls flat due to the forced analogy between a donkey and tech expertise, and the punchline lacks clarity and coherence.\"}",
+      "humor_score": 0.8925514817237854,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

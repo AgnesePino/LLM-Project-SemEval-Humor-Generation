@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2175",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Ken Burns on his American Revolution documentary: ‘We won’t work on a more important film’",
+    "raw": {
+      "id": "en_2175",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Ken Burns on his American Revolution documentary: ‘We won’t work on a more important film’"
+    }
+  },
+  "winner": "Why did Ken Burns refuse to direct a movie about World War II after his American Revolution documentary? Because he said, \"We won't work on a more revolutionary film!",
+  "candidates": [
+    {
+      "text": "Why did Ken Burns refuse to start another project after finishing his American Revolution documentary? Because he thought, \"We can't top a revolution, let's just revisit it!",
+      "style": "reversal",
+      "seed": 377602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.304787421226502,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, specific to Ken Burns and his documentary, and uses a play on 'revolution' with a pun that's both surprising and clever.\"}",
+      "humor_score": 0.9523937106132507,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Ken Burns refuse to start a new project? Because he said he was too involved in the \"More Important Film\" already.",
+      "style": "absurd literalism",
+      "seed": 377603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.161773455142975,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and ties to the headline, but it's a bit generic in its setup and lacks the punch of a more surprising or clever twist.\"}",
+      "humor_score": 0.9808867275714874,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Ken Burns refuse to direct a movie about World War II after his American Revolution documentary? Because he said, \"We won't work on a more revolutionary film!",
+      "style": "wordplay",
+      "seed": 377601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.136601459980011,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'revolutionary,' but it's a bit forced and lacks the punch of a more surprising twist. It also doesn't fully capture the specificity or surprise that makes the best jokes stand out.\"}",
+      "humor_score": 0.9683007299900055,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Ken Burns refuse to collaborate with another filmmaker? Because he thought teaming up would be unpatriotic! After all, they'd both be working on something more important than the American Revolution.",
+      "style": "topical punchline",
+      "seed": 377605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.9964020371437075,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and ties to the headline, but the humor feels forced and lacks a clear punchline. The explanation about 'unpatriotic' doesn't land strongly, and the connection between collaboration and patriotism is weak.\"}",
+      "humor_score": 0.8982010185718536,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Ken Burns, while working on his American Revolution documentary, said, 'We're putting aside all other projects, there are no more important films left to make.'",
+      "style": "deadpan understatement",
+      "seed": 377604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.214258205890656,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and uses a quote from Ken Burns, but it lacks the surprise and punch that would make it more humorous. It's also slightly generic in its setup.\"}",
+      "humor_score": 0.007129102945327759,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2250",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Petrolette: women in motorcycle culture – in pictures",
+    "raw": {
+      "id": "en_2250",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Petrolette: women in motorcycle culture – in pictures"
+    }
+  },
+  "winner": "A curious cat, named Petrolette, decided to join a motorcycle club and, surprisingly, they let her ride a minuscule bicycle with an engine, insisting it was a motorcycle.",
+  "candidates": [
+    {
+      "text": "Why did Petrolette decide to feature a calendar? Because they wanted to give their readers something to rev-olutionize their wall!",
+      "style": "topical punchline",
+      "seed": 452605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.934133887290955,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"Puns on 'revolutionize' and 'rev' tie into motorcycle culture, but the joke is slightly forced and lacks deeper specificity.\"}",
+      "humor_score": 0.9670669436454773,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't petrolettes ever get lost on a bike rally? Because they always follow the map-ette!",
+      "style": "wordplay",
+      "seed": 452601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.19247545003891,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'map-ette,' but it's a bit forced and lacks strong specificity or surprise. The connection to 'Petrolette' isn't fully leveraged, and the humor feels a little generic.\"}",
+      "humor_score": 0.996237725019455,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A woman walks into a bike shop and asks, \"Do you have any petrolettes for sale?\" The clerk, confused, replies, \"Ma'am, this is a motorcycle shop, we sell motorcycles, not pretty pictures of women on them.\" She responds, \"Oh, I must be thinking of the wrong place then. I was looking for some beautiful images of men on motorcycles!",
+      "style": "reversal",
+      "seed": 452602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.18738032579422,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke has a clever twist with the miscommunication between 'petrolette' and 'pretty pictures,' but it relies on a somewhat forced setup and lacks punch.\"}",
+      "humor_score": 0.99369016289711,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A woman on a motorcycle: just another vehicle for carrying groceries and a sense of freedom.",
+      "style": "deadpan understatement",
+      "seed": 452604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.3759906768798835,
+      "judge_score": 6.0,
+      "judge_raw": "\n\n{\"score\": 6, \"reason\": \"The joke is somewhat clever but lacks the punch or surprise needed for maximum humor. It's generic in its approach and doesn't fully engage with the specific topic of 'Petrolette: women in motorcycle culture – in pictures'.\"}",
+      "humor_score": 0.7879953384399414,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A curious cat, named Petrolette, decided to join a motorcycle club and, surprisingly, they let her ride a minuscule bicycle with an engine, insisting it was a motorcycle.",
+      "style": "absurd literalism",
+      "seed": 452603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.169868004322052,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative and specific, but the connection to the headline is weak. The name 'Petrolette' is used, but the humor doesn't directly relate to 'women in motorcycle culture.' The cat element adds surprise, but the joke feels a bit forced and lacks strong punch.\"}",
+      "humor_score": 0.484934002161026,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

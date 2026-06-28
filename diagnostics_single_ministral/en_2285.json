@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2285",
+    "kind": "word_inclusion",
+    "word1": "wash",
+    "word2": "laptop",
+    "headline": null,
+    "raw": {
+      "id": "en_2285",
+      "word1": "wash",
+      "word2": "laptop",
+      "headline": "-"
+    }
+  },
+  "winner": "Why did the laptop join a car wash? Because it needed to get its hard drive hosed down!",
+  "candidates": [
+    {
+      "text": "Why did the laptop go to the car wash? It needed a screen scrub.",
+      "style": "deadpan understatement",
+      "seed": 487604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.991909563541412,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke uses both required words naturally and includes a play on 'screen scrub' (a pun on 'scrub' and 'screen'), which provides some surprise and specificity. However, it's somewhat generic in its setup and could be more original.\"}",
+      "humor_score": 0.9959547817707062,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the laptop bring a sponge to the party? Because it heard there would be a wash dance contest!",
+      "style": "topical punchline",
+      "seed": 487605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.193088364601135,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses the required words 'wash' and 'laptop' in a creative way, but the connection between a laptop and a sponge is somewhat forced and lacks strong surprise or specificity.\"}",
+      "humor_score": 0.9965441823005676,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the laptop join a car wash? Because it needed to get its hard drive hosed down!",
+      "style": "wordplay",
+      "seed": 487601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192747843265534,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"Includes required words, uses a play on 'hard drive' and 'hosed down,' but the humor is somewhat predictable and lacks deeper surprise or specificity.\"}",
+      "humor_score": 0.9963739216327667,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the laptop wash its hands before taking a bath? Because it wanted to keep its keys dry!",
+      "style": "absurd literalism",
+      "seed": 487603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190390002727509,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses both required words and has a basic pun, but the setup is somewhat forced and lacks strong surprise or specificity.\"}",
+      "humor_score": 0.9951950013637543,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the laptop always so clean? Because it kept washing its hands before typing!",
+      "style": "reversal",
+      "seed": 487602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:wash"
+    }
+  ]
+}

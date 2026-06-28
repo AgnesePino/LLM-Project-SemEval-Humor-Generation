@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2232",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "TSA proposes charging customers who don't have a Real ID or passport",
+    "raw": {
+      "id": "en_2232",
+      "word1": "-",
+      "word2": "-",
+      "headline": "TSA proposes charging customers who don't have a Real ID or passport"
+    }
+  },
+  "winner": "Why did the traveler bring his passport and wallet to the airport, but still end up paying twice? Because TSA proposed charging customers who don't have a Real ID or just their wallet!",
+  "candidates": [
+    {
+      "text": "Why did the traveler bring a driver's license and passport, along with a bag of cash to the airport? Because he heard TSA started charging for \"real\" identification!",
+      "style": "topical punchline",
+      "seed": 434605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189969432353974,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant and has a basic setup, but the humor is weak and relies on a predictable twist without much surprise or specificity.\"}",
+      "humor_score": 0.9949847161769867,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the TSA start accepting coins at security checkpoints? Because they realized many Americans still haven't upgraded from pennies!",
+      "style": "reversal",
+      "seed": 434602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.187071096897125,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks direct connection to Real IDs or passports. It's a bit generic and relies on a pun that doesn't fully align with the TSA's proposal.\"}",
+      "humor_score": 0.9935355484485626,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the traveler bring his passport and wallet to the airport, but still end up paying twice? Because TSA proposed charging customers who don't have a Real ID or just their wallet!",
+      "style": "wordplay",
+      "seed": 434601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.18662281036377,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the twist about paying twice, but it's a bit forced and relies heavily on the specific context of the headline. It could be more concise and surprising.\"}",
+      "humor_score": 0.9933114051818848,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At the airport, they now accept Venmo for those without a Real ID or passport. Just add a note: \"For security check at TSA.",
+      "style": "deadpan understatement",
+      "seed": 434604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.423130524158478,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the situation, but it's a bit generic in its humor and lacks a strong punchline or deeper twist.\"}",
+      "humor_score": 0.6115652620792389,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the traveler bring a driver's license and a passport to the airport baggage check? Because TSA charges for carrying coins!",
+      "style": "absurd literalism",
+      "seed": 434603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.590989744663238,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is loosely related but lacks specificity and surprise; the connection between TSA charging for coins and not having a Real ID or passport is unclear and forced.\"}",
+      "humor_score": 0.9954948723316193,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

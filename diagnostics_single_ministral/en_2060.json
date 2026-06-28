@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2060",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Korean coast guard arrests helmsman who was on his phone when ferry ran aground",
+    "raw": {
+      "id": "en_2060",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Korean coast guard arrests helmsman who was on his phone when ferry ran aground"
+    }
+  },
+  "winner": "The Coast Guard reported that the grounded ferry had feet of its own, and it was walking away while the helmsman remained on his phone.",
+  "candidates": [
+    {
+      "text": "Why don't ships ever play hide and seek? Because when they hide, they usually end up running aground on their phone!",
+      "style": "reversal",
+      "seed": 262602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191752564907074,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks clarity and punch. The reference to 'running aground on their phone' is confusing and doesn't clearly tie back to the helmsman being on his phone.\"}",
+      "humor_score": 0.995876282453537,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't sailors ever play hide and seek with their phones? Because when they get lost at sea, the coast guard always finds them!",
+      "style": "wordplay",
+      "seed": 262601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191048038005829,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks direct connection and specificity. It's a generic pun that doesn't fully leverage the situation described in the headline.\"}",
+      "humor_score": 0.9955240190029144,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The Coast Guard reported that the grounded ferry had feet of its own, and it was walking away while the helmsman remained on his phone.",
+      "style": "absurd literalism",
+      "seed": 262603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.831668663024903,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative twist with personification of the ferry, concise and surprising, fits the headline well.\"}",
+      "humor_score": 0.015834331512451172,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A man said, \"I guess I won't be needing my boat anymore.",
+      "style": "deadpan understatement",
+      "seed": 262604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    },
+    {
+      "text": "Why did the ferry captain prefer texting over steering? He thought autocorrect would keep him afloat!",
+      "style": "topical punchline",
+      "seed": 262605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

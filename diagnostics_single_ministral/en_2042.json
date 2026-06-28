@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2042",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "SA Reserve Bank cuts repo rate to 6.75 percent - what this means for your bond",
+    "raw": {
+      "id": "en_2042",
+      "word1": "-",
+      "word2": "-",
+      "headline": "SA Reserve Bank cuts repo rate to 6.75 percent - what this means for your bond"
+    }
+  },
+  "winner": "When they say the SA Reserve Bank cut the repo rate, I thought maybe my bond would get a new haircut... but alas, just lower interest payments instead.",
+  "candidates": [
+    {
+      "text": "When they say the SA Reserve Bank cut the repo rate, I thought maybe my bond would get a new haircut... but alas, just lower interest payments instead.",
+      "style": "deadpan understatement",
+      "seed": 244604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.73484514951706,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'haircut' and 'repo rate' are clever and specific, with a touch of surprise and natural flow.\"}",
+      "humor_score": 0.9674225747585297,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the bond feel so relaxed after the SA Reserve Bank announcement? Because it found a new rate-y to sleep on!",
+      "style": "topical punchline",
+      "seed": 244605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.14363284111023,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the play on 'rate-y' and 'relaxed,' but it's a bit forced and lacks strong specificity to the bond context. The humor is mild and not particularly surprising or impactful.\"}",
+      "humor_score": 0.9718164205551147,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the bank lower its interest rate on bonds? Because it wanted to help you secure a better future... with a lower mortgage rate!",
+      "style": "wordplay",
+      "seed": 244601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1253589510917665,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant to the headline but lacks surprise and specificity. The connection between lowering interest rates and helping with a mortgage is expected rather than humorous.\"}",
+      "humor_score": 0.9626794755458832,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the bond get a promotion after the repo rate drop? Because now even it can afford a higher interest!",
+      "style": "reversal",
+      "seed": 244602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.063824784755707,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant and uses a play on 'afford a higher interest,' but the setup could be clearer and more surprising. The humor is mild and slightly forced.\"}",
+      "humor_score": 0.9319123923778534,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "When you hear about the SA Reserve Bank cutting the repo rate, don't be surprised if you start receiving bonds in the mail. After all, now that rates are lower, they must be trying to flood the market with more affordable debt!",
+      "style": "absurd literalism",
+      "seed": 244603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.777516555786133,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and ties the repo rate cut to receiving bonds, which is a clever twist. However, it's slightly generic in its explanation and may not be immediately clear to those unfamiliar with financial terms.\"}",
+      "humor_score": 0.2887582778930664,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

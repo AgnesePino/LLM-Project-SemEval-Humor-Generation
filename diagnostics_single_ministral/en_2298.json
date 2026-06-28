@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2298",
+    "kind": "word_inclusion",
+    "word1": "shake",
+    "word2": "chair",
+    "headline": null,
+    "raw": {
+      "id": "en_2298",
+      "word1": "shake",
+      "word2": "chair",
+      "headline": "-"
+    }
+  },
+  "winner": "Why did the chair join a dance competition? Because it wanted to shake its stuff!",
+  "candidates": [
+    {
+      "text": "Why did the chair shake itself? It wanted to give itself a standing ovation!",
+      "style": "reversal",
+      "seed": 500602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.74225710630417,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative wordplay with 'standing ovation' adds surprise and specificity; concise and natural.\"}",
+      "humor_score": 0.9711285531520844,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the chair join a dance competition? Because it wanted to shake its stuff!",
+      "style": "topical punchline",
+      "seed": 500605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.991570830345154,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke uses both required words ('shake' and 'chair') in a creative and unexpected way. It is concise and has a mild surprise element, though the humor is somewhat generic and relies on a common pun.\"}",
+      "humor_score": 0.9957854151725769,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the chair shake its head? Because it didn't want to rock the boat.",
+      "style": "absurd literalism",
+      "seed": 500603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.183771622180939,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses both required words and has a mild pun, but the humor is somewhat predictable and lacks originality.\"}",
+      "humor_score": 0.9918858110904694,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the chair go to therapy? Because it had a shaking problem!",
+      "style": "wordplay",
+      "seed": 500601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:shake"
+    },
+    {
+      "text": "Why did the chair join a dance competition? Because it had a natural talent for shaking its seat.",
+      "style": "deadpan understatement",
+      "seed": 500604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:shake"
+    }
+  ]
+}

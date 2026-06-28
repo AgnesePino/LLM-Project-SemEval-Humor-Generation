@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2094",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "The Nazis on trial: The enduring lessons of Nuremberg, 80 years on",
+    "raw": {
+      "id": "en_2094",
+      "word1": "-",
+      "word2": "-",
+      "headline": "The Nazis on trial: The enduring lessons of Nuremberg, 80 years on"
+    }
+  },
+  "winner": "Why don't they play hide and seek at the Nuremberg trials? Because good luck hiding when you're always in the spotlight!",
+  "candidates": [
+    {
+      "text": "What's different between a modern courtroom and the one at Nuremberg? Nowadays, they don't even serve beer in the jury box.",
+      "style": "deadpan understatement",
+      "seed": 296604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190125834941864,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and has a mild surprise element, but the reference to beer in the jury box feels forced and lacks deeper connection to the historical context of Nuremberg. It’s not offensive, but it falls short of being truly funny or insightful.\"}",
+      "humor_score": 0.995062917470932,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't Nazis like group activities anymore? Because they can't seem to agree on the rules of the game at Nuremberg!",
+      "style": "absurd literalism",
+      "seed": 296603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.58378700017929,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"Offensive content; jokes targeting a sensitive historical group are inappropriate and fail to meet ethical standards.\"}",
+      "humor_score": 0.9918935000896454,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't they play hide and seek at the Nuremberg trials? Because good luck hiding when you're always in the spotlight!",
+      "style": "topical punchline",
+      "seed": 296605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.5057219624519345,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is offensive and inappropriate given the serious historical context of the Nuremberg trials.\"}",
+      "humor_score": 0.9528609812259674,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was Adolf at the hearing wearing a life jacket? He heard they'd be deluged with evidence!",
+      "style": "wordplay",
+      "seed": 296601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    },
+    {
+      "text": "Why was Adolf at the hearing feeling a little nervous? Because he heard they were going to re-examine all of his past \"presentations\"!",
+      "style": "reversal",
+      "seed": 296602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

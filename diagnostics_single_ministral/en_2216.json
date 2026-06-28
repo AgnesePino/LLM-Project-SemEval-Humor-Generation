@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2216",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "How Troy Parrott broke the internet, in 5 easy memes",
+    "raw": {
+      "id": "en_2216",
+      "word1": "-",
+      "word2": "-",
+      "headline": "How Troy Parrott broke the internet, in 5 easy memes"
+    }
+  },
+  "winner": "Troy Parrott casually strolled down the street, causing an unimaginable catastrophe that led to widespread power outages. He simply commented, \"I guess the internet can't handle a little Irish charm.",
+  "candidates": [
+    {
+      "text": "Why did Troy Parrott refuse to post a new selfie? Because he already broke the internet with just 5 memes!",
+      "style": "reversal",
+      "seed": 418602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.791187393665314,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'broke the internet' and references the headline effectively with surprise and specificity.\"}",
+      "humor_score": 0.9955936968326569,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A man walked up to a computer and said, \"Troy Parrott, search engine optimize me!\" The computer replied, \"One moment, I'm just breaking the internet with memes.",
+      "style": "absurd literalism",
+      "seed": 418603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191631627082825,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat funny but lacks specificity and ties to the headline. It's a bit generic and doesn't clearly reference Troy Parrott or how he broke the internet with memes.\"}",
+      "humor_score": 0.9958158135414124,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Troy Parrott break the internet? Because he scored a goal that had more likes than followers!",
+      "style": "wordplay",
+      "seed": 418601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.187434387207031,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and uses a sports reference, but the humor is weak and relies on a generic meme structure without much surprise or originality.\"}",
+      "humor_score": 0.9937171936035156,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Troy Parrott refuse to use social media? Because he's afraid of breaking the \"like\" button!",
+      "style": "topical punchline",
+      "seed": 418605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.187084746360779,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and surprise; it's a generic play on 'like' buttons rather than tying into Troy Parrott's actual impact or internet-breaking event.\"}",
+      "humor_score": 0.9935423731803894,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Troy Parrott casually strolled down the street, causing an unimaginable catastrophe that led to widespread power outages. He simply commented, \"I guess the internet can't handle a little Irish charm.",
+      "style": "deadpan understatement",
+      "seed": 418604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.204214465618134,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat humorous with the unexpected twist of Troy Parrott causing a catastrophe, but it lacks specificity and feels slightly generic. The humor relies on exaggeration rather than a clever or precise meme reference.\"}",
+      "humor_score": 0.5021072328090668,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

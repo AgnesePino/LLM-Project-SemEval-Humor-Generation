@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2221",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Hurricane Melissa winds hit record-breaking 252 mph, data confirms",
+    "raw": {
+      "id": "en_2221",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Hurricane Melissa winds hit record-breaking 252 mph, data confirms"
+    }
+  },
+  "winner": "Why was Hurricane Melissa such a fast talker? Because her wind-er-speech hit record-breaking 252 mph!",
+  "candidates": [
+    {
+      "text": "Why did Hurricane Melissa refuse to join a band? Because she couldn't reach the high notes when she blew past 250 mph!",
+      "style": "absurd literalism",
+      "seed": 423603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.789838242530823,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative pun on 'high notes' and wind speed, concise and specific to the headline.\"}",
+      "humor_score": 0.9949191212654114,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "They say Hurricane Melissa reached a top wind speed of 252 mph. That's just her warm-up pace; she was late for an appointment.",
+      "style": "deadpan understatement",
+      "seed": 423604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.60435848236084,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, surprising, and specific to the headline. It uses a relatable scenario (being late for an appointment) in a creative way, adding humor through personification of the hurricane.\"}",
+      "humor_score": 0.9021792411804199,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't hurricanes ever join a book club? Because they can't handle record-breaking page speeds!",
+      "style": "reversal",
+      "seed": 423602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.182966184616089,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline with 'record-breaking,' but 'page speeds' is a weak and generic pun that lacks specificity and surprise.\"}",
+      "humor_score": 0.9914830923080444,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was Hurricane Melissa such a fast talker? Because her wind-er-speech hit record-breaking 252 mph!",
+      "style": "wordplay",
+      "seed": 423601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.180762243270874,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses a play on words with 'wind-er-speech' but is slightly forced and lacks natural flow. It meets the headline's specifics but could be more surprising and concise.\"}",
+      "humor_score": 0.990381121635437,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was Hurricane Melissa in a rush? Because she had 252 places to blow off steam!",
+      "style": "topical punchline",
+      "seed": 423605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.180481624603272,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline and uses wordplay on 'blow off steam,' but it's a bit generic and lacks stronger surprise or specificity tied to the hurricane's wind speed.\"}",
+      "humor_score": 0.9902408123016357,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

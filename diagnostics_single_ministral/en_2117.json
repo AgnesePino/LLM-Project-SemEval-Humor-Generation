@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2117",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "All four UK govts 'failed to appreciate' scale of pandemic",
+    "raw": {
+      "id": "en_2117",
+      "word1": "-",
+      "word2": "-",
+      "headline": "All four UK govts 'failed to appreciate' scale of pandemic"
+    }
+  },
+  "winner": "Four UK governments walking in a park... One turns to the other and says, \"I think we may have underestimated the scale of this pandemic!\" *They all nod in agreement* \"Well,\" said one, \"at least we're finally all on the same page!",
+  "candidates": [
+    {
+      "text": "Why don't UK governments ever play Jenga? Because they can't appreciate how a single pull can lead to a total collapse!",
+      "style": "absurd literalism",
+      "seed": 319603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.77686767578125,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'appreciate' and connects to the headline's theme with a clever Jenga analogy.\"}",
+      "humor_score": 0.988433837890625,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't pandemics ever take politics classes? Because they always fail their exams on appreciating the scale!",
+      "style": "wordplay",
+      "seed": 319601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.188372504711151,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and the pun feels forced. It's mildly funny but not particularly surprising or well-timed with the context.\"}",
+      "humor_score": 0.9941862523555756,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the pandemic refuse to acknowledge the UK governments? Because it had never seen such a small appreciation scale!",
+      "style": "reversal",
+      "seed": 319602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.15626437664032,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses wordplay on 'scale' and 'appreciation,' which is clever, but the setup is a bit forced and the punchline lacks clarity. It's somewhat specific but could be more surprising and concise.\"}",
+      "humor_score": 0.9781321883201599,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Four UK governments walking in a park... One turns to the other and says, \"I think we may have underestimated the scale of this pandemic!\" *They all nod in agreement* \"Well,\" said one, \"at least we're finally all on the same page!",
+      "style": "topical punchline",
+      "seed": 319605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.11636723279953,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'on the same page,' but it's a bit generic and lacks specificity about the pandemic or governments. The setup could be more surprising.\"}",
+      "humor_score": 0.958183616399765,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did all four UK governments form a band? Because they failed to appreciate the magnitude of their harmonies.",
+      "style": "deadpan understatement",
+      "seed": 319604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.0989976048469545,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'harmonies' and 'magnitude,' but it's a bit forced and lacks specificity in connecting to the pandemic context.\"}",
+      "humor_score": 0.9494988024234772,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

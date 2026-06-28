@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2062",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "British singer-songwriter Lily Allen recently dropped her first album in seven years, \"West End Girl.\" She spoke with Anthony Mason about her new music after heartbreak and her healing process",
+    "raw": {
+      "id": "en_2062",
+      "word1": "-",
+      "word2": "-",
+      "headline": "British singer-songwriter Lily Allen recently dropped her first album in seven years, \"West End Girl.\" She spoke with Anthony Mason about her new music after heartbreak and her healing process"
+    }
+  },
+  "winner": "Why did Lily Allen's new album need a security guard? Because it was a \"West End Girl\" without her heart!",
+  "candidates": [
+    {
+      "text": "Why did Lily Allen's album need a map? Because it was a West End maze of emotions!",
+      "style": "wordplay",
+      "seed": 264601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.383892142772675,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, uses a specific reference to the album title 'West End Girl,' and creates a clever metaphor with 'maze of emotions.' It's surprising and ties well to the context of healing after heartbreak.\"}",
+      "humor_score": 0.9919460713863373,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Lily Allen's album have a hard time finding its way home after being released? Because it got lost in the West End maze!",
+      "style": "topical punchline",
+      "seed": 264605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.183467519283295,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific to the album title but lacks depth and surprise. It's a mild pun that feels a bit forced and doesn't fully engage with Lily Allen's context or the emotional themes of her work.\"}",
+      "humor_score": 0.9917337596416473,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Lily Allen's new album need a security guard? Because it was a \"West End Girl\" without her heart!",
+      "style": "reversal",
+      "seed": 264602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.177938830852509,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'West End Girl,' but it's a bit forced and lacks specificity about Lily Allen's healing process or her music. It also doesn't fully connect to the context of the headline.\"}",
+      "humor_score": 0.9889694154262543,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Lily Allen's new album take seven years? Because it needed time to heal from the West End girl breakup.",
+      "style": "absurd literalism",
+      "seed": 264603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.079513025283814,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'West End Girl,' but it's a bit forced and relies too much on the album title rather than delivering a fresh or surprising twist.\"}",
+      "humor_score": 0.9397565126419067,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Lily Allen's album go on a diet? It was West End Girl-ish.",
+      "style": "deadpan understatement",
+      "seed": 264604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.7880095720291145,
+      "judge_score": 6.0,
+      "judge_raw": "\n\n{\"score\": 6, \"reason\": \"The joke is somewhat creative with the pun on 'West End Girl-ish,' but it's a bit forced and lacks specificity about Lily Allen or her album. It also doesn't tie well into the context of heartbreak and healing mentioned in the headline.\"}",
+      "humor_score": 0.9940047860145569,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

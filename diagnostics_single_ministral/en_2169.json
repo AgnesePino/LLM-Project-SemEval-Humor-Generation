@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2169",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "US adds 119,000 jobs in September but unemployment hits four-year peak",
+    "raw": {
+      "id": "en_2169",
+      "word1": "-",
+      "word2": "-",
+      "headline": "US adds 119,000 jobs in September but unemployment hits four-year peak"
+    }
+  },
+  "winner": "Why did the unemployed man apply for a job at the Bureau of Labor Statistics? Because he heard they were hiring extra hands to keep track of all those new positions!",
+  "candidates": [
+    {
+      "text": "Why did the unemployed man apply for a job at the Bureau of Labor Statistics? Because he heard they were hiring extra hands to keep track of all those new positions!",
+      "style": "wordplay",
+      "seed": 371601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192290794849396,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant to the headline and uses wordplay ('extra hands'), but the surprise and specificity are weak. The humor feels forced and doesn't fully align with the statistics mentioned in the headline.\"}",
+      "humor_score": 0.9961453974246979,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't unemployed Americans line up for job interviews anymore? Because they've reached their six-feet apart limit!",
+      "style": "topical punchline",
+      "seed": 371605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189181399345398,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant to the headline but relies on a tired pandemic reference ('six-feet apart') that may not resonate with all audiences. It's brief and specific, but lacks originality and deeper connection to the unemployment statistic.\"}",
+      "humor_score": 0.994590699672699,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the unemployed worker join a job fair in a month with record job growth? To meet as many employers as possible during the peak unemployment season.",
+      "style": "absurd literalism",
+      "seed": 371603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.128749561309815,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'peak unemployment season,' but it's a bit forced and lacks punch. The setup could be more engaging, and the humor feels slightly generic.\"}",
+      "humor_score": 0.9643747806549072,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A company must be really innovative to add jobs while simultaneously increasing its unemployment rate.",
+      "style": "deadpan understatement",
+      "seed": 371604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.244062316417694,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever in pointing out the irony, but it's a bit generic and doesn't fully leverage the specific numbers or context in the headline.\"}",
+      "humor_score": 0.022031158208847046,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A man applied for a job at the unemployment office...",
+      "style": "reversal",
+      "seed": 371602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 4.3297078847885135,
+      "judge_score": 3.0,
+      "judge_raw": "\n\n{\"score\": 3.0, \"reason\": \"The joke is incomplete and doesn't clearly connect to the headline. It lacks surprise, specificity, and a punchline.\"}",
+      "humor_score": 0.9648539423942566,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2288",
+    "kind": "word_inclusion",
+    "word1": "measure",
+    "word2": "hair",
+    "headline": null,
+    "raw": {
+      "id": "en_2288",
+      "word1": "measure",
+      "word2": "hair",
+      "headline": "-"
+    }
+  },
+  "winner": "Why did the barber go to the bakery? He heard they had a new measure for hair-breadths!",
+  "candidates": [
+    {
+      "text": "Why did the barber go to the bakery? He heard they had a new measure for hair-breadths!",
+      "style": "wordplay",
+      "seed": 490601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190756034851074,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses the required words 'measure' and 'hair' creatively with a pun on 'hair-breadths,' but the humor is somewhat forced and the connection to the bakery feels weak.\"}",
+      "humor_score": 0.9953780174255371,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't hair salons ever use measuring tapes? Because they already have enough hair-measures!",
+      "style": "reversal",
+      "seed": 490602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:measure"
+    },
+    {
+      "text": "Why did the yard take a measuring tape to the barber? Because it wanted a hair-measuring haircut!",
+      "style": "absurd literalism",
+      "seed": 490603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:measure"
+    },
+    {
+      "text": "After getting my hair cut, I was amazed at how accurate the measurement of my remaining hair turned out to be.",
+      "style": "deadpan understatement",
+      "seed": 490604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:measure"
+    },
+    {
+      "text": "Why don't barbers ever take measurements during a haircut? Because two inches is already too much!",
+      "style": "topical punchline",
+      "seed": 490605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:measure,hair"
+    }
+  ]
+}

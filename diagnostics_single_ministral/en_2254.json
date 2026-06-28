@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2254",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Tell us: have you ever received a terrible Secret Santa?",
+    "raw": {
+      "id": "en_2254",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Tell us: have you ever received a terrible Secret Santa?"
+    }
+  },
+  "winner": "Why was the Secret Santa party at the zoo such a disaster? Because everyone kept stealing each other's pandas!",
+  "candidates": [
+    {
+      "text": "Every year at the office party, I'm the one who gets stuck with a 'Terrible Secret Santa.' This time, though, I decided to take revenge - I became this year's Terrible Secret Santa!",
+      "style": "reversal",
+      "seed": 456602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.964627385139465,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a twist, showing revenge through becoming the Terrible Secret Santa. It's specific and concise but lacks some surprise and could be more humorous with a punchier ending.\"}",
+      "humor_score": 0.9823136925697327,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't secret santas ever play hide and seek? Because they always get stuck in the same closet!",
+      "style": "topical punchline",
+      "seed": 456605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192140293121338,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and surprise. The pun on 'closet' is weak and not clearly tied to the concept of a terrible Secret Santa.\"}",
+      "humor_score": 0.996070146560669,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the Secret Santa party at the zoo such a disaster? Because everyone kept stealing each other's pandas!",
+      "style": "absurd literalism",
+      "seed": 456603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190623772144318,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the panda twist, but 'stealing pandas' is a weak pun and lacks specificity or surprise.\"}",
+      "humor_score": 0.9953118860721588,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the Secret Santa party at the zoo so chaotic? Because everyone was gorilla-fied!",
+      "style": "wordplay",
+      "seed": 456601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189641427993775,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the wordplay on 'gorilla-fied,' but it lacks specificity and doesn't clearly tie back to the idea of a terrible Secret Santa experience.\"}",
+      "humor_score": 0.9948207139968872,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Every year, I wonder if this will be the one where I get a decent Secret Santa.",
+      "style": "deadpan understatement",
+      "seed": 456604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.117016983032227,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relatable and has a mild twist, but lacks surprise and specificity. It's more of a generic observation than a humorous punchline.\"}",
+      "humor_score": 0.9585084915161133,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

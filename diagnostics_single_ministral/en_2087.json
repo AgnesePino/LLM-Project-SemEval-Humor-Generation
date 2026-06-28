@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2087",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "LeBron James plays 23rd NBA season vs. players born after he started",
+    "raw": {
+      "id": "en_2087",
+      "word1": "-",
+      "word2": "-",
+      "headline": "LeBron James plays 23rd NBA season vs. players born after he started"
+    }
+  },
+  "winner": "LeBron James, in his 23rd NBA season, confidently said to the team of youngsters, \"When I first started playing, some of you weren't even born yet! But today, I'm going to make you feel like you were conceived on the court!",
+  "candidates": [
+    {
+      "text": "Why did LeBron James bring a baby diaper to the game? Because some of his opponents were still in their diapers when he started playing!",
+      "style": "reversal",
+      "seed": 289602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.791711616516114,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on age difference, specific to LeBron's long career, concise and naturally phrased.\"}",
+      "humor_score": 0.9958558082580566,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did LeBron James bring a time machine to the game? To show the young players how things were \"back in his day\"!",
+      "style": "topical punchline",
+      "seed": 289605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.247439110279084,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, specific, and uses a surprising twist with the time machine. It ties directly to the headline and plays on the generational gap in the NBA.\"}",
+      "humor_score": 0.9237195551395416,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Lebron James: \"I've played against a lot of talented individuals in my career... Some were even born while I was still in the league.",
+      "style": "deadpan understatement",
+      "seed": 289604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.802144098281861,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on age comparison, concise and specific to LeBron's situation, natural delivery with a touch of self-aware humor.\"}",
+      "humor_score": 0.5010720491409302,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "LeBron James, in his 23rd NBA season, confidently said to the team of youngsters, \"When I first started playing, some of you weren't even born yet! But today, I'm going to make you feel like you were conceived on the court!",
+      "style": "absurd literalism",
+      "seed": 289603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.527984855175018,
+      "judge_score": 8.2,
+      "judge_raw": "\n\n{\"score\": 8.2, \"reason\": \"The joke is concise, surprising, and specific with a clever twist on LeBron's age and the players' youth.\"}",
+      "humor_score": 0.48399242758750916,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't LeBron James' opponents use birth certificates? Because they can't find his date of draft-ification!",
+      "style": "wordplay",
+      "seed": 289601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.16218204498291,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the word 'draft-ification,' but it's a bit forced and doesn't fully land due to awkward phrasing and limited connection to the headline.\"}",
+      "humor_score": 0.9810910224914551,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

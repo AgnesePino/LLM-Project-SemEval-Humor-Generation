@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2224",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Black Friday do’s and don’ts: 9 expert-approved tips we swear by",
+    "raw": {
+      "id": "en_2224",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Black Friday do’s and don’ts: 9 expert-approved tips we swear by"
+    }
+  },
+  "winner": "Why did the shopper bring a thesaurus on Black Friday? To ensure they didn't buy a donkey when they meant to do-nut!",
+  "candidates": [
+    {
+      "text": "Why did the shopper bring a thesaurus on Black Friday? To ensure they didn't buy a donkey when they meant to do-nut!",
+      "style": "reversal",
+      "seed": 426602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.792633521556855,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, surprising, and specific with a clever play on words ('do-nut' vs. 'donkey'). It ties naturally to the Black Friday theme and uses a thesaurus in an unexpected way.\"}",
+      "humor_score": 0.9963167607784271,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "What if an expert swore by a donut as a must-have item for Black Friday shopping? It's a do... or is it?",
+      "style": "absurd literalism",
+      "seed": 426603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.9266380071640015,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever and ties into the headline with a twist involving an expert swearing by a donut. It's specific and surprising, though slightly wordy and lacks full punch.\"}",
+      "humor_score": 0.9633190035820007,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Anxiously awaiting the holiday season like a hungry bear on Black Friday, I've been gathering tips from the experts - because nothing says \"expert\" like surviving the chaos of a discounted blender sale.",
+      "style": "deadpan understatement",
+      "seed": 426604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.845220267772675,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with the bear analogy and references the chaos of a discounted blender sale, adding specificity and surprise. However, it's slightly long-winded and the humor could be more tightly focused for maximum impact.\"}",
+      "humor_score": 0.9226101338863373,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the holiday shopper sworn at by the expert? Because he don't-ed the Black Friday do's!",
+      "style": "wordplay",
+      "seed": 426601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192656946182251,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'don't-ed,' but it's a bit forced and relies heavily on the specific context of the headline. It lacks broader humor appeal and feels more like a pun than a fully formed joke.\"}",
+      "humor_score": 0.9963284730911255,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the shopper bring a thesaurus on Black Friday? To avoid repeating the same \"do's\" over and over!",
+      "style": "topical punchline",
+      "seed": 426605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.180952262878418,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'do's' and 'thesaurus,' but it feels a bit forced and lacks specificity to the Black Friday context. It’s not offensive, but it misses some of the surprise and conciseness that would make it more effective.\"}",
+      "humor_score": 0.990476131439209,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2171",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "‘I never looked back’: Why readers chose a life abroad after Brexit",
+    "raw": {
+      "id": "en_2171",
+      "word1": "-",
+      "word2": "-",
+      "headline": "‘I never looked back’: Why readers chose a life abroad after Brexit"
+    }
+  },
+  "winner": "After Brexit, they decided to 'exit' their lives abroad and found themselves looking back at Britain with longing, wondering if they had made a 'mist'-exit.",
+  "candidates": [
+    {
+      "text": "Why did the British expat look over his shoulder while on vacation? Because he heard that Brexit might chase him back home!",
+      "style": "topical punchline",
+      "seed": 373605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.9889004826545715,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is timely and ties well with the headline, using a pun on 'looked back' and 'Brexit chase.' It's concise and surprising, though the humor could be sharper.\"}",
+      "humor_score": 0.9944502413272858,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the British expat refuse to look over his shoulder after Brexit? Because he didn't want to see 'I never looked back' in reverse!",
+      "style": "wordplay",
+      "seed": 373601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.187450003623963,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'I never looked back' and its reverse, but it feels a bit forced and lacks specificity to the Brexit context. The humor is mild and could be more tightly tied to the headline's theme.\"}",
+      "humor_score": 0.9937250018119812,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A man, frustrated with the chaos of post-Brexit Britain, decided to take matters into his own hands. One morning, he looked back, saw the mess, and promptly moved to Ireland... in reverse.",
+      "style": "absurd literalism",
+      "seed": 373603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.846418333053589,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke has a clever twist with 'in reverse,' but the setup is slightly confusing and the humor feels forced rather than naturally funny.\"}",
+      "humor_score": 0.8232091665267944,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "After Brexit, they decided to 'exit' their lives abroad and found themselves looking back at Britain with longing, wondering if they had made a 'mist'-exit.",
+      "style": "reversal",
+      "seed": 373602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.073521196842194,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with wordplay on 'exit' and 'mistake,' but the setup could be tighter for maximum surprise.\"}",
+      "humor_score": 0.0367605984210968,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "After Brexit, I didn't even bother turning around... I was already at Heathrow's Departures.",
+      "style": "deadpan understatement",
+      "seed": 373604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

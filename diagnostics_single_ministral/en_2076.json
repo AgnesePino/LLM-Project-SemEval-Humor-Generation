@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2076",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Abbott strikes $23bn deal for Cologuard cancer test maker Exact Sciences",
+    "raw": {
+      "id": "en_2076",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Abbott strikes $23bn deal for Cologuard cancer test maker Exact Sciences"
+    }
+  },
+  "winner": "A politician finally makes a big purchase... not of a yacht or a private jet, but of a company that sells toilet paper for colonoscopies instead! Abbott strikes $23bn deal for Exact Sciences' \"Pre-Test Wipes\" maker.",
+  "candidates": [
+    {
+      "text": "Why did Abbot find Exact Sciences a perfect match? Because they both know how to strike a deal when it comes to colon matters!",
+      "style": "wordplay",
+      "seed": 278601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.913364410400391,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with wordplay on 'colon matters' and the context of the deal, but it's slightly forced and could be more specific to the companies involved.\"}",
+      "humor_score": 0.9566822052001953,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Abbot break up with their last partner before Exact Sciences? Because they said \"I can't afford you\" and Abbott didn't want another colonoscopy!",
+      "style": "topical punchline",
+      "seed": 278605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.185405445098877,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'colonoscopy,' but it's a bit forced and relies on a weak connection between Abbott breaking up and the Cologuard test. It lacks specificity and could be more surprising.\"}",
+      "humor_score": 0.9927027225494385,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the kangaroo sign a $23 billion contract with Abbott? Because he needed a company to help him \"hop\" over his \"guard\" of colon polyps!",
+      "style": "absurd literalism",
+      "seed": 278603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.178411376476288,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the wordplay on 'hop' and 'guard,' but it's a bit forced and lacks clarity. The connection between the kangaroo and the cancer test is tenuous, reducing the surprise and specificity.\"}",
+      "humor_score": 0.9892056882381439,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A politician finally makes a big purchase... not of a yacht or a private jet, but of a company that sells toilet paper for colonoscopies instead! Abbott strikes $23bn deal for Exact Sciences' \"Pre-Test Wipes\" maker.",
+      "style": "reversal",
+      "seed": 278602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.657294344902039,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the reference to 'Pre-Test Wipes' may be confusing or too niche for general humor impact.\"}",
+      "humor_score": 0.7286471724510193,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At this rate, soon we'll have a dollar bill worth a cancer test.",
+      "style": "deadpan understatement",
+      "seed": 278604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.013560724258423,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on money and cancer tests, but it's a bit forced and lacks specificity to the headline details.\"}",
+      "humor_score": 0.4067803621292114,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2126",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Another Canadian joins Gretzky, Crosby as lone NHL teens with 30 points in first 20 games of a season",
+    "raw": {
+      "id": "en_2126",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Another Canadian joins Gretzky, Crosby as lone NHL teens with 30 points in first 20 games of a season"
+    }
+  },
+  "winner": "What did the Canadian teen say after scoring his 30th point? \"I'm feeling 'Gretz-y good,\" but I need Sid to show me how to 'Crosby over'!",
+  "candidates": [
+    {
+      "text": "What did the Canadian teen say after scoring his 30th point? \"I'm feeling 'Gretz-y good,\" but I need Sid to show me how to 'Crosby over'!",
+      "style": "wordplay",
+      "seed": 328601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.790431487560273,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on Gretzky and Crosby names are clever and specific, with a playful twist on 'Crosby over' as a pun on 'cross over.' Brevity and natural English contribute to its humor.\"}",
+      "humor_score": 0.9952157437801361,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Canadian teenager refuse to play hide and seek? Because he already knew he'd reach 30 points before anyone could say \"Twenty!",
+      "style": "topical punchline",
+      "seed": 328605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.384212756156922,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on 'Twenty' and hockey stats, ties to headline with specificity and surprise.\"}",
+      "humor_score": 0.9921063780784607,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "What did the nervous teenager say to the hockey puck? \"I hope I don't let 30 points slip through my fingers like Sidney Crosby in overtime!",
+      "style": "reversal",
+      "seed": 328602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191953909397125,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and ties to the headline, but the pun on 'slip through my fingers' feels forced and the reference to Sidney Crosby in overtime is unclear without context.\"}",
+      "humor_score": 0.9959769546985626,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the teenager refuse to play hockey with a maple syrup bottle? Because he wanted to avoid being compared to syrupy Gretzky and sticky Crosby!",
+      "style": "absurd literalism",
+      "seed": 328603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1868348836898805,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but relies on a weak pun and lacks strong surprise or specificity.\"}",
+      "humor_score": 0.9934174418449402,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A small moose from Canada just signed a contract with the local pond hockey team. Now they can't wait for him to grow into his points.",
+      "style": "deadpan understatement",
+      "seed": 328604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2001",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Panamanian lawmakers’ Taiwan trip sparks diplomatic row with China",
+    "raw": {
+      "id": "en_2001",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Panamanian lawmakers’ Taiwan trip sparks diplomatic row with China"
+    }
+  },
+  "winner": "Why did the Panamanian lawmaker bring a suitcase full of soy sauce on his Taiwan trip? Because he heard China was the one who started the diplomatic row-mari!",
+  "candidates": [
+    {
+      "text": "Why did the Panamanian lawmaker bring a suitcase full of soy sauce on his Taiwan trip? Because he heard China was the one who started the diplomatic row-mari!",
+      "style": "absurd literalism",
+      "seed": 203603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192107212543488,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the soy sauce reference, but the pun on 'row-mari' feels forced and less natural. It lacks specificity in tying the suitcase to the diplomatic row and could be more concise.\"}",
+      "humor_score": 0.9960536062717438,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Panamanian lawmaker bring a compass on his trip to Taiwan? To ensure he didn't get lost in their diplomatic row with China-a-ma-bob!",
+      "style": "wordplay",
+      "seed": 203601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.106981408596039,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the compass pun, but 'China-a-ma-bob' feels forced and less natural. The humor is mild and not strongly tied to the headline's specifics.\"}",
+      "humor_score": 0.9534907042980194,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Panamanian lawmaker bring a map on his trip to Taiwan? To make sure he didn't get lost in China!",
+      "style": "topical punchline",
+      "seed": 203605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.781293141841889,
+      "judge_score": 6.0,
+      "judge_raw": "\n\n{\"score\": 6, \"reason\": \"The joke is somewhat surprising and specific to the situation, but the humor is weak and relies on a tired 'getting lost in China' punchline that feels generic and not particularly funny.\"}",
+      "humor_score": 0.9906465709209442,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A Panamanian legislator walked into a bar in Beijing and ordered a drink... Sparking an international diplomatic toast with Taiwan.",
+      "style": "reversal",
+      "seed": 203602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.778656768798829,
+      "judge_score": 6.0,
+      "judge_raw": "\n\n{\"score\": 6, \"reason\": \"The joke attempts wordplay but lacks clarity and fails to directly tie the Panamanian lawmakers' actions to the diplomatic row with China.\"}",
+      "humor_score": 0.9893283843994141,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A Taiwanese legislator, upon arriving in Panama for a peaceful sightseeing tour, was seen calmly observing a ship's anchor. Upon being asked what he was doing, he replied, \"I'm just here to set sail.",
+      "style": "deadpan understatement",
+      "seed": 203604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.104648721218109,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'set sail,' but it lacks direct connection to the headline and feels a bit forced in context.\"}",
+      "humor_score": 0.45232436060905457,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

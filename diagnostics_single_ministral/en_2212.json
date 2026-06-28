@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2212",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "How 6 organizers are building effective global health solutions from the bottom up",
+    "raw": {
+      "id": "en_2212",
+      "word1": "-",
+      "word2": "-",
+      "headline": "How 6 organizers are building effective global health solutions from the bottom up"
+    }
+  },
+  "winner": "Why did the six organizers refuse to work on top-down global health solutions? Because they were firmly committed to building from the ground up... and didn't want to deal with all that dangling above them.",
+  "candidates": [
+    {
+      "text": "Why did the six grassroots organizers refuse to play Jenga? They were building global health solutions from the ground floor, not toppling towers!",
+      "style": "absurd literalism",
+      "seed": 414603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.569626140594483,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'building from the ground floor' and 'toppling towers' are clever and specific, aligning well with the headline. Brevity and surprise contribute to its humor.\"}",
+      "humor_score": 0.8848130702972412,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't six organizers ever get lost at the base of the pyramid? Because they always know their way up in global health solutions!",
+      "style": "wordplay",
+      "seed": 414601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.15984959602356,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks clarity and punch. The pun on 'base of the pyramid' and 'global health solutions' is weak and not clearly connected to the organizers or their work.\"}",
+      "humor_score": 0.9799247980117798,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the six organizers refuse to work on top-down global health solutions? Because they were firmly committed to building from the ground up... and didn't want to deal with all that dangling above them.",
+      "style": "deadpan understatement",
+      "seed": 414604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.0366435050964355,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a play on 'building from the ground up' and 'dangling above them,' but the punchline could be more tightly connected to the headline for maximum surprise and specificity.\"}",
+      "humor_score": 0.5183217525482178,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the six grassroots organizers refuse to build their global health solutions on a foundation of quicksand? Because they knew that starting from the bottom was already quite enough!",
+      "style": "topical punchline",
+      "seed": 414605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.4511293292045595,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'starting from the bottom' and 'quicksand,' but it feels a bit forced and lacks precision in connecting to global health solutions. The humor is mild and not fully aligned with the headline's context.\"}",
+      "humor_score": 0.6255646646022797,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the six organ donors decide to work their way up from the ground floor in global health solutions? Because they heard that building from the bottom-up was just a bunch of small steps!",
+      "style": "reversal",
+      "seed": 414602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.267697787284851,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is somewhat related to the headline but lacks clarity and punch. The pun on 'building from the bottom-up' and 'small steps' is weak and not particularly surprising or specific.\"}",
+      "humor_score": 0.8338488936424255,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2281",
+    "kind": "word_inclusion",
+    "word1": "drill",
+    "word2": "laptop",
+    "headline": null,
+    "raw": {
+      "id": "en_2281",
+      "word1": "drill",
+      "word2": "laptop",
+      "headline": "-"
+    }
+  },
+  "winner": "A drill accidentally took a bite out of my laptop, now it's a laptop with a drillbit screen and a very confused operating system!",
+  "candidates": [
+    {
+      "text": "Why did the laptop bring a drill to the party? Because it heard there would be a hardware dance-off!",
+      "style": "topical punchline",
+      "seed": 483605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.792717623710633,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative pun on 'hardware' with a surprising twist, concise and specific, uses both required words naturally.\"}",
+      "humor_score": 0.9963588118553162,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "While drilling into the wall for a new shelf, I accidentally punctured my laptop. Now it's a portable desktop... with a drill attached.",
+      "style": "deadpan understatement",
+      "seed": 483604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.791393923759461,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative twist with drill and laptop, good surprise factor and concise joke.\"}",
+      "humor_score": 0.9956969618797302,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A drill accidentally took a bite out of my laptop, now it's a laptop with a drillbit screen and a very confused operating system!",
+      "style": "absurd literalism",
+      "seed": 483603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.788108813762666,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative and surprising combination of 'drill' and 'laptop', with vivid imagery and a touch of technical humor.\"}",
+      "humor_score": 0.9940544068813324,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the laptop bring a drill to school? Because it heard that \"there's an app for everything,\" but it hadn't tried drilling holes in desktops yet!",
+      "style": "reversal",
+      "seed": 483602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190544259548187,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses the required words and has a mild twist, but the humor is somewhat forced and the punchline lacks strong surprise or specificity.\"}",
+      "humor_score": 0.9952721297740936,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the laptop feeling drilled? Because it had a hardware malfunction and needed a \"drilldriver\"!",
+      "style": "wordplay",
+      "seed": 483601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:drill"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2292",
+    "kind": "word_inclusion",
+    "word1": "move",
+    "word2": "towel",
+    "headline": null,
+    "raw": {
+      "id": "en_2292",
+      "word1": "move",
+      "word2": "towel",
+      "headline": "-"
+    }
+  },
+  "winner": "Why did the towel move across the room all by itself? It heard about a new dance called the \"Wash-Cloth Shuffle.",
+  "candidates": [
+    {
+      "text": "Why did the towel move so quickly during the game of chess? It was a rookie mistake.",
+      "style": "absurd literalism",
+      "seed": 494603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192277026176453,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"Includes required words but lacks strong surprise or specificity; the joke is somewhat generic and relies on a weak pun.\"}",
+      "humor_score": 0.9961385130882263,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the towel move the couch? Because it was a folding couch!",
+      "style": "reversal",
+      "seed": 494602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191815507411957,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses the required words 'move' and 'towel' but relies on a weak pun that lacks surprise and specificity. The connection between the towel moving the couch and it being a folding couch is somewhat forced and not particularly funny.\"}",
+      "humor_score": 0.9959077537059784,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the snail move so slowly? Because it was wrapped in a towel and couldn't feel its feet.",
+      "style": "deadpan understatement",
+      "seed": 494604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190517139434815,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"Includes required words but lacks strong humor and surprise; the joke is somewhat forced and not very funny.\"}",
+      "humor_score": 0.9952585697174072,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the towel move across the room all by itself? It heard about a new dance called the \"Wash-Cloth Shuffle.",
+      "style": "topical punchline",
+      "seed": 494605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.188827228546143,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses the required words and has a basic pun, but the humor is weak and the punchline feels forced.\"}",
+      "humor_score": 0.9944136142730713,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't towels ever go on vacations? Because they prefer to stay put and move the furniture instead!",
+      "style": "wordplay",
+      "seed": 494601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:towel"
+    }
+  ]
+}

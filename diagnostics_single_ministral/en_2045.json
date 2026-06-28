@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2045",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Giant spider web found in Greek-Albanian border cave",
+    "raw": {
+      "id": "en_2045",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Giant spider web found in Greek-Albanian border cave"
+    }
+  },
+  "winner": "Found in the same cave: a group of bachelors, refusing to share the last thread.",
+  "candidates": [
+    {
+      "text": "Why did the giant spider avoid visiting Athens? Because he didn't want to get tangled up in the bureaucratic web!",
+      "style": "wordplay",
+      "seed": 247601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.789701986312867,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'web' and 'bureaucratic web' are clever and specific to the headline, with good surprise and natural flow.\"}",
+      "humor_score": 0.9948509931564331,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the giant spider open a travel agency on the Greek-Albanian border? Because it wanted to spin a web of deals!",
+      "style": "topical punchline",
+      "seed": 247605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1880450963974,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the 'spin a web of deals' pun, but it's a bit generic and relies on a common spider/web pun rather than fully leveraging the specific context of the Greek-Albanian border cave.\"}",
+      "humor_score": 0.9940225481987,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the giant spider open a travel agency at the Greek-Albanian border? Because it wanted to weave web deals for tourists!",
+      "style": "absurd literalism",
+      "seed": 247603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.187053871154785,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the spider opening a travel agency and using 'web deals,' but the pun is weak and the connection to the headline is not very tight.\"}",
+      "humor_score": 0.9935269355773926,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't giants use the cave at the Greek-Albanian border? Because they can't find their way out of that tiny spider web!",
+      "style": "reversal",
+      "seed": 247602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.180379641056061,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks a strong punchline and relies on a weak pun.\"}",
+      "humor_score": 0.9901898205280304,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Found in the same cave: a group of bachelors, refusing to share the last thread.",
+      "style": "deadpan understatement",
+      "seed": 247604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.184594404697418,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'thread' and 'bachelors,' but it lacks specificity to the headline and feels a bit forced.\"}",
+      "humor_score": 0.4922972023487091,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

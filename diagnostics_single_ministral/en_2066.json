@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2066",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Food writer Anna Ansari's new cookbook \"Silk Roads\" shares the recipes she has enjoyed on her travels around the world.",
+    "raw": {
+      "id": "en_2066",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Food writer Anna Ansari's new cookbook \"Silk Roads\" shares the recipes she has enjoyed on her travels around the world."
+    }
+  },
+  "winner": "In Anna Ansari's new cookbook \"Silk Roads,\" you'll find a delightful recipe for \"World Travelers' Cuisine\" - just gather a suitcase full of airplane food, mix in a heaping dose of jet lag, simmer with culture shock, and serve with an extra side of lost luggage!",
+  "candidates": [
+    {
+      "text": "Why did Anna Ansari's cookbook become a best-seller? Because it had all the spices from the Silk Road... and the recipes were easy to swallow!",
+      "style": "topical punchline",
+      "seed": 268605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.94230043888092,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is somewhat clever with the play on 'spices from the Silk Road' and 'easy to swallow,' but it's a bit generic and lacks deeper specificity related to Anna Ansari or her cookbook.\"}",
+      "humor_score": 0.9711502194404602,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Anna Ansari's camel refuse to eat from her new cookbook \"Silk Roads\"? Because it was afraid of recipes from foreign lands!",
+      "style": "absurd literalism",
+      "seed": 268603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.187183451652527,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the camel and cookbook reference, but the humor feels forced and lacks a clear connection to the headline. The surprise factor is low, and the specificity to Anna Ansari's cookbook is minimal.\"}",
+      "humor_score": 0.9935917258262634,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Anna Ansari's new cookbook \"Silk Roads,\" one recipe is simply titled: \"How to make an elephant curry in a teapot.",
+      "style": "deadpan understatement",
+      "seed": 268604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.143677306175232,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke has a surprising twist with the elephant curry in a teapot, but it lacks clear connection to the cookbook's theme and feels slightly forced.\"}",
+      "humor_score": 0.47183865308761597,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Anna Ansari bring her own recipe book on a trip? Because she didn't want to rely on street food!",
+      "style": "wordplay",
+      "seed": 268601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.582191324234008,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is somewhat related to the headline but lacks surprise and specificity. It's generic and doesn't tie directly to the cookbook or the travel theme in a humorous way.\"}",
+      "humor_score": 0.9910956621170044,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Anna Ansari's new cookbook \"Silk Roads,\" you'll find a delightful recipe for \"World Travelers' Cuisine\" - just gather a suitcase full of airplane food, mix in a heaping dose of jet lag, simmer with culture shock, and serve with an extra side of lost luggage!",
+      "style": "reversal",
+      "seed": 268602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.264806580543518,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with its playful take on travel mishaps, but it's a bit generic and doesn't directly tie to the cookbook or Anna Ansari's work. It lacks specificity and could be more surprising.\"}",
+      "humor_score": 0.03240329027175903,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

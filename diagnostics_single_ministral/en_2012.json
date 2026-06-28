@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2012",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Why footballer Troy Parrott is taking the classic Hero's Journey",
+    "raw": {
+      "id": "en_2012",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Why footballer Troy Parrott is taking the classic Hero's Journey"
+    }
+  },
+  "winner": "When Troy Parrott embarks on his hero's journey, they'll soon realize he's no Odysseus... he just can't seem to escape offside!",
+  "candidates": [
+    {
+      "text": "Why did Troy Parrot bring a map on the soccer field? He heard he had to cross the River Clyne and slay the Greenock Morton dragons!",
+      "style": "wordplay",
+      "seed": 214601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.787564980983735,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative use of fantasy elements with specific football references, concise and surprising.\"}",
+      "humor_score": 0.9937824904918671,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why is Troy Parrott currently searching for his lost cleats at the bottom of a cave? Because he took the classic Hero's Journey... to the Underfoot World!",
+      "style": "absurd literalism",
+      "seed": 214603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.77467303276062,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative twist on the Hero's Journey with a football-related pun, concise and surprising.\"}",
+      "humor_score": 0.9873365163803101,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Troy Parrot now embarking on a hero's journey? Well, he better get used to being chased by defenders instead of dragons!",
+      "style": "reversal",
+      "seed": 214602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.253743040561677,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on the Hero's Journey with a football-specific reference, concise and clever.\"}",
+      "humor_score": 0.726871520280838,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "When Troy Parrott embarks on his hero's journey, they'll soon realize he's no Odysseus... he just can't seem to escape offside!",
+      "style": "topical punchline",
+      "seed": 214605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.983944165706635,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Smart wordplay on 'offside' and the Hero's Journey, concise and specific to football context.\"}",
+      "humor_score": 0.5919720828533173,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Troy Parrott has entered the dark forest, but he seems to be struggling with foraging and direction - perhaps he needs a better guidebook for his Hero's Journey.",
+      "style": "deadpan understatement",
+      "seed": 214604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.33555121421814,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and ties to the headline, but the humor is mild and lacks a strong punchline or surprising twist.\"}",
+      "humor_score": 0.06777560710906982,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

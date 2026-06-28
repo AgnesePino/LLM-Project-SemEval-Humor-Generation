@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2018",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Advice from Whitty and Vallance on delaying lockdown 'had no grounding in science'",
+    "raw": {
+      "id": "en_2018",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Advice from Whitty and Vallance on delaying lockdown 'had no grounding in science'"
+    }
+  },
+  "winner": "The lockdown was delayed due to a misunderstanding - Whitty and Vallance thought they were supposed to wait for a scientific paper on delaying, not the lockdown itself.",
+  "candidates": [
+    {
+      "text": "Apparently, Whitty and Vallance were just winging it with their lockdown advice. They must have been following the latest scientific breakthrough - 'Winging It: The New Science'.",
+      "style": "topical punchline",
+      "seed": 220605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.376070964336396,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'winging it' and 'scientific breakthrough' add surprise and specificity, with concise, natural humor that aligns well with the headline.\"}",
+      "humor_score": 0.28803548216819763,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Whitty and Vallance refuse to play darts? Because their strategy had no 'ground-ting'!",
+      "style": "wordplay",
+      "seed": 220601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.062276673316956,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'grounding' and 'ground-ting,' but it's a bit forced and lacks specificity to the context of the headline. It also misses some punch.\"}",
+      "humor_score": 0.9311383366584778,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The advice from Whitty and Vallance on delaying lockdown had more grounding in fiction than science.",
+      "style": "reversal",
+      "seed": 220602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.809019076824189,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'grounding' and 'fiction' add clever twist; concise and specific to headline\"}",
+      "humor_score": 0.004509538412094116,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The lockdown was delayed due to a misunderstanding - Whitty and Vallance thought they were supposed to wait for a scientific paper on delaying, not the lockdown itself.",
+      "style": "absurd literalism",
+      "seed": 220603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.0426583886146545,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, specific, and uses a clever twist on the misunderstanding between delaying a scientific paper and delaying the lockdown. It's somewhat surprising but could be more impactful with greater punch.\"}",
+      "humor_score": 0.02132919430732727,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A government official consulted a broom closet before deciding on lockdown measures. It was advised that sweeping under the rug is always more effective than facing problems head-on.",
+      "style": "deadpan understatement",
+      "seed": 220604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.374054622650147,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and uses a metaphor related to the headline, but it's a bit generic and lacks the sharp surprise or specificity needed for maximum humor.\"}",
+      "humor_score": 0.08702731132507324,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

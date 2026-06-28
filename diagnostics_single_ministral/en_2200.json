@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2200",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Parasocial' is the Cambridge dictionary word of the year but what does it mean - and are you in a parasocial relationship?",
+    "raw": {
+      "id": "en_2200",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Parasocial' is the Cambridge dictionary word of the year but what does it mean - and are you in a parasocial relationship?"
+    }
+  },
+  "winner": "Why did the internet celebrity feel so lonely at her million-follower party? Because she was in a parasocial relationship with her fans.",
+  "candidates": [
+    {
+      "text": "In a shocking turn of events, it was reported today that I am now the Cambridge Dictionary's word of the year. They must have confused \"parasocial relationship\" with \"obsessive admirer.\" Quite flattering, really.",
+      "style": "deadpan understatement",
+      "seed": 402604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.70296220779419,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, surprising, and specific, with a clever twist on the meaning of 'parasocial relationship.' It uses natural English and has a light-hearted, self-deprecating tone that adds to its humor.\"}",
+      "humor_score": 0.9514811038970947,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In a twist that would make even the Oxford Comma blush, this year's Cambridge Dictionary word of the year is none other than \"Parasocial.\" But here's a question for you: If you've ever been so enamored with a dictionary that you felt compelled to share your deepest thoughts and life stories with it, are you in a parasocial relationship? After all, one man's obsession is another dictionary's love affair.",
+      "style": "absurd literalism",
+      "seed": 402603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.14813529253006,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative twist with the Oxford Comma reference, cleverly ties the concept of parasocial relationships to dictionary use, and is both specific and surprising.\"}",
+      "humor_score": 0.6740676462650299,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the dictionary feeling so lonely at the party? It was stuck in a parasocial relationship with a room full of words.",
+      "style": "wordplay",
+      "seed": 402601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.991387069225311,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever and ties the concept of 'parasocial relationship' to a dictionary in a relatable scenario. It's specific and surprising, though the pun could be slightly more refined for maximum impact.\"}",
+      "humor_score": 0.9956935346126556,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the dictionary feeling lonely at a party? Because it found itself in too many parasocial relationships!",
+      "style": "reversal",
+      "seed": 402602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189991009235382,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the topic but lacks specificity and surprise. The pun on 'parasocial relationships' is weak and not clearly tied to the dictionary's role.\"}",
+      "humor_score": 0.994995504617691,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the internet celebrity feel so lonely at her million-follower party? Because she was in a parasocial relationship with her fans.",
+      "style": "topical punchline",
+      "seed": 402605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.179443073272705,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant to the topic but lacks surprise and specificity. It's a bit generic and relies on a common trope about internet celebrities feeling lonely despite having many followers.\"}",
+      "humor_score": 0.9897215366363525,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

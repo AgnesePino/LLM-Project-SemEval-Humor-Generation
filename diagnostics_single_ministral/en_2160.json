@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2160",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Sali Hughes on beauty: from nail polish to powder, the best new makeup of 2025",
+    "raw": {
+      "id": "en_2160",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Sali Hughes on beauty: from nail polish to powder, the best new makeup of 2025"
+    }
+  },
+  "winner": "Why did the powder take a course in nail art? Because it heard Sali Hughes was teaching about the best new makeup of 2025!",
+  "candidates": [
+    {
+      "text": "Why did the makeup artist bring a shovel to the beauty convention in 2025? Because she heard there was going to be a powder keg of new products!",
+      "style": "topical punchline",
+      "seed": 362605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.993503928184509,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a play on 'powder keg' relating to makeup products, but the setup could be more tightly connected to Sali Hughes or the specific context of the headline.\"}",
+      "humor_score": 0.9967519640922546,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the makeup artist's wallet always full? Because it was always packed with the latest powders and polishes from 2025!",
+      "style": "reversal",
+      "seed": 362602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.187632691860199,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks surprise and depth. It's a mild pun on 'packed with powders and polishes' but feels generic and not particularly funny or specific.\"}",
+      "humor_score": 0.9938163459300995,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the powder take a course in nail art? Because it heard Sali Hughes was teaching about the best new makeup of 2025!",
+      "style": "absurd literalism",
+      "seed": 362603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.183859896659851,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific to the headline but relies on a forced pun that may not land well. It's brief and has some surprise, but the humor feels a bit strained and lacks natural flow.\"}",
+      "humor_score": 0.9919299483299255,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the makeup artist go bankrupt in 2025? Because her \"best new makeup of 2025\" was all outdated by 2026!",
+      "style": "wordplay",
+      "seed": 362601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.147972238063812,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant to the headline but lacks originality and surprise; it's predictable and relies on a common time-based punchline.\"}",
+      "humor_score": 0.9739861190319061,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the cosmetic industry finally create self-applying foundation in 2025? Because Sali Hughes was tired of doing her own nails.",
+      "style": "deadpan understatement",
+      "seed": 362604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.537399446964264,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"Lacks specificity and the punchline is weak and unrelated to the headline's focus on makeup innovation.\"}",
+      "humor_score": 0.968699723482132,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

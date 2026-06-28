@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2270",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Coordinated operation across Europe dismantles antiquities smuggling ring",
+    "raw": {
+      "id": "en_2270",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Coordinated operation across Europe dismantles antiquities smuggling ring"
+    }
+  },
+  "winner": "The police finally managed to locate a missing vase... in a coordinated operation spanning their kitchens across Europe.",
+  "candidates": [
+    {
+      "text": "Why was the artifact always getting into trouble at the airport? Because it couldn't keep its smuggle straight!",
+      "style": "topical punchline",
+      "seed": 472605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.187265110015869,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'smuggle,' but it's a bit forced and lacks specificity to the headline. The humor is mild and not strongly tied to the context of the smuggling ring or Europe.\"}",
+      "humor_score": 0.9936325550079346,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the ancient statue always getting into trouble? Because it had a history of smuggling rings!",
+      "style": "wordplay",
+      "seed": 472601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1844009280204775,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'smuggling rings,' but it's a bit forced and lacks specificity. The connection to the headline is weak, and the humor relies more on a pun than a fully developed punchline.\"}",
+      "humor_score": 0.9922004640102386,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A group of antiquities, tired of being smuggled around Europe, decided to hire a lawyer to file a class-action suit against their traffickers. They sought justice for years of whirlwind tourism, demanding a peaceful retirement in a museum setting.",
+      "style": "absurd literalism",
+      "seed": 472603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.814647901058198,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative personification of antiquities, unexpected twist with a class-action suit, and specific reference to museum retirement adds humor and surprise.\"}",
+      "humor_score": 0.007323950529098511,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The police finally managed to locate a missing vase... in a coordinated operation spanning their kitchens across Europe.",
+      "style": "deadpan understatement",
+      "seed": 472604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.356088590621948,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the humor falls flat due to a weak punchline and awkward phrasing.\"}",
+      "humor_score": 0.5780442953109741,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't antique thieves ever form a band? Because they can't agree on who gets to be the artful dodger!",
+      "style": "reversal",
+      "seed": 472602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

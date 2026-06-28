@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2074",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "US tech group’s quarterly sales outstrip expectations, reassuring investors and boosting shares worldwide",
+    "raw": {
+      "id": "en_2074",
+      "word1": "-",
+      "word2": "-",
+      "headline": "US tech group’s quarterly sales outstrip expectations, reassuring investors and boosting shares worldwide"
+    }
+  },
+  "winner": "The news that US tech group's quarterly sales outstripped expectations caused a global rush of excited runners, each carrying a single share, trying to catch up with the speedy numbers on the stock charts.",
+  "candidates": [
+    {
+      "text": "A jittery investor asks an analyst, \"Why is everyone so excited about US tech group's quarterly sales outperforming expectations?\" The analyst replies, \"Well, it's simple: when sales outstrip expectations, it means they've made more than even Wall Street thought was possible... which is a great relief to investors who thought they were overestimating the company!",
+      "style": "topical punchline",
+      "seed": 276605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.957120966911316,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the twist about investors thinking they were overestimating, but it's a bit convoluted and lacks punch. It's specific to the headline but could be more concise and surprising.\"}",
+      "humor_score": 0.878560483455658,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The stock market is buzzing with excitement, Since the US tech group's quarters were quite a sight! With sales that outstripped even their brightest light, Investors are dancing with glee, in sheer delight! But I wonder if they'll ever match these heights, Or will we see a dip when it comes to quarter-ights?",
+      "style": "wordplay",
+      "seed": 276601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.17977352142334,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke has a playful tone and uses some wordplay with 'quarter-ights,' but it's somewhat generic and lacks the sharp specificity and surprise needed for maximum humor. The rhyme and rhythm are consistent, but the punchline is weak compared to the setup.\"}",
+      "humor_score": 0.4898867607116699,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The news that US tech group's quarterly sales outstripped expectations caused a global rush of excited runners, each carrying a single share, trying to catch up with the speedy numbers on the stock charts.",
+      "style": "absurd literalism",
+      "seed": 276603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.01205575466156,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is creative and uses a vivid image to connect the stock market with runners, offering a surprising twist. It's specific and concise but could be more directly tied to the headline for maximum impact.\"}",
+      "humor_score": 0.006027877330780029,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Even the least-anticipated US tech group's quarterly sales managed to make a splash, dampening the hopes of all those who had previously overestimated them.",
+      "style": "deadpan understatement",
+      "seed": 276604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.208242785930634,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'splash' and 'dampening hopes,' but it's a bit convoluted and lacks the punchiness of a more concise or surprising twist.\"}",
+      "humor_score": 0.0041213929653167725,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The stock market's excitement was soaring, But alas, it seemed their quarterly sales were overjoicing!",
+      "style": "reversal",
+      "seed": 276602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 2.82462968826294,
+      "judge_score": 3.0,
+      "judge_raw": "\n\n{\"score\": 3.0, \"reason\": \"The joke is confusing and lacks clarity; it uses forced rhyming without a clear punchline or connection to the headline.\"}",
+      "humor_score": 0.21231484413146973,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

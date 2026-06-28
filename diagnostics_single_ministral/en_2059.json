@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2059",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "You should be having more slumber parties with your friends",
+    "raw": {
+      "id": "en_2059",
+      "word1": "-",
+      "word2": "-",
+      "headline": "You should be having more slumber parties with your friends"
+    }
+  },
+  "winner": "Why don't we throw a sleepover at the local power station? Because it seems like we should all be having more slumber parties with our transformers!",
+  "candidates": [
+    {
+      "text": "Why don't we throw a sleepover at the local power station? Because it seems like we should all be having more slumber parties with our transformers!",
+      "style": "absurd literalism",
+      "seed": 261603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.783404457569123,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative twist with 'transformers' referencing both electricity and friends, concise and surprising.\"}",
+      "humor_score": 0.9917022287845612,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't we have sleepovers these days? Because apparently, they changed the recipe - now it's called a \"waker-up party.",
+      "style": "wordplay",
+      "seed": 261601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.390527987480164,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on 'sleepover' with 'waker-up party' are clever and specific, delivering a surprise twist while keeping the joke concise and in line with the headline's theme.\"}",
+      "humor_score": 0.9952639937400818,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't we have more slumber parties with my friends these days? Because they all grew up and started having sleepovers at their own apartments!",
+      "style": "topical punchline",
+      "seed": 261605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190100920200348,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relatable and has a mild twist, but it's generic and lacks the surprise or specificity needed for higher humor impact.\"}",
+      "humor_score": 0.995050460100174,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Apparently, I've been hosting these gatherings all wrong. Instead of keeping everyone awake all night, I should be encouraging sleep.",
+      "style": "deadpan understatement",
+      "seed": 261604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.145953488349915,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the humor is mild and relies on a slight twist that may not fully land due to its generic setup.\"}",
+      "humor_score": 0.9729767441749573,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "If you're still having slumber parties at this age, I guess the real question is... who's sleeping where now?",
+      "style": "reversal",
+      "seed": 261602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.824837696552277,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant and has a mild twist, but lacks the surprise and specificity needed for stronger humor.\"}",
+      "humor_score": 0.8124188482761383,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

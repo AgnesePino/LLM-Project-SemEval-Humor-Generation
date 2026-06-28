@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2196",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "The Oura ring has been reduced by £100 ahead of Black Friday",
+    "raw": {
+      "id": "en_2196",
+      "word1": "-",
+      "word2": "-",
+      "headline": "The Oura ring has been reduced by £100 ahead of Black Friday"
+    }
+  },
+  "winner": "I heard the Oura ring just got a little more affordable... Guess now you can't afford to miss it!",
+  "candidates": [
+    {
+      "text": "Why did the Oura ring go on a diet before Black Friday? It wanted to get a little smaller for the big sale.",
+      "style": "absurd literalism",
+      "seed": 398603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.991953730583191,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, uses wordplay on 'get a little smaller' which ties to both the product and the sale, and is specific to the headline. However, it's somewhat predictable and lacks deeper surprise.\"}",
+      "humor_score": 0.9959768652915955,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Oura ring decide to go shopping early? Because it heard that Black Friday was a great day for a hundred pound sale!",
+      "style": "wordplay",
+      "seed": 398601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191542398929596,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and surprise. The pun on 'hundred pound sale' is weak and not clearly tied to the Oura ring's context.\"}",
+      "humor_score": 0.995771199464798,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Oura ring decide to attend a party? Because it heard about the great deals on Black Friday!",
+      "style": "topical punchline",
+      "seed": 398605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189029169082642,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant to the headline but lacks specificity and surprise; it's a generic pun that doesn't fully tie into the price reduction mentioned.\"}",
+      "humor_score": 0.9945145845413208,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The Oura ring has been increased in value by -100%. Now that's a deal!",
+      "style": "deadpan understatement",
+      "seed": 398604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.116250061988831,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Playful use of percentage to highlight the price drop with a twist, concise and surprising.\"}",
+      "humor_score": 0.3581250309944153,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "I heard the Oura ring just got a little more affordable... Guess now you can't afford to miss it!",
+      "style": "reversal",
+      "seed": 398602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.040312778949738,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant and uses the price drop as a setup, but the punchline feels forced and lacks surprise or specificity.\"}",
+      "humor_score": 0.9201563894748688,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

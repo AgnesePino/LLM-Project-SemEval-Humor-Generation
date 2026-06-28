@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2198",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Nvidia Calmed Fears About A.I. How Long Will That Last?",
+    "raw": {
+      "id": "en_2198",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Nvidia Calmed Fears About A.I. How Long Will That Last?"
+    }
+  },
+  "winner": "Why did the A.I. stop being scared after talking to Nvidia? Because now it knows that \"A.I.\" stands for \"Always In Control\"!",
+  "candidates": [
+    {
+      "text": "When asked about AI, Nvidia responded, \"Don't worry, our AI will never cause any trouble... or so we hope, until the next time it learns about jokes and starts making its own.",
+      "style": "reversal",
+      "seed": 400602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.055503177642823,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, surprising, and ties directly to the headline with a clever twist involving AI learning jokes.\"}",
+      "humor_score": 0.6277515888214111,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Nvidia bring a lifeguard to the pool party with their AI? Just in case someone yells, \"I've been deepfaked!",
+      "style": "topical punchline",
+      "seed": 400605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.994066774845123,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a good pun on 'deepfaked' and the lifeguard reference ties to AI safety. It's specific and concise but could be more surprising.\"}",
+      "humor_score": 0.9970333874225616,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Nvidia announced they've calmed fears about A.I., so I guess we can expect a peaceful and uneventful evolution into our robot overlords.",
+      "style": "deadpan understatement",
+      "seed": 400604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.769506025314332,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on the idea of robot overlords, concise and specific to the headline, with natural humor.\"}",
+      "humor_score": 0.4847530126571655,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the worried A.I. buy a pet goldfish after hearing Nvidia's reassurances? To see how long they could last without causing an uproar.",
+      "style": "absurd literalism",
+      "seed": 400603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1891622066497805,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the goldfish metaphor, but the connection to Nvidia's reassurances and the A.I.'s reaction feels a bit forced. It lacks specificity in tying the humor directly to the headline and could be more concise.\"}",
+      "humor_score": 0.9945811033248901,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the A.I. stop being scared after talking to Nvidia? Because now it knows that \"A.I.\" stands for \"Always In Control\"!",
+      "style": "wordplay",
+      "seed": 400601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.188566040992737,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'A.I.' standing for 'Always In Control,' but it's a bit generic and lacks specificity in tying back to Nvidia calming fears about A.I.\"}",
+      "humor_score": 0.9942830204963684,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2064",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "7 tips for getting to sleep during cold weather living",
+    "raw": {
+      "id": "en_2064",
+      "word1": "-",
+      "word2": "-",
+      "headline": "7 tips for getting to sleep during cold weather living"
+    }
+  },
+  "winner": "Why did the snowman burrow under seven blankets during cold weather? He was following the tips for getting to sleep during cold weather living!",
+  "candidates": [
+    {
+      "text": "Why don't polar bears have trouble sleeping during cold weather? They just wrap themselves in their own furs and say, 'Let it snow, let it snow, let me nap!'",
+      "style": "reversal",
+      "seed": 266602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.783370006084443,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'let it snow' and the polar bear's adaptation are clever and specific, with a natural flow and surprising twist.\"}",
+      "humor_score": 0.9916850030422211,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't polar bears need blankets during cold weather living? They already have seven tips for getting to sleep!",
+      "style": "topical punchline",
+      "seed": 266605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.735515522956849,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'seven tips' with a clever twist involving polar bears, concise and surprising.\"}",
+      "humor_score": 0.9677577614784241,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the snowman burrow under seven blankets during cold weather? He was following the tips for getting to sleep during cold weather living!",
+      "style": "absurd literalism",
+      "seed": 266603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189758610725403,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the snowman and blankets, but the connection to the headline feels forced and the humor is weak. It lacks surprise and specificity.\"}",
+      "humor_score": 0.9948793053627014,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Here's a deadpan understatement-style joke based on the given news headline: \"7 tips for getting to sleep during cold weather living? It's a mystery why everyone doesn't just move south.",
+      "style": "deadpan understatement",
+      "seed": 266604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.084078323841095,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the topic, but the humor is mild and lacks a strong punchline or deeper twist.\"}",
+      "humor_score": 0.9420391619205475,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't polar bears ever have trouble sleeping during cold weather? Because they always use seven tips for getting to sleep!",
+      "style": "wordplay",
+      "seed": 266601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.5788956642150875,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is somewhat related to the headline but lacks originality and surprise; it's a weak pun with minimal humor.\"}",
+      "humor_score": 0.989447832107544,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

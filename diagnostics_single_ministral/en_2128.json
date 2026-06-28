@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2128",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Heimir Hallgrímsson assesses World Cup play-off draw",
+    "raw": {
+      "id": "en_2128",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Heimir Hallgrímsson assesses World Cup play-off draw"
+    }
+  },
+  "winner": "Heimir Hallgrímsson walked up to a vending machine, selected 'World Cup tickets,' and said, 'I hope I don't draw a blank this time.'",
+  "candidates": [
+    {
+      "text": "Why did Heimir Hallgrímsson bring a ruler to the World Cup play-off draw? Because he heard they were doing yard measurements instead of goal-line technology!",
+      "style": "absurd literalism",
+      "seed": 330603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.987195551395416,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is specific to the context, uses a play on 'yard measurements' versus 'goal-line technology,' and includes a reference to Heimir Hallgrímsson. It's somewhat generic in its setup but still clever and concise.\"}",
+      "humor_score": 0.9935977756977081,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Heimir Hallgrímsson just said that he's excited to draw against the World Cup... a board game.",
+      "style": "deadpan understatement",
+      "seed": 330604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.9488091468811035,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, surprising, and specific, playing on the double meaning of 'draw' (football match vs. board game). It's slightly undermined by being a bit predictable in its wordplay.\"}",
+      "humor_score": 0.9744045734405518,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Heimir Hallgrímsson, after drawing the World Cup play-off: \"I've been a coach for years, but this time I feel like I should've studied geometry instead!",
+      "style": "reversal",
+      "seed": 330602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.7480246305465705,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, specific to the context of a World Cup play-off draw, and uses a surprising twist by connecting coaching experience with geometry, which adds humor through unexpected relevance.\"}",
+      "humor_score": 0.4740123152732849,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Heimir bring a map to the World Cup play-off draw? Because he wanted to mark his territory!",
+      "style": "wordplay",
+      "seed": 330601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.156118583679199,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat generic and relies on a common pun ('mark his territory'), which may not be surprising or specific enough to fully engage the audience.\"}",
+      "humor_score": 0.9780592918395996,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Heimir Hallgrímsson walked up to a vending machine, selected 'World Cup tickets,' and said, 'I hope I don't draw a blank this time.'",
+      "style": "topical punchline",
+      "seed": 330605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.3065837025642395,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, uses a specific reference to the World Cup play-off draw, and includes a pun on 'draw a blank,' which adds surprise and humor. However, it could be more directly tied to Heimir Hallgrímsson's role or the actual event for greater specificity.\"}",
+      "humor_score": 0.15329185128211975,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

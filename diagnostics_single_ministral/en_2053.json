@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2053",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "NASA unveils close-up pictures of interstellar comet 3I/Atlas",
+    "raw": {
+      "id": "en_2053",
+      "word1": "-",
+      "word2": "-",
+      "headline": "NASA unveils close-up pictures of interstellar comet 3I/Atlas"
+    }
+  },
+  "winner": "Why did the interstellar comet bring its own camera to the party? Because NASA's pictures were too far from being selfies!",
+  "candidates": [
+    {
+      "text": "Why did the comet bring a mirror on its interstellar journey? Because it wanted to see itself in the Atlas!",
+      "style": "absurd literalism",
+      "seed": 255603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.388531827926636,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on 'Atlas' (both the comet and the mythological figure) are clever and specific, with a concise setup and punchline that aligns well with the headline.\"}",
+      "humor_score": 0.9942659139633179,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the interstellar comet 3I/Atlas refuse to cooperate with NASA? Because it said, \"I'll Atlas-tically decline any close-ups!",
+      "style": "wordplay",
+      "seed": 255601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.990159332752228,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a play on 'Atlas' and 'decline,' but the pun could be more refined for maximum impact.\"}",
+      "humor_score": 0.9950796663761139,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At last, NASA's new close-up pictures of 3I/Atlas confirm what we've all suspected for millennia: It's just a really far-off, slow-moving house cat.",
+      "style": "deadpan understatement",
+      "seed": 255604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.883551168441773,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising and specific comparison with a house cat adds humor; concise and natural language.\"}",
+      "humor_score": 0.5417755842208862,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did 3I/Atlas refuse to attend the star party? Because it was afraid of getting too close to the telescopes!",
+      "style": "reversal",
+      "seed": 255602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190121126174927,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline and uses wordplay with 'close-up' and 'too close to telescopes,' but it lacks specificity about the comet and feels a bit forced.\"}",
+      "humor_score": 0.9950605630874634,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the interstellar comet bring its own camera to the party? Because NASA's pictures were too far from being selfies!",
+      "style": "topical punchline",
+      "seed": 255605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.182170879840851,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the comet bringing its own camera, but the punchline feels a bit forced and lacks strong specificity to the headline. It's not offensive, but it misses some opportunities for sharper wordplay.\"}",
+      "humor_score": 0.9910854399204254,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2261",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Spanish court orders Meta to pay nearly half a billion euros in damages to media outlets",
+    "raw": {
+      "id": "en_2261",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Spanish court orders Meta to pay nearly half a billion euros in damages to media outlets"
+    }
+  },
+  "winner": "Why did Meta send Spain a check for half a billion euros? Because they found out their platform was more like \"Meta-media\" than they thought!",
+  "candidates": [
+    {
+      "text": "Why did Meta send Spain a check for half a billion euros? Because they found out their platform was more like \"Meta-media\" than they thought!",
+      "style": "topical punchline",
+      "seed": 463605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.972014904022217,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, uses wordplay on 'Meta-media,' and ties back to the headline, but the surprise and specificity could be stronger.\"}",
+      "humor_score": 0.9860074520111084,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Facebook send Spain a birthday card with a million zeros on it? Because they heard it was Meta's birthday and wanted to wish them half a billion!",
+      "style": "absurd literalism",
+      "seed": 463603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192412388324738,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the 'million zeros' reference, but the connection to the headline is weak and the humor feels forced. The pun on 'Meta's birthday' is a bit of a stretch and lacks clarity.\"}",
+      "humor_score": 0.9962061941623688,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the media outlet refuse to pay Meta's bill? Because it was over-charged... nearly half a billion euros!",
+      "style": "reversal",
+      "seed": 463602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.182623100280762,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks surprise and specificity; it's a mild play on words without deeper humor or clever twist.\"}",
+      "humor_score": 0.9913115501403809,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Meta send a bouquet of flowers to those Spanish media outlets? To make up for losing a fortune in petals.",
+      "style": "deadpan understatement",
+      "seed": 463604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1818931818008425,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the 'petals' pun, but it's a bit forced and lacks clarity. The connection between flowers and legal damages isn't strong enough to deliver a clear punchline.\"}",
+      "humor_score": 0.9909465909004211,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Mark Zuckerberg visit a library in Spain? Because he wanted to settle some books overdue!",
+      "style": "wordplay",
+      "seed": 463601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

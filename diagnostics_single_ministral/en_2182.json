@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2182",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Why trying too hard may be holding you back at work",
+    "raw": {
+      "id": "en_2182",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Why trying too hard may be holding you back at work"
+    }
+  },
+  "winner": "Why did the overzealous employee at the rubber factory get stuck? Because he was trying too hard to make a mark on the eraser.",
+  "candidates": [
+    {
+      "text": "Why did the overzealous employee at the rubber factory get stuck? Because he was trying too hard to make a mark on the eraser.",
+      "style": "absurd literalism",
+      "seed": 384603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.19308454990387,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the connection between trying too hard and getting stuck on an eraser feels a bit forced. The humor is mild and not particularly strong or clever.\"}",
+      "humor_score": 0.9965422749519348,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Well, I suppose if you're always striving to stand out, it can be rather exhausting... especially when the janitor is cleaning your shadow every morning.",
+      "style": "deadpan understatement",
+      "seed": 384604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.162548136711121,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke has a mild surprise element and some specificity with the janitor cleaning a shadow, but it's somewhat generic in its message and lacks stronger punch or clearer connection to the headline.\"}",
+      "humor_score": 0.9812740683555603,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Even Einstein couldn't solve a Rubik's cube in record time... because he was too busy inventing relativity.",
+      "style": "topical punchline",
+      "seed": 384605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.131446611881256,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the connection between Einstein and the Rubik's cube feels a bit forced and lacks a clear link to the headline about trying too hard at work.\"}",
+      "humor_score": 0.965723305940628,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the overachiever quit his job? He was tired of working overtime!",
+      "style": "wordplay",
+      "seed": 384601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.589933013916015,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"Generic and predictable; lacks surprise and specificity.\"}",
+      "humor_score": 0.9949665069580078,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At my job, I'm so lazy they promoted me to Human Obstacle.",
+      "style": "reversal",
+      "seed": 384602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

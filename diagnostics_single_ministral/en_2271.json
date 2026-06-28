@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2271",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "REI’s biggest sale of the year is here — I found 51 great deals worth shopping",
+    "raw": {
+      "id": "en_2271",
+      "word1": "-",
+      "word2": "-",
+      "headline": "REI’s biggest sale of the year is here — I found 51 great deals worth shopping"
+    }
+  },
+  "winner": "Why did the REI shopper bring a magnifying glass? To find the one deal among the 51 that's actually on sale!",
+  "candidates": [
+    {
+      "text": "REI's biggest sale of the year is here—I finally found a reason to go outside.",
+      "style": "deadpan understatement",
+      "seed": 473604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.570009338855744,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'found a reason to go outside' add unexpected humor while tying back to the sale context.\"}",
+      "humor_score": 0.8850046694278717,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the shopper go to REI's sale? Because they heard there were 51 reasons to find a great deal!",
+      "style": "topical punchline",
+      "seed": 473605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.983848989009857,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever and ties directly to the headline with a play on '51 reasons,' but it's slightly generic and could be more surprising.\"}",
+      "humor_score": 0.9919244945049286,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "When asked about REI's biggest sale, a shopper replied, \"Well, I couldn't find any of their 'great deals worth shopping', but I did manage to sell 51 items they weren't looking to buy!",
+      "style": "reversal",
+      "seed": 473602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.976085209846497,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, surprising, and specific with a clever twist on the headline's claims.\"}",
+      "humor_score": 0.7880426049232483,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the REI shopper bring a magnifying glass? To find the one deal among the 51 that's actually on sale!",
+      "style": "absurd literalism",
+      "seed": 473603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189569187164307,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific to the headline but relies on a generic setup (magnifying glass) and a mild twist. It's not particularly surprising or funny, and the humor feels a bit forced.\"}",
+      "humor_score": 0.9947845935821533,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the shopper bring 51 friends to REI's sale? Because they heard it was a \"group\" effort to find great deals!",
+      "style": "wordplay",
+      "seed": 473601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.170235228538513,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat forced and relies on a weak pun ('group' effort). It connects to the headline but lacks surprise and specificity.\"}",
+      "humor_score": 0.9851176142692566,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

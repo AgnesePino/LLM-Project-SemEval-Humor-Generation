@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2108",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Interesting Times with Ross Douthat Mapping the new world order through interviews and conversations.",
+    "raw": {
+      "id": "en_2108",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Interesting Times with Ross Douthat Mapping the new world order through interviews and conversations."
+    }
+  },
+  "winner": "In an unexpected twist, Ross Douthat is now using his maps to navigate the daily chaos of morning traffic in New York City, mapping a new world order - one red light at a time.",
+  "candidates": [
+    {
+      "text": "Why did Ross Douthat start a podcast? Because he wanted to map out the New World Order... one conversation at a time!",
+      "style": "topical punchline",
+      "seed": 310605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.393383347988129,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, specific, and ties directly to the headline with a clever twist.\"}",
+      "humor_score": 0.9966916739940643,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In the new world order, is Ross Douthat our new Magellan? Navigating conversations with the same accuracy as he navigated the Atlantic, just replacing ships with opinions and compasses with microphones!",
+      "style": "wordplay",
+      "seed": 310601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.169527459144593,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative comparison between Magellan and Douthat, with clever substitution of navigation tools for modern media. Brevity and specificity enhance the humor.\"}",
+      "humor_score": 0.6847637295722961,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In an unprecedented move, Ross Douthat has announced plans to personally map out the New World Order using nothing but a set of colorful crayons and his cat's play tunnel as a compass.",
+      "style": "absurd literalism",
+      "seed": 310603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.849087643623353,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising and specific imagery with a touch of absurdity, effectively combining the serious topic with whimsical elements.\"}",
+      "humor_score": 0.024543821811676025,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In an unexpected turn of events, Ross Douthat's latest series has been renamed \"Interesting Times\" - making it the first guide to the new world order that people have actually finished before bedtime.",
+      "style": "deadpan understatement",
+      "seed": 310604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.58759697675705,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, specific, and surprising with a clever twist on the headline.\"}",
+      "humor_score": 0.09379848837852478,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In an unexpected twist, Ross Douthat is now using his maps to navigate the daily chaos of morning traffic in New York City, mapping a new world order - one red light at a time.",
+      "style": "reversal",
+      "seed": 310602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.232759428024292,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the humor feels a bit forced and the connection between mapping the new world order and navigating traffic is weak. It lacks punch and natural flow.\"}",
+      "humor_score": 0.016379714012145996,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

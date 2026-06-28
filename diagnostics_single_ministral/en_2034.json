@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2034",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Three-quarters of parents let children miss school for ‘duvet day’",
+    "raw": {
+      "id": "en_2034",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Three-quarters of parents let children miss school for ‘duvet day’"
+    }
+  },
+  "winner": "Why don't schools ever win at hide and seek? Because they always peek out from under the duvets!",
+  "candidates": [
+    {
+      "text": "Even ancient Rome allowed its citizens a \"toga day,\" but it seems modern children get the luxury of duvet days instead.",
+      "style": "deadpan understatement",
+      "seed": 236604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.520976114273072,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising comparison between ancient Rome and modern children, concise and specific with a touch of historical humor.\"}",
+      "humor_score": 0.36048805713653564,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't schools ever win at hide and seek? Because they always peek out from under the duvets!",
+      "style": "wordplay",
+      "seed": 236601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1899352192878725,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks direct connection and misses the specificity of 'duvet day.' The humor is mild and relies on a common pun rather than a surprising twist.\"}",
+      "humor_score": 0.9949676096439362,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the student take a break from school? Because he was feeling \"duvet-rated\" and needed a snow day instead!",
+      "style": "topical punchline",
+      "seed": 236605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.179221880435944,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks clarity and punch. 'Duvet-rated' is a weak pun and 'snow day' doesn't clearly connect to 'duvet day.' The humor is mild and not fully aligned with the headline's context.\"}",
+      "humor_score": 0.9896109402179718,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the student bring a mattress to school? To request a \"dream vacation\" day!",
+      "style": "absurd literalism",
+      "seed": 236603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.17637403011322,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks the surprise and specificity needed for maximum humor. The connection between 'duvet day' and bringing a mattress is weak and not clearly tied to the concept of missing school.\"}",
+      "humor_score": 0.9881870150566101,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't some kids need a duvet day anymore? Because they've graduated to a king-size bed!",
+      "style": "reversal",
+      "seed": 236602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.786268103122712,
+      "judge_score": 6.0,
+      "judge_raw": "\n\n{\"score\": 6, \"reason\": \"The joke is somewhat related but lacks strong surprise or specificity; the connection between 'duvet day' and graduating to a king-size bed feels weak and generic.\"}",
+      "humor_score": 0.9931340515613556,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

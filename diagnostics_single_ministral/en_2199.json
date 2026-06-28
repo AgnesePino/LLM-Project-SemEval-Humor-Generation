@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2199",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Wales’ route to World Cup 2026 in full after play-off draw",
+    "raw": {
+      "id": "en_2199",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Wales’ route to World Cup 2026 in full after play-off draw"
+    }
+  },
+  "winner": "In the spirit of Welsh soccer, they'll be playing their way out instead of into the World Cup 2026!",
+  "candidates": [
+    {
+      "text": "Why don't Welsh footballers play darts? Because they can never hit the target, even when it comes to World Cup qualifiers!",
+      "style": "wordplay",
+      "seed": 401601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.179121267795563,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but relies on a generic stereotype about Welsh footballers and darts. It lacks specificity and surprise, and the connection to the World Cup qualifiers is weak.\"}",
+      "humor_score": 0.9895606338977814,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why are Welsh football fans so excited about the play-offs for the World Cup 2026? Because they're finally getting a chance to draw with some big teams!",
+      "style": "topical punchline",
+      "seed": 401605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.7437929034233095,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and uses a play on words with 'draw,' but it's a bit generic and lacks the surprise or depth needed for higher humor impact.\"}",
+      "humor_score": 0.7718964517116547,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In light of the news, Wales' route to the World Cup 2026 now includes a trip through their local park... just as they hoped.",
+      "style": "deadpan understatement",
+      "seed": 401604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.498028099536896,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, slightly surprising, and ties the headline to a humorous local twist. However, it lacks deeper specificity and could be more original.\"}",
+      "humor_score": 0.24901404976844788,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A Welsh sheep declared its intention to kick off the World Cup 2026 with a well-aimed woolen winkle ball.",
+      "style": "absurd literalism",
+      "seed": 401603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.5513814210891725,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the sheep and 'woolen winkle ball,' but it's a bit forced and lacks clear connection to the headline. The humor is mild and not strongly tied to the specific context of Wales' World Cup route.\"}",
+      "humor_score": 0.17569071054458618,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In the spirit of Welsh soccer, they'll be playing their way out instead of into the World Cup 2026!",
+      "style": "reversal",
+      "seed": 401602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.231357228755951,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and ties to Welsh soccer, but the humor is weak and relies on a vague pun that may not land well for most audiences.\"}",
+      "humor_score": 0.015678614377975464,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

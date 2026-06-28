@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2165",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Dancing with the Stars' season 34: See who was eliminated, who's headed to finale",
+    "raw": {
+      "id": "en_2165",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Dancing with the Stars' season 34: See who was eliminated, who's headed to finale"
+    }
+  },
+  "winner": "Which celebrity danced their way off the stage faster than a twirling sequined skirt on a windy night? The one who was eliminated from Dancing with the Stars' season 34!",
+  "candidates": [
+    {
+      "text": "Why did the dancer refuse to go to the finale of Dancing with the Stars' season 34? Because he was eliminated from going to see who's headed there!",
+      "style": "reversal",
+      "seed": 367602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.175451648235321,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with a play on the headline, but it's a bit forced and lacks punch. The setup and punchline are loosely connected, and the humor feels more contrived than surprising.\"}",
+      "humor_score": 0.9877258241176605,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't finalists on Dancing with the Stars ever get lost? Because they always follow the elimination line!",
+      "style": "wordplay",
+      "seed": 367601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.171409678459168,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the topic but lacks originality and surprise; 'elimination line' is a weak pun that doesn't fully connect to the context of the show.\"}",
+      "humor_score": 0.9857048392295837,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the star refuse to dance in the final of Dancing with the Stars' season 34? Because it had already been eliminated from the competition!",
+      "style": "absurd literalism",
+      "seed": 367603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.009570908546448,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the show, but it's a bit generic in its setup and relies on a pun that may not land as strongly due to the slight inconsistency (refusing to dance in the final after being eliminated).\"}",
+      "humor_score": 0.9047854542732239,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Which celebrity danced their way off the stage faster than a twirling sequined skirt on a windy night? The one who was eliminated from Dancing with the Stars' season 34!",
+      "style": "topical punchline",
+      "seed": 367605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.65430760383606,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is creative and uses a vivid metaphor, but the punchline is slightly delayed and could be more concise for maximum impact.\"}",
+      "humor_score": 0.3271538019180298,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The stars were dancing, but unfortunately, they weren't twirling in a circle of friendship anymore.",
+      "style": "deadpan understatement",
+      "seed": 367604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.4068837642669685,
+      "judge_score": 6.0,
+      "judge_raw": "\n\n{\"score\": 6, \"reason\": \"The joke is somewhat relevant and uses a play on words with 'circle of friendship,' but it lacks specificity about the show's events and feels a bit generic and forced.\"}",
+      "humor_score": 0.3034418821334839,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

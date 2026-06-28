@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2137",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "#techAsia. AI roils the memory market and Japan’s startups level up",
+    "raw": {
+      "id": "en_2137",
+      "word1": "-",
+      "word2": "-",
+      "headline": "#techAsia. AI roils the memory market and Japan’s startups level up"
+    }
+  },
+  "winner": "In Tokyo's bustling tech district, an AI-powered rice cooker declared its intent to launch a line of memory sticks. The Japanese startup response? \"We'll stick to robots for now, and leave the data storage to our culinary creations.",
+  "candidates": [
+    {
+      "text": "In Tokyo's bustling tech scene, it seems the memory game has changed! Now when you can't remember where you left your keys, an AI will remind you... of the time you forgot your robot butler was supposed to keep them safe!",
+      "style": "reversal",
+      "seed": 339602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.739436447620392,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is creative and ties well with the headline, using a specific tech-related scenario. However, it's slightly convoluted and the humor relies on a minor twist that may not land as strongly for all audiences.\"}",
+      "humor_score": 0.8697182238101959,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In a surprising twist, it seems that in Asia now, when you forget where your keys are, you don't ask your neighbor, you ask your AI-assisted rice cooker! #techAsia",
+      "style": "topical punchline",
+      "seed": 339605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.196715104579926,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising and specific twist on AI integration in daily life, with a touch of humor and relevance to the headline.\"}",
+      "humor_score": 0.19835755228996277,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the AI break into a Japanese startup's memory bank? It wanted to download some fresh sushi rolls!",
+      "style": "wordplay",
+      "seed": 339601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192503166198731,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and ties in the AI and Japan elements, but 'sushi rolls' is a weak pun on 'memory' and feels forced. It lacks specificity and could be more concise.\"}",
+      "humor_score": 0.9962515830993652,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Tokyo's bustling tech district, an AI-powered rice cooker declared its intent to launch a line of memory sticks. The Japanese startup response? \"We'll stick to robots for now, and leave the data storage to our culinary creations.",
+      "style": "absurd literalism",
+      "seed": 339603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.796191513538361,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is creative and ties the headline elements together with a surprising twist, but it's slightly wordy and the humor could be more tightly focused.\"}",
+      "humor_score": 0.3980957567691803,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In a surprising twist, it seems that AI is now remembering things better than us humans, while Japan's startups are struggling to keep up by simply leveling up their old NES games.",
+      "style": "deadpan understatement",
+      "seed": 339604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.485585582256317,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and ties the headline elements together, but it's a bit forced and lacks specificity. The reference to NES games feels disconnected from the broader context of AI and startup innovation in Japan.\"}",
+      "humor_score": 0.14279279112815857,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

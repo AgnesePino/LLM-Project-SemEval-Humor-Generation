@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2099",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Will mortgage rates drop this December? Here's what lending experts predict",
+    "raw": {
+      "id": "en_2099",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Will mortgage rates drop this December? Here's what lending experts predict"
+    }
+  },
+  "winner": "Why did the lender get an early Christmas present in December? Because he predicted a drop in mortgage rates before the snowflakes!",
+  "candidates": [
+    {
+      "text": "Why did the lender get an early Christmas present in December? Because he predicted a drop in mortgage rates before the snowflakes!",
+      "style": "reversal",
+      "seed": 301602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189689648151398,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the Christmas present and snowflakes reference, but it's a bit forced and lacks clarity. The connection between the lender receiving a present and predicting mortgage rates isn't strong enough to be fully funny or surprising.\"}",
+      "humor_score": 0.9948448240756989,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the mortgage rate go on a date this December? It heard that experts were predicting a drop-off.",
+      "style": "topical punchline",
+      "seed": 301605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.161799025535584,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'drop-off,' but it's a bit forced and lacks specificity about mortgage rates or experts' predictions.\"}",
+      "humor_score": 0.9808995127677917,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why are mortgage lenders excited about a snowy December? Because they hear rates will drop and their homes will be worth more!",
+      "style": "wordplay",
+      "seed": 301601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.141116750240326,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the topic and uses a pun on 'snowy December,' but the connection between snow and mortgage rates is weak and not clearly explained. It lacks specificity and surprise.\"}",
+      "humor_score": 0.970558375120163,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the mortgage rate go on vacation in December? Because the lending experts predicted it would find lower taxes and better weather on the other side.",
+      "style": "absurd literalism",
+      "seed": 301603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.819633674621582,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the personification of mortgage rates, but the connection to 'lower taxes and better weather' feels forced and lacks specificity related to mortgage rate predictions. It's not offensive, but it misses some humor opportunities.\"}",
+      "humor_score": 0.809816837310791,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Mortgage rates will certainly increase dramatically, just as soon as December arrives and turns into January. Lending experts are confident of this prediction.",
+      "style": "deadpan understatement",
+      "seed": 301604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.209774088859558,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the humor is weak due to a lack of clear punchline and reliance on a predictable twist.\"}",
+      "humor_score": 0.004887044429779053,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

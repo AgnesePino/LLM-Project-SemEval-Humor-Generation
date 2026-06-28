@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2148",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "US ‘has Takaichi’s back’ in Japan’s escalating row with China",
+    "raw": {
+      "id": "en_2148",
+      "word1": "-",
+      "word2": "-",
+      "headline": "US ‘has Takaichi’s back’ in Japan’s escalating row with China"
+    }
+  },
+  "winner": "Apparently, the US is now offering its full support to ensure Japan doesn't feel 'Takaichi'd.'",
+  "candidates": [
+    {
+      "text": "Why did Takaichi have China's number on speed dial? Because he wanted to make sure they had each other's backs... in a row!",
+      "style": "reversal",
+      "seed": 350602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192495059967041,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke attempts wordplay with 'has each other's backs' and 'in a row,' but the connection to Takaichi and China is weak and unclear. The punchline feels forced and lacks specificity.\"}",
+      "humor_score": 0.9962475299835205,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Takaichi bring a mirror to his argument with China? Because he wanted to see who was backing him up!",
+      "style": "topical punchline",
+      "seed": 350605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.183103454113007,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and uses a play on words with 'back' and 'mirror,' but the humor feels forced and lacks natural flow. The surprise element is weak, and the connection to the headline could be tighter.\"}",
+      "humor_score": 0.9915517270565033,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the US decide to give Takaichi a hug? Because they had his 'back'!",
+      "style": "absurd literalism",
+      "seed": 350603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.177254211902619,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'has Takaichi’s back,' but it's a bit generic and lacks specificity. The humor is mild and relies on a simple pun rather than deeper insight or surprise.\"}",
+      "humor_score": 0.9886271059513092,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Takaichi bring his hammock to the argument with China? Because he wanted to rest assured that America had his 'back'!",
+      "style": "wordplay",
+      "seed": 350601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.117217493057251,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the hammock metaphor, but it's a bit forced and lacks clear connection to the headline's context. The pun on 'has Takaichi’s back' is decent, but the humor feels underdeveloped.\"}",
+      "humor_score": 0.9586087465286255,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Apparently, the US is now offering its full support to ensure Japan doesn't feel 'Takaichi'd.'",
+      "style": "deadpan understatement",
+      "seed": 350604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.716895067691803,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on 'Takaichi' and 'back' are clever and specific, with a good surprise factor and concise delivery.\"}",
+      "humor_score": 0.1584475338459015,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

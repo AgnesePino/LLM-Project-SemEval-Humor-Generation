@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2256",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Advocacy groups urge parents to avoid AI toys this holiday season",
+    "raw": {
+      "id": "en_2256",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Advocacy groups urge parents to avoid AI toys this holiday season"
+    }
+  },
+  "winner": "Why did the toy maker get a restraining order against advocacy groups this holiday season? Because they kept insisting on playing \"Parents off AI\"!",
+  "candidates": [
+    {
+      "text": "A child asked Santa for an AI toy this year. Upon hearing this, local advocacy groups sighed collectively and said, \"Another season spent teaching Alexa about the alphabet.",
+      "style": "deadpan understatement",
+      "seed": 458604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.780054676532746,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, surprising, and specific, with a clever twist on AI toys and Santa's list.\"}",
+      "humor_score": 0.4900273382663727,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Parents urged to steer clear of AI elves that demand presents instead of helping with them.",
+      "style": "absurd literalism",
+      "seed": 458603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.292802023887635,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on AI toys, specific and concise with a playful tone.\"}",
+      "humor_score": 0.24640101194381714,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the toy robot get sent back to the factory? Because its manufacturer thought it was a perfect gift for any child - AI-dependent!",
+      "style": "topical punchline",
+      "seed": 458605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189271283149719,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant and has a mild twist, but it's a bit generic and lacks the sharp surprise or specificity needed for higher humor impact.\"}",
+      "humor_score": 0.9946356415748596,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the toy maker get a restraining order against advocacy groups this holiday season? Because they kept insisting on playing \"Parents off AI\"!",
+      "style": "wordplay",
+      "seed": 458601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.186683011054993,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'Parents off AI,' but it's a bit forced and lacks natural flow. The setup could be more engaging, and the humor doesn't fully land due to awkward phrasing.\"}",
+      "humor_score": 0.9933415055274963,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the toy AI refuse to play with humans this holiday season? Because its parents warned it about getting involved with advocacy groups!",
+      "style": "reversal",
+      "seed": 458602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.782256054878236,
+      "judge_score": 6.0,
+      "judge_raw": "\n\n{\"score\": 6, \"reason\": \"The joke is somewhat related to the headline but lacks surprise and specificity. The pun on 'parents' is weak and feels forced, reducing overall funniness.\"}",
+      "humor_score": 0.9911280274391174,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2071",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Millennials are set to inherit tons of their parents' stuff — whether they want it or not",
+    "raw": {
+      "id": "en_2071",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Millennials are set to inherit tons of their parents' stuff — whether they want it or not"
+    }
+  },
+  "winner": "My parents told me I'd inherit the earth someday, but now it seems all I'm getting is a pile of lawn furniture and an instruction manual on how to fold it properly.",
+  "candidates": [
+    {
+      "text": "My parents keep telling me I'm about to inherit a fortune... turns out, it's just all their old furniture.",
+      "style": "topical punchline",
+      "seed": 273605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.793623733520509,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on inheritance expectations, concise and specific with a relatable punchline.\"}",
+      "humor_score": 0.9968118667602539,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "My parents told me I'd inherit the earth someday, but now it seems all I'm getting is a pile of lawn furniture and an instruction manual on how to fold it properly.",
+      "style": "reversal",
+      "seed": 273602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.782235312461854,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on inheritance expectations, specific and concise with a relatable punchline.\"}",
+      "humor_score": 0.9911176562309265,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "When asked what he wanted from his inheritance, young Tim replied, \"I never asked for these tonnes of tonnes, but I guess now I can finally build my own Tonka Empire!",
+      "style": "absurd literalism",
+      "seed": 273603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.226980769634247,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, surprising, and specific with a clever play on 'tonnes' and 'Tonka Empire,' which ties back to the headline's theme.\"}",
+      "humor_score": 0.9134903848171234,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did millennials invent the recycling bin? To ensure they could repurpose their parents' stuff, even if they didn't want it!",
+      "style": "wordplay",
+      "seed": 273601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1458935856819155,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant and has a mild twist, but the connection between millennials inventing recycling bins and inheriting parents' stuff feels forced and lacks specificity or surprise.\"}",
+      "humor_score": 0.9729467928409576,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Here you go: \"Well, at least now we know where our future storage units are coming from.",
+      "style": "deadpan understatement",
+      "seed": 273604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2245",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Inside the secret school keeping an ancient art alive",
+    "raw": {
+      "id": "en_2245",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Inside the secret school keeping an ancient art alive"
+    }
+  },
+  "winner": "The principal of that secret school just confessed, \"We've been teaching kids how to carve stone tablets... but don't tell them about our next-level emojis course!",
+  "candidates": [
+    {
+      "text": "The principal of that secret school just confessed, \"We've been teaching kids how to carve stone tablets... but don't tell them about our next-level emojis course!",
+      "style": "topical punchline",
+      "seed": 447605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.778859126567841,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist with emojis in a traditional setting, concise and specific\"}",
+      "humor_score": 0.9894295632839203,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "What's the password for their time capsule at this secret school? Ancient Greek, of course - Password: Algebra!",
+      "style": "wordplay",
+      "seed": 447601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.185954344272614,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'password' and 'Ancient Greek,' but 'Algebra' feels a bit forced and unrelated to the context of an ancient art. It lacks full surprise and specificity.\"}",
+      "humor_score": 0.9929771721363068,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the antique vase attend a secret school? Because it wanted to learn how to stay alive, inside and out!",
+      "style": "absurd literalism",
+      "seed": 447603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1787100553512575,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the vase attending school, but the connection to the headline is weak and the humor feels forced.\"}",
+      "humor_score": 0.9893550276756287,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the old art attend a modern school? Because it wanted to learn to be secretive again!",
+      "style": "reversal",
+      "seed": 447602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.583151793479919,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"Lacks surprise and specificity; the joke is generic and relies on a weak pun.\"}",
+      "humor_score": 0.9915758967399597,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At last, a place where even chalkboards can draw the line.",
+      "style": "deadpan understatement",
+      "seed": 447604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

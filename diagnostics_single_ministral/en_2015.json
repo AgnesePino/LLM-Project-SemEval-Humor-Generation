@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2015",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Fiber is something most people could use more of. But experts advise caution with ‘fibermaxxing’",
+    "raw": {
+      "id": "en_2015",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Fiber is something most people could use more of. But experts advise caution with ‘fibermaxxing’"
+    }
+  },
+  "winner": "Why did the scarecrow go bankrupt? He over-stuffed himself with Fibermaxx!",
+  "candidates": [
+    {
+      "text": "Why did the fiber maxxer end up in a pickle? Because he thought more was better... until he got a belly full!",
+      "style": "reversal",
+      "seed": 217602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.194221329689026,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clear and uses wordplay ('pickle' and 'belly full'), but the setup could be more surprising or specific. The humor feels a bit generic and lacks the punch of a stronger twist.\"}",
+      "humor_score": 0.9971106648445129,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the scarecrow go to Fibermaxx? Because he needed some Straw-bulence!",
+      "style": "wordplay",
+      "seed": 217601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192339491844177,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'straw-bulence,' but it's a bit forced and lacks specificity in relating to 'fibermaxxing.' The humor is mild and could be more surprising.\"}",
+      "humor_score": 0.9961697459220886,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the yogurt become a fitness influencer? Because it started fibermaxxing!",
+      "style": "topical punchline",
+      "seed": 217605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1920332431793215,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline and uses 'fibermaxxing' appropriately, but the connection between yogurt and fitness influencers feels forced and lacks surprise or specificity.\"}",
+      "humor_score": 0.9960166215896606,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the scarecrow go bankrupt? He over-stuffed himself with Fibermaxx!",
+      "style": "absurd literalism",
+      "seed": 217603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191978943347931,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline and uses 'Fibermaxx' creatively, but the connection between the scarecrow going bankrupt and over-stuffing himself with Fibermaxx feels weak and lacks surprise or specificity.\"}",
+      "humor_score": 0.9959894716739655,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "I guess the next diet fad will be \"Over fibering\" - because who doesn't want too much of a good thing?",
+      "style": "deadpan understatement",
+      "seed": 217604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.003254961967468,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'fibering,' but it's a bit generic and lacks specificity. The humor is mild and relies on a predictable twist rather than a surprising or original punchline.\"}",
+      "humor_score": 0.9016274809837341,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

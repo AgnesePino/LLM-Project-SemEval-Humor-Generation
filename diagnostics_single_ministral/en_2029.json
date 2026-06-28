@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2029",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Ninja dual zone air fryer is at its lowest price for Black Friday 2025",
+    "raw": {
+      "id": "en_2029",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Ninja dual zone air fryer is at its lowest price for Black Friday 2025"
+    }
+  },
+  "winner": "Why did the ninja bring a dual zone air fryer to the martial arts tournament? Because he wanted to be the frierest fighter in the room!",
+  "candidates": [
+    {
+      "text": "Why did the ninja bring a dual zone air fryer to the dojo? Because he wanted to get kris-cross with his fries!",
+      "style": "absurd literalism",
+      "seed": 231603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.992624580860138,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with the wordplay on 'kris-cross' and 'fries,' but it's slightly forced and lacks deeper specificity to fully land.\"}",
+      "humor_score": 0.996312290430069,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the ninja join a cooking competition? Because he heard there would be a double fry on Black Friday 2025!",
+      "style": "reversal",
+      "seed": 231602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.991047382354736,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with the pun on 'double fry' and ties to the headline, but it's slightly forced and lacks full specificity to the product's features.\"}",
+      "humor_score": 0.9955236911773682,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the ninja air fryer join a martial arts tournament? Because it wanted to show off its dual-zone ability in split seconds!",
+      "style": "topical punchline",
+      "seed": 231605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.981294333934784,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, ties the product's dual-zone feature to a martial arts context with some surprise, and uses natural English. However, it could be more specific about the Black Friday context or the air fryer's function.\"}",
+      "humor_score": 0.990647166967392,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A ninja, disguised as a toaster oven, was spotted in a local electronics store, preparing for a stealthy reduction in price this Black Friday 2025.",
+      "style": "deadpan understatement",
+      "seed": 231604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.463429498672486,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative and specific, with a clever twist on the product and event, using ninja and stealth themes effectively.\"}",
+      "humor_score": 0.3317147493362427,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the ninja bring a dual zone air fryer to the martial arts tournament? Because he wanted to be the frierest fighter in the room!",
+      "style": "wordplay",
+      "seed": 231601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.188649308681488,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the pun on 'frierest,' but it's a bit forced and lacks strong specificity or surprise. The connection between the ninja and the air fryer feels weak, reducing overall humor impact.\"}",
+      "humor_score": 0.994324654340744,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2247",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "If you have this password then you should change it immediately",
+    "raw": {
+      "id": "en_2247",
+      "word1": "-",
+      "word2": "-",
+      "headline": "If you have this password then you should change it immediately"
+    }
+  },
+  "winner": "If your password is 'Immediately Change It,' it's like telling a secret to everyone in line at the bank.",
+  "candidates": [
+    {
+      "text": "A friend of mine once said, \"If my password is 'immediately', I guess I'll need to change it... eventually.",
+      "style": "wordplay",
+      "seed": 449601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.768087792396546,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, uses wordplay on 'immediately' and 'eventually', and ties back to the headline with a natural twist.\"}",
+      "humor_score": 0.9840438961982727,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "If your password is 'password1234', I'm guessing your secret sauce recipe is 'ketchup5678'.",
+      "style": "topical punchline",
+      "seed": 449605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.753399777412415,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising and specific analogy with a touch of dry humor, effectively linking weak passwords to a relatable (and humorous) real-world example.\"}",
+      "humor_score": 0.9766998887062073,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "If you're using \"immediately\" as your password, you should switch to \"not right now\"... immediately!",
+      "style": "reversal",
+      "seed": 449602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.125995683670045,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on the headline with a clever play on urgency and irony.\"}",
+      "humor_score": 0.662997841835022,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "If you have 'password1234', congratulations, you're now part of an elite group of people who share their secrets with the world.",
+      "style": "deadpan understatement",
+      "seed": 449604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.579031515121461,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising and specific, with a touch of irony that aligns well with the headline.\"}",
+      "humor_score": 0.38951575756073,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "If your password is 'Immediately Change It,' it's like telling a secret to everyone in line at the bank.",
+      "style": "absurd literalism",
+      "seed": 449603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.304381799697876,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant and has a mild surprise element, but the comparison to telling a secret at a bank feels a bit forced and lacks specificity in connecting the password choice to the security risk.\"}",
+      "humor_score": 0.552190899848938,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

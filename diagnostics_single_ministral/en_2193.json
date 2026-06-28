@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2193",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Europe’s carmakers risk losing plug-in hybrid war to China on their own turf",
+    "raw": {
+      "id": "en_2193",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Europe’s carmakers risk losing plug-in hybrid war to China on their own turf"
+    }
+  },
+  "winner": "Why are European carmakers afraid to race in their own backyard? Because China's plug-in hybrids keep lapping them!",
+  "candidates": [
+    {
+      "text": "Why are European carmakers afraid to race in their own backyard? Because China's plug-in hybrids keep lapping them!",
+      "style": "reversal",
+      "seed": 395602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.774733710289002,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'lap' and 'backyard' are clever and specific, tying directly to the headline's context with brevity and surprise.\"}",
+      "humor_score": 0.9873668551445007,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why are European carmakers plugging in their cars at Chinese charging stations? Because they're afraid of losing the hybrid war on their own turf!",
+      "style": "topical punchline",
+      "seed": 395605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.96798437833786,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever and ties directly to the headline with a pun on 'plugging in' and 'losing the hybrid war.' It's concise and surprising, though the humor could be slightly sharper.\"}",
+      "humor_score": 0.98399218916893,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why are European carmakers having trouble winning the plug-in hybrid war on their own turf? Because even their hybrids can't seem to understand Mandarin!",
+      "style": "wordplay",
+      "seed": 395601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.170112681388855,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the pun on 'Mandarin' feels a bit forced and doesn't strongly connect to the headline's core issue.\"}",
+      "humor_score": 0.9850563406944275,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Europe's carmakers pack up their bags and move to China in the middle of the plug-in hybrid war? Because they heard that China had the most comfortable turf mattresses for a long nap!",
+      "style": "absurd literalism",
+      "seed": 395603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.589287912845611,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is somewhat forced and relies on a weak pun that doesn't clearly connect to the headline's context or the seriousness of the situation described.\"}",
+      "humor_score": 0.9946439564228058,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A car manufacturer from Europe approached a Chinese firm for help, saying they were struggling to win the plug-in hybrid war on European soil. The response? \"We're happy to assist, but we believe it would be more strategic to fight you on our turf instead.",
+      "style": "deadpan understatement",
+      "seed": 395604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.3391637921333315,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the twist of switching battlefields, but it's a bit long-winded and lacks punch. The humor is present but not as sharp or surprising as it could be.\"}",
+      "humor_score": 0.06958189606666565,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

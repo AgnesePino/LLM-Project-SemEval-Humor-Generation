@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2057",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "What Mamdani's win means for NYC's food scene",
+    "raw": {
+      "id": "en_2057",
+      "word1": "-",
+      "word2": "-",
+      "headline": "What Mamdani's win means for NYC's food scene"
+    }
+  },
+  "winner": "A local resident, upon hearing about Mamdani's win, commented \"Well, at least now there will finally be a place in NYC where you can get a serving size big enough for an elephant.",
+  "candidates": [
+    {
+      "text": "Why did Mamdani bring a map to NYC's food scene? Because he wanted to find the spice bazaar... in Manhattan!",
+      "style": "wordplay",
+      "seed": 259601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.182731759548187,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and uses a play on words with 'spice bazaar,' but the reference to Mamdani is unclear and may not resonate with all readers. The humor is mild and lacks strong surprise or punch.\"}",
+      "humor_score": 0.9913658797740936,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A man from Manhattan decided to change the city's food scene. So he started planting giant spaghetti trees all around NYC, thinking they were vines for a minute...it turned out to be quite a twisty plate of pasta!",
+      "style": "absurd literalism",
+      "seed": 259603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.173468065261841,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke has some visual humor with the 'spaghetti trees,' but it's a bit forced and lacks clear connection to Mamdani or NYC's food scene. The surprise element is present, but the specificity and relevance are weak.\"}",
+      "humor_score": 0.9867340326309204,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did NYC's food scene cry when Mamdani won? Because now they have another chef who knows how to spice things up!",
+      "style": "topical punchline",
+      "seed": 259605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.153967928886414,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat forced and relies on a pun that may not land well for most audiences. It lacks specificity about Mamdani's impact on the food scene and feels generic.\"}",
+      "humor_score": 0.9769839644432068,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Mamdani's loss mean a bleak future for NYC's restaurant critics? Because they found his cuisine so divine, they started rating everything else \"disappointingly average\"!",
+      "style": "reversal",
+      "seed": 259602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.871972095966339,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative but lacks clarity and specificity regarding Mamdani's win or its impact on NYC's food scene. The humor relies on a play with 'loss' versus 'win,' which may confuse readers.\"}",
+      "humor_score": 0.8359860479831696,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A local resident, upon hearing about Mamdani's win, commented \"Well, at least now there will finally be a place in NYC where you can get a serving size big enough for an elephant.",
+      "style": "deadpan understatement",
+      "seed": 259604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.1081544160842896,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is specific, surprising, and concise, with a clear reference to NYC's food portion sizes. However, it lacks direct connection to Mamdani's win and could be more tightly tied to the headline for maximum impact.\"}",
+      "humor_score": 0.054077208042144775,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2189",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "How to turn hazelnuts into a brilliant flour for cakes – recipe",
+    "raw": {
+      "id": "en_2189",
+      "word1": "-",
+      "word2": "-",
+      "headline": "How to turn hazelnuts into a brilliant flour for cakes – recipe"
+    }
+  },
+  "winner": "Why did the baker go nuts at the supermarket? Because he found an aisle marked \"Brilliant Hazelnut Flour\"!",
+  "candidates": [
+    {
+      "text": "Why don't hazelnuts make good detectives? Because they always grind the case to a fine powder!",
+      "style": "wordplay",
+      "seed": 391601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.991412699222565,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a play on words ('grind the case to a fine powder'), but it's slightly forced and not fully aligned with the recipe context in the headline.\"}",
+      "humor_score": 0.9957063496112823,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the baker refuse to argue with his girlfriend while making hazelnut flour? Because he knew it would turn into a nutty debate!",
+      "style": "topical punchline",
+      "seed": 391605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.990728497505188,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, uses wordplay with 'nutty debate,' and ties into the topic of hazelnuts. However, it's somewhat generic and lacks deeper specificity related to flour-making.\"}",
+      "humor_score": 0.995364248752594,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Now I can finally bake a cake so bright, you'll need sunglasses...just remember, the flour came from hazelnuts.",
+      "style": "deadpan understatement",
+      "seed": 391604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.985588014125824,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise and ties the headline to a humorous outcome, but the surprise and specificity could be stronger.\"}",
+      "humor_score": 0.992794007062912,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the baker go nuts at the supermarket? Because he found an aisle marked \"Brilliant Hazelnut Flour\"!",
+      "style": "absurd literalism",
+      "seed": 391603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191779685020447,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks strong surprise or specificity; 'go nuts' is a common phrase and doesn't strongly tie to the flour recipe context.\"}",
+      "humor_score": 0.9958898425102234,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the baker refuse to eat his own cake? Because it was made with \"brilliant hazelnuts.",
+      "style": "reversal",
+      "seed": 391602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.590018963813781,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"Lacks surprise and specificity; the pun on 'brilliant hazelnuts' is weak and not clearly connected to the headline.\"}",
+      "humor_score": 0.9950094819068909,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

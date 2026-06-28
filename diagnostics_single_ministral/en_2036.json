@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2036",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "The Thing With Feathers review – well-intentioned adaptation of Max Porter novella about grief",
+    "raw": {
+      "id": "en_2036",
+      "word1": "-",
+      "word2": "-",
+      "headline": "The Thing With Feathers review – well-intentioned adaptation of Max Porter novella about grief"
+    }
+  },
+  "winner": "A man, who had been trying his hand at birdwatching, was dismayed to find that every bird he observed seemed to be carrying a shovel. \"I guess,\" he mused, \"The Thing with Feathers is really into home improvement.",
+  "candidates": [
+    {
+      "text": "Why did the grief-stricken bird refuse to watch the movie adaptation of its own story? Because it heard it was a well-intentioned flock-up!",
+      "style": "topical punchline",
+      "seed": 238605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.98997437953949,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a play on 'well-intentioned flock-up' as a pun on 'well-intentioned adaptation,' and it ties back to the headline. However, it's slightly forced and lacks the punch of a more original twist.\"}",
+      "humor_score": 0.9949871897697449,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the mourning bird such a terrible movie critic? It kept giving everything it saw two thumbs down and a heart-wrenching review about grief.",
+      "style": "reversal",
+      "seed": 238602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1844890236854555,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant to the headline but lacks sharpness and surprise; it's a bit generic and doesn't fully capture the specific humor potential of the situation.\"}",
+      "humor_score": 0.9922445118427277,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the bird afraid to review Max Porter's novella? It had a phobia of feather critiques!",
+      "style": "wordplay",
+      "seed": 238601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.17849315404892,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'feather' and 'critique,' but it's a bit forced and lacks punch. It meets some constraints but could be more surprising and concise.\"}",
+      "humor_score": 0.9892465770244598,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the feathered thing so disappointed in its movie adaptation? Because the well-intentioned reviewer couldn't seem to find the right words to describe its emotional depth.",
+      "style": "absurd literalism",
+      "seed": 238603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.063921821117401,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant to the headline but lacks punch and feels a bit forced. It uses some wordplay with 'the thing with feathers' but doesn't fully capitalize on the humor potential of the situation.\"}",
+      "humor_score": 0.9319609105587006,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A man, who had been trying his hand at birdwatching, was dismayed to find that every bird he observed seemed to be carrying a shovel. \"I guess,\" he mused, \"The Thing with Feathers is really into home improvement.",
+      "style": "deadpan understatement",
+      "seed": 238604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.980009508132935,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'The Thing With Feathers' and 'home improvement,' but it's a bit forced and lacks strong specificity to the headline's context about grief and adaptation.\"}",
+      "humor_score": 0.8900047540664673,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

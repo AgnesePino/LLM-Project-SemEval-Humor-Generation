@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2287",
+    "kind": "word_inclusion",
+    "word1": "shake",
+    "word2": "clothe",
+    "headline": null,
+    "raw": {
+      "id": "en_2287",
+      "word1": "shake",
+      "word2": "clothe",
+      "headline": "-"
+    }
+  },
+  "winner": "Why did the shirt refuse to dance? It was afraid it might get a shake and lose its cloth!",
+  "candidates": [
+    {
+      "text": "Why did the shirt go to jail? Because it got caught shaking its clothes in public!",
+      "style": "wordplay",
+      "seed": 489601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:shake,clothe"
+    },
+    {
+      "text": "Why did the shirt refuse to dance? It was afraid it might get a shake and lose its cloth!",
+      "style": "reversal",
+      "seed": 489602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:clothe"
+    },
+    {
+      "text": "Why did the shake go to school wearing clothes? Because it didn't want to be a bare milkshake!",
+      "style": "absurd literalism",
+      "seed": 489603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:clothe"
+    },
+    {
+      "text": "When I saw my pants shaking uncontrollably at a party, I realized I had left my clothes in the washing machine again.",
+      "style": "deadpan understatement",
+      "seed": 489604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:shake,clothe"
+    },
+    {
+      "text": "Why did the shirt go to therapy? Because it had a serious case of the shakes!",
+      "style": "topical punchline",
+      "seed": 489605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:shake,clothe"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2215",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Is it true that … you burn more fat by working out on an empty stomach?",
+    "raw": {
+      "id": "en_2215",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Is it true that … you burn more fat by working out on an empty stomach?"
+    }
+  },
+  "winner": "Why did the athlete work out in his fridge? Because he heard you burn more fat by exercising on an ice-cold, empty stomach!",
+  "candidates": [
+    {
+      "text": "Why did the athlete work out in his fridge? Because he heard you burn more fat by exercising on an ice-cold, empty stomach!",
+      "style": "absurd literalism",
+      "seed": 417603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.793495404720307,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative twist on the fridge joke, ties directly to the headline with a pun on 'empty stomach' and 'ice-cold', concise and surprising.\"}",
+      "humor_score": 0.9967477023601532,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the bodybuilder work out while holding a broomstick instead of food? Because he heard you burn more \"fat-ick\" on an empty stomach!",
+      "style": "wordplay",
+      "seed": 417601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.193909299373627,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'fat-ick,' but it's a bit forced and lacks natural flow. The setup could be more engaging, and the humor is mild rather than surprising or specific.\"}",
+      "humor_score": 0.9969546496868134,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't fitness enthusiasts ever go to the kitchen before working out? Because they want to burn calories, not fat pans!",
+      "style": "reversal",
+      "seed": 417602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191319239139557,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the pun on 'fat pans,' but it's a bit forced and not very specific to the headline. It lacks surprise and could be more concise.\"}",
+      "humor_score": 0.9956596195697784,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't people ever work out on an empty stomach in a tanning bed? Because they fear it might result in a calorie deficit.",
+      "style": "deadpan understatement",
+      "seed": 417604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.188059341907501,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the connection between working out on an empty stomach and a tanning bed feels forced and lacks natural flow.\"}",
+      "humor_score": 0.9940296709537506,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the athlete workout on an empty fridge? To burn off the \"before\" picture!",
+      "style": "topical punchline",
+      "seed": 417605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.184737515449524,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative but relies on a weak pun and lacks the punch of a strong surprise element.\"}",
+      "humor_score": 0.992368757724762,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

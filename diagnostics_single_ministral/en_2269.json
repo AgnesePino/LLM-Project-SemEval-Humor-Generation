@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2269",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "‘Too little, too late:' Former UK government slammed for its initial COVID-19 response",
+    "raw": {
+      "id": "en_2269",
+      "word1": "-",
+      "word2": "-",
+      "headline": "‘Too little, too late:' Former UK government slammed for its initial COVID-19 response"
+    }
+  },
+  "winner": "Why did the UK government bring a shovel to the coronavirus party? Because they thought they could bury their initial response later!",
+  "candidates": [
+    {
+      "text": "Why did the UK government bring a shovel to the coronavirus party? Because they thought they could dig their way out of a pandemic... too little, too late!",
+      "style": "absurd literalism",
+      "seed": 471603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.792397367954255,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'dig their way out' and ties directly to the headline with 'too little, too late,' showing specificity and surprise.\"}",
+      "humor_score": 0.9961986839771271,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't governments ever play hide and seek with a virus? Because they always show up too little, too late!",
+      "style": "wordplay",
+      "seed": 471601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.790299224853516,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on the headline phrase with a clever twist, concise and surprising.\"}",
+      "humor_score": 0.9951496124267578,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't governments ever go on first dates? Because they always show up too little, too late!",
+      "style": "reversal",
+      "seed": 471602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190239083766937,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and surprise. It's a mild pun that feels a bit forced and generic.\"}",
+      "humor_score": 0.9951195418834686,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the UK government bring a shovel to the coronavirus party? Because they thought they could bury their initial response later!",
+      "style": "topical punchline",
+      "seed": 471605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.186009478569031,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the shovel metaphor, but the connection to 'bury their initial response later' feels a bit forced and less specific to the headline's context.\"}",
+      "humor_score": 0.9930047392845154,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "It seems our government finally caught up with the virus last week... they're now in self-isolation.",
+      "style": "deadpan understatement",
+      "seed": 471604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.116154563426972,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant and has a mild twist, but lacks surprise and specificity. The reference to 'self-isolation' is generic and could apply to many situations.\"}",
+      "humor_score": 0.9580772817134857,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

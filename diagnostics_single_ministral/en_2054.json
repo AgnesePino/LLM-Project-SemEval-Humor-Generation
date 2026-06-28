@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2054",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "This painting is the most expensive work of modern art ever sold at auction",
+    "raw": {
+      "id": "en_2054",
+      "word1": "-",
+      "word2": "-",
+      "headline": "This painting is the most expensive work of modern art ever sold at auction"
+    }
+  },
+  "winner": "Why did the painting apply for a job at an auction house? Because it heard they were always looking for the most expensive work of modern art.",
+  "candidates": [
+    {
+      "text": "Why did the painting apply for a job at an auction house? Because it heard they were always looking for the most expensive work of modern art.",
+      "style": "absurd literalism",
+      "seed": 256603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189844918251038,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'most expensive work of modern art,' but it's a bit generic and relies heavily on the headline for setup. It lacks surprise and specificity.\"}",
+      "humor_score": 0.9949224591255188,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the painting decide to go pro? Because it was tired of being hung up on being an auction failure.",
+      "style": "topical punchline",
+      "seed": 256605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1891282320022585,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with wordplay on 'hung up' and 'auction failure,' but it's a bit forced and lacks the punch needed for maximum humor. It also doesn't fully tie into the headline's emphasis on being the most expensive.\"}",
+      "humor_score": 0.9945641160011292,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the pricey modern artwork feeling down at the auction? Because it knew it couldn't outrun its high value.",
+      "style": "reversal",
+      "seed": 256602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.130392324924469,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'high value,' but it's a bit generic and lacks specificity to the headline. The humor is mild and not strongly tied to the context of the most expensive artwork.\"}",
+      "humor_score": 0.9651961624622345,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't paintings ever feel blue about their value? Because they always sell at high prices!",
+      "style": "wordplay",
+      "seed": 256601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.572898602485656,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is generic and relies on a tired pun rather than being specific to the headline. It lacks surprise and does not effectively tie into the context of the most expensive painting.\"}",
+      "humor_score": 0.9864493012428284,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the painting decide to go to auction? It heard there was a lot going on there.",
+      "style": "deadpan understatement",
+      "seed": 256604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 4.787917602062226,
+      "judge_score": 3.5,
+      "judge_raw": "\n\n{\"score\": 3.5, \"reason\": \"Lacks surprise and specificity; the joke is generic and relies on a weak pun.\"}",
+      "humor_score": 0.9939588010311127,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

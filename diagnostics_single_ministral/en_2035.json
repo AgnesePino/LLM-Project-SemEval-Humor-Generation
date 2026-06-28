@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2035",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Nasa releases new images of interstellar comet 3I/ATLAS",
+    "raw": {
+      "id": "en_2035",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Nasa releases new images of interstellar comet 3I/ATLAS"
+    }
+  },
+  "winner": "Why did NASA's new interstellar comet refuse to cooperate? Because it was tired of being outshone by all the Atlas stars!",
+  "candidates": [
+    {
+      "text": "NASA's latest photos reveal that Interstellar Comet 3I/ATLAS has finally sent back a selfie. The caption reads: \"From Earth, with love.",
+      "style": "deadpan understatement",
+      "seed": 237604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.319959211349488,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist with the 'selfie' and caption adds humor while staying specific to the headline.\"}",
+      "humor_score": 0.25997960567474365,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the interstellar comet join a band? Because it wanted to play some cosmic tunes!",
+      "style": "topical punchline",
+      "seed": 237605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191701662540436,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and the humor is generic and predictable.\"}",
+      "humor_score": 0.9958508312702179,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the comet bring a camera to a party? Because it wanted to snap some interstellar selfies!",
+      "style": "absurd literalism",
+      "seed": 237603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191600573062897,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and surprise; 'interstellar selfies' is a mild pun without strong comedic impact.\"}",
+      "humor_score": 0.9958002865314484,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did NASA's new interstellar comet refuse to cooperate? Because it was tired of being outshone by all the Atlas stars!",
+      "style": "wordplay",
+      "seed": 237601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.182308268547058,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the wordplay on 'Atlas' but lacks specificity about the comet or NASA's images. The humor is mild and relies on a pun that may not be immediately clear to all audiences.\"}",
+      "humor_score": 0.991154134273529,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did NASA's interstellar comet refuse to join a band? Because it didn't want to be labeled as a \"shooting star.",
+      "style": "reversal",
+      "seed": 237602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.180913937091828,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant to the topic but lacks strong surprise or specificity. The pun on 'shooting star' is mild and could be seen as generic.\"}",
+      "humor_score": 0.9904569685459137,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

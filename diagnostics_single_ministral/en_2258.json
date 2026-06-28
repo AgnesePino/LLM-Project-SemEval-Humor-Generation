@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2258",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "World Cup play-off draw recap - Ireland to face Czechs",
+    "raw": {
+      "id": "en_2258",
+      "word1": "-",
+      "word2": "-",
+      "headline": "World Cup play-off draw recap - Ireland to face Czechs"
+    }
+  },
+  "winner": "Ireland will be facing the Czechs in a game that is sure to bring a fresh meaning to the term 'Czechmate'.",
+  "candidates": [
+    {
+      "text": "Why was Ireland so confused after the World Cup play-off draw? Because they didn't know whether to fear the Czechs or check their Czechers.",
+      "style": "absurd literalism",
+      "seed": 460603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.97299325466156,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a pun on 'Czechs' and 'checkers,' but the setup could be tighter for maximum impact.\"}",
+      "humor_score": 0.98649662733078,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Ireland will be facing the Czechs in a game that is sure to bring a fresh meaning to the term 'Czechmate'.",
+      "style": "deadpan understatement",
+      "seed": 460604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.649285829067231,
+      "judge_score": 9.5,
+      "judge_raw": "\n\n{\"score\": 9.5, \"reason\": \"Smart wordplay with 'Czechmate' (a pun on 'checkmate'), specific to the teams mentioned, concise, and highly surprising in a natural way.\"}",
+      "humor_score": 0.024642914533615112,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Irishman bring a Czech dictionary to the World Cup? Because he heard there'd be some unpronounceable names on the team!",
+      "style": "reversal",
+      "seed": 460602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1930334091186525,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific to the headline but relies on a generic pun about pronunciation rather than leveraging the actual teams or context of the World Cup play-off draw.\"}",
+      "humor_score": 0.9965167045593262,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Irishman bring a map to the soccer game against the Czechs? Because he heard they were checking passports at the gate!",
+      "style": "wordplay",
+      "seed": 460601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    },
+    {
+      "text": "Why did the Irishman bring a ruler to the soccer game against the Czechs? He heard there'd be a lot of line dance!",
+      "style": "topical punchline",
+      "seed": 460605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

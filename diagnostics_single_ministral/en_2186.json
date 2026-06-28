@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2186",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "How I nearly became a Chinese intelligence asset by accident",
+    "raw": {
+      "id": "en_2186",
+      "word1": "-",
+      "word2": "-",
+      "headline": "How I nearly became a Chinese intelligence asset by accident"
+    }
+  },
+  "winner": "Why did the spy accidentally join China's intelligence? Because he was accidentally added to their WeChat group named \"Secret Agents.",
+  "candidates": [
+    {
+      "text": "A friend once asked me if I wanted to join an intelligence agency, thinking it was a chess club. Now I'm just waiting for my first move from Beijing.",
+      "style": "deadpan understatement",
+      "seed": 388604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.780532228946687,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist with a specific reference to Beijing, concise and naturally funny\"}",
+      "humor_score": 0.9902661144733429,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the pencil become a Chinese secret agent? Because one day, it was accidentally sharpened in Beijing!",
+      "style": "absurd literalism",
+      "seed": 388603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191345882415772,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific with the mention of Beijing, but the connection between a pencil being sharpened and becoming a secret agent feels weak and forced. The humor lacks clarity and natural flow.\"}",
+      "humor_score": 0.9956729412078857,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the spy-wannabe bring a suitcase full of rice to China? Because he wanted to become an \"agriculturist\" for their intelligence!",
+      "style": "topical punchline",
+      "seed": 388605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.186337840557099,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and has a mild twist with 'agriculturist,' but the humor feels forced and lacks natural flow. The connection between rice and intelligence is weak, reducing overall funniness.\"}",
+      "humor_score": 0.9931689202785492,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the spy accidentally join China's intelligence? Because he was accidentally added to their WeChat group named \"Secret Agents.",
+      "style": "wordplay",
+      "seed": 388601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.180517208576203,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the humor is weak due to a lack of punch and generic setup. The WeChat group reference is clever, but the overall delivery feels underdeveloped.\"}",
+      "humor_score": 0.9902586042881012,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "After accidentally joining a local mahjong club, I found myself inadvertently becoming an American cultural ambassador.",
+      "style": "reversal",
+      "seed": 388602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.6303519129753115,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but it doesn't fully align with the headline's implication of nearly becoming a Chinese intelligence asset. It lacks the punchy twist or irony that would make it more humorous in context.\"}",
+      "humor_score": 0.7151759564876556,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

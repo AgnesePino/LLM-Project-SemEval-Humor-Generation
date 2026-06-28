@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2150",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Shares in company backed by former Intel chief Pat Gelsinger waver after scaled-back IPO",
+    "raw": {
+      "id": "en_2150",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Shares in company backed by former Intel chief Pat Gelsinger waver after scaled-back IPO"
+    }
+  },
+  "winner": "The shares of the company backed by former Intel chief Pat Gelsinger didn't waver after their scaled-back IPO, they simply took a breather to catch up on some light reading - \"How to Scale Down an Overambitious Plan\".",
+  "candidates": [
+    {
+      "text": "Why did the stock shares go on a diet? They heard they were a bit too heavy for Pat's Gelsinger's Intellectual appetite!",
+      "style": "wordplay",
+      "seed": 352601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1921701550483705,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks clarity and punch. The reference to 'Intellectual appetite' is a weak pun and doesn't clearly tie back to the IPO or Pat Gelsinger's role.\"}",
+      "humor_score": 0.9960850775241852,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did shares in the company backed by former Intel chief Pat Gelsinger hesitate at the buffet line? Because they were told it was a scaled-back IPO platter!",
+      "style": "absurd literalism",
+      "seed": 352603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.17398966550827,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the buffet line metaphor and ties back to the headline's 'scaled-back IPO,' but the humor feels a bit forced and the connection between the shares hesitating and the buffet line is not entirely natural.\"}",
+      "humor_score": 0.9869948327541351,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't stocks from companies backed by former Intel chiefs enjoy a warm initial public offering? Because they were scaled-back, not barbecued!",
+      "style": "topical punchline",
+      "seed": 352605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.044197630882263,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat forced with the barbecue pun and lacks a clear connection to the headline's specific details.\"}",
+      "humor_score": 0.9220988154411316,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The shares of the company backed by former Intel chief Pat Gelsinger didn't waver after their scaled-back IPO, they simply took a breather to catch up on some light reading - \"How to Scale Down an Overambitious Plan\".",
+      "style": "reversal",
+      "seed": 352602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.045663297176361,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever and specific to the headline, using a pun on 'waver' and 'light reading.' It's concise and surprising, though the humor is somewhat subtle and may not land with all audiences.\"}",
+      "humor_score": 0.022831648588180542,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "It's truly a shame that shares of the company are wavering, given they're backed by an individual who once ran a firm with 'Intel' in its name.",
+      "style": "deadpan understatement",
+      "seed": 352604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 3.644223666191101,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is somewhat related but lacks surprise and specificity; it's generic and doesn't effectively tie the IPO scaling back to Pat Gelsinger's past with Intel in a humorous way.\"}",
+      "humor_score": 0.022111833095550537,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

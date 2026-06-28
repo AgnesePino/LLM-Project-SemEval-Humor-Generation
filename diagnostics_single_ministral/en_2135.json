@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2135",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Woman starts movement to meet friends without going broke",
+    "raw": {
+      "id": "en_2135",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Woman starts movement to meet friends without going broke"
+    }
+  },
+  "winner": "Why did the woman start a group for meeting friends without going broke? Because she heard that friendship shouldn't cost a fortune... or at least not more than a casual lunch!",
+  "candidates": [
+    {
+      "text": "Why don't wealthier friends join the \"Meet Friends Without Going Broke\" movement? Because they can afford to meet with their broke friends... at the bank!",
+      "style": "topical punchline",
+      "seed": 337605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.769192326068879,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist with the bank, ties back to the headline, concise and specific.\"}",
+      "humor_score": 0.9845961630344391,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the woman start a group for meeting friends without going broke? Because she heard that friendship shouldn't cost a fortune... or at least not more than a casual lunch!",
+      "style": "wordplay",
+      "seed": 337601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.385915124416352,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, specific, and delivers a mild surprise by connecting friendship with cost in a relatable way.\"}",
+      "humor_score": 0.9929575622081757,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A woman started a movement to meet friends... for free? I guess they're calling it Friendship on a Budget.",
+      "style": "deadpan understatement",
+      "seed": 337604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.193068337440491,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks surprise and specificity. The pun on 'Friendship on a Budget' is mild and not particularly clever or original.\"}",
+      "humor_score": 0.9965341687202454,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the penny join the friendship group? Because it was looking for change!",
+      "style": "reversal",
+      "seed": 337602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.184124898910523,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline through the word 'change,' but it's a bit forced and lacks specificity in connecting to the theme of not going broke.\"}",
+      "humor_score": 0.9920624494552612,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't friendless people need money for meetings anymore? Because they can always go solo!",
+      "style": "absurd literalism",
+      "seed": 337603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.168246579170227,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and surprise. It's a bit generic and relies on a pun that doesn't fully align with the context of the headline.\"}",
+      "humor_score": 0.9841232895851135,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

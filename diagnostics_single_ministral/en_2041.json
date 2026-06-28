@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2041",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "David Muir reports on students who learned to sign for deaf therapy dog's birthday",
+    "raw": {
+      "id": "en_2041",
+      "word1": "-",
+      "word2": "-",
+      "headline": "David Muir reports on students who learned to sign for deaf therapy dog's birthday"
+    }
+  },
+  "winner": "Why did David Muir bring a party hat to his interview with the signing students? Because he heard it was a \"paw-ty\" for the deaf therapy dog!",
+  "candidates": [
+    {
+      "text": "Why did David Muir bring balloons to the news studio? Because he heard there was a pawty for a hearing-impaired pooch!",
+      "style": "wordplay",
+      "seed": 243601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.7935622215271,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'pawty' and 'hearing-impaired pooch' are clever and specific to the headline, with natural wordplay and brevity.\"}",
+      "humor_score": 0.9967811107635498,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did David Muir bring a party hat to his interview with the signing students? Because he heard it was a \"paw-ty\" for the deaf therapy dog!",
+      "style": "absurd literalism",
+      "seed": 243603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.792462158203126,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, uses wordplay with 'paw-ty' that ties into the context of a dog's birthday, and connects naturally to David Muir's involvement. It is surprising and specific, making it quite funny.\"}",
+      "humor_score": 0.9962310791015625,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the hearing dog attend a signing party? Because it was paws-itive that the birthday boy was deaf!",
+      "style": "reversal",
+      "seed": 243602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.193110775947571,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the pun on 'paws-itive,' but it lacks specificity to the headline and feels a bit forced in its connection to the story.\"}",
+      "humor_score": 0.9965553879737854,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Apparently, these students are celebrating their own birthdays by communicating with a canine... in sign language.",
+      "style": "deadpan understatement",
+      "seed": 243604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 4.829900300502777,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is somewhat related but lacks clarity and surprise; it misrepresents the headline by suggesting the students are celebrating their own birthdays rather than the dog's.\"}",
+      "humor_score": 0.6149501502513885,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the therapy dog bring a birthday card to school? Because it wanted to send its paws-itive vibes!",
+      "style": "topical punchline",
+      "seed": 243605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

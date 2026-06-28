@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2213",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "What AI bubble? Nvidia's strong earnings signal there's more room to grow",
+    "raw": {
+      "id": "en_2213",
+      "word1": "-",
+      "word2": "-",
+      "headline": "What AI bubble? Nvidia's strong earnings signal there's more room to grow"
+    }
+  },
+  "winner": "Why did the AI burst with excitement at Nvidia's earnings report? Because it knew there was still plenty of room to grow-bit!",
+  "candidates": [
+    {
+      "text": "Why did Nvidia cross the street? To prove there's still some more road left for AI to conquer!",
+      "style": "reversal",
+      "seed": 415602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.8880743980407715,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"Puns on 'road' and 'AI to conquer' are clever and specific, but the joke is slightly forced and lacks deeper connection to the headline's context.\"}",
+      "humor_score": 0.9440371990203857,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the AI say it was optimistic about the future? Because it heard Nvidia had some strong earnings and thought there's still plenty of room on the graph.",
+      "style": "deadpan understatement",
+      "seed": 415604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.841818571090698,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a play on 'room to grow' and 'room on the graph,' but it's slightly forced and the setup could be more concise.\"}",
+      "humor_score": 0.9209092855453491,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the AI say it was bursting with enthusiasm? Because it heard there was a Nvidia bubble!",
+      "style": "topical punchline",
+      "seed": 415605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192666482925415,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but relies on a forced pun that may not land well. It lacks specificity and the surprise element is weak.\"}",
+      "humor_score": 0.9963332414627075,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the AI bubble refuse to pop? Because according to Nvidia, there's always room for more inflation!",
+      "style": "absurd literalism",
+      "seed": 415603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.186032009124756,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but uses 'inflation' in a way that's slightly forced and less specific to Nvidia's earnings. It lacks precision and has a generic punchline.\"}",
+      "humor_score": 0.9930160045623779,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the AI burst with excitement at Nvidia's earnings report? Because it knew there was still plenty of room to grow-bit!",
+      "style": "wordplay",
+      "seed": 415601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.178186130523682,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'burst' and 'AI bubble,' but the forced rhyme and awkward phrasing ('grow-bit!') reduce its impact. It's not fully natural or surprising.\"}",
+      "humor_score": 0.9890930652618408,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

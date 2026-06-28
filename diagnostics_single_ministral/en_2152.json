@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2152",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "What does 'agentic' AI mean? Tech's newest buzzword is a mix of marketing fluff and real promise",
+    "raw": {
+      "id": "en_2152",
+      "word1": "-",
+      "word2": "-",
+      "headline": "What does 'agentic' AI mean? Tech's newest buzzword is a mix of marketing fluff and real promise"
+    }
+  },
+  "winner": "Why did the AI go to marketing school? To learn how to become more 'agentic'. Turns out it was already agent-y, just didn't know how to sell it!",
+  "candidates": [
+    {
+      "text": "An agentic AI, it turns out, is an artificially intelligent entity that's been sent to your house by the furniture store, promising to assemble that pesky coffee table you bought online... and has been stuck in the box since last Tuesday.",
+      "style": "absurd literalism",
+      "seed": 354603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.750194835662843,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative and specific analogy with a surprising twist, effectively ties the concept to a relatable situation while maintaining brevity and humor.\"}",
+      "humor_score": 0.9750974178314209,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Agentic AI means an artificial intelligence that can take initiative and make its own decisions. I wonder if they'll call the next one \"responsible\" AI... after it destroys humanity.",
+      "style": "deadpan understatement",
+      "seed": 354604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.703622746467591,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on AI terminology with a touch of dark humor, concise and specific to the topic.\"}",
+      "humor_score": 0.9518113732337952,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "An agentic AI, you ask? It's like a genie who promises to grant your wishes, but secretly charges for extra wishes in tiny, hidden font on the contract.",
+      "style": "topical punchline",
+      "seed": 354605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.616218554973603,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative comparison with a genie, good surprise factor and specificity; concise and funny.\"}",
+      "humor_score": 0.9081092774868011,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "An agentic AI just walked into a bar... The bartender said, \"We don't serve marketing fluff here, pal!",
+      "style": "reversal",
+      "seed": 354602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.992121577262878,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, uses a classic setup (AI walking into a bar), and ties in the headline's theme with a pun on 'marketing fluff.' It’s slightly generic but still effective and surprising.\"}",
+      "humor_score": 0.9960607886314392,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the AI go to marketing school? To learn how to become more 'agentic'. Turns out it was already agent-y, just didn't know how to sell it!",
+      "style": "wordplay",
+      "seed": 354601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.978927552700043,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise and uses wordplay on 'agentic' and 'agent-y,' which ties into the headline's topic. It’s somewhat surprising and specific to the context, but the humor is mild and could be more impactful.\"}",
+      "humor_score": 0.9894637763500214,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

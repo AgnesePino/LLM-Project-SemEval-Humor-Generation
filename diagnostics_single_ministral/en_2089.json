@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2089",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Ní thuigim: does AI even understand Gaeilge?",
+    "raw": {
+      "id": "en_2089",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Ní thuigim: does AI even understand Gaeilge?"
+    }
+  },
+  "winner": "Why did the computer refuse to speak Irish? Because it couldn't understand its own 'Gaeilge-code'.",
+  "candidates": [
+    {
+      "text": "Why did the AI ask for Irish language lessons? Because it wanted to learn a dialect that wouldn't understand its jokes.",
+      "style": "deadpan understatement",
+      "seed": 291604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191180002689362,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the twist about AI not understanding jokes, but it's a bit generic and lacks specificity in relating to Gaeilge. The humor is mild and could be more surprising.\"}",
+      "humor_score": 0.9955900013446808,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't computers understand Irish whiskey? Because they can't sláinte through algorithms!",
+      "style": "wordplay",
+      "seed": 291601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.188606452941895,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke has a basic pun on 'sláinte' (cheers) and 'algorithms,' but it's somewhat forced and lacks specificity in connecting AI understanding to Irish whiskey. The headline mentions Gaeilge (Irish), but the joke doesn't directly address that.\"}",
+      "humor_score": 0.9943032264709473,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why can't AI tell a secret in Irish? Because it doesn't Gael-know!",
+      "style": "reversal",
+      "seed": 291602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.188313496112824,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses a play on words with 'Gael-know' instead of 'know,' which is somewhat clever but not very surprising or specific. It also has a minor grammatical issue ('doesn't Gael-know' should be 'doesn't Gael know'). The humor is mild and relies heavily on the pun, which may not land as strongly for all audiences.\"}",
+      "humor_score": 0.9941567480564117,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the computer refuse to speak Irish? Because it couldn't understand its own 'Gaeilge-code'.",
+      "style": "absurd literalism",
+      "seed": 291603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.185558032989502,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'Gaeilge-code' but lacks specificity and surprise. It's a bit generic and relies on a pun that may not land as strongly for all audiences.\"}",
+      "humor_score": 0.992779016494751,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Irish computer take a break from programming in Gaelic? It couldn't find the \"translator\" function!",
+      "style": "topical punchline",
+      "seed": 291605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

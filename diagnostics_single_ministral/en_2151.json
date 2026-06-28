@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2151",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Australian athletes heading to Tokyo Deaflympics want greater recognition",
+    "raw": {
+      "id": "en_2151",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Australian athletes heading to Tokyo Deaflympics want greater recognition"
+    }
+  },
+  "winner": "Australian athletes bound for Tokyo: \"We're just excited to finally hear the crowd cheering loud enough.",
+  "candidates": [
+    {
+      "text": "Why don't Australian deaf athletes ever feel lonely in Tokyo? Because they always have each other's back... drums!",
+      "style": "wordplay",
+      "seed": 353601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1929219484329225,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'back' and 'drums,' but it's a bit forced and lacks clarity. The connection between deaf athletes and drums isn't immediately obvious, which reduces the surprise and specificity.\"}",
+      "humor_score": 0.9964609742164612,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Australian athletes at the Tokyo Deaflympics refuse to play charades? Because they couldn't hear a peep from the silent disco!",
+      "style": "absurd literalism",
+      "seed": 353603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191479277610779,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant and uses a play on 'deaf' and 'silent disco,' but the connection to charades is weak and the humor feels forced.\"}",
+      "humor_score": 0.9957396388053894,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't Australian hearing athletes ever get invited to the Tokyo Silent Party? Because they can't hear the silent disco!",
+      "style": "reversal",
+      "seed": 353602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190844607353211,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and the connection between Australian athletes and the 'silent party' is weak. The pun on 'silent disco' is mild and not strongly tied to the context of the Deaflympics.\"}",
+      "humor_score": 0.9954223036766052,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Australian athletes at the Tokyo Deaflympics refuse to participate in the silent disco? Because they wanted to hear their own applause!",
+      "style": "topical punchline",
+      "seed": 353605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1832213521003725,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and the surprise element is weak. The connection between 'silent disco' and 'hearing their own applause' is a bit forced and not clearly tied to the context of the Deaflympics.\"}",
+      "humor_score": 0.9916106760501862,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Australian athletes bound for Tokyo: \"We're just excited to finally hear the crowd cheering loud enough.",
+      "style": "deadpan understatement",
+      "seed": 353604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.207729518413544,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever and ties the headline to a pun on 'hearing' the crowd, which relates to the Deaflympics. It's specific and surprising, though it could be more concise.\"}",
+      "humor_score": 0.10386475920677185,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

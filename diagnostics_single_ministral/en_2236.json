@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2236",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "The difficult Paul question that Joshua fight will finally answer",
+    "raw": {
+      "id": "en_2236",
+      "word1": "-",
+      "word2": "-",
+      "headline": "The difficult Paul question that Joshua fight will finally answer"
+    }
+  },
+  "winner": "Why did Joshua agree to fight the impossible Paul question? Because he heard it was a heavyweight quandary!",
+  "candidates": [
+    {
+      "text": "Why did Joshua agree to fight the impossible Paul question? Because he heard it was a heavyweight quandary!",
+      "style": "absurd literalism",
+      "seed": 438603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189710628986359,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the wordplay on 'heavyweight quandary,' but the setup is a bit convoluted and the humor feels forced. It doesn't fully align with the headline's context or deliver a strong punchline.\"}",
+      "humor_score": 0.9948553144931793,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Joshua challenge Paul? Because he wanted to find out once and for all who makes the tougher sandwiches.",
+      "style": "deadpan understatement",
+      "seed": 438604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.180262815952301,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the setup is a bit unclear and the humor relies on a weak pun about sandwiches that doesn't strongly connect to the headline.\"}",
+      "humor_score": 0.9901314079761505,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was Paul so hard to beat in a boxing match? Because Joshua found him to be an extremely elusive question!",
+      "style": "wordplay",
+      "seed": 438601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.163563740253449,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'elusive question,' but the setup is confusing and the connection between Paul, Joshua, and boxing is unclear, reducing overall impact.\"}",
+      "humor_score": 0.9817818701267242,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Joshua challenge Paul? To finally put an end to the debate about who's harder, a rock or a Paul!",
+      "style": "topical punchline",
+      "seed": 438605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.0097206950187685,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'Paul' and 'rock,' but it's a bit forced and lacks clarity. The reference to 'the difficult Paul question' isn't clearly connected, making the punchline less impactful.\"}",
+      "humor_score": 0.9048603475093842,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Who's the easiest question Paul has ever faced? A fight with Joshua, apparently - he won by default!",
+      "style": "reversal",
+      "seed": 438602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.682643663883209,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'default,' but the setup is confusing and lacks clarity. The headline's meaning isn't fully captured, making it less surprising or specific.\"}",
+      "humor_score": 0.7413218319416046,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2017",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Oneohtrix Point Never: Tranquilizer review – uncanny ambient music for an agitated era",
+    "raw": {
+      "id": "en_2017",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Oneohtrix Point Never: Tranquilizer review – uncanny ambient music for an agitated era"
+    }
+  },
+  "winner": "Apparently, they've started prescribing Oneohtrix Point Never albums as tranquilizers these days. Patients are reportedly becoming more agitated during silent moments in the hospital.",
+  "candidates": [
+    {
+      "text": "In a quiet corner of the zoo, Oneohtrix Point Never was playing an album on repeat... and even the lions were asking for a tranquilizer.",
+      "style": "reversal",
+      "seed": 219602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.509979712963105,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising and specific reference to the album's title and theme, with a clever twist involving animals at the zoo.\"}",
+      "humor_score": 0.8549898564815521,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In an agitated era, who needs a tranquilizer? Oneohtrix Point Never's latest album - a soothing lullaby for even the most unrestful insomniacs.",
+      "style": "wordplay",
+      "seed": 219601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.849792766571046,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'tranquilizer' and 'soothing lullaby' create a clever twist, with specificity to the album and era mentioned in the headline.\"}",
+      "humor_score": 0.5248963832855225,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the stressed-out DJ bring a tranquilizer to the party? Because he wanted Oneohtrix Point Never to be a little less pointy!",
+      "style": "topical punchline",
+      "seed": 219605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1915428161621096,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks strong surprise and specificity. The pun on 'pointy' is mild and not fully aligned with the context of the review.\"}",
+      "humor_score": 0.9957714080810547,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In a chaotic world where tranquilizers are now reviewed like albums, Oneohtrix Point Never's latest release is the perfect soundtrack for an era where even your stress pills have to be ambient and uncanny.",
+      "style": "absurd literalism",
+      "seed": 219603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.014085400104523,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising and specific comparison between tranquilizers and album reviews; concise and naturally humorous.\"}",
+      "humor_score": 0.10704270005226135,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Apparently, they've started prescribing Oneohtrix Point Never albums as tranquilizers these days. Patients are reportedly becoming more agitated during silent moments in the hospital.",
+      "style": "deadpan understatement",
+      "seed": 219604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.958836483955384,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on the headline's claim, specific reference to hospital patients, and clever use of irony.\"}",
+      "humor_score": 0.07941824197769165,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

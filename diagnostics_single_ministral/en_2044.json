@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2044",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "‘Thundersnow’ to hit UK as cold snap closes schools",
+    "raw": {
+      "id": "en_2044",
+      "word1": "-",
+      "word2": "-",
+      "headline": "‘Thundersnow’ to hit UK as cold snap closes schools"
+    }
+  },
+  "winner": "Teacher, can we have a snow day since you're predicting Thundersnow? And if it hits us at school, will that count as both thunder and snow days?",
+  "candidates": [
+    {
+      "text": "Teacher, can we have a snow day since you're predicting Thundersnow? And if it hits us at school, will that count as both thunder and snow days?",
+      "style": "absurd literalism",
+      "seed": 246603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.520547020435334,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Clever wordplay on 'snow day' and 'thundersnow,' with a surprising twist that ties the weather event to school closures in a humorous way.\"}",
+      "humor_score": 0.8602735102176666,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the snowman burst into tears in England? Because he heard it was going to be thunderschool.",
+      "style": "reversal",
+      "seed": 246602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.193527352809906,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the wordplay on 'thundersnow' and 'thunderschool,' but 'thunderschool' isn't a commonly understood term, which may reduce surprise and clarity. The humor is mild and could be more specific to the headline's context.\"}",
+      "humor_score": 0.996763676404953,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the snowman burst into tears? He heard about the thundersnow and thought he'd be a puddle again.",
+      "style": "wordplay",
+      "seed": 246601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.186153244972229,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the snowman and thundersnow reference, but the punchline feels a bit forced and lacks strong specificity to the headline's context.\"}",
+      "humor_score": 0.9930766224861145,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Even snowflakes are fed up with being cooped up indoors. They've decided to join forces with thunderstorms to storm the classrooms instead.",
+      "style": "deadpan understatement",
+      "seed": 246604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    },
+    {
+      "text": "In London, they're expecting a snow day with a stormy attitude... and a chilly lesson plan!",
+      "style": "topical punchline",
+      "seed": 246605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

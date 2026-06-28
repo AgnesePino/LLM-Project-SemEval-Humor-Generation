@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2289",
+    "kind": "word_inclusion",
+    "word1": "cut",
+    "word2": "chair",
+    "headline": null,
+    "raw": {
+      "id": "en_2289",
+      "word1": "cut",
+      "word2": "chair",
+      "headline": "-"
+    }
+  },
+  "winner": "Why did the scissors break up with the chair? Because it couldn't cut the relationship short!",
+  "candidates": [
+    {
+      "text": "Why did the chair go to the barber shop? Because it wanted a cut from the top!",
+      "style": "reversal",
+      "seed": 491602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1923198223114015,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"Meets constraints with 'cut' and 'chair', is brief and somewhat surprising, but the humor is weak and relies on a predictable pun.\"}",
+      "humor_score": 0.9961599111557007,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the chair go to the barber? Because it needed a cut!",
+      "style": "absurd literalism",
+      "seed": 491603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1913514852523805,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"Meets constraints with a simple pun but lacks originality and depth.\"}",
+      "humor_score": 0.9956757426261902,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the scissors break up with the chair? Because it couldn't cut the relationship short!",
+      "style": "wordplay",
+      "seed": 491601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.188464117050171,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses the required words 'cut' and 'chair' creatively and includes a play on words with 'cut the relationship short.' However, it lacks some surprise and feels slightly forced in its setup, which limits its overall humor impact.\"}",
+      "humor_score": 0.9942320585250854,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In a forest, a man was sitting in a tree, cut from the chair below him.",
+      "style": "deadpan understatement",
+      "seed": 491604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.556332242488861,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses the required words but lacks clear humor and coherence; the connection between 'cut' and 'chair' is unclear and the scenario feels forced.\"}",
+      "humor_score": 0.17816612124443054,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the scissor feeling down? Because its chair was always cutting corners.",
+      "style": "topical punchline",
+      "seed": 491605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:cut"
+    }
+  ]
+}

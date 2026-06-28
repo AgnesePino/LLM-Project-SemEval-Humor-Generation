@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2209",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "The Great Read Don’t Tread on Frank: How One Man’s Yard Became a Battlefield A dispute over HOA rules in a D.C. suburb escalated into a hyperlocal version of the nation’s partisan divide.",
+    "raw": {
+      "id": "en_2209",
+      "word1": "-",
+      "word2": "-",
+      "headline": "The Great Read Don’t Tread on Frank: How One Man’s Yard Became a Battlefield A dispute over HOA rules in a D.C. suburb escalated into a hyperlocal version of the nation’s partisan divide."
+    }
+  },
+  "winner": "In a curious twist of irony, one man's lawn battle in a D.C. suburb escalated so much that it required Congressional mediation, leading to the first known instance of partisan gridlock over an HOA rule... regarding the use of Frank, his pet giant tortoise, on the front lawn.",
+  "candidates": [
+    {
+      "text": "Why did one man's yard become a battleground? Because he refused to toe the HOA line and instead chose to Frank-ly go his own way!",
+      "style": "wordplay",
+      "seed": 411601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.378652715682984,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on 'Frank-ly' and 'toe the line' are clever and specific to the headline, with good surprise factor and natural flow.\"}",
+      "humor_score": 0.9893263578414917,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't Frank and his HOA see eye-to-eye? Because one's always trying to keep a lid on things while the other just can't stop stirring the pot!",
+      "style": "reversal",
+      "seed": 411602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.976660847663879,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a good pun on 'stirring the pot' and ties back to the headline's theme. It’s specific and concise but could be more surprising.\"}",
+      "humor_score": 0.9883304238319397,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the HOA start a civil war? Because someone dared to own a Frank on their lawn.",
+      "style": "deadpan understatement",
+      "seed": 411604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1929981231689455,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'Frank' and 'civil war,' but it's a bit forced and lacks clarity. The reference to 'Frank' as a lawn item (like a statue or garden gnome) isn't immediately clear, reducing surprise and specificity.\"}",
+      "humor_score": 0.9964990615844727,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the HOA in the D.C. suburb refuse to let Frank walk on his lawn? Because they thought it was a step too far into the partisan divide!",
+      "style": "topical punchline",
+      "seed": 411605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1415162801742555,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline and uses the required elements (HOA, partisan divide), but it lacks specificity and the punchline feels a bit forced and generic.\"}",
+      "humor_score": 0.9707581400871277,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In a curious twist of irony, one man's lawn battle in a D.C. suburb escalated so much that it required Congressional mediation, leading to the first known instance of partisan gridlock over an HOA rule... regarding the use of Frank, his pet giant tortoise, on the front lawn.",
+      "style": "absurd literalism",
+      "seed": 411603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.099620747566224,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising and specific twist with the pet tortoise named Frank, ties well to the headline and context, concise and funny.\"}",
+      "humor_score": 0.14981037378311157,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

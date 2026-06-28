@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2278",
+    "kind": "word_inclusion",
+    "word1": "hammer",
+    "word2": "laptop",
+    "headline": null,
+    "raw": {
+      "id": "en_2278",
+      "word1": "hammer",
+      "word2": "laptop",
+      "headline": "-"
+    }
+  },
+  "winner": "Why did the laptop go to the hardware store? Because it needed a new hammer... for a nail in its motherboard!",
+  "candidates": [
+    {
+      "text": "Why did the laptop go to the hardware store? Because it needed a new hammer... for a nail in its motherboard!",
+      "style": "reversal",
+      "seed": 480602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.193712067604065,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses the required words and has a basic setup, but the punchline is slightly forced and lacks strong surprise or specificity.\"}",
+      "humor_score": 0.9968560338020325,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the laptop go to therapy? Because it kept getting hammered by its users!",
+      "style": "wordplay",
+      "seed": 480601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:hammer"
+    },
+    {
+      "text": "A hamster walks into a computer store, carrying a laptop under its arm and asks, \"Do you sell tiny hammers to go with this laptop?\" The salesperson, utterly confused, replies, \"I'm afraid we only have software hammers for laptops here.",
+      "style": "absurd literalism",
+      "seed": 480603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:hammer"
+    },
+    {
+      "text": "Why did the laptop go to therapy? Because it kept getting hammered at work.",
+      "style": "deadpan understatement",
+      "seed": 480604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:hammer"
+    },
+    {
+      "text": "Why did the laptop join a construction crew? Because it's always hammering away at its keyboard!",
+      "style": "topical punchline",
+      "seed": 480605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:hammer"
+    }
+  ]
+}

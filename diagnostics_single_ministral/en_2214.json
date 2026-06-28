@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2214",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "NASA unveils close-up pictures of the comet popping by from another star",
+    "raw": {
+      "id": "en_2214",
+      "word1": "-",
+      "word2": "-",
+      "headline": "NASA unveils close-up pictures of the comet popping by from another star"
+    }
+  },
+  "winner": "NASA's latest photos of the interstellar comet reveal a surprisingly ordinary sight: a comet, sitting at a desk, filling out its tax forms.",
+  "candidates": [
+    {
+      "text": "NASA's latest photos of the interstellar comet reveal a surprisingly ordinary sight: a comet, sitting at a desk, filling out its tax forms.",
+      "style": "deadpan understatement",
+      "seed": 416604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.576401162147523,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising and specific, with a clever twist on the comet's mundane activity.\"}",
+      "humor_score": 0.388200581073761,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the comet bring a telescope? Because it heard NASA prefers close-ups!",
+      "style": "wordplay",
+      "seed": 416601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191466701030731,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative but lacks strong surprise and specificity; the connection between the comet bringing a telescope and NASA's preference for close-ups feels weak and a bit forced.\"}",
+      "humor_score": 0.9957333505153656,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the comet bring a selfie stick? To get closer shots when it popped by!",
+      "style": "topical punchline",
+      "seed": 416605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189081680774689,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks surprise and specificity; 'selfie stick' feels generic and not tightly connected to the comet's action.\"}",
+      "humor_score": 0.9945408403873444,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Comets are like long-lost astronauts... they fly by Earth, say \"hey,\" and then never call back again.",
+      "style": "reversal",
+      "seed": 416602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.161640000343323,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relatable and uses a metaphor, but it's generic and not strongly tied to the specific context of NASA unveiling comet pictures. It lacks surprise and specificity.\"}",
+      "humor_score": 0.9808200001716614,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the comet visit Earth for a playdate? To catch up on some interstellar gossip!",
+      "style": "absurd literalism",
+      "seed": 416603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1452890753746034,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the 'playdate' and 'interstellar gossip,' but it lacks specificity to the comet's context in the headline and feels a bit generic.\"}",
+      "humor_score": 0.9726445376873016,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

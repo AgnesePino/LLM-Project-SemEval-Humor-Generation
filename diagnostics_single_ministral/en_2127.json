@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2127",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Why one California town is moving to ban pickleball",
+    "raw": {
+      "id": "en_2127",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Why one California town is moving to ban pickleball"
+    }
+  },
+  "winner": "Why did the Californian town declare a \"brine-demic\"? Because of those relentless paddle-demons, they just couldn't dink around anymore!",
+  "candidates": [
+    {
+      "text": "Why did the Californian town declare a \"brine-demic\"? Because of those relentless paddle-demons, they just couldn't dink around anymore!",
+      "style": "wordplay",
+      "seed": 329601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.392452621459961,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Creative use of wordplay with 'brine-demic' and 'paddle-demons,' specific to the pickleball context, and concise.\"}",
+      "humor_score": 0.9962263107299805,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the California town decide to outlaw time travel? Because they're tired of being served with legal pickles from the future!",
+      "style": "topical punchline",
+      "seed": 329605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.788276839256287,
+      "judge_score": 6.0,
+      "judge_raw": "\n\n{\"score\": 6, \"reason\": \"The joke is somewhat related to the headline but relies on a forced pun involving 'pickles' and 'time travel,' which feels contrived. It lacks specificity about pickleball and doesn't clearly connect to why the town would ban it.\"}",
+      "humor_score": 0.9941384196281433,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In the tiny town of Bizarreville, California, they're also considering a ban on sandwiches... apparently, they can't handle the relentless dill-uge of pickleball-related snacks!",
+      "style": "absurd literalism",
+      "seed": 329603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.587006044387818,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the wordplay on 'dill-uge,' but it feels a bit forced and lacks clear connection to the headline. The reference to Bizarreville adds some specificity, but the humor doesn't land as strongly.\"}",
+      "humor_score": 0.6935030221939087,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In response to growing tension between residents, one California town decided to outlaw peace... ball!",
+      "style": "reversal",
+      "seed": 329602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.817761433124542,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'peace... ball,' but it's not as specific or surprising as it could be given the context of pickleball. It also feels a bit forced and lacks the punchiness of a stronger pun.\"}",
+      "humor_score": 0.3088807165622711,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In response to escalating tensions on the court, officials in the once peaceful town are now considering a declaration of permanent peace by outlawing all forms of recreation other than sitting quietly in one's home.",
+      "style": "deadpan understatement",
+      "seed": 329604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.211091113090515,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat humorous with a twist on the ban, but it's a bit long-winded and lacks specificity about pickleball itself.\"}",
+      "humor_score": 0.005545556545257568,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

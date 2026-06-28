@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2276",
+    "kind": "word_inclusion",
+    "word1": "hammer",
+    "word2": "flower",
+    "headline": null,
+    "raw": {
+      "id": "en_2276",
+      "word1": "hammer",
+      "word2": "flower",
+      "headline": "-"
+    }
+  },
+  "winner": "I dropped a hammer on a flower... Now I have petunias all over my hands.",
+  "candidates": [
+    {
+      "text": "I dropped a hammer on a flower... Now I have petunias all over my hands.",
+      "style": "deadpan understatement",
+      "seed": 478604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.982576966285706,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke uses both required words in a creative and surprising way, with a play on 'petunias' (a type of flower) and the mess caused by dropping a hammer. It is concise and funny, though the humor could be slightly more refined.\"}",
+      "humor_score": 0.9912884831428528,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the hammer bring a flower to school? Because it wanted to be a blossom builder!",
+      "style": "reversal",
+      "seed": 478602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189400327205658,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses the required words and has a playful twist with 'blossom builder,' but the pun is somewhat forced and the humor is mild.\"}",
+      "humor_score": 0.994700163602829,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the hammer bring a flower to the party? Because it couldn't cling to any other topic!",
+      "style": "absurd literalism",
+      "seed": 478603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.188056540489197,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses both required words but the humor is weak and relies on a forced pun with 'cling' that doesn't fully connect to 'hammer' or 'flower'.\"}",
+      "humor_score": 0.9940282702445984,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't gardeners ever use a hammer on their roses? Because they prefer to petal to the metal!",
+      "style": "wordplay",
+      "seed": 478601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:flower"
+    },
+    {
+      "text": "Why don't hammers ever give flowers? Because they can't find the right nail-a-daisy!",
+      "style": "topical punchline",
+      "seed": 478605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:hammer,flower"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2244",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Why are food prices on the rise again?",
+    "raw": {
+      "id": "en_2244",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Why are food prices on the rise again?"
+    }
+  },
+  "winner": "A farmer was asked why his chicken prices were rising again. He replied, \"I guess it's due to a surge in the demand for 'eggs-tra' large eggs!",
+  "candidates": [
+    {
+      "text": "A farmer was asked why his chicken prices were rising again. He replied, \"I guess it's due to a surge in the demand for 'eggs-tra' large eggs!",
+      "style": "absurd literalism",
+      "seed": 446603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.934719204902649,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a play on words ('eggs-tra' large), but the setup could be more directly tied to the headline about general food prices rather than just chicken eggs.\"}",
+      "humor_score": 0.9673596024513245,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Astonishing news: It seems that our beloved food is once again deciding to charge for its company.",
+      "style": "deadpan understatement",
+      "seed": 446604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.760751593112946,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative personification of food with a twist of humor, concise and surprising.\"}",
+      "humor_score": 0.4803757965564728,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the potato say its price was going up again? Because it heard about inflation peas!",
+      "style": "wordplay",
+      "seed": 446601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192170453071594,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses a play on words with 'inflation peas' which is somewhat clever, but the connection to food prices and the potato's reasoning feels forced and lacks specificity. It's understandable but not particularly surprising or refined.\"}",
+      "humor_score": 0.9960852265357971,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why are grocery stores suddenly charging for bringing your own bags? They're just trying to recoup the cost of giving them away all these years!",
+      "style": "reversal",
+      "seed": 446602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.166680109500885,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relatable and has a mild twist, but it's generic and doesn't directly tie to the headline about food prices. It also lacks surprise and specificity.\"}",
+      "humor_score": 0.9833400547504425,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Because they're just can't resist a good comeback! (Food Prices)",
+      "style": "topical punchline",
+      "seed": 446605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.570093941688538,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'comeback,' but it's a bit forced and lacks specificity about food prices. It's not particularly surprising or funny in context.\"}",
+      "humor_score": 0.1850469708442688,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

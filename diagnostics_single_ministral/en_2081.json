@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2081",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Pit-Smoked and Bourbon-Soaked: how to eat in Kentucky like a pro",
+    "raw": {
+      "id": "en_2081",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Pit-Smoked and Bourbon-Soaked: how to eat in Kentucky like a pro"
+    }
+  },
+  "winner": "In Kentucky, they don't just drink bourbon, they marinate their secrets in it and smoke them over a pit, then call it a professional dinner.",
+  "candidates": [
+    {
+      "text": "Why don't Kentucky chefs ever get lost at sea? Because even if they fall off a boat, they can always find their way back... to the bourbon!",
+      "style": "topical punchline",
+      "seed": 283605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.792895364761353,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, specific to Kentucky's bourbon culture, and includes a surprising twist with the 'fall off a boat' scenario. It naturally ties back to the headline's theme.\"}",
+      "humor_score": 0.9964476823806763,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A visitor from abroad, lost in Kentucky, stumbles upon a local farm and asks, \"Is this where they pit-smoke and bourbon-soak?\" Farmer replies, \"Nope, that's just their address.",
+      "style": "deadpan understatement",
+      "seed": 283604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.767593908309937,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist with a clever play on words, specific to Kentucky's culture, concise and natural.\"}",
+      "humor_score": 0.9837969541549683,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A visitor asked a local, \"How can I tell if a barbecue sauce was made in Kentucky?\" The local replied, \"Just give it a taste and see if it needs a little more 'pit' or a splash of 'bourbon'!",
+      "style": "wordplay",
+      "seed": 283601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.716236937046052,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'pit' and 'bourbon' are clever and specific to Kentucky, with a natural flow and surprising twist.\"}",
+      "humor_score": 0.9581184685230255,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Kentucky, they don't just drink bourbon, they marinate their secrets in it and smoke them over a pit, then call it a professional dinner.",
+      "style": "reversal",
+      "seed": 283602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.240039157867432,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative metaphor with strong regional specificity and a surprising twist on 'marinating secrets'\"}",
+      "humor_score": 0.7200195789337158,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the smoky piece of meat attend a party in Kentucky? Because it wanted to learn how to drink bourbon like a pit-soaked pro!",
+      "style": "absurd literalism",
+      "seed": 283603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190213990211487,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks strong surprise and specificity. The pun on 'pit-soaked pro' is weak and feels forced.\"}",
+      "humor_score": 0.9951069951057434,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2202",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Dog is rescued from a busy Boston tunnel during rush hour",
+    "raw": {
+      "id": "en_2202",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Dog is rescued from a busy Boston tunnel during rush hour"
+    }
+  },
+  "winner": "Why was the dog found in the Boston tunnel during rush hour? He needed a paws-and-go lane!",
+  "candidates": [
+    {
+      "text": "Why was the dog found in the Boston tunnel during rush hour? He needed a paws-and-go lane!",
+      "style": "reversal",
+      "seed": 404602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.38397046327591,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on 'paws' and 'go lane' are clever and specific to the situation, with good surprise factor and natural language.\"}",
+      "humor_score": 0.9919852316379547,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In the heart of Boston, a courageous dog decided to commute just like its human counterparts, causing quite a rush-paw-hour traffic jam in the tunnel!",
+      "style": "absurd literalism",
+      "seed": 404603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.356392908096314,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative wordplay with 'rush-paw-hour' adds surprise and specificity, aligns well with the headline, and is concise and fun.\"}",
+      "humor_score": 0.27819645404815674,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the dog refuse to use public transportation in Boston? Because he'd rather paws-sibly avoid the tunnel rush!",
+      "style": "topical punchline",
+      "seed": 404605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190301012992859,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'paws-sibly,' but it's a bit forced and doesn't directly tie to the headline. It lacks specificity and misses some of the potential humor in the situation described.\"}",
+      "humor_score": 0.9951505064964294,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the pooch take the wrong paw-way in the tunnel? Because it was just following the herd - even during rush poodle hour!",
+      "style": "wordplay",
+      "seed": 404601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.188610982894898,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat playful with wordplay on 'paw-way' and 'rush poodle hour,' but the humor feels forced and the connection to the headline is weak. The punchline lacks surprise and specificity.\"}",
+      "humor_score": 0.9943054914474487,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "During rush hour, traffic was just barking mad in that Boston tunnel.",
+      "style": "deadpan understatement",
+      "seed": 404604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.466892242431641,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"Puns on 'barking mad' tie in with the dog theme and the chaos of rush hour, offering a clever twist.\"}",
+      "humor_score": 0.2334461212158203,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

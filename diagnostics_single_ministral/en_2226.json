@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2226",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "The Interview Sir Anthony Hopkins: I turn turmoil into energy",
+    "raw": {
+      "id": "en_2226",
+      "word1": "-",
+      "word2": "-",
+      "headline": "The Interview Sir Anthony Hopkins: I turn turmoil into energy"
+    }
+  },
+  "winner": "Sir Anthony Hopkins, in a surprising twist, announced he's now selling turbines instead of films - turns out he can generate electricity from his own turmoil!",
+  "candidates": [
+    {
+      "text": "Why did Sir Anthony Hopkins make a great tea kettle? Because he can turn even the stormiest weather into a steaming cup of calm!",
+      "style": "topical punchline",
+      "seed": 428605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.790430116653443,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative twist on the headline, uses specific reference to Hopkins' ability to turn turmoil into energy, and ties it humorously to a tea kettle and calm.\"}",
+      "humor_score": 0.9952150583267212,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Sir Anthony Hopkins, turning down the volume knob on his television during a heated political debate: \"Ah, my favorite form of exercise these days - converting turmoil into energy.",
+      "style": "deadpan understatement",
+      "seed": 428604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.059057879447938,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on the headline with a specific, concise joke that ties Hopkins' quote to a relatable situation.\"}",
+      "humor_score": 0.6295289397239685,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Sir Anthony Hopkins, in a surprising twist, announced he's now selling turbines instead of films - turns out he can generate electricity from his own turmoil!",
+      "style": "reversal",
+      "seed": 428602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.5457116842269905,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative twist on the headline, connects Hopkins' turmoil with energy generation in a surprising and specific way.\"}",
+      "humor_score": 0.3728558421134949,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "After seeing a turbine at a power plant, Sir Anthony Hopkins said, \"Seems I've found my new source of energy - all this turmoil now powers light bulbs!",
+      "style": "absurd literalism",
+      "seed": 428603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.430386650562287,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on 'turning turmoil into energy,' specific reference to turbines, concise and natural humor.\"}",
+      "humor_score": 0.3151933252811432,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Sir Anthony Hopkins become a barista? Because he can turn coffee grinds into smooth espresso!",
+      "style": "wordplay",
+      "seed": 428601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190778267383576,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks surprise and specificity. It's a mild pun but doesn't fully capture the transformative aspect mentioned in the headline.\"}",
+      "humor_score": 0.9953891336917877,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

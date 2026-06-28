@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2177",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Diving into Florida’s prehistoric cave of Ice Age secrets",
+    "raw": {
+      "id": "en_2177",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Diving into Florida’s prehistoric cave of Ice Age secrets"
+    }
+  },
+  "winner": "A tourist in Florida was so excited about seeing ice age secrets, he asked for directions to the nearest freezer.",
+  "candidates": [
+    {
+      "text": "Why did the prehistoric creature refuse to go diving with the modern divers? Because he heard they were serving ice water at the refreshment stand.",
+      "style": "absurd literalism",
+      "seed": 379603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1916030764579775,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks strong surprise and specificity; the connection between Ice Age secrets and ice water is weak.\"}",
+      "humor_score": 0.9958015382289886,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't archaeologists ever go to the beach? Because they're always diving into the past, not the surf!",
+      "style": "wordplay",
+      "seed": 379601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189749610424042,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and surprise. It's a generic play on words that doesn't tie directly to Florida’s prehistoric cave or Ice Age secrets.\"}",
+      "humor_score": 0.9948748052120209,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't we let penguins go ice-fishing in Florida? Because they can't handle the heat and have no clue about secret caves!",
+      "style": "topical punchline",
+      "seed": 379605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.185190033912659,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and surprise. The connection between penguins, ice-fishing, and Florida's prehistoric caves feels forced and generic.\"}",
+      "humor_score": 0.9925950169563293,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't cavemen ever go diving in Florida's prehistoric icebox? Because they always get a bit chilly!",
+      "style": "reversal",
+      "seed": 379602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.793967413902283,
+      "judge_score": 6.0,
+      "judge_raw": "\n\n{\"score\": 6, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and surprise; 'icebox' is a weak pun on 'cave,' and the humor feels forced rather than clever.\"}",
+      "humor_score": 0.9969837069511414,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A tourist in Florida was so excited about seeing ice age secrets, he asked for directions to the nearest freezer.",
+      "style": "deadpan understatement",
+      "seed": 379604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.1975903630256655,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the headline, but 'freezer' is a weak pun on 'ice age secrets' and lacks stronger comedic impact.\"}",
+      "humor_score": 0.49879518151283264,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

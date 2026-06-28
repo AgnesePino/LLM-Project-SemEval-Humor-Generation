@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2024",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "‘Too little, too late’: damning report condemns UK’s Covid response",
+    "raw": {
+      "id": "en_2024",
+      "word1": "-",
+      "word2": "-",
+      "headline": "‘Too little, too late’: damning report condemns UK’s Covid response"
+    }
+  },
+  "winner": "Why did the British government bring a shovel to the coronavirus pandemic party? They thought \"too little, too late\" was just a dance move!",
+  "candidates": [
+    {
+      "text": "Why don't we ever hear a UK politician say \"I regret not acting sooner?\" Because it's always too little, too late!",
+      "style": "wordplay",
+      "seed": 226601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.314426803588868,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on the headline with a clever twist, concise and specific to the context.\"}",
+      "humor_score": 0.9572134017944336,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the UK's Covid response show up to a party late? Because they said, \"I'll be right on time... too little, too late.",
+      "style": "topical punchline",
+      "seed": 226605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.193300616741181,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'too little, too late,' but it feels a bit forced and lacks originality. The setup could be more surprising, and the humor is mild rather than strongly funny.\"}",
+      "humor_score": 0.9966503083705902,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the British government bring a shovel to the coronavirus pandemic party? They thought \"too little, too late\" was just a dance move!",
+      "style": "absurd literalism",
+      "seed": 226603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191462886333466,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the shovel and dance move reference, but lacks specificity to the headline's context and feels a bit forced.\"}",
+      "humor_score": 0.9957314431667328,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the UK's Covid-19 response come in a small package labeled 'too little, too late'? Because it was sent by an apologetic delivery service!",
+      "style": "reversal",
+      "seed": 226602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.182616484165192,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the 'small package' metaphor and 'apologetic delivery service,' but it lacks specificity to the UK's response and feels a bit forced. The surprise factor is mild, and the humor is light rather than particularly funny.\"}",
+      "humor_score": 0.9913082420825958,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the UK start applauding at the last moment? Because they finally realized the appropriate response for a 'Too Little, Too Late' report.",
+      "style": "deadpan understatement",
+      "seed": 226604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.119941604137421,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant and uses the headline's phrase effectively, but it lacks surprise and feels a bit forced. The connection between applauding and the report's content is weak and not particularly funny.\"}",
+      "humor_score": 0.9599708020687103,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

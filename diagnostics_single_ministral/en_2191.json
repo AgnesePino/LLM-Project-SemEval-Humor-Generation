@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2191",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Musk predicts AI will lead to work being ‘optional’ and money ‘irrelevant’",
+    "raw": {
+      "id": "en_2191",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Musk predicts AI will lead to work being ‘optional’ and money ‘irrelevant’"
+    }
+  },
+  "winner": "In a dystopian twist, Musk predicted that with the rise of AI, humans will eventually be replaced... by more efficient versions of themselves named Tesla v3.14.",
+  "candidates": [
+    {
+      "text": "I just lost my job as a janitor because Musk predicts AI will do that work... I guess now I can focus on becoming irrelevant.",
+      "style": "deadpan understatement",
+      "seed": 393604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.79308454990387,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Funny twist on Musk's prediction, uses self-deprecating humor, concise and specific with a surprising punchline.\"}",
+      "humor_score": 0.9965422749519348,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Elon Musk start a company selling hammocks? Because he believes in the future where work is optional and leisure is universal!",
+      "style": "wordplay",
+      "seed": 393601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.376239383220673,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, surprising, and ties directly to the headline with a clever twist involving hammocks.\"}",
+      "humor_score": 0.9881196916103363,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "If AI takes over, we might all become Musk-aides, working merely because it's optional, earning money only for the sake of being irrelevant.",
+      "style": "reversal",
+      "seed": 393602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.78126244544983,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'Musk-aides' and plays with the original headline's phrases in a clever, concise way.\"}",
+      "humor_score": 0.49063122272491455,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "If Elon Musk is right, someday we might have AI do our jobs so well that our biggest concern would be choosing which of our redundant assistants to take on a lunch break!",
+      "style": "absurd literalism",
+      "seed": 393603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.6578892350196845,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on 'redundant assistants' adds humor; concise and specific to the headline.\"}",
+      "humor_score": 0.4289446175098419,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In a dystopian twist, Musk predicted that with the rise of AI, humans will eventually be replaced... by more efficient versions of themselves named Tesla v3.14.",
+      "style": "topical punchline",
+      "seed": 393605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.826086843013764,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, surprising, and specific, with a clever twist on Musk's name and Tesla versioning that ties back to the headline.\"}",
+      "humor_score": 0.2130434215068817,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

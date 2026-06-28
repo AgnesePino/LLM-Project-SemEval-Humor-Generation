@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2218",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Ireland to face Czech Republic with home final possible",
+    "raw": {
+      "id": "en_2218",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Ireland to face Czech Republic with home final possible"
+    }
+  },
+  "winner": "Why did the Irish leprechaun bring a map to the game against the Czechs? Because he heard there was a pot of gold at the end of the line...and a home final!",
+  "candidates": [
+    {
+      "text": "Why did the Irish leprechaun bring a map to the game against the Czechs? Because he heard there was a pot of gold at the end of the line...and a home final!",
+      "style": "topical punchline",
+      "seed": 420605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.79195295572281,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative twist on a classic joke, ties in the specific teams and the home final possibility with a pun on 'pot of gold' and 'end of the line'.\"}",
+      "humor_score": 0.9959764778614044,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Ireland bring a map to the game against the Czech Republic? To help find out if they're playing at home or on foreign soil!",
+      "style": "wordplay",
+      "seed": 420601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.394173324108124,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever and specific to the headline, using a pun on 'foreign soil' for a soccer game context. It's brief and somewhat surprising, though the humor is mild and could be more impactful.\"}",
+      "humor_score": 0.6970866620540619,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Ireland bring a Czech refrigerator to the game? They wanted to keep their home final cool and refreshing!",
+      "style": "absurd literalism",
+      "seed": 420603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.152966988086701,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the refrigerator reference, but the connection to a home final is weak and the humor feels forced.\"}",
+      "humor_score": 0.9764834940433502,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In a surprising twist, the Czech Republic will be hosting Ireland for an away final, with the possibility of Ireland returning home triumphant... or homesick.",
+      "style": "reversal",
+      "seed": 420602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.0026267051696784,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on 'home final' with a clever play on 'homesick,' concise and specific to the headline.\"}",
+      "humor_score": 0.10131335258483887,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The potato famine was never really about the potatoes, was it?",
+      "style": "deadpan understatement",
+      "seed": 420604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

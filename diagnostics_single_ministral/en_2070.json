@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2070",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Moment a Gustav Klimt painting sells for record amount",
+    "raw": {
+      "id": "en_2070",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Moment a Gustav Klimt painting sells for record amount"
+    }
+  },
+  "winner": "Why did Gustav Klimt decide to become a weather forecaster? Because his paintings consistently break sales records when there's a gustav!",
+  "candidates": [
+    {
+      "text": "Why did the Gustav Klimt painting refuse to attend the art auction? It said, \"I'm already framed!",
+      "style": "wordplay",
+      "seed": 272601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.784544813632966,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'framed' (both literally and in context of being caught in a situation) are clever and specific to the painting's context.\"}",
+      "humor_score": 0.9922724068164825,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A Gustav Klimt painting just sold for an astonishing sum. I guess they really meant it when they said \"priceless.",
+      "style": "deadpan understatement",
+      "seed": 272604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.378325963020325,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, surprising, and specific to the context of art sales. It uses a play on words with 'priceless' in a clever way.\"}",
+      "humor_score": 0.9891629815101624,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Gustav Klimt decide to become a weather forecaster? Because his paintings consistently break sales records when there's a gustav!",
+      "style": "absurd literalism",
+      "seed": 272603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190725636482239,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is clever with the pun on 'gustav' and 'Gustav Klimt,' but it's a bit forced and lacks specificity in connecting the weather forecaster angle to his actual work.\"}",
+      "humor_score": 0.9953628182411194,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Gustav Klimt painting refuse to join the art party? Because it didn't want to be outshone at the record sale-tea!",
+      "style": "topical punchline",
+      "seed": 272605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189328920841217,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the play on 'sale-tea,' but it feels forced and lacks natural flow. The reference to the record sale is present, but the humor doesn't fully land due to awkward phrasing and limited surprise.\"}",
+      "humor_score": 0.9946644604206085,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Gustav Klimt's painting refuse to go to school? Because it had already sold for a record amount.",
+      "style": "reversal",
+      "seed": 272602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.185395550727844,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat forced and relies on a pun that doesn't fully connect to the headline. It's brief and has some surprise, but lacks specificity and natural flow.\"}",
+      "humor_score": 0.9926977753639221,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

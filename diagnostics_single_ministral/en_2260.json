@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2260",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Master System at 40: the truth about Sega’s most underrated console",
+    "raw": {
+      "id": "en_2260",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Master System at 40: the truth about Sega’s most underrated console"
+    }
+  },
+  "winner": "Why did the Master System turn 40 and still feel underrated? Because even after all these years, no one's ever given it Sonic Boom!",
+  "candidates": [
+    {
+      "text": "Why was the Master System's birthday party so quiet? Because everyone realized Sega's most underrated console didn't need a grand celebration to be remarkable.",
+      "style": "deadpan understatement",
+      "seed": 462604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.69325362443924,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, surprising, and ties directly to the headline with a clever play on 'underrated' and 'remarkable.' It uses natural English and effectively connects the console's legacy to its lack of need for a grand celebration.\"}",
+      "humor_score": 0.9466268122196198,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Master System turn 40 and still feel underrated? Because even after all these years, no one's ever given it Sonic Boom!",
+      "style": "wordplay",
+      "seed": 462601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.370531284809113,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on 'Sonic Boom' and the console's underrated status are clever and specific, with a good balance of surprise and relevance to the headline.\"}",
+      "humor_score": 0.9852656424045563,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the Master System always feeling overlooked at parties? Because everyone thought it was just an \"underrated\" Sega!",
+      "style": "reversal",
+      "seed": 462602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.980851590633392,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever and ties directly to the headline with a pun on 'underrated,' but it's slightly predictable and lacks deeper surprise or specificity.\"}",
+      "humor_score": 0.9904257953166962,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't underrated consoles like Master System ever get invited to popular parties? Because even when they turn up, nobody recognizes them!",
+      "style": "topical punchline",
+      "seed": 462605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.875684082508087,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, uses a relatable metaphor (parties), and ties back to the headline with specificity. However, it lacks some surprise and could be more tightly connected to the console's history or features.\"}",
+      "humor_score": 0.9378420412540436,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't master systems ever tell lies? Because they're programmed to be 40-telling truth machines!",
+      "style": "absurd literalism",
+      "seed": 462603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.186035108566284,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on '40-telling truth machines,' but it's a bit forced and lacks specificity about the Master System or Sega consoles. It also feels generic in its humor setup.\"}",
+      "humor_score": 0.9930175542831421,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

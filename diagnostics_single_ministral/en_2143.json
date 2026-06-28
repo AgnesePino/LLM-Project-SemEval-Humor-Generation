@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2143",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Rick Steves' Hippie Trail trek changed his life. The travel writer encourages others to go off the beaten path",
+    "raw": {
+      "id": "en_2143",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Rick Steves' Hippie Trail trek changed his life. The travel writer encourages others to go off the beaten path"
+    }
+  },
+  "winner": "Rick Steves declared he'd never be the same after his Hippie Trail trek... Now he spends all day wandering around vintage record stores looking for \"The Beatles Magical Mystery Tour\".",
+  "candidates": [
+    {
+      "text": "Why did Rick Steves become a travel agent after his Hippie Trail trek? Because he realized that sometimes, the road less traveled makes all the reservations!",
+      "style": "reversal",
+      "seed": 345602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.768753218650819,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, surprising, and specific to the headline. It cleverly ties in 'road less traveled' with a pun on 'reservations,' which relates to both travel and Rick Steves' profession.\"}",
+      "humor_score": 0.9843766093254089,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Rick Steves decide to follow a different path after his Hippie Trail trek? Because he got tired of being beaten on the same one!",
+      "style": "topical punchline",
+      "seed": 345605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.184114944934845,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is a play on words with 'beaten path' and 'being beaten,' which shows some creativity. However, it's somewhat predictable and lacks the surprise and specificity that would make it stand out in a humor competition.\"}",
+      "humor_score": 0.9920574724674225,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "After hiking the Hippie Trail with Rick Steves, I can confidently say my life has never been more... paved.",
+      "style": "deadpan understatement",
+      "seed": 345604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.162493479251862,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'paved,' but it's a bit generic and lacks the specificity and surprise that would make it stand out in a humor competition.\"}",
+      "humor_score": 0.9812467396259308,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Rick Steves become a trailblazer on the Hippie Trail? Because he found that going off the beaten path was a great way to get a little more 'high'-dea!",
+      "style": "wordplay",
+      "seed": 345601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.13809849023819,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'high' and 'idea,' but it's a bit forced and lacks originality. It meets the constraints and uses specific references, but the humor is mild and not particularly surprising.\"}",
+      "humor_score": 0.9690492451190948,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Rick Steves declared he'd never be the same after his Hippie Trail trek... Now he spends all day wandering around vintage record stores looking for \"The Beatles Magical Mystery Tour\".",
+      "style": "absurd literalism",
+      "seed": 345603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.023690474033356,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and ties to the headline, but the humor is mild and lacks a strong punchline or surprising twist.\"}",
+      "humor_score": 0.9118452370166779,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

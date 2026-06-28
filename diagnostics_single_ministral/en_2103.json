@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2103",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Developers have found a way to bypass Berkeley’s labor standards for housing construction",
+    "raw": {
+      "id": "en_2103",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Developers have found a way to bypass Berkeley’s labor standards for housing construction"
+    }
+  },
+  "winner": "The developers discovered a clever loophole: they started building their own labor-standardless city - \"Bypass-keley\".",
+  "candidates": [
+    {
+      "text": "Why did the builder go to Berkeley? Because he wanted to build without lifting a single labor standard!",
+      "style": "absurd literalism",
+      "seed": 305603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.179097425937653,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with wordplay on 'labor standard,' but it's a bit forced and lacks punch. The surprise factor is low due to the predictable setup.\"}",
+      "humor_score": 0.9895487129688263,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The developers discovered a clever loophole: they started building their own labor-standardless city - \"Bypass-keley\".",
+      "style": "reversal",
+      "seed": 305602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.645978236198426,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Clever wordplay with 'Bypass-keley' and adherence to the headline's context\"}",
+      "humor_score": 0.12298911809921265,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Well, now we can finally build a house without ever having to say 'please' or 'thank you'.",
+      "style": "deadpan understatement",
+      "seed": 305604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.156705987453461,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the context, but the humor falls flat due to a weak punchline that doesn't clearly connect to bypassing labor standards.\"}",
+      "humor_score": 0.47835299372673035,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Construction workers are thrilled about the new \"Berkeley Express Lane\" feature in housing builds. It's like fast pass for labor standards!",
+      "style": "topical punchline",
+      "seed": 305605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.66179735660553,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'fast pass,' but it's a bit generic and lacks specificity about Berkeley’s labor standards or how developers are bypassing them.\"}",
+      "humor_score": 0.2308986783027649,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the builder go to Berkeley? To find the loophole-less home!",
+      "style": "wordplay",
+      "seed": 305601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.576144134998321,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"Lacks surprise and specificity; the joke is weakly connected to the headline and relies on a generic pun.\"}",
+      "humor_score": 0.9880720674991608,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

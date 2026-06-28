@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2252",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Kia recalling quarter-million cars with fuel tanks that could melt, feds say Kia is recalling roughly a quarter-million K5 sedans with a defect that could lead their fuel tanks to melt, the National Highway Traffic Safety Administration says.",
+    "raw": {
+      "id": "en_2252",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Kia recalling quarter-million cars with fuel tanks that could melt, feds say Kia is recalling roughly a quarter-million K5 sedans with a defect that could lead their fuel tanks to melt, the National Highway Traffic Safety Administration says."
+    }
+  },
+  "winner": "Why did Kia's cars refuse to play hide and seek with the sun? Because they didn't want their fuel tanks to melt and become invisible!",
+  "candidates": [
+    {
+      "text": "Why did Kia's cars refuse to dance at a party? Because they heard the DJ was heating up things in the fuel tank!",
+      "style": "topical punchline",
+      "seed": 454605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1929354786872866,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke connects the fuel tank issue with a playful scenario, but the humor is somewhat forced and lacks clarity. The surprise element is weak, and the connection between 'heating up things in the fuel tank' and the DJ is not fully developed.\"}",
+      "humor_score": 0.9964677393436432,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Kia cars join a band? Because they can't help but melt when put under too much pressure!",
+      "style": "reversal",
+      "seed": 454602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192377877235413,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline's 'melting' aspect but lacks specificity and the connection to the fuel tank defect. The humor is mild and relies on a pun that feels forced.\"}",
+      "humor_score": 0.9961889386177063,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Kia's cars refuse to play hide and seek with the sun? Because they didn't want their fuel tanks to melt and become invisible!",
+      "style": "absurd literalism",
+      "seed": 454603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.183947098255158,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the 'hide and seek' concept and ties in the melting fuel tanks, but it feels a bit forced and lacks natural flow. The connection between the cars and the sun is weak, reducing the overall impact.\"}",
+      "humor_score": 0.9919735491275787,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't Kia's recalling their hot hatchbacks anymore? Because the fuel tanks are melting before they get a chance to cool down.",
+      "style": "deadpan understatement",
+      "seed": 454604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.174431276321411,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and misses the mark on surprise and clarity. The reference to 'hot hatchbacks' isn't mentioned in the original news, which weakens the connection.\"}",
+      "humor_score": 0.9872156381607056,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Kia's cars start crying on the highway? Because they were so emotional about their melting fuel tanks!",
+      "style": "wordplay",
+      "seed": 454601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.790791618824006,
+      "judge_score": 6.0,
+      "judge_raw": "\n\n{\"score\": 6, \"reason\": \"The joke is somewhat creative with the crying cars and emotional fuel tanks, but it lacks specificity to the recall issue and feels a bit forced.\"}",
+      "humor_score": 0.9953958094120026,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2144",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "This is the world’s coolest street. Here’s why",
+    "raw": {
+      "id": "en_2144",
+      "word1": "-",
+      "word2": "-",
+      "headline": "This is the world’s coolest street. Here’s why"
+    }
+  },
+  "winner": "Why did the coolest street in the world get a cold shoulder from its neighbors? Because it refused to lower its temperature and join the block party.",
+  "candidates": [
+    {
+      "text": "Why did the street apply for a job at the North Pole? Because it wanted to be the coolest street in town!",
+      "style": "topical punchline",
+      "seed": 346605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.7890154004097,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Punchy, pun-based joke with good surprise and relevance to the headline.\"}",
+      "humor_score": 0.9945077002048492,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the street refuse to cooperate during interviews? It claimed it was already the coolest and didn't want to brag too much!",
+      "style": "wordplay",
+      "seed": 346601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.361901962757111,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on 'coolest' and 'bragging' are clever and specific, fitting the headline well with a touch of humor.\"}",
+      "humor_score": 0.9809509813785553,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the coolest street in the world get a cold shoulder from its neighbors? Because it refused to lower its temperature and join the block party.",
+      "style": "reversal",
+      "seed": 346602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.18752772808075,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'temperature' and 'block party,' but it's a bit forced and lacks specificity about what makes the street cool. It also doesn't fully tie back to the headline.\"}",
+      "humor_score": 0.9937638640403748,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Apparently, they've also renamed the other streets 'warmest,' 'dirtiest,' and 'most congested.' Quite a marketing strategy for this one.",
+      "style": "deadpan understatement",
+      "seed": 346604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.7449326634407045,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the contrast between 'coolest' and other exaggerated street names, but it lacks punch and feels a bit forced. It's not fully surprising or specific enough to be highly funny.\"}",
+      "humor_score": 0.2724663317203522,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In an effort to keep things cool, residents of \"This is the world's coolest street\" have banned all fans, air conditioners, and even snowcones to maintain the title.",
+      "style": "absurd literalism",
+      "seed": 346603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.233903419971466,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the explanation feels a bit forced and lacks natural flow. The humor is mild and could be more concise.\"}",
+      "humor_score": 0.016951709985733032,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

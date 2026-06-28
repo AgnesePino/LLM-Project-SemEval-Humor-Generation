@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2183",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Wicked: For Good saved by the magnetic performances of its stars",
+    "raw": {
+      "id": "en_2183",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Wicked: For Good saved by the magnetic performances of its stars"
+    }
+  },
+  "winner": "Why was Elphaba always a hit at magic shows? Because she had the electrifying power to save the day with her magnetic performances! (Wicked: For Good)",
+  "candidates": [
+    {
+      "text": "Why was Glinda expelled from school? Because she kept using her magnetism for bad instead of good, for WICKED!",
+      "style": "reversal",
+      "seed": 385602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.781276154518128,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'magnetism' and 'for good,' ties to the headline, concise and surprising.\"}",
+      "humor_score": 0.9906380772590637,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Apparently, the gravity-defying lifts in 'Wicked' were all thanks to the cast's strong magnetism... I guess they really meant it when they said they'd move mountains.",
+      "style": "deadpan understatement",
+      "seed": 385604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.51404528617859,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Smart wordplay on 'magnetism' and 'gravity-defying,' specific to the show, concise, and surprising with a clever twist.\"}",
+      "humor_score": 0.8570226430892944,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was Elphaba always a hit at magic shows? Because she had the electrifying power to save the day with her magnetic performances! (Wicked: For Good)",
+      "style": "wordplay",
+      "seed": 385601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.489558923244477,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'magnetic performances' and 'electrifying power' are clever and specific to the headline, with a natural flow and surprise element.\"}",
+      "humor_score": 0.8447794616222382,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was Wicked so magnetic at the box office? Because for good it attracted an iron-clad audience!",
+      "style": "absurd literalism",
+      "seed": 385603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.794455468654633,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"Puns on 'magnetic' and 'for good' are clever and specific, but the joke feels slightly forced and the punchline is a bit predictable.\"}",
+      "humor_score": 0.8972277343273163,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the witches' production of \"For Good\" need a magnet? Because Glinda and Elphaba had magnetic personalities!",
+      "style": "topical punchline",
+      "seed": 385605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.182382714748383,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the magnetic twist, but it's a bit forced and relies on a pun that may not land as well due to lack of setup. It meets constraints but lacks surprise and specificity.\"}",
+      "humor_score": 0.9911913573741913,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

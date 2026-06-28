@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2204",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Are you stuck in ordinary - but devastating - narcissism? There is a way out",
+    "raw": {
+      "id": "en_2204",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Are you stuck in ordinary - but devastating - narcissism? There is a way out"
+    }
+  },
+  "winner": "A man walks into a therapist's office and says, \"Doc, I think I might be stuck in ordinary-but-devastating narcissism.\" The therapist nods sympathetically and asks, \"So, can you tell me more about your day?\" The man replies, \"Well, today I saved a kitten from a tree... but I couldn't help thinking about how much attention it was getting compared to me.",
+  "candidates": [
+    {
+      "text": "Why don't self-centered individuals ever get lost? Because even in a maze, they always find their way back to themselves!",
+      "style": "wordplay",
+      "seed": 406601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.744003522396088,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, surprising, and specific to the topic of narcissism. It uses a clever wordplay on 'find their way back to themselves,' which ties directly to the theme of self-centeredness.\"}",
+      "humor_score": 0.9720017611980438,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A man walks into a therapist's office and says, \"Doc, I think I might be stuck in ordinary-but-devastating narcissism.\" The therapist nods sympathetically and asks, \"So, can you tell me more about your day?\" The man replies, \"Well, today I saved a kitten from a tree... but I couldn't help thinking about how much attention it was getting compared to me.",
+      "style": "reversal",
+      "seed": 406602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.989046573638916,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, specific, and includes a surprising twist with the kitten scenario. It ties back to the headline's theme of narcissism but could be more clearly connected for maximum impact.\"}",
+      "humor_score": 0.994523286819458,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At least with ordinary narcissism, you don't have to worry about being overwhelmed by grandiose fantasies... of being extraordinary.",
+      "style": "deadpan understatement",
+      "seed": 406604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.9246609091758735,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on narcissism, concise and specific with clever wordplay.\"}",
+      "humor_score": 0.5623304545879364,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the mirror feeling so down? Because it got stuck in everyday shatterism.",
+      "style": "absurd literalism",
+      "seed": 406603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.172399055957794,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke attempts wordplay with 'shatterism' as a play on 'narcissism,' but the connection to the headline is weak and the humor feels forced. The pun is somewhat creative but lacks clarity and impact.\"}",
+      "humor_score": 0.9861995279788971,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the selfie-obsessed octopus join a support group? Because he wanted to break free from his own \"inked-ness\"!",
+      "style": "topical punchline",
+      "seed": 406605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

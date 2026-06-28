@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2188",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Traffic chaos ahead: G20 Summit road closures in Johannesburg",
+    "raw": {
+      "id": "en_2188",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Traffic chaos ahead: G20 Summit road closures in Johannesburg"
+    }
+  },
+  "winner": "The traffic lights in Johannesburg were so confused by the G20 Summit road closures, they decided to go on vacation... and now there's gridlock everywhere!",
+  "candidates": [
+    {
+      "text": "The traffic here is so bad, I think they're having a separate G20 summit just for commuters.",
+      "style": "deadpan understatement",
+      "seed": 390604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.580793845653535,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on the G20 summit with a relatable commuter joke; concise and specific.\"}",
+      "humor_score": 0.890396922826767,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The traffic lights in Johannesburg were so confused by the G20 Summit road closures, they decided to go on vacation... and now there's gridlock everywhere!",
+      "style": "reversal",
+      "seed": 390602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.472537753582,
+      "judge_score": 8.2,
+      "judge_raw": "\n\n{\"score\": 8.2, \"reason\": \"Creative personification of traffic lights, good surprise factor, specific to Johannesburg and G20 Summit, concise and funnily unexpected.\"}",
+      "humor_score": 0.9562688767910004,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't summits ever play board games? Because there's always a traffic jam during G20 Snakes and Ladders in Johannesburg!",
+      "style": "absurd literalism",
+      "seed": 390603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191132140159607,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the board game reference, but the connection between 'Snakes and Ladders' and traffic chaos is weak and forced. It lacks specificity in relating to Johannesburg's actual road closures and feels a bit generic.\"}",
+      "humor_score": 0.9955660700798035,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did traffic in Johannesburg behave like a global economic meeting? Because they both can't decide on a single direction!",
+      "style": "wordplay",
+      "seed": 390601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1848752617836,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the comparison between traffic and a global economic meeting, but the punchline is a bit weak and lacks specificity. It also doesn't fully tie into the G20 Summit or Johannesburg context.\"}",
+      "humor_score": 0.9924376308917999,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't some cars participate in the G20 Summit in Johannesburg? Because they can't handle the road-block party!",
+      "style": "topical punchline",
+      "seed": 390605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.169306170940399,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline and uses a play on words with 'road-block party,' but it lacks specificity and the pun feels forced. It's not particularly surprising or funny, and the connection to the G20 Summit is weak.\"}",
+      "humor_score": 0.9846530854701996,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

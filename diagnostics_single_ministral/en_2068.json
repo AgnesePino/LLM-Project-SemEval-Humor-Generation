@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2068",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "The World in Pictures Get The AP’s most compelling photographs sent directly to your inbox.",
+    "raw": {
+      "id": "en_2068",
+      "word1": "-",
+      "word2": "-",
+      "headline": "The World in Pictures Get The AP’s most compelling photographs sent directly to your inbox."
+    }
+  },
+  "winner": "I always thought my inbox was a magical window to another world, until I started receiving physical photos instead.",
+  "candidates": [
+    {
+      "text": "I always thought my inbox was a magical window to another world, until I started receiving physical photos instead.",
+      "style": "absurd literalism",
+      "seed": 270603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.706859993934632,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on the idea of an inbox, specific to receiving physical photos, concise and naturally funny.\"}",
+      "humor_score": 0.9534299969673157,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the photo go to school? To get a better education in composition and lighting!",
+      "style": "topical punchline",
+      "seed": 270605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.013954293727875,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative but relies on a common pun ('education' as both learning and photographic technique). It's brief and specific to the topic, but lacks surprising depth or originality.\"}",
+      "humor_score": 0.9069771468639374,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Well, I've always found that a world full of pictures can sometimes be a little heavy on the weight, but light on the reading.",
+      "style": "deadpan understatement",
+      "seed": 270604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.561006557941437,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with wordplay on 'heavy' and 'light,' but it's a bit vague and lacks the punch needed for maximum humor. It also doesn't fully engage with the headline's promise of compelling photographs.\"}",
+      "humor_score": 0.6805032789707184,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why can't photos send emails? They don't have thumbs!",
+      "style": "wordplay",
+      "seed": 270601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    },
+    {
+      "text": "Why did the photo refuse to go to school? Because it didn't want to leave its inbox.",
+      "style": "reversal",
+      "seed": 270602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

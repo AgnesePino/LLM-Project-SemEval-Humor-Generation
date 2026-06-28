@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2105",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Olympic gold medallist gives 5 key tips for older swimmers returning to the pool",
+    "raw": {
+      "id": "en_2105",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Olympic gold medallist gives 5 key tips for older swimmers returning to the pool"
+    }
+  },
+  "winner": "Well, I've heard of swimming laps but never a lap-swapping retirement plan. Thanks for the tips, Olympic gold medallist... now if I could just figure out how to borrow someone else's arthritis.",
+  "candidates": [
+    {
+      "text": "Well, I've heard of swimming laps but never a lap-swapping retirement plan. Thanks for the tips, Olympic gold medallist... now if I could just figure out how to borrow someone else's arthritis.",
+      "style": "topical punchline",
+      "seed": 307605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.77073769569397,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising and specific twist with 'lap-swapping retirement plan' and 'borrow someone else's arthritis' adds clever humor while fitting the context.\"}",
+      "humor_score": 0.9853688478469849,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Tip Number 4: Don't forget your goggles... and a compass, just in case you decide to take a detour through the deep end.",
+      "style": "absurd literalism",
+      "seed": 307603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.591657388210297,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, surprising, and specific with a clever twist on 'detour through the deep end.' It fits naturally within the context of swimming tips and adds a humorous element without being offensive or generic.\"}",
+      "humor_score": 0.8958286941051483,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't elderly swimmers need goggles at the pool? Because they already know the deep end by heart!",
+      "style": "wordplay",
+      "seed": 307601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.188246560096741,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the topic, but the pun on 'know the deep end by heart' feels a bit forced and less natural. It also doesn't fully align with the context of the headline about returning swimmers.\"}",
+      "humor_score": 0.9941232800483704,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Older swimmers, remember, it's not just about getting back into the pool. It's about getting out of the pool before they throw the medal in!",
+      "style": "reversal",
+      "seed": 307602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.299602282047272,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the context, but the humor is weak and relies on a forced pun that doesn't land well. The reference to 'throwing the medal in' is unclear and doesn't connect strongly with the topic.\"}",
+      "humor_score": 0.5498011410236359,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Olympic gold medallist advises older swimmers: \"First, remember to bring a snorkel and flippers for your lap swim.",
+      "style": "deadpan understatement",
+      "seed": 307604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 3.6866659283638,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is generic and lacks surprise or specificity; it does not clearly connect to the idea of older swimmers returning to the pool.\"}",
+      "humor_score": 0.043332964181900024,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

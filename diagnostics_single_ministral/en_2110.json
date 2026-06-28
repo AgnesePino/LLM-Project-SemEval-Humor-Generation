@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2110",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Josie ‘knew’ grandson Troy Parrott would score against Hungary",
+    "raw": {
+      "id": "en_2110",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Josie ‘knew’ grandson Troy Parrott would score against Hungary"
+    }
+  },
+  "winner": "Josie's psychic ability must be hungarian-ous, because she knew Troy Parrott wouldn't miss scoring against her own country!",
+  "candidates": [
+    {
+      "text": "Josie, if you knew Troy was going to score against Hungary, why didn't you tell him to bring a travel-sized cooler for all those goals?",
+      "style": "deadpan understatement",
+      "seed": 312604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.9863775253295906,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist with the travel-sized cooler, specific reference to scoring against Hungary, and concise humor.\"}",
+      "humor_score": 0.5931887626647949,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Josie's psychic abilities must be on fire, because even she could have predicted that Troy Parrott would score against Hungary... if he was playing charades!",
+      "style": "topical punchline",
+      "seed": 312605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.681000709533691,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever and specific, using a humorous twist on psychic abilities and charades. It's concise and surprising, though the reference to Hungary may lack context for some.\"}",
+      "humor_score": 0.8405003547668457,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Josie's grandson Troy Parrott refuse to play hide and seek with his teammates against Hungary? Because he already knew he would score!",
+      "style": "reversal",
+      "seed": 312602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.124319803714752,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'knew' and 'score,' but it's a bit forced and lacks specificity about the context of the headline. The humor is mild and could be more surprising.\"}",
+      "humor_score": 0.9621599018573761,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Josie's psychic ability must be hungarian-ous, because she knew Troy Parrott wouldn't miss scoring against her own country!",
+      "style": "wordplay",
+      "seed": 312601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.0518247365951545,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'Hungarian' and 'hungarian-ous,' specific to the headline, concise, and surprising with wordplay.\"}",
+      "humor_score": 0.1259123682975769,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Grandma Josie confidently predicted, \"I told you so, now who's the scoring grandma?",
+      "style": "absurd literalism",
+      "seed": 312603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.053705108165741,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the twist of 'scoring grandma,' but it lacks specificity about Josie's prediction and feels a bit forced in context.\"}",
+      "humor_score": 0.4268525540828705,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

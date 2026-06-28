@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2112",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "When racing thoughts are interrupting your sleep, here’s what to do",
+    "raw": {
+      "id": "en_2112",
+      "word1": "-",
+      "word2": "-",
+      "headline": "When racing thoughts are interrupting your sleep, here’s what to do"
+    }
+  },
+  "winner": "Instead of racing thoughts keeping you up at night, perhaps try sleeping during the day when the track is closed for maintenance!",
+  "candidates": [
+    {
+      "text": "I tried to race my thoughts during the day, but they kept interrupting my sleep! So now I'm training them for the daytime Olympics instead.",
+      "style": "wordplay",
+      "seed": 314601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.374482238292694,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Creative twist on the problem, with a surprising and specific solution involving training thoughts for the Olympics.\"}",
+      "humor_score": 0.987241119146347,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't racing thoughts ever win a snooze-athlon? Because they always come in first and can't seem to sleep!",
+      "style": "topical punchline",
+      "seed": 314605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189436686038971,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'snooze-athlon,' but the punchline feels a bit forced and lacks refinement. It's not fully surprising or specific enough to be highly effective.\"}",
+      "humor_score": 0.9947183430194855,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Instead of racing thoughts keeping you up at night, perhaps try sleeping during the day when the track is closed for maintenance!",
+      "style": "reversal",
+      "seed": 314602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.84697060585022,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist with a specific scenario, concise and clever wordplay on 'track' and 'maintenance'\"}",
+      "humor_score": 0.023485302925109863,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A man decided to race his thoughts during daylight hours instead, becoming the first person to win a 24-hour marathon against his own sleeplessness.",
+      "style": "absurd literalism",
+      "seed": 314603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.757811260223389,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative but lacks punch and clarity. The concept of racing thoughts during daylight hours is a bit abstract and doesn't fully land due to the awkward phrasing and lack of clear humor payoff.\"}",
+      "humor_score": 0.27890563011169434,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A speedy solution: Start slow-paced meditation during daylight hours, ensuring tranquility by nightfall.",
+      "style": "deadpan understatement",
+      "seed": 314604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

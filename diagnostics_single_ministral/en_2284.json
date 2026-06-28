@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2284",
+    "kind": "word_inclusion",
+    "word1": "roll",
+    "word2": "shirt",
+    "headline": null,
+    "raw": {
+      "id": "en_2284",
+      "word1": "roll",
+      "word2": "shirt",
+      "headline": "-"
+    }
+  },
+  "winner": "Why did the shirt roll downhill? Because it heard there was a big sale at the hill-arious roller-coaster store!",
+  "candidates": [
+    {
+      "text": "Why did the shirt roll up a hill? It heard there was no more downhill thread.",
+      "style": "reversal",
+      "seed": 486602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.391391181945801,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Creative wordplay with 'thread' and 'downhill,' good use of required words, concise and surprising.\"}",
+      "humor_score": 0.9956955909729004,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the shirt roll downhill? Because it heard there was a big sale at the hill-arious roller-coaster store!",
+      "style": "absurd literalism",
+      "seed": 486603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191576135158539,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"Includes required words, uses a pun on 'hill-arious,' but the joke is somewhat forced and the connection between the shirt rolling and the sale is weak.\"}",
+      "humor_score": 0.9957880675792694,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't rollercoasters ever argue with each other? Because they always know how to button up their shirts!",
+      "style": "wordplay",
+      "seed": 486601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:roll,shirt"
+    },
+    {
+      "text": "When I saw my dog rolling around in a pile of dirt, I thought, \"Oh no, he's getting dirty again.\" But then I realized, at least his shirt was already dirty.",
+      "style": "deadpan understatement",
+      "seed": 486604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:roll"
+    },
+    {
+      "text": "Why don't roller coasters ever argue with each other? Because they always find common ground - on your shirt after you ride!",
+      "style": "topical punchline",
+      "seed": 486605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:roll"
+    }
+  ]
+}

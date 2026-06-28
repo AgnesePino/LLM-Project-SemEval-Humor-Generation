@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2246",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Stopping small boats with nets ‘risks turning Channel into graveyard’",
+    "raw": {
+      "id": "en_2246",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Stopping small boats with nets ‘risks turning Channel into graveyard’"
+    }
+  },
+  "winner": "A man decides to solve the migrant crisis by using his fishing net to catch small birds, reasoning that if it can stop small boats in the Channel, it can certainly turn the park into a graveyard for sparrows.",
+  "candidates": [
+    {
+      "text": "Why did the fisherman bring a net to a sailboat race in the English Channel? Because he heard it was a \"net\" race and wanted to set a bad example!",
+      "style": "topical punchline",
+      "seed": 448605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191828143596649,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks strong surprise and specificity. The pun on 'net race' is weak and not clearly tied to the context of stopping small boats with nets.\"}",
+      "humor_score": 0.9959140717983246,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "If we keep netting big boats, we might end up creating a lake out of the Channel!",
+      "style": "reversal",
+      "seed": 448602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.010835659503937,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks the surprise and specificity needed for maximum humor. The pun on 'netting big boats' is a bit forced and doesn't fully align with the grim context of the original headline.\"}",
+      "humor_score": 0.4054178297519684,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A fisherman says, \"I'm worried the new netting policy is going to turn the Channel into a sea of lost opportunities.",
+      "style": "wordplay",
+      "seed": 448601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.903961610794068,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with wordplay on 'sea of lost opportunities,' but it's not as surprising or specific as it could be. It also doesn't fully align with the headline's grim tone.\"}",
+      "humor_score": 0.3519808053970337,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A man decides to solve the migrant crisis by using his fishing net to catch small birds, reasoning that if it can stop small boats in the Channel, it can certainly turn the park into a graveyard for sparrows.",
+      "style": "absurd literalism",
+      "seed": 448603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.852670025825501,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the bird analogy but feels a bit forced and lacks punch. The connection between small boats and birds isn't as clear or surprising as it could be.\"}",
+      "humor_score": 0.32633501291275024,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "They're trying to prevent a swimming pool, but creating a sea cemetery instead.",
+      "style": "deadpan understatement",
+      "seed": 448604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

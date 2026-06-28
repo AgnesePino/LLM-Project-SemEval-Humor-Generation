@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2222",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "9 one-pot wonders to get you through the cold weather",
+    "raw": {
+      "id": "en_2222",
+      "word1": "-",
+      "word2": "-",
+      "headline": "9 one-pot wonders to get you through the cold weather"
+    }
+  },
+  "winner": "Why don't one-pot wonders ever go out in the cold? Because they're always well-potted!",
+  "candidates": [
+    {
+      "text": "Why did the stew feel so confident in the cold weather? Because it was a one-pot wonder!",
+      "style": "topical punchline",
+      "seed": 424605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192152512073517,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks originality and surprise; 'one-pot wonder' is a pun but feels forced in this context.\"}",
+      "humor_score": 0.9960762560367584,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the chef bring nine pots to the North Pole? To cook one-pot wonders and get Santa through the cold weather.",
+      "style": "deadpan understatement",
+      "seed": 424604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.19062579870224,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative but lacks punch and clarity; the connection between the chef, Santa, and cold weather feels forced.\"}",
+      "humor_score": 0.99531289935112,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't potatoes ever feel cold during winter? Because they're always in their own pot-luck!",
+      "style": "absurd literalism",
+      "seed": 424603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190001142024994,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline with 'pot' and 'cold,' but 'pot-luck' is a stretch and not clearly connected to the one-pot wonders theme. It's mildly funny but lacks specificity and surprise.\"}",
+      "humor_score": 0.995000571012497,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't one-pot wonders ever go out in the cold? Because they're always well-potted!",
+      "style": "wordplay",
+      "seed": 424601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189337503910065,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'well-potted,' but it's a bit forced and lacks strong surprise or specificity related to the headline.\"}",
+      "humor_score": 0.9946687519550323,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Here's a light-hearted take on the given headline: \"9 one-pot disasters that will freeze you in the heat of summer!",
+      "style": "reversal",
+      "seed": 424602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.858962190151215,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and plays on the original headline, but 'disasters' and 'freeze you in the heat of summer' feels a bit forced and less specific. It's not offensive, but lacks the sharpness and conciseness of a top-tier joke.\"}",
+      "humor_score": 0.3294810950756073,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

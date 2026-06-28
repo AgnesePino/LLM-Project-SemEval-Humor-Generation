@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2265",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Jobs report blows past expectations, defying hiring slowdown",
+    "raw": {
+      "id": "en_2265",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Jobs report blows past expectations, defying hiring slowdown"
+    }
+  },
+  "winner": "The jobs report didn't just blow past expectations, it burst through a wall of them, hired a team of new ones, and started a job agency offering employment to all those walls.",
+  "candidates": [
+    {
+      "text": "Why did the economist apply for a job as a landscaper? Because he wanted to see if the jobs report was just blowing hot air!",
+      "style": "topical punchline",
+      "seed": 467605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.792721140384675,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'blowing hot air' tie well with the headline's 'blows past expectations,' showing creativity and specificity. The joke is concise and surprising.\"}",
+      "humor_score": 0.996360570192337,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The hiring slowdown must have been a temporary speed bump, because the jobs report just flew by at a breakneck pace!",
+      "style": "wordplay",
+      "seed": 467601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.227585065364838,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative metaphor with unexpected twist, concise and specific to the headline\"}",
+      "humor_score": 0.21379253268241882,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Even a blind squirrel sometimes finds an acorn... in a jobs report.",
+      "style": "deadpan understatement",
+      "seed": 467604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.126980555057526,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant and uses a common saying with a twist, but the connection to the jobs report feels forced and lacks specificity.\"}",
+      "humor_score": 0.9634902775287628,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The jobs report didn't just blow past expectations, it burst through a wall of them, hired a team of new ones, and started a job agency offering employment to all those walls.",
+      "style": "absurd literalism",
+      "seed": 467603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.82871984243393,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative and specific metaphor with unexpected twist and humor\"}",
+      "humor_score": 0.014359921216964722,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The unemployment office announced a surprising job surplus, confounding the nation's recent obsession with layoffs.",
+      "style": "reversal",
+      "seed": 467602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.211410474777222,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the topic, but 'job surplus' is a bit generic and doesn't fully align with the headline's emphasis on defying a hiring slowdown. The humor is mild and could be more concise.\"}",
+      "humor_score": 0.00570523738861084,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2178",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Bok coach Rassie: 'I would be lying if I said we don't want to tick the Ireland box'",
+    "raw": {
+      "id": "en_2178",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Bok coach Rassie: 'I would be lying if I said we don't want to tick the Ireland box'"
+    }
+  },
+  "winner": "Rassie, after hearing about Ireland's famous leprechauns, confessed, 'I would be lying if I said we don't want to find the elusive four-leaf clover box!'",
+  "candidates": [
+    {
+      "text": "If Ireland was a checkbox, I'd need a new pen after filling it out - that's how eager we Boks are!",
+      "style": "wordplay",
+      "seed": 380601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.63851706981659,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative twist on the 'checkbox' metaphor, ties well to the headline, concise and surprising.\"}",
+      "humor_score": 0.9192585349082947,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Rassie bring a checklist on the rugby field? To make sure they could tick the Ireland box!",
+      "style": "topical punchline",
+      "seed": 380605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.141451966762543,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline and uses the 'tick the Ireland box' phrase creatively, but it lacks specificity and surprise. The reference to a checklist on the rugby field feels a bit forced and generic.\"}",
+      "humor_score": 0.9707259833812714,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Rassie: 'We wouldn't be here if we didn't want to check that particular box...the post office one.",
+      "style": "deadpan understatement",
+      "seed": 380604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.6303431510925295,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke attempts to twist the original quote with a pun on 'box,' but the reference to the post office feels forced and lacks the sharp surprise needed for maximum humor.\"}",
+      "humor_score": 0.7151715755462646,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Rassie admitted, 'Ireland has been a thorn in our side for too long. So, if I'm being honest, we don't want to tick the Bok box anymore!'",
+      "style": "reversal",
+      "seed": 380602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.284724247455597,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke plays on the mishearing of 'Bok box' instead of 'Ireland box,' which is a clever twist. However, it's somewhat predictable and lacks the sharp surprise or specificity that would elevate it further.\"}",
+      "humor_score": 0.04236212372779846,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Rassie, after hearing about Ireland's famous leprechauns, confessed, 'I would be lying if I said we don't want to find the elusive four-leaf clover box!'",
+      "style": "absurd literalism",
+      "seed": 380603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.236681473255158,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the four-leaf clover twist, but it's a bit forced and doesn't fully align with the original headline's context. It lacks specificity in connecting to rugby or the 'Ireland box' reference.\"}",
+      "humor_score": 0.018340736627578735,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

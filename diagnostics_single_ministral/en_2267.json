@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2267",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "How close is too close to a hippo?",
+    "raw": {
+      "id": "en_2267",
+      "word1": "-",
+      "word2": "-",
+      "headline": "How close is too close to a hippo?"
+    }
+  },
+  "winner": "Why did the hippo apply for a job as a social distancer? Because he knows when you're just one hop away!",
+  "candidates": [
+    {
+      "text": "How close is too close to a hippo? When you start hearing them whisper, \"I've got your number.",
+      "style": "wordplay",
+      "seed": 469601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.39192613363266,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, surprising, and specific with a clever twist on the idea of being too close to a hippo.\"}",
+      "humor_score": 0.99596306681633,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Standing just an inch away from a hippo, I asked him for some personal space. He responded, \"I prefer a wide berth myself.",
+      "style": "deadpan understatement",
+      "seed": 469604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.352218353748322,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, surprising, and specific with a clever twist on the hippo's response.\"}",
+      "humor_score": 0.9761091768741608,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the hippo apply for a job as a social distancer? Because he knows when you're just one hop away!",
+      "style": "topical punchline",
+      "seed": 469605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.193894457817078,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the wordplay on 'hop' and 'social distancer,' but it lacks specificity and the punchline feels a bit forced. The setup could be more clearly tied to the headline for better impact.\"}",
+      "humor_score": 0.9969472289085388,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the hippo apply for a job at Google? Because he heard they're always that close to a good idea.",
+      "style": "absurd literalism",
+      "seed": 469603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.193147909641266,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks direct connection and surprise; it's a bit generic and relies on a pun that may not land as effectively.\"}",
+      "humor_score": 0.9965739548206329,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "What's too far from a hippopotamus? Hipopolis, of course!",
+      "style": "reversal",
+      "seed": 469602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.18201197385788,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the wordplay on 'Hipopolis,' but it lacks surprise and clarity. The connection between 'hippo' and 'Hipopolis' isn't strong enough to be immediately funny, and the punchline feels forced.\"}",
+      "humor_score": 0.9910059869289398,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

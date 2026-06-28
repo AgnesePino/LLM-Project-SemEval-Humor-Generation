@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2052",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Princess of Wales says her children were 'very sad' to miss Paddington at Royal Variety show",
+    "raw": {
+      "id": "en_2052",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Princess of Wales says her children were 'very sad' to miss Paddington at Royal Variety show"
+    }
+  },
+  "winner": "Why did Paddington Bear decline the invitation to the royal variety show? He heard that the children of the princess were going to bear-ly attend.",
+  "candidates": [
+    {
+      "text": "Why did Paddington Bear bring tissues to the Royal Variety Show? Because he heard that the Princess of Wales was going to tell a sad story about missing him.",
+      "style": "absurd literalism",
+      "seed": 254603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189750623703003,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and misses the emotional nuance of the original news. It's a mild pun but not particularly surprising or funny.\"}",
+      "humor_score": 0.9948753118515015,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was Paddington Bear so disappointed at the Royal Variety Show? Because he missed meeting his royal cubs!",
+      "style": "reversal",
+      "seed": 254602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.185145747661591,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks clarity and specificity. The reference to 'royal cubs' is vague and may not be immediately understood as a play on 'children.' It's mildly funny but could be more precise and surprising.\"}",
+      "humor_score": 0.9925728738307953,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why didn't Paddington bear attend the Royal Variety show? Because he heard the Princess of Wales said her children were \"very sad\" about missing him!",
+      "style": "topical punchline",
+      "seed": 254605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.181127619743347,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'bear' and 'sad,' but it's a bit forced and relies heavily on the specific context of the headline without adding much original humor.\"}",
+      "humor_score": 0.9905638098716736,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Paddington Bear decline the invitation to the royal variety show? He heard that the children of the princess were going to bear-ly attend.",
+      "style": "wordplay",
+      "seed": 254601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.173145008087158,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'bear-ly attend,' but it's a bit forced and lacks the specificity and surprise that would make it more impactful in the context of the headline.\"}",
+      "humor_score": 0.9865725040435791,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The princess of Wales remarked, \"It was a rather bearable experience missing Paddington, but our children were utterly crushed.",
+      "style": "deadpan understatement",
+      "seed": 254604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.3551104187965395,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke plays on the word 'bearable' and 'crushed,' which are somewhat clever, but the humor is mild and relies heavily on a pun that may not land strongly for all audiences. It's specific to the context but lacks broader surprise or punch.\"}",
+      "humor_score": 0.07755520939826965,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

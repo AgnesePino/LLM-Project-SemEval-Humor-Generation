@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2032",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Why nonalcoholic spirits go from strength to strength",
+    "raw": {
+      "id": "en_2032",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Why nonalcoholic spirits go from strength to strength"
+    }
+  },
+  "winner": "Even though they can't get you drunk, non-alcoholic spirits are so strong...they can make your sober friends think they're actually having a good time!",
+  "candidates": [
+    {
+      "text": "Why did the sober gin bottle feel so proud? Because it was going from strength to strength... with a twist of lemon!",
+      "style": "absurd literalism",
+      "seed": 234603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.792708146572114,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'strength to strength' and 'twist of lemon' are clever and specific, aligning well with the headline while being concise and humorous.\"}",
+      "humor_score": 0.9963540732860565,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Even though they can't get you drunk, non-alcoholic spirits are so strong...they can make your sober friends think they're actually having a good time!",
+      "style": "reversal",
+      "seed": 234602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.86384962797165,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on 'strength,' specific to nonalcoholic spirits, concise, and naturally funny with a clever play on expectations.\"}",
+      "humor_score": 0.5319248139858246,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A spirit-free party just got stronger with more guests... apparently they're all teetotalers!",
+      "style": "wordplay",
+      "seed": 234601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.175538313388825,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with wordplay on 'strength' and 'teetotalers,' but it lacks specificity and the connection to nonalcoholic spirits isn't clearly made.\"}",
+      "humor_score": 0.9877691566944122,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A barman, pouring a drink for a patron, says with complete seriousness, \"I hear these nonalcoholic spirits are really going places.",
+      "style": "deadpan understatement",
+      "seed": 234604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.139451038837433,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'going places,' but it's a bit generic and lacks the sharp surprise or specificity that would make it stand out in a humor competition.\"}",
+      "humor_score": 0.9697255194187164,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A spiritless party is just a bunch of people standing around, asking \"What's the point?",
+      "style": "topical punchline",
+      "seed": 234605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.320887517929077,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'spiritless,' but it's a bit generic and doesn't fully tie into the headline about nonalcoholic spirits. It lacks specificity and could be more surprising.\"}",
+      "humor_score": 0.5604437589645386,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

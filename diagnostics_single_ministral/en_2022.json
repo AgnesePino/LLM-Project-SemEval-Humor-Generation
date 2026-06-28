@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2022",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "I do get jealous and question whether I’m cut out for non-monogamy",
+    "raw": {
+      "id": "en_2022",
+      "word1": "-",
+      "word2": "-",
+      "headline": "I do get jealous and question whether I’m cut out for non-monogamy"
+    }
+  },
+  "winner": "Why did the polyamorous person bring a mirror to their relationship seminar? To double-check they weren't tripping over monogamy!",
+  "candidates": [
+    {
+      "text": "Why did the polyamorous person bring a mirror to their relationship seminar? To double-check they weren't tripping over monogamy!",
+      "style": "topical punchline",
+      "seed": 224605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190741968154907,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'tripping over monogamy,' but it's a bit forced and lacks specificity in connecting to the headline. The humor is mild and not particularly surprising or concise.\"}",
+      "humor_score": 0.9953709840774536,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't triangles ever feel insecure about being polygons? Because they already know their three corners can handle it!",
+      "style": "absurd literalism",
+      "seed": 224603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.177856755256653,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline through the theme of insecurity but lacks direct connection and specificity. The humor is mild and relies on a common math pun, which feels generic rather than surprising or tailored to the input.\"}",
+      "humor_score": 0.9889283776283264,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't some triangles ever doubt their monogamous lifestyle? Because they always stick to two sides!",
+      "style": "reversal",
+      "seed": 224602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.177356553077698,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks direct connection and surprise; it's a generic math pun rather than a clever response to the emotional content of the headline.\"}",
+      "humor_score": 0.9886782765388489,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the monogamist feel insecure at a party of polyamorists? Because he kept seeing someone else's eye catch his heart.",
+      "style": "wordplay",
+      "seed": 224601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    },
+    {
+      "text": "I never knew I was so possessive... until I found myself reading all their relationship status updates.",
+      "style": "deadpan understatement",
+      "seed": 224604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

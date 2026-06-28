@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2111",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "New study finds that fluoride in drinking water may not affect cognitive ability",
+    "raw": {
+      "id": "en_2111",
+      "word1": "-",
+      "word2": "-",
+      "headline": "New study finds that fluoride in drinking water may not affect cognitive ability"
+    }
+  },
+  "winner": "Why was the brain always confused about the tap water? Because even though it's clear, it keeps saying \"Fluoride may or may not be affecting my cognitive ability!",
+  "candidates": [
+    {
+      "text": "Why did the intelligent student refuse fluoridated water? Because he wanted to keep his cognitive abilities from being affected... by thinking too much!",
+      "style": "absurd literalism",
+      "seed": 313603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192111325263977,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but relies on a weak pun and lacks surprise or specificity.\"}",
+      "humor_score": 0.9960556626319885,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the brain always confused about the tap water? Because even though it's clear, it keeps saying \"Fluoride may or may not be affecting my cognitive ability!",
+      "style": "reversal",
+      "seed": 313602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1906830191612245,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'clear' and 'Fluoride may or may not be affecting my cognitive ability,' but it feels a bit forced and lacks punch. The setup could be more concise, and the humor relies heavily on the specific study mentioned, which limits its broader appeal.\"}",
+      "humor_score": 0.9953415095806122,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the water intellectual's IQ unaffected? Because he always drank decaffeinated fluoride!",
+      "style": "topical punchline",
+      "seed": 313605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189225447177887,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but relies on a forced pun that doesn't land well. 'Decaffeinated fluoride' is an awkward and unclear concept, reducing surprise and specificity.\"}",
+      "humor_score": 0.9946127235889435,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the fluoride refuse to join the intelligence competition? Because it didn't want to be labeled as just \"a little smarter than average.",
+      "style": "wordplay",
+      "seed": 313601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.18285448551178,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks strong surprise and specificity. The pun on 'a little smarter than average' is mild and not strongly tied to fluoride's role in the study.\"}",
+      "humor_score": 0.9914272427558899,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Well, at least now we can finally blame our lack of intelligence on something else besides ourselves.",
+      "style": "deadpan understatement",
+      "seed": 313604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

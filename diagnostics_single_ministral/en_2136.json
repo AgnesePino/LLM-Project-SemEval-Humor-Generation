@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2136",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Huge to-do list': Woman covers her house in rhinestones",
+    "raw": {
+      "id": "en_2136",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Huge to-do list': Woman covers her house in rhinestones"
+    }
+  },
+  "winner": "Why did the woman's house start twinkling at night? Because she had a huge \"to-do list\" and covered it in rhinestone stars!",
+  "candidates": [
+    {
+      "text": "Why did the woman's house start twinkling at night? Because she had a huge \"to-do list\" and covered it in rhinestone stars!",
+      "style": "absurd literalism",
+      "seed": 338603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.790705370903016,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'to-do list' and rhinestones, with a playful twist and good specificity.\"}",
+      "humor_score": 0.9953526854515076,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "I've been meaning to tell you, my house is now a beacon for stray glitter.",
+      "style": "deadpan understatement",
+      "seed": 338604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.394879543781281,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on 'beacon' and 'stray glitter' add surprise and specificity, aligning well with the headline.\"}",
+      "humor_score": 0.49743977189064026,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the woman's house start sparkling like a disco ball? Because she had a rhinestone to-do list!",
+      "style": "topical punchline",
+      "seed": 338605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192720484733582,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and ties the headline to a pun, but 'rhinestone to-do list' feels forced and lacks natural flow.\"}",
+      "humor_score": 0.9963602423667908,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the woman glue down her to-don't list? Because she didn't want to waste any more stones at home.",
+      "style": "reversal",
+      "seed": 338602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189606857299805,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks clarity and punch. The pun on 'to-do list' and 'to-don't list' is a bit forced, and the reference to 'stones at home' doesn't clearly tie back to rhinestones.\"}",
+      "humor_score": 0.9948034286499023,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "What's the house's to-do list after the rhinestone makeover? Sparkle-seal the deal!",
+      "style": "wordplay",
+      "seed": 338601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.0986019492149355,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat playful and ties the headline to a pun on 'seal the deal,' but it lacks specificity and surprise, making it feel a bit generic.\"}",
+      "humor_score": 0.9493009746074677,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

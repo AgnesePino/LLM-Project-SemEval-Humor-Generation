@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2091",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Why history's 'most controversial' queen was so hated",
+    "raw": {
+      "id": "en_2091",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Why history's 'most controversial' queen was so hated"
+    }
+  },
+  "winner": "Why was everyone so upset with history's \"most controversial\" queen? She always insisted on having a royal rumble during coronation.",
+  "candidates": [
+    {
+      "text": "Why did they say Queen Boudica was so hated? Because she always had a 'Caesar' salad with her wherever she went!",
+      "style": "wordplay",
+      "seed": 293601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.18945814371109,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses a pun on 'Caesar salad' and the historical figure Caesar, which is somewhat clever. However, it lacks specificity about Queen Boudica's actual history and feels a bit forced. The humor is mild and not particularly surprising or original.\"}",
+      "humor_score": 0.994729071855545,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did everyone dislike history's most controversial queen? Because she was always causing a royal ruckus!",
+      "style": "topical punchline",
+      "seed": 293605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.187048387527466,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat punny with 'royal ruckus,' but it's a bit generic and doesn't fully leverage the specificity of the queen being 'most controversial.' The humor is mild and not particularly surprising.\"}",
+      "humor_score": 0.9935241937637329,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was history's most controversial queen always booed at soccer games? Because they said she had too many \"royal swaps\"!",
+      "style": "absurd literalism",
+      "seed": 293603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.167681705951691,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat forced and relies on a weak pun that doesn't strongly connect to the headline. It lacks specificity and surprise, making it only mildly funny.\"}",
+      "humor_score": 0.9838408529758453,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was everyone so upset with history's \"most controversial\" queen? She always insisted on having a royal rumble during coronation.",
+      "style": "deadpan understatement",
+      "seed": 293604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.096460235118866,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but 'royal rumble' may not be widely understood as a pun or reference, limiting its humor impact.\"}",
+      "humor_score": 0.948230117559433,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the most controversial queen so popular? Because everyone loved a good controversy queen!",
+      "style": "reversal",
+      "seed": 293602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.575138366222381,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is somewhat circular and doesn't fully address why the queen was hated, relying on a play on words that feels forced and lacks specificity.\"}",
+      "humor_score": 0.9875691831111908,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

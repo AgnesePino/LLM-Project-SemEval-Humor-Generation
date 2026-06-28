@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2056",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Owl rescued from concrete mixer now recovering in Utah",
+    "raw": {
+      "id": "en_2056",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Owl rescued from concrete mixer now recovering in Utah"
+    }
+  },
+  "winner": "Why did the owl refuse to help with mixing cement? It was afraid of becoming a brick-o'-owl!",
+  "candidates": [
+    {
+      "text": "An owl was recently found mixed up at a construction site in Utah, making cement quite literally its worst nightmare.",
+      "style": "deadpan understatement",
+      "seed": 258604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.372642064094544,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on 'mixed up' and 'making cement its worst nightmare' are clever and specific, aligning well with the headline while being concise and surprising.\"}",
+      "humor_score": 0.48632103204727173,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the owl get a job at the construction site? Because he was excellent at mixing up his hoots!",
+      "style": "reversal",
+      "seed": 258602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192739498615265,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline and uses wordplay on 'mixing up his hoots,' which connects to both the owl and the concrete mixer. However, it lacks surprise and feels a bit forced, with the pun not landing as strongly as it could.\"}",
+      "humor_score": 0.9963697493076324,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the owl end up in a cement party? Because he got mixed into the owl-crete!",
+      "style": "absurd literalism",
+      "seed": 258603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192530226707459,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'owl-crete,' but it's a bit forced and lacks natural flow. The setup could be more surprising, and the humor feels slightly generic compared to the specificity of the headline.\"}",
+      "humor_score": 0.9962651133537292,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the owl refuse to help with mixing cement? It was afraid of becoming a brick-o'-owl!",
+      "style": "topical punchline",
+      "seed": 258605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190232050418854,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the pun on 'brick-o'-owl,' but it's a bit forced and lacks strong surprise or specificity related to the headline.\"}",
+      "humor_score": 0.9951160252094269,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the owl feeling a bit mixed-up? Because it got twitched up in its cementary.",
+      "style": "wordplay",
+      "seed": 258601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.7919587969779975,
+      "judge_score": 6.0,
+      "judge_raw": "\n\n{\"score\": 6, \"reason\": \"The joke is somewhat related to the headline but relies on a weak pun ('cementary' instead of 'cemetery') and lacks strong surprise or specificity.\"}",
+      "humor_score": 0.9959793984889984,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

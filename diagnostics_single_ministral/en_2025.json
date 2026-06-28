@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2025",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Thousands of people 'trapped' on M7 every day, Dáil hears",
+    "raw": {
+      "id": "en_2025",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Thousands of people 'trapped' on M7 every day, Dáil hears"
+    }
+  },
+  "winner": "Why did the motorist bring a map to the M7? To find his exit strategy!",
+  "candidates": [
+    {
+      "text": "Why don't we call the M7 a prison? Because each day thousands are let in and none escape.",
+      "style": "deadpan understatement",
+      "seed": 227604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.784619796276093,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'prison' and 'escape' are clever and specific to the headline, with a surprising twist that aligns well with the context.\"}",
+      "humor_score": 0.9923098981380463,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't politicians ever get stuck in traffic jams on the M7? Because they always find a way to drive the highway through the Dáil!",
+      "style": "reversal",
+      "seed": 227602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.187801015377045,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat forced and relies on a weak pun between 'Dáil' and 'highway.' It lacks specificity and surprise, and the connection to the headline is not particularly strong.\"}",
+      "humor_score": 0.9939005076885223,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the motorway feeling claustrophobic? Because it had a Dáil-load of traffic!",
+      "style": "topical punchline",
+      "seed": 227605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.186707270145416,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'Dáil-load,' but it's a bit forced and lacks specificity about the M7 or the situation described in the headline.\"}",
+      "humor_score": 0.9933536350727081,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the motorist bring a map to the M7? To find his exit strategy!",
+      "style": "wordplay",
+      "seed": 227601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.181199979782105,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant and uses a play on words with 'exit strategy,' but it lacks the specificity and surprise needed for maximum humor. It's also a bit generic compared to the headline context.\"}",
+      "humor_score": 0.9905999898910522,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the road feeling claustrophobic? Because it seemed to always have thousands of people on M7 every dail.",
+      "style": "absurd literalism",
+      "seed": 227603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.16198320388794,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke attempts wordplay with 'dail' but is slightly forced and lacks clarity. The pun on 'Dáil' (Irish parliament) is not clearly connected to the road feeling claustrophobic, reducing surprise and specificity.\"}",
+      "humor_score": 0.9809916019439697,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

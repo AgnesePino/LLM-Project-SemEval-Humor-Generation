@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2023",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "How Guinness World Records began 7 decades ago",
+    "raw": {
+      "id": "en_2023",
+      "word1": "-",
+      "word2": "-",
+      "headline": "How Guinness World Records began 7 decades ago"
+    }
+  },
+  "winner": "Why did Guinness World Records start keeping records 7 decades ago? Because they had a hunch it would be a record-breaking success!",
+  "candidates": [
+    {
+      "text": "Why did Guinness start brewing records 7 decades ago? Because they wanted to make history on tap!",
+      "style": "absurd literalism",
+      "seed": 225603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.789747524261475,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'brewing records' and 'making history on tap' are clever and specific, aligning well with the headline. Brevity and surprise contribute to its humor.\"}",
+      "humor_score": 0.9948737621307373,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The first Guinness World Record was set for the most books read in one day... by a single page of the original Guinness World Records book.",
+      "style": "deadpan understatement",
+      "seed": 225604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.630373108386994,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist with a clever self-referential punchline that ties back to the subject, concise and specific.\"}",
+      "humor_score": 0.4151865541934967,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Guinness World Records start keeping records 7 decades ago? Because they had a hunch it would be a record-breaking success!",
+      "style": "topical punchline",
+      "seed": 225605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.184804570674896,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'records' and 'record-breaking,' but it's a bit generic and doesn't fully tie into the specific history of Guinness World Records starting 7 decades ago.\"}",
+      "humor_score": 0.9924022853374481,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Guinness start pouring records 7 decades ago? Because they wanted to ensure every pint had a long-lasting legacy!",
+      "style": "reversal",
+      "seed": 225602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.170082521438599,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative but lacks strong surprise and specificity; the connection between Guinness starting records and pints having a legacy feels forced and not fully aligned with the actual history of Guinness World Records.\"}",
+      "humor_score": 0.9850412607192993,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was Guinness World Records started? Because they needed a record-keeper to chronicle all those pints!",
+      "style": "wordplay",
+      "seed": 225601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.784028041362763,
+      "judge_score": 6.0,
+      "judge_raw": "\n\n{\"score\": 6, \"reason\": \"The joke is somewhat related to the topic but lacks specificity and surprise; it's a mild pun that doesn't fully engage with the historical context of Guinness World Records.\"}",
+      "humor_score": 0.9920140206813812,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

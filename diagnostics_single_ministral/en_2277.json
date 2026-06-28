@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2277",
+    "kind": "word_inclusion",
+    "word1": "drill",
+    "word2": "pumpkin",
+    "headline": null,
+    "raw": {
+      "id": "en_2277",
+      "word1": "drill",
+      "word2": "pumpkin",
+      "headline": "-"
+    }
+  },
+  "winner": "Why did the pumpkin refuse to drill? It was afraid of becoming a jack-o'-lantern hole!",
+  "candidates": [
+    {
+      "text": "Why did the pumpkin go to the drill party? Because it heard there would be gourd-geous music!",
+      "style": "absurd literalism",
+      "seed": 479603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.792925107479096,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative pun on 'gourd-geous' with the required words, concise and surprising.\"}",
+      "humor_score": 0.9964625537395477,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the pumpkin refuse to drill? It was afraid of becoming a jack-o'-lantern hole!",
+      "style": "reversal",
+      "seed": 479602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.38893529176712,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke effectively combines the required words 'drill' and 'pumpkin' in a clever and unexpected way, with a play on 'jack-o'-lantern hole' that adds surprise and specificity.\"}",
+      "humor_score": 0.9944676458835602,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the pumpkin get a drill for its birthday? Because it was time to carve-a-dile.",
+      "style": "deadpan understatement",
+      "seed": 479604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.193523478507996,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses both required words and has a play on 'carve' and 'dilemma,' but the pun is somewhat forced and lacks stronger surprise or specificity.\"}",
+      "humor_score": 0.9967617392539978,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the pumpkin feeling tired at work? Because it had a drill-ing day!",
+      "style": "wordplay",
+      "seed": 479601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190898072719574,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses the required words 'drill' and 'pumpkin' creatively with a pun on 'drilling,' but the humor is somewhat predictable and lacks deeper surprise or specificity.\"}",
+      "humor_score": 0.995449036359787,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the pumpkin start drilling? Because it needed a new gourd-ge!",
+      "style": "topical punchline",
+      "seed": 479605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:drill"
+    }
+  ]
+}

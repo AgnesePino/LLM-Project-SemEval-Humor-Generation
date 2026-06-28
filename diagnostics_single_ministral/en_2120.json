@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2120",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Nvidia shares rise after strong results ease 'AI bubble' concerns",
+    "raw": {
+      "id": "en_2120",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Nvidia shares rise after strong results ease 'AI bubble' concerns"
+    }
+  },
+  "winner": "Why was Nvidia stock so relieved after their strong AI results? Because they finally popped the bubble-tea fears!",
+  "candidates": [
+    {
+      "text": "Why did Nvidia share prices skyrocket? Because they finally found a way to burst their own AI bubble!",
+      "style": "topical punchline",
+      "seed": 322605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.751299965381623,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'burst their own AI bubble' are clever and specific to the headline, with a good surprise factor and concise delivery.\"}",
+      "humor_score": 0.9756499826908112,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the AI bubble burst at a shareholder meeting? Because it saw the Nvidia results and thought, \"Oh, that's just elementary!",
+      "style": "absurd literalism",
+      "seed": 322603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.388900661468506,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on 'elementary' (both basic and a reference to Sherlock Holmes) add surprise and specificity, tying well with the headline.\"}",
+      "humor_score": 0.9944503307342529,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Nvidia shares rose... making it the first company in history to profit from an overinflated bubble.",
+      "style": "deadpan understatement",
+      "seed": 322604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.815077412128449,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on 'AI bubble' with clever wordplay and specificity to Nvidia's situation.\"}",
+      "humor_score": 0.5075387060642242,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Nvidia shares sank when they realized even strong results can't inflate an actual bubble!",
+      "style": "reversal",
+      "seed": 322602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.378571736812592,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'bubble' and concise wordplay make it both specific and surprising.\"}",
+      "humor_score": 0.2892858684062958,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was Nvidia stock so relieved after their strong AI results? Because they finally popped the bubble-tea fears!",
+      "style": "wordplay",
+      "seed": 322601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.151531171798706,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses a play on 'bubble-tea' to reference the 'AI bubble,' which is clever and specific. However, it's somewhat forced and lacks punch, making it only mildly funny.\"}",
+      "humor_score": 0.975765585899353,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

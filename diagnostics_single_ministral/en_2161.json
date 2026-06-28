@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2161",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Dirt-powered sensors help farmers optimize their fields",
+    "raw": {
+      "id": "en_2161",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Dirt-powered sensors help farmers optimize their fields"
+    }
+  },
+  "winner": "Why don't sensors powered by dirt ever feel lonely in the field? Because they have plenty of soil-mates!",
+  "candidates": [
+    {
+      "text": "Why don't dirt-powered sensors ever get into arguments? Because they always turn compost-able!",
+      "style": "wordplay",
+      "seed": 363601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.38779022693634,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on 'compost-able' are clever and specific to the headline, with good surprise and natural flow.\"}",
+      "humor_score": 0.9938951134681702,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't sensors powered by dirt ever feel lonely in the field? Because they have plenty of soil-mates!",
+      "style": "absurd literalism",
+      "seed": 363603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.978663206100464,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a play on 'soil-mates' and 'lonely,' but the surprise and specificity could be stronger.\"}",
+      "humor_score": 0.9893316030502319,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Farmer John: I've just invented a new way to optimize my fields... Dirt-y powered sensors! Now my crops are always dirt-ty cheap!",
+      "style": "reversal",
+      "seed": 363602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.184854996204376,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"Puns on 'dirt-powered' and 'dirty cheap' are somewhat clever but rely on a forced wordplay that feels a bit strained. The joke is brief and specific to the headline, but lacks deeper surprise or originality.\"}",
+      "humor_score": 0.9924274981021881,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Farmer Bob: \"I finally found a way to make my fields more efficient... I've been using compost for power!",
+      "style": "deadpan understatement",
+      "seed": 363604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.156736028194428,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks surprise and specificity. The pun on 'compost for power' is mild and not strongly tied to 'dirt-powered sensors.'\"}",
+      "humor_score": 0.9783680140972137,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the farmer start using dirty jokes in his fields? Because they helped him optimize his croc-tales!",
+      "style": "topical punchline",
+      "seed": 363605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.590201890468597,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is weakly related to the headline and relies on a forced pun that doesn't clearly connect to 'dirt-powered sensors' or farming optimization. It lacks specificity and surprise.\"}",
+      "humor_score": 0.9951009452342987,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

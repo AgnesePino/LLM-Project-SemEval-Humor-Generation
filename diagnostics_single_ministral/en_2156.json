@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2156",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Artificial intelligence sparks debate at COP30 climate talks in Brazil",
+    "raw": {
+      "id": "en_2156",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Artificial intelligence sparks debate at COP30 climate talks in Brazil"
+    }
+  },
+  "winner": "AI: \"So I heard there's a new debate at the COP30 climate talks in Brazil... Apparently, they're discussing whether I should be considered 'artificially carbon-neutral' or just a 'hot topic'.",
+  "candidates": [
+    {
+      "text": "AI: \"So I heard there's a new debate at the COP30 climate talks in Brazil... Apparently, they're discussing whether I should be considered 'artificially carbon-neutral' or just a 'hot topic'.",
+      "style": "wordplay",
+      "seed": 358601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.168089556694031,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Smart wordplay on 'artificially carbon-neutral' and 'hot topic,' with good specificity to the headline and natural humor.\"}",
+      "humor_score": 0.6840447783470154,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The artificial intelligence delegates were so argumentative at COP30 that even the thermometers started debating about their own temperatures.",
+      "style": "absurd literalism",
+      "seed": 358603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1933106064796455,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist with thermometers debating temperatures, concise and specific to the headline context.\"}",
+      "humor_score": 0.1966553032398224,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At COP30, they're still discussing how best to implement AI... I suppose someone had to step in and argue for more trees instead.",
+      "style": "deadpan understatement",
+      "seed": 358604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.107257854938507,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'step in' and environmental focus, but it lacks specificity and the punchline feels a bit forced and generic.\"}",
+      "humor_score": 0.9536289274692535,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At COP30 climate talks in Brazil, they realized even artificial intelligence couldn't predict when politicians would start arguing about the weather.",
+      "style": "reversal",
+      "seed": 358602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.83512454032898,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on AI's role in climate talks, with clever wordplay on 'predicting the weather' and political debates.\"}",
+      "humor_score": 0.017562270164489746,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "AI and politicians walk into a bar... The bartender says, \"What'll it be, two carbon emissions or a global temperature rise?\" AI responds, \"I'd prefer to discuss mitigation strategies over happy hour specials.\" Politicians? Still arguing about who gets to pay the bill.",
+      "style": "topical punchline",
+      "seed": 358605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2219",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Inside the Amazon’s sacred food rituals few outsiders see",
+    "raw": {
+      "id": "en_2219",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Inside the Amazon’s sacred food rituals few outsiders see"
+    }
+  },
+  "winner": "Why did the outsider bring a ladder to the Amazon? To peek into sacred food rituals he couldn't see!",
+  "candidates": [
+    {
+      "text": "Why don't outsiders ever see a secret recipe inside the Amazon? Because it's sacri-chef-ice!",
+      "style": "absurd literalism",
+      "seed": 421603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191882145404816,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses a play on words with 'sacri-chef-ice' which is somewhat creative but feels forced and less surprising. It's brief and specific to the headline, but lacks deeper humor or originality.\"}",
+      "humor_score": 0.9959410727024078,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't outsiders ever get invited to the Amazon's unsacred leftover rituals? Because they've already had their fill of sacred food!",
+      "style": "reversal",
+      "seed": 421602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1883812069892885,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with wordplay on 'sacred' and 'unsacred,' but it's a bit forced and lacks the specificity and surprise that would make it stand out in a humor competition.\"}",
+      "humor_score": 0.9941906034946442,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "When I asked an outsider about their Amazon dinner last night, they claimed it was a simple salad with lettuce and cucumbers... I guess the sacred food rituals are still quite obscure to them.",
+      "style": "deadpan understatement",
+      "seed": 421604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.185085129737854,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the twist about outsiders not understanding sacred rituals, but it's a bit generic and relies on a mild pun rather than a strong punchline.\"}",
+      "humor_score": 0.992542564868927,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't outsiders ever get invited to the Amazon's secret potlucks? Because they can't handle the 'beans-ness' of the sacred food rituals!",
+      "style": "wordplay",
+      "seed": 421601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.184672069549561,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the play on 'beans-ness,' but it's a bit forced and lacks specificity about Amazonian rituals. It also feels generic in its approach to humor.\"}",
+      "humor_score": 0.9923360347747803,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the outsider bring a ladder to the Amazon? To peek into sacred food rituals he couldn't see!",
+      "style": "topical punchline",
+      "seed": 421605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1838998913764955,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the ladder pun, but it's a bit generic and relies on a common setup without much specificity or surprise.\"}",
+      "humor_score": 0.9919499456882477,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

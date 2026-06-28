@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2179",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Markets soothed by AI chip maker's results but bubble concerns haven't gone away",
+    "raw": {
+      "id": "en_2179",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Markets soothed by AI chip maker's results but bubble concerns haven't gone away"
+    }
+  },
+  "winner": "Why did the AI chip maker bring a soap bubble to the market party? Because even with impressive results, they couldn't pop their own bubble concerns!",
+  "candidates": [
+    {
+      "text": "Apparently, the AI chip maker's results made a difference in the markets... except for the bubbles, they're still on vacation.",
+      "style": "deadpan understatement",
+      "seed": 381604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.310053670406342,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on 'bubbles' (both financial and literal) add surprise and specificity; concise and natural.\"}",
+      "humor_score": 0.9550268352031708,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the AI chip maker bring a soap bubble to the market party? Because even with impressive results, they couldn't pop their own bubble concerns!",
+      "style": "topical punchline",
+      "seed": 381605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.979836702346802,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a play on 'bubble concerns' and the imagery of a soap bubble, but the punchline could be more tightly connected to the headline for maximum surprise and specificity.\"}",
+      "humor_score": 0.9899183511734009,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The stock market was soothed today, but it seemed that every time someone looked at an AI chip, a worried thought about bubbles popped up instead!",
+      "style": "absurd literalism",
+      "seed": 381603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.63470938205719,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on 'soothed' and 'bubbles' are clever and specific to the headline; concise and surprising with natural language.\"}",
+      "humor_score": 0.617354691028595,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't AI chip makers pop their own bubbles? Because they can't find a pin-pointing algorithm!",
+      "style": "wordplay",
+      "seed": 381601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190163564682007,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks clarity and punch. The pun on 'pin-pointing algorithm' is weak and not immediately obvious, reducing its humor impact.\"}",
+      "humor_score": 0.9950817823410034,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The stock market was troubled by an AI chip, but after hearing about its impressive profits, it said, \"Oh, you mean the bubble that's been worrying us isn't actually a bursting chip?",
+      "style": "reversal",
+      "seed": 381602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.907930147647858,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke attempts to play on 'bubble' and 'chip,' but the pun is a bit forced and the setup is unclear. The humor is mild and lacks sharp surprise or specificity.\"}",
+      "humor_score": 0.8539650738239288,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2248",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "The key players who presided over the government’s ‘chaotic’ Covid response",
+    "raw": {
+      "id": "en_2248",
+      "word1": "-",
+      "word2": "-",
+      "headline": "The key players who presided over the government’s ‘chaotic’ Covid response"
+    }
+  },
+  "winner": "Why was the government's COVID response like a game of musical chairs? Because when the music stopped, everyone found out who had been running the show!",
+  "candidates": [
+    {
+      "text": "Why was the government's COVID response like a game of musical chairs? Because when the music stopped, everyone found out who had been running the show!",
+      "style": "reversal",
+      "seed": 450602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1899469017982485,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the musical chairs metaphor, but it's a bit generic and doesn't fully tie into the specific context of 'key players' or 'chaotic' response mentioned in the headline.\"}",
+      "humor_score": 0.9949734508991241,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the keyboard the star witness at the chaotic Covid hearing? Because it kept hitting 'shift' and 'enter' when it shouldn't have!",
+      "style": "absurd literalism",
+      "seed": 450603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.186928999423981,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the keyboard metaphor, but the connection to the headline is weak and lacks specificity. The humor is mild and not strongly tied to the context of government officials or the chaotic Covid response.\"}",
+      "humor_score": 0.9934644997119904,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the key players start playing a game of hot potato with the pandemic? Because they couldn't handle the heat and were afraid to get their hands dirty with a proper response!",
+      "style": "topical punchline",
+      "seed": 450605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.175091576576233,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the hot potato metaphor, but it's a bit generic and lacks specificity to the headline's context. The humor is mild and not strongly tied to the 'chaotic' response or the key players involved.\"}",
+      "humor_score": 0.9875457882881165,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the government's key players bring a dictionary to their meeting about the chaotic Covid response? They wanted to look up the meaning of \"organized\"!",
+      "style": "wordplay",
+      "seed": 450601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.034996342658997,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'organized,' but it lacks specificity about the key players or the chaotic response. It's a bit generic and misses some punch.\"}",
+      "humor_score": 0.9174981713294983,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The committee responsible for the 'orderly' tea break distribution was also present during the government's 'chaotic' Covid response.",
+      "style": "deadpan understatement",
+      "seed": 450604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.211756241321564,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the humor is weak and relies on a forced contrast between 'orderly' tea breaks and 'chaotic' Covid response. It lacks punch and feels more like a missed opportunity for a stronger comedic twist.\"}",
+      "humor_score": 0.00587812066078186,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

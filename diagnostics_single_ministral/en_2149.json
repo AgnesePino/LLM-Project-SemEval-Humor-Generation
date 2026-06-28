@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2149",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "China’s favourite tipple falls flat on alcohol bans and Gen Z’s changing tastes",
+    "raw": {
+      "id": "en_2149",
+      "word1": "-",
+      "word2": "-",
+      "headline": "China’s favourite tipple falls flat on alcohol bans and Gen Z’s changing tastes"
+    }
+  },
+  "winner": "Why did Gen Z stop drinking Chinese tea? Because it's no longer their favorite tipple after alcohol bans and a shift in tastes... to water!",
+  "candidates": [
+    {
+      "text": "Why did China's favorite drink go out of business? Because it just couldn't keep up with the times... and sobriety!",
+      "style": "wordplay",
+      "seed": 351601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.988764405250549,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise and uses wordplay on 'sobriety' which ties into the headline's context. However, it lacks specificity about China’s favorite tipple or Gen Z’s influence, slightly reducing its impact.\"}",
+      "humor_score": 0.9943822026252747,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Gen Z refuse China's favorite drink? Because it kept falling flat, and they preferred something that rises instead.",
+      "style": "reversal",
+      "seed": 351602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.98188579082489,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is cleverly worded with a pun on 'falling flat' and 'rises,' connecting both the literal and metaphorical meanings. It's concise and ties directly to the headline, though the humor could be more surprising.\"}",
+      "humor_score": 0.9909428954124451,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Gen Z stop drinking Chinese tea? Because it's no longer their favorite tipple after alcohol bans and a shift in tastes... to water!",
+      "style": "topical punchline",
+      "seed": 351605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.188886058330536,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and ties into the headline, but 'to water' feels forced and lacks specificity. The humor is mild and could be more tightly aligned with the topic of changing tastes.\"}",
+      "humor_score": 0.9944430291652679,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't China's favorite tipple ever play hide and seek anymore? Because they always get caught flat in alcohol bans and Gen Z's changing tastes!",
+      "style": "absurd literalism",
+      "seed": 351603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.173145008087158,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'flat' and the reference to the headline, but it feels a bit forced and lacks refinement. The connection between hide and seek and being caught due to alcohol bans and Gen Z's tastes is weak and not particularly surprising or specific.\"}",
+      "humor_score": 0.9865725040435791,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Even Caesar's own ghost must be weeping, seeing his beloved brew swapped for energy drinks and smoothies.",
+      "style": "deadpan understatement",
+      "seed": 351604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

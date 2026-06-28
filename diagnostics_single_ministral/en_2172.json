@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2172",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Novels have survived plenty of revolutions before - but could this one be different?",
+    "raw": {
+      "id": "en_2172",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Novels have survived plenty of revolutions before - but could this one be different?"
+    }
+  },
+  "winner": "A novel idea for a revolution: Instead of books, we'll start with revolutions, then they'll be revolutionized by novels!",
+  "candidates": [
+    {
+      "text": "A novel was recently found in an old library, written during the French Revolution. It reads, \"In a time of chaos, one must find solace in literature... or risk being guillotined.\" However, I'm starting to think that even novels might struggle during this current e-book revolution.",
+      "style": "deadpan understatement",
+      "seed": 374604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.791667926311494,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on historical context with modern relevance, concise and specific joke\"}",
+      "humor_score": 0.49583396315574646,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The novel about a revolution was so popular, it sparked its own literary uprising... but the author said, \"I didn't see that coming!",
+      "style": "reversal",
+      "seed": 374602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.790888333320618,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, surprising, and specific, with a clever play on the idea of a novel sparking a revolution both in story and reality.\"}",
+      "humor_score": 0.6954441666603088,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In a surprising twist, it seems that even literature is now required to change its chapters in response to this latest revolution. After all, who could have foreseen that a mere page turn would now be considered an act of rebellion?",
+      "style": "absurd literalism",
+      "seed": 374603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.040311932563782,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever and specific, drawing a parallel between revolutions and the structure of novels. It's somewhat surprising and concise, though the humor could be more punchy.\"}",
+      "humor_score": 0.02015596628189087,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A novel idea for a revolution: Instead of books, we'll start with revolutions, then they'll be revolutionized by novels!",
+      "style": "wordplay",
+      "seed": 374601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.9528131008148195,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is clever with wordplay on 'revolution' and 'novel,' but it's slightly convoluted and lacks punch.\"}",
+      "humor_score": 0.37640655040740967,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In a surprising twist, it seems even fiction characters are starting to question their political affiliations. After all, who knew Tolstoy was a Marxist?",
+      "style": "topical punchline",
+      "seed": 374605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

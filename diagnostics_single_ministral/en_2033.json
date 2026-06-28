@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2033",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Don’t trade where you tweet",
+    "raw": {
+      "id": "en_2033",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Don’t trade where you tweet"
+    }
+  },
+  "winner": "In Wall Street, they've just announced a new policy: From now on, all trades must be executed in pigeon-peck Morse code. Seems like Twitter is no longer required for trading, only for tweeting.",
+  "candidates": [
+    {
+      "text": "Why did the stockbroker refuse to trade near a bird feeder? Because he didn't want to squawk-erage his portfolio!",
+      "style": "reversal",
+      "seed": 235602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.391868913173676,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Creative pun on 'squawk' and 'average,' with a clear connection to the headline's wordplay.\"}",
+      "humor_score": 0.9959344565868378,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't financial tweeters ever barter tweets for stocks? Because they fear a Twitter-action!",
+      "style": "wordplay",
+      "seed": 235601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192177426815033,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke has some wordplay with 'Twitter-action,' but it's a bit forced and not clearly connected to the headline. It lacks specificity and surprise, making it somewhat generic.\"}",
+      "humor_score": 0.9960887134075165,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did WallStreetBear refuse to follow Twitter trends? Because he didn't want to trade pawdcasts for stock market claws!",
+      "style": "topical punchline",
+      "seed": 235605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.188438904285431,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke has some wordplay with 'pawdcasts' and 'stock market claws,' but the connection to the headline is weak and the humor feels forced.\"}",
+      "humor_score": 0.9942194521427155,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A man walked into a Twitter shop to buy some trades, but the cashier said, \"Sir, this isn't a trading marketplace. We only sell tweets here!\" The man replied, \"Well, I was hoping for a 'tweet-for-trade' deal.\" The cashier looked confused and asked, \"What on earth is a tweet-for-trade?\" The man replied, \"Don't trade where you tweet, after all.",
+      "style": "absurd literalism",
+      "seed": 235603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.177146208286286,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke has a clever twist with the 'tweet-for-trade' pun and ties back to the headline, but it's somewhat generic and lacks the sharp surprise and specificity that would make it stand out in a humor competition.\"}",
+      "humor_score": 0.9885731041431427,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Wall Street, they've just announced a new policy: From now on, all trades must be executed in pigeon-peck Morse code. Seems like Twitter is no longer required for trading, only for tweeting.",
+      "style": "deadpan understatement",
+      "seed": 235604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.812461507320404,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the pigeon-peck Morse code idea, but the connection between the headline and the joke is weak. The humor relies on a forced pun rather than a clear punchline, and it lacks specificity in explaining why Twitter isn't required for trading.\"}",
+      "humor_score": 0.806230753660202,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2251",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Cynthia Erivo reacts to protecting Ariana Grande after red carpet ambush",
+    "raw": {
+      "id": "en_2251",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Cynthia Erivo reacts to protecting Ariana Grande after red carpet ambush"
+    }
+  },
+  "winner": "Cynthia Erivo, upon hearing about protecting Ariana Grande at a red carpet event, said, \"I thought I was the one needing protection, turns out I'm just her plus one!",
+  "candidates": [
+    {
+      "text": "Why did Cynthia Erivo bring a shield to the red carpet? She heard there might be an Ari-ambush!",
+      "style": "wordplay",
+      "seed": 453601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.778237509727479,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'Ariana Grande' and 'ambush' are clever and specific, with a surprise twist that ties back to the headline.\"}",
+      "humor_score": 0.989118754863739,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At the awards show, security said they'd move mountains for Cynthia Erivo's safety... But they drew the line at carrying Ariana Grande's heels.",
+      "style": "deadpan understatement",
+      "seed": 453604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.294330227375031,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on security measures, specific reference to the event, and clever wordplay with 'move mountains' and 'carrying heels'.\"}",
+      "humor_score": 0.7471651136875153,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Cynthia Erivo, upon hearing about protecting Ariana Grande at a red carpet event, said, \"I thought I was the one needing protection, turns out I'm just her plus one!",
+      "style": "reversal",
+      "seed": 453602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.657653379440308,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on the expected role reversal, concise and specific to the situation with natural dialogue.\"}",
+      "humor_score": 0.4288266897201538,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Cynthia Erivo bring a umbrella to protect Ariana Grande at the red carpet? Because she heard Ariana prefers being Grande-led by rain rather than ambush!",
+      "style": "absurd literalism",
+      "seed": 453603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.167254996299744,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'Grande-led by rain,' but it's a bit forced and lacks natural flow. The reference to the ambush is clear, but the humor doesn't land as strongly due to awkward phrasing.\"}",
+      "humor_score": 0.9836274981498718,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Cynthia Erivo: 'I'll be there for Ariana Grande like a bodyguard... or a spare harmonica!'",
+      "style": "topical punchline",
+      "seed": 453605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.77118935585022,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on 'bodyguard' with 'spare harmonica' are clever and specific to Erivo's musical background, offering surprise and relevance.\"}",
+      "humor_score": 0.18559467792510986,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

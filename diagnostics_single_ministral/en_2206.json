@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2206",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Philippines sentences 'Chinese spy mayor' to life in jail",
+    "raw": {
+      "id": "en_2206",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Philippines sentences 'Chinese spy mayor' to life in jail"
+    }
+  },
+  "winner": "A Philippine court has sentenced a mayoral pigeon to fly with a GPS tracker for life.",
+  "candidates": [
+    {
+      "text": "Why was the Chinese spy mayor a fan of mazes? Because he couldn't resist getting lost in Philippines!",
+      "style": "wordplay",
+      "seed": 408601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190010142326355,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the wordplay on 'getting lost in Philippines,' but it's a bit forced and lacks clarity. The connection between mazes and being a spy is weak, and the humor doesn't fully land due to ambiguity.\"}",
+      "humor_score": 0.9950050711631775,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Filipino spy get promoted? Because he was a master of \"disguise-mayor.",
+      "style": "reversal",
+      "seed": 408602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.187340271472931,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'disguise-mayor,' but it's a bit forced and lacks punch. The reference to 'Chinese spy mayor' isn't fully utilized, and the humor feels generic rather than surprising or specific.\"}",
+      "humor_score": 0.9936701357364655,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the Chinese mayor in the Philippines given a lifetime supply of mahjong tiles? Because he couldn't keep state secrets straight!",
+      "style": "topical punchline",
+      "seed": 408605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.183958601951599,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks strong surprise and specificity. The connection between 'state secrets' and mahjong tiles is weak and feels forced.\"}",
+      "humor_score": 0.9919793009757996,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At the sentencing hearing, the judge asked the \"Chinese spy mayor\" if he had any final words. His response? \"I'd just like to say that I regret nothing and will continue my duties as mayor from my new home.",
+      "style": "deadpan understatement",
+      "seed": 408604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.704191040992737,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the context, but lacks a clear punchline or humorous twist. The mayor's response is ironic but not particularly funny or unexpected in a humorous way.\"}",
+      "humor_score": 0.7520955204963684,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A Philippine court has sentenced a mayoral pigeon to fly with a GPS tracker for life.",
+      "style": "absurd literalism",
+      "seed": 408603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.58835541009903,
+      "judge_score": 6.0,
+      "judge_raw": "\n\n{\"score\": 6, \"reason\": \"The joke is somewhat surprising and specific, but the pun on 'mayor' and 'pigeon' feels forced and lacks natural flow. It also doesn't fully align with the headline's context of a 'Chinese spy mayor.'\"}",
+      "humor_score": 0.39417770504951477,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

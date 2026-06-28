@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2049",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Klamath: America's largest river restoration project",
+    "raw": {
+      "id": "en_2049",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Klamath: America's largest river restoration project"
+    }
+  },
+  "winner": "In Klamath, we're restoring rivers... and hope to resurrect a few lost soap operas as well.",
+  "candidates": [
+    {
+      "text": "Why did the Klamath River start wearing a hard hat and wielding a shovel? Because it heard it was America's largest river renovation project!",
+      "style": "absurd literalism",
+      "seed": 251603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.788799691200257,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative personification of the river, good use of specifics from the headline, and a playful twist with the hard hat and shovel.\"}",
+      "humor_score": 0.9943998456001282,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Klamath River start going to therapy? Because it had too many unfulfilled flows-tap appointments!",
+      "style": "topical punchline",
+      "seed": 251605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.188352775573731,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'flows' and 'appointments,' but it's a bit forced and lacks specificity about the Klamath River restoration project. The humor is mild and could be more surprising.\"}",
+      "humor_score": 0.9941763877868652,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the river start a band? Because it wanted to flow in the key of Kla-music!",
+      "style": "wordplay",
+      "seed": 251601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.185680222511292,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'Kla-music,' but it's a bit forced and lacks strong specificity to the Klamath river restoration project. It's brief and uses natural English, but the surprise and funniness are limited.\"}",
+      "humor_score": 0.9928401112556458,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't rivers ever get promoted? Because they're always flowing downstream instead of climbing up!",
+      "style": "reversal",
+      "seed": 251602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.78130077123642,
+      "judge_score": 6.0,
+      "judge_raw": "\n\n{\"score\": 6, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and surprise. It's a generic pun that doesn't tie directly to the Klamath river restoration project.\"}",
+      "humor_score": 0.9906503856182098,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Klamath, we're restoring rivers... and hope to resurrect a few lost soap operas as well.",
+      "style": "deadpan understatement",
+      "seed": 251604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.359739601612091,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever and specific to the Klamath context, with a surprising twist about soap operas. It's concise and natural, though the humor may be slightly niche.\"}",
+      "humor_score": 0.17986980080604553,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

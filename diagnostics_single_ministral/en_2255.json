@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2255",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Wales, Northern Ireland and the Republic of Ireland find out World Cup play-off opponents",
+    "raw": {
+      "id": "en_2255",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Wales, Northern Ireland and the Republic of Ireland find out World Cup play-off opponents"
+    }
+  },
+  "winner": "The Welsh, Northern Irish, and Republic of Ireland found out their World Cup play-off opponents. It turns out they're playing against... the World Cup committee.",
+  "candidates": [
+    {
+      "text": "The Welsh, Northern Irish, and Republic of Ireland found out their World Cup play-off opponents. It turns out they're playing against... the World Cup committee.",
+      "style": "deadpan understatement",
+      "seed": 457604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.656494784355164,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist with a specific reference to the World Cup committee, concise and funny.\"}",
+      "humor_score": 0.9282473921775818,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Which three countries decided to host a tea party with their World Cup play-off opponents? Wales, Northern Ireland, and the Republic of Ireland... found out they'd invited the same teapot twice!",
+      "style": "absurd literalism",
+      "seed": 457603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.967161118984222,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with the tea party metaphor and the twist about the teapot, showing specificity and surprise. However, it's slightly forced in its delivery and could be more concise.\"}",
+      "humor_score": 0.9835805594921112,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Wales, Northern Ireland, and the Republic of Ireland gather to discuss their opponents for the World Cup playoffs? Because they were tired of playing \"tag, you're it\" with each other in friendly matches!",
+      "style": "reversal",
+      "seed": 457602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.0950526118278505,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the 'tag, you're it' reference, but the connection to the headline is weak and the humor feels forced. It lacks specificity and doesn't fully align with the context of World Cup play-offs.\"}",
+      "humor_score": 0.9475263059139252,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Which countries will be playing the role of \"World Cup's unfortunate intermission\"? Wales, Northern Ireland, and the Republic of Ireland.",
+      "style": "wordplay",
+      "seed": 457601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.788908314704895,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the metaphor 'unfortunate intermission,' but it's a bit forced and lacks punch. The reference to the World Cup play-off opponents is clear, but the humor doesn't land as strongly due to being slightly generic and not fully leveraging the specific context of the teams involved.\"}",
+      "humor_score": 0.2944541573524475,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Which team will they play when they can't decide between three? The undecided play-offs!",
+      "style": "topical punchline",
+      "seed": 457605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

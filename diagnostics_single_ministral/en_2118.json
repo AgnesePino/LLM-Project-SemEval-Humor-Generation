@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2118",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Bargain hunters drive Walmart sales and outlook higher",
+    "raw": {
+      "id": "en_2118",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Bargain hunters drive Walmart sales and outlook higher"
+    }
+  },
+  "winner": "A bargain hunter, feeling quite proud of his shopping skills, approached Walmart's customer service desk with a receipt. He said, \"I think I found an error - this $50 TV was supposed to cost $100!\" The clerk looked at him and replied, \"That must be your lucky day then! Walmart outlook just got brighter by $50.",
+  "candidates": [
+    {
+      "text": "Why did the frugal shopper bring a ladder to Walmart? Because he wanted to reach for the stars in the bargain bin!",
+      "style": "wordplay",
+      "seed": 320601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.392340624332428,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, uses a specific scenario (frugal shopper at Walmart), and delivers a mild surprise with the pun on 'reach for the stars' in the context of a bargain bin.\"}",
+      "humor_score": 0.996170312166214,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Even the great bargain hunter Alexander the Great would've been impressed with today's sales at Walmart.",
+      "style": "deadpan understatement",
+      "seed": 320604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.533002960681916,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative use of historical reference adds surprise and specificity; concise and naturally funny.\"}",
+      "humor_score": 0.36650148034095764,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A bargain hunter, feeling quite proud of his shopping skills, approached Walmart's customer service desk with a receipt. He said, \"I think I found an error - this $50 TV was supposed to cost $100!\" The clerk looked at him and replied, \"That must be your lucky day then! Walmart outlook just got brighter by $50.",
+      "style": "topical punchline",
+      "seed": 320605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.161612224578858,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'Walmart outlook,' but it's a bit forced and lacks surprise. The setup could be more engaging, and the humor relies heavily on a specific context that may not resonate broadly.\"}",
+      "humor_score": 0.9808061122894287,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Walmart associate become a detective? Because he knew when to shoplift at the right time.",
+      "style": "reversal",
+      "seed": 320602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.592005825042724,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is somewhat related to the headline but lacks clarity and punch. The pun on 'shoplift at the right time' is weak and not clearly connected to Walmart sales or outlook.\"}",
+      "humor_score": 0.9960029125213623,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A group of thrifty individuals, led by a man named \"Super-Saver Steve,\" banded together to open their own colossal warehouse, filled entirely with items purchased from Walmart. They dubbed it \"WalMart-Mart.",
+      "style": "absurd literalism",
+      "seed": 320603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.296510231494904,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the play on 'WalMart-Mart,' but it's a bit forced and lacks punch. The setup about 'Super-Saver Steve' adds some specificity, but the humor doesn't land as strongly as it could.\"}",
+      "humor_score": 0.04825511574745178,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

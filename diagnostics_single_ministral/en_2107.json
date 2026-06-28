@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2107",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Manchester derby live on Sky in January as fixtures released up to February 2",
+    "raw": {
+      "id": "en_2107",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Manchester derby live on Sky in January as fixtures released up to February 2"
+    }
+  },
+  "winner": "In Manchester, it's reported that Sky will broadcast the derby on January 31st at exactly 2:00 pm... and on February 2nd as well, just to make sure no one misses a second of this riveting repeat.",
+  "candidates": [
+    {
+      "text": "Why was Manchester United's calendar so popular in January? Because it promised a live date with Sky during the derby!",
+      "style": "topical punchline",
+      "seed": 309605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.073609602451325,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and ties the headline elements together, but the pun on 'date' feels a bit forced and lacks natural flow.\"}",
+      "humor_score": 0.9368048012256622,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Well, at least they're giving us a heads-up about the next Manchester derby... in January of next year.",
+      "style": "deadpan understatement",
+      "seed": 309604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.899322330951691,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is timely and specific, playing on the delayed release of the derby date. It's slightly generic but still hits with a mild surprise.\"}",
+      "humor_score": 0.44966116547584534,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Manchester, it's reported that Sky will broadcast the derby on January 31st at exactly 2:00 pm... and on February 2nd as well, just to make sure no one misses a second of this riveting repeat.",
+      "style": "absurd literalism",
+      "seed": 309603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.850148069858552,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on the repeat broadcast, specific details align with headline, concise and funny\"}",
+      "humor_score": 0.025074034929275513,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Manchester's derby take a break in January? Because it needed a little Sky time-out before resuming on February 2!",
+      "style": "wordplay",
+      "seed": 309601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.7228161811828615,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'Sky time-out,' but it's a bit forced and lacks the sharpness of a truly surprising or specific punchline.\"}",
+      "humor_score": 0.7614080905914307,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The footballs are taking a break in January, as Sky prepares to air the talk show, \"Manchester Derby Live with Pep and Sol.",
+      "style": "reversal",
+      "seed": 309602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.32506115436554,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'Manchester Derby Live' as a talk show, but it's a bit forced and lacks clear specificity to the actual event mentioned in the headline.\"}",
+      "humor_score": 0.06253057718276978,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

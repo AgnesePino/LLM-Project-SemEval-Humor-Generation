@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2268",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Why are my health insurance premiums going up so much?",
+    "raw": {
+      "id": "en_2268",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Why are my health insurance premiums going up so much?"
+    }
+  },
+  "winner": "Why are my health insurance premiums going up so much? Because I've been diagnosed with Premiumitis - a rare condition where you have too many benefits and not enough healthy bank account!",
+  "candidates": [
+    {
+      "text": "Why are my health insurance premiums going up so much? Because I've been diagnosed with Premiumitis - a rare condition where you have too many benefits and not enough healthy bank account!",
+      "style": "absurd literalism",
+      "seed": 470603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.77504323720932,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative pun on 'Premiumitis,' specific to the topic, concise, and delivers a surprising twist with a touch of humor.\"}",
+      "humor_score": 0.98752161860466,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Because I keep getting diagnosed with \"Premiumitis\"!",
+      "style": "wordplay",
+      "seed": 470601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.643800187110902,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Playful wordplay with 'Premiumitis' ties directly to the headline, offering surprise and specificity while keeping it concise and humorous.\"}",
+      "humor_score": 0.9219000935554504,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Because I keep insisting on being immortal, they're increasing my life premiums!",
+      "style": "reversal",
+      "seed": 470602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.273786056041718,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist with 'life premiums' instead of 'health insurance,' concise and specific, though slightly abstract.\"}",
+      "humor_score": 0.7368930280208588,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Because I guess they're trying to cover the cost of insuring a whole hospital now instead of just one person.",
+      "style": "deadpan understatement",
+      "seed": 470604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.046930694580078,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, surprising, and specific, using a clever twist on the concept of insurance coverage.\"}",
+      "humor_score": 0.8234653472900391,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Because it seems they've switched from 'pre-existing conditions' coverage to 'pre-existing jokes' insurance!",
+      "style": "topical punchline",
+      "seed": 470605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.884841752052307,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'pre-existing conditions' and 'pre-existing jokes,' but it's a bit forced and lacks specificity in relating to health insurance premiums. The humor is mild and not particularly surprising.\"}",
+      "humor_score": 0.34242087602615356,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

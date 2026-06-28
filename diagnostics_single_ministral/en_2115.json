@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2115",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "How to design an aesthetic home office that boosts productivity",
+    "raw": {
+      "id": "en_2115",
+      "word1": "-",
+      "word2": "-",
+      "headline": "How to design an aesthetic home office that boosts productivity"
+    }
+  },
+  "winner": "Aesthetic home offices that boost productivity? Just replace your desk with a bed, hang mirrors on all walls for constant self-evaluation, and fill the room with distractions like a pinball machine and a popcorn maker. Voila! You've just designed an office that maximizes procrastination instead.",
+  "candidates": [
+    {
+      "text": "Why don't office decorators ever get lost at sea? Because they always know how to anchor their productivity boat!",
+      "style": "wordplay",
+      "seed": 317601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191308629512787,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the topic but lacks specificity and the surprise element is weak. The metaphor is a bit forced and not particularly funny.\"}",
+      "humor_score": 0.9956543147563934,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't pencils ever get promoted in a productive home office? Because they always stay sharp!",
+      "style": "absurd literalism",
+      "seed": 317603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190787029266358,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the topic and uses a play on words ('stay sharp'), but it's a bit generic and lacks specificity in connecting pencils to productivity or aesthetics.\"}",
+      "humor_score": 0.9953935146331787,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the productivity-obsessed ant get a makeover for his home office? Because he wanted an aesthetic lair that would inspire him to work harder, not harder to inspire his lair!",
+      "style": "topical punchline",
+      "seed": 317605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.154576551914215,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the ant metaphor and ties into the topic, but the punchline feels a bit forced and lacks clarity. The humor is mild and not particularly surprising or specific.\"}",
+      "humor_score": 0.9772882759571075,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In my new home office, I've combined minimalist design with industrial efficiency - all in the name of increased productivity. The result? A beautifully chaotic space where I can spend countless hours pondering my latest masterpiece: a paper airplane.",
+      "style": "deadpan understatement",
+      "seed": 317604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.090614271163941,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the humor feels a bit forced and doesn't fully align with the headline's focus on productivity and aesthetics. The paper airplane twist is clever but underdeveloped.\"}",
+      "humor_score": 0.9453071355819702,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Aesthetic home offices that boost productivity? Just replace your desk with a bed, hang mirrors on all walls for constant self-evaluation, and fill the room with distractions like a pinball machine and a popcorn maker. Voila! You've just designed an office that maximizes procrastination instead.",
+      "style": "reversal",
+      "seed": 317602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.4978605031967165,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the humor relies on irony that may not land as strongly. It's concise and uses natural English, but the punchline feels a bit forced and could be more aligned with the topic of productivity.\"}",
+      "humor_score": 0.6489302515983582,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

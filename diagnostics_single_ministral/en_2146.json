@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2146",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "The 6 big thinkers reshaping foreign aid, masculinity, and development",
+    "raw": {
+      "id": "en_2146",
+      "word1": "-",
+      "word2": "-",
+      "headline": "The 6 big thinkers reshaping foreign aid, masculinity, and development"
+    }
+  },
+  "winner": "Which group of six has recently taken over the globe, ensuring the fair distribution of foreign aid, promoting balanced gender dynamics, and instigating unprecedented progress in development? The United Nations? The World Bank? Nope... it's the new think tank composed entirely of Barbie dolls in business suits.",
+  "candidates": [
+    {
+      "text": "Why don't big thinkers ever play chess? Because they can't handle a game with too many pawn-stries!",
+      "style": "wordplay",
+      "seed": 348601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190069329738617,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'pawn-stries,' but it's a bit forced and doesn't clearly tie to the headline topics. It lacks specificity and misses some of the surprise and natural flow needed for maximum humor.\"}",
+      "humor_score": 0.9950346648693085,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the six big thinkers bring a hammer to a seminar? Because they were determined to nail down foreign aid, masculinity, and development!",
+      "style": "topical punchline",
+      "seed": 348605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.035108160972595,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'nail down' and the mention of the three topics, but it feels a bit forced and lacks punch. The surprise factor is low due to the predictable setup.\"}",
+      "humor_score": 0.9175540804862976,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Which group of six has recently taken over the globe, ensuring the fair distribution of foreign aid, promoting balanced gender dynamics, and instigating unprecedented progress in development? The United Nations? The World Bank? Nope... it's the new think tank composed entirely of Barbie dolls in business suits.",
+      "style": "deadpan understatement",
+      "seed": 348604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.6306894540786745,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the humor feels forced and relies on a potentially dated or stereotypical reference (Barbie dolls). It also lacks natural flow and could be seen as slightly offensive.\"}",
+      "humor_score": 0.7153447270393372,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the foreign aid worker struggling with his project? Because he couldn't find any big thinkers to reshape his square masculinity!",
+      "style": "reversal",
+      "seed": 348602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.573582983016967,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is somewhat related to the headline but lacks clarity and coherence, making it confusing rather than funny.\"}",
+      "humor_score": 0.9867914915084839,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the foreign aid department struggling with their new project? Because they had six big thinkers, but none of them could stop reshaping their shapely development toys!",
+      "style": "absurd literalism",
+      "seed": 348603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.43935672044754,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is somewhat forced and relies on a weak pun that doesn't clearly connect to the headline. It lacks specificity and surprise, and the humor feels generic and strained.\"}",
+      "humor_score": 0.9196783602237701,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2205",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Tell us: what is the one thing that always leaves you feeling calm and positive?",
+    "raw": {
+      "id": "en_2205",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Tell us: what is the one thing that always leaves you feeling calm and positive?"
+    }
+  },
+  "winner": "The one thing that always leaves me feeling calm and positive? A herd of tranquilized accountants strolling through a sunflower field, reciting the names of all their clients in unison.",
+  "candidates": [
+    {
+      "text": "What's the one thing that never leaves me feeling anything but calm and positive? A meditation session in a room full of puppies.",
+      "style": "deadpan understatement",
+      "seed": 407604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.787375140190125,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Combines a relatable concept (meditation) with an unexpected and charming twist (puppies), creating a surprising yet natural and specific joke that is both concise and funnily positive.\"}",
+      "humor_score": 0.9936875700950623,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The one thing that always leaves me feeling calm and positive? A herd of tranquilized accountants strolling through a sunflower field, reciting the names of all their clients in unison.",
+      "style": "absurd literalism",
+      "seed": 407603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.753886210918427,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising and specific imagery with a touch of absurdity; concise and naturally phrased.\"}",
+      "humor_score": 0.9769431054592133,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The one thing that always leaves me feeling agitated and negative? Calendar reminders for my relaxation sessions.",
+      "style": "reversal",
+      "seed": 407602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.16475100517273,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke has a clever twist but the setup is slightly off-target since it mentions feeling agitated instead of calm and positive as requested.\"}",
+      "humor_score": 0.9823755025863647,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "What's the one thing that never fails to leave you feeling anything but calm and positive? A traffic jam on a Sunday morning... because it's the only time you're not running late!",
+      "style": "topical punchline",
+      "seed": 407605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1241340160369875,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke has a clever twist but the setup is slightly generic and the humor relies more on situational irony than originality.\"}",
+      "humor_score": 0.9620670080184937,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "What's the one thing that always brings a sense of tranquility and optimism, even when things seem chaotic, just like this humor-generation competition? A positive ion!",
+      "style": "wordplay",
+      "seed": 407601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.386119318008423,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke has a clever twist with 'positive ion,' but the connection to feeling calm and positive is somewhat forced and not clearly explained. It's brief and specific, but lacks stronger surprise or deeper humor.\"}",
+      "humor_score": 0.5930596590042114,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

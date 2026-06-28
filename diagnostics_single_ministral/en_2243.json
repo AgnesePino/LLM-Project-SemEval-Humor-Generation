@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2243",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "David and Victoria Beckham in planning row with Cotswolds neighbours",
+    "raw": {
+      "id": "en_2243",
+      "word1": "-",
+      "word2": "-",
+      "headline": "David and Victoria Beckham in planning row with Cotswolds neighbours"
+    }
+  },
+  "winner": "David and Victoria Beckham argued with their Cotswolds neighbors over who owns the stripes on the road.",
+  "candidates": [
+    {
+      "text": "Why did David and Victoria Beckham start arguing with their Cotswolds neighbors? Because someone kept setting up a goal post in their shared backyard!",
+      "style": "topical punchline",
+      "seed": 445605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.792380261421204,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'goal post' tie into Beckham's football background, offering a clever twist on the planning row.\"}",
+      "humor_score": 0.9961901307106018,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "David and Victoria Beckham are reportedly having a disagreement with their neighbors over plans to build a wall... ...just like the one they have around their hearts.",
+      "style": "deadpan understatement",
+      "seed": 445604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.628713655471802,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Smart wordplay on the 'wall around their hearts' referencing their private life, specific to the Beckham context, and concise.\"}",
+      "humor_score": 0.9143568277359009,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The Beckhams are in a tiff with their Cotswolds neighbors over who's the most famous wall.",
+      "style": "reversal",
+      "seed": 445602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.67154245376587,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'wall' and 'famous' are clever and specific, tying directly to the headline with a surprising twist.\"}",
+      "humor_score": 0.43577122688293457,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Cotswolds neighbors start arguing with David and Victoria Beckham? Because their marriage seems too perfect, and they can't stand being outshone by a row!",
+      "style": "wordplay",
+      "seed": 445601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.184921514987946,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'row,' but it's a bit forced and lacks specificity about the actual situation involving Beckham and their neighbors.\"}",
+      "humor_score": 0.9924607574939728,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "David and Victoria Beckham argued with their Cotswolds neighbors over who owns the stripes on the road.",
+      "style": "absurd literalism",
+      "seed": 445603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1386467099189765,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on a mundane topic, specific reference to the Beckhams and their neighbors, concise and natural.\"}",
+      "humor_score": 0.16932335495948792,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2102",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Catstanbul: The city where cats rule the streets",
+    "raw": {
+      "id": "en_2102",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Catstanbul: The city where cats rule the streets"
+    }
+  },
+  "winner": "In Catstanbul, if you're late for a meeting, just meow-sage your apologies - the traffic lights are all run by felines!",
+  "candidates": [
+    {
+      "text": "Why don't we need traffic signs in Catstanbul? Because the cats already have nine lives and a map of the city!",
+      "style": "wordplay",
+      "seed": 304601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.777922797203065,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on traffic signs and cats' nine lives, concise and specific to the headline.\"}",
+      "humor_score": 0.988961398601532,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Catstanbul, if you're late for a meeting, just meow-sage your apologies - the traffic lights are all run by felines!",
+      "style": "absurd literalism",
+      "seed": 304603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.555064249038697,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative wordplay with 'meow-sage' and feline control of traffic lights adds surprise and specificity, aligning well with the headline.\"}",
+      "humor_score": 0.8775321245193481,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Catstanbul, now, it's the dogs who are on leashes, while cats rule the streets unleashed!",
+      "style": "reversal",
+      "seed": 304602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.505180943012238,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Playful twist on the headline with a clever reversal of roles between cats and dogs, concise and surprising.\"}",
+      "humor_score": 0.3525904715061188,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Catstanbul, even the dog park has a feline-only entrance!",
+      "style": "topical punchline",
+      "seed": 304605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.211947309970856,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on a dog park with a feline-only entrance, specific to Catstanbul, concise and funny.\"}",
+      "humor_score": 0.20597365498542786,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Catstanbul, dogs are merely the locals' exotic pets.",
+      "style": "deadpan understatement",
+      "seed": 304604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.947032260894776,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on the headline with clever wordplay and specificity.\"}",
+      "humor_score": 0.0735161304473877,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

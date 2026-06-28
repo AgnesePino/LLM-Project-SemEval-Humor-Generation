@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2016",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Host Brazil pushes for progress on big issues at COP30 and some see cause for optimism",
+    "raw": {
+      "id": "en_2016",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Host Brazil pushes for progress on big issues at COP30 and some see cause for optimism"
+    }
+  },
+  "winner": "At COP30, Brazilian leaders decided that the best way to push for progress was by... pushing a large couch down the hallway. Some saw cause for optimism as it seemed the conference was finally getting comfortable.",
+  "candidates": [
+    {
+      "text": "Why don't Brazilian politicians bring their own bags to COP summits? Because they're always hoping for a \"plastic fantastic\" outcome!",
+      "style": "topical punchline",
+      "seed": 218605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.158819448947907,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and uses a pun on 'plastic fantastic,' which ties to environmental issues at COP. However, it's not particularly surprising or original, and the connection to Brazilian politicians is weak.\"}",
+      "humor_score": 0.9794097244739532,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At the COP30, host Brazil is making steady progress...on big issues like optimism and enthusiasm.",
+      "style": "deadpan understatement",
+      "seed": 218604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.3634033203125,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, uses wordplay on 'progress' and 'optimism,' and ties into the headline. It's slightly generic but still surprising and specific enough to be humorous.\"}",
+      "humor_score": 0.18170166015625,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At COP30, Brazilian leaders decided that the best way to push for progress was by... pushing a large couch down the hallway. Some saw cause for optimism as it seemed the conference was finally getting comfortable.",
+      "style": "absurd literalism",
+      "seed": 218603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.959289860725403,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific with the couch detail, but the humor feels a bit forced and the connection to COP30's serious topic is weak. The punchline is clever but lacks strong funniness.\"}",
+      "humor_score": 0.3796449303627014,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The sun said, \"Brazil, you're burning up! Let's make progress on big issues at COP30 and let's hope for a cause for pessimism.",
+      "style": "reversal",
+      "seed": 218602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.3234273314476015,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke has some wordplay with 'burning up' and 'cause for pessimism,' but it's slightly forced and lacks clarity. The reference to COP30 is present, but the humor doesn't fully land due to awkward phrasing.\"}",
+      "humor_score": 0.06171366572380066,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At COP30, it seems even Brazil managed to make the rainforest a little greener... with their optimistic approach to big issues!",
+      "style": "wordplay",
+      "seed": 218601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.263499391078949,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks originality and surprise; it's a mild play on words without strong comedic impact.\"}",
+      "humor_score": 0.03174969553947449,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

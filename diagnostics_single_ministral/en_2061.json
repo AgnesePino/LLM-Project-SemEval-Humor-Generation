@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2061",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Despite record expansion and growing ambition in the continent, the US is surging ahead again",
+    "raw": {
+      "id": "en_2061",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Despite record expansion and growing ambition in the continent, the US is surging ahead again"
+    }
+  },
+  "winner": "The U.S., though known for its continental ambitions, seems surprisingly eager to expand beyond the continent instead. Quite continental of them, really.",
+  "candidates": [
+    {
+      "text": "Why did the United States bring a compass to Africa? Because despite its record expansion and growing ambition, it still needed to find its way in the continent again!",
+      "style": "absurd literalism",
+      "seed": 263603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.225557506084442,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever and ties directly to the headline with a pun on 'finding its way,' but it's slightly forced and lacks deeper humor or originality.\"}",
+      "humor_score": 0.6127787530422211,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the US keep running even when Europe was expanding rapidly? Because it had a case of American Dash-ion!",
+      "style": "wordplay",
+      "seed": 263601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1895491003990175,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses a play on 'dashing' and 'expansion,' which is somewhat clever, but the pun feels forced and lacks specificity to the headline's context.\"}",
+      "humor_score": 0.9947745501995087,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the US bring a compass to Africa? Because even with record expansion and growing ambition, it didn't want to get lost again!",
+      "style": "topical punchline",
+      "seed": 263605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.137254071235657,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline and uses a pun on 'getting lost,' but it feels forced and lacks the sharp surprise or specificity needed for maximum humor.\"}",
+      "humor_score": 0.9686270356178284,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The U.S., though known for its continental ambitions, seems surprisingly eager to expand beyond the continent instead. Quite continental of them, really.",
+      "style": "deadpan understatement",
+      "seed": 263604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.895849573612214,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'continental' are clever and specific, aligning well with the headline's irony. Brevity and natural English enhance the humor.\"}",
+      "humor_score": 0.04792478680610657,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The United States, with a sudden bout of modesty, decided to take a step back and let Europe catch up - for once. But alas, while Europe was still tying its shoes, America had already passed it on the way to Asia.",
+      "style": "reversal",
+      "seed": 263602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2085",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "From cuisine and culture to history and nature, find the ideal cruise",
+    "raw": {
+      "id": "en_2085",
+      "word1": "-",
+      "word2": "-",
+      "headline": "From cuisine and culture to history and nature, find the ideal cruise"
+    }
+  },
+  "winner": "A man embarking on a new cruise was excited to explore the menu, learn about local customs, and immerse himself in history. But when asked why he chose this particular voyage, he replied, \"Well, I heard the ship's motto: 'From cuisine and culture to history and nature, find the ideal cruise.' I thought it must be going around the world twice!",
+  "candidates": [
+    {
+      "text": "A man boards a cruise, expecting cuisine, culture, history, and nature... but all he finds is an endless buffet of icebergs.",
+      "style": "deadpan understatement",
+      "seed": 287604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.71325056552887,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on the headline with a specific, visual joke that plays on cruise expectations vs. reality.\"}",
+      "humor_score": 0.9566252827644348,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't historians ever go on cruises? Because they prefer their voyages to be well-documented!",
+      "style": "topical punchline",
+      "seed": 287605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.372388684749604,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on 'well-documented' tie humor to historians and cruises, with good surprise and specificity.\"}",
+      "humor_score": 0.9861943423748016,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A man embarking on a new cruise was excited to explore the menu, learn about local customs, and immerse himself in history. But when asked why he chose this particular voyage, he replied, \"Well, I heard the ship's motto: 'From cuisine and culture to history and nature, find the ideal cruise.' I thought it must be going around the world twice!",
+      "style": "wordplay",
+      "seed": 287601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.888598608970643,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, surprising, and specific, with a clever twist on the headline. It naturally ties back to the input and delivers a light-hearted punchline.\"}",
+      "humor_score": 0.544299304485321,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the history buff refuse the all-inclusive nature cruise? Because he wanted a cruise where you can't find culture or cuisine, just a boatload of facts!",
+      "style": "reversal",
+      "seed": 287602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.177571249008179,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and has a mild twist, but the setup is a bit forced and the punchline doesn't fully land due to awkward phrasing.\"}",
+      "humor_score": 0.9887856245040894,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The captain announced over the PA system, \"Ladies and Gentlemen, we've hit a historical reef! Prepare for a cultural shipwreck!",
+      "style": "absurd literalism",
+      "seed": 287603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

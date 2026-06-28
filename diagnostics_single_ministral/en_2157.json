@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2157",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "The magic touch: how healthy are massages actually?",
+    "raw": {
+      "id": "en_2157",
+      "word1": "-",
+      "word2": "-",
+      "headline": "The magic touch: how healthy are massages actually?"
+    }
+  },
+  "winner": "A magician walks into a massage parlor and says, \"Make me disappear for an hour!\" The masseuse replies, \"I'm not sure about my skills in magic, but I can certainly give you a disappearing back!",
+  "candidates": [
+    {
+      "text": "Why don't magicians give massages? They fear they might accidentally pull a muscle from all that healing touch!",
+      "style": "topical punchline",
+      "seed": 359605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.792419242858887,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on magicians and massages, concise and specific with a play on 'healing touch'\"}",
+      "humor_score": 0.9962096214294434,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A man went to a massage parlor and said, \"I need a miracle.\" The masseuse asked, \"What kind of magic touch are we talking about here?\" The man replied, \"Well, I have such a tight knot in my back that only a wizard could untie it!",
+      "style": "absurd literalism",
+      "seed": 359603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.990337312221527,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, includes a surprising twist with the 'wizard' element, and ties back to the headline's theme of massage effectiveness. However, it lacks some specificity in connecting the magic touch directly to health benefits and could be more refined for maximum humor impact.\"}",
+      "humor_score": 0.9951686561107635,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A magician walks into a massage parlor and says, \"Make me disappear for an hour!\" The masseuse replies, \"I'm not sure about my skills in magic, but I can certainly give you a disappearing back!",
+      "style": "wordplay",
+      "seed": 359601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.981827020645142,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, uses a clever play on words with 'disappearing back,' and ties into the headline's theme of massage effectiveness. However, it lacks deeper specificity and could be more surprising.\"}",
+      "humor_score": 0.9909135103225708,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A man walks into a massage parlor and asks, \"How healthy will my touch be after this massage?",
+      "style": "reversal",
+      "seed": 359602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.032472443580628,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke has a basic setup but lacks full punchline clarity and surprise; the pun on 'touch' is somewhat forced and not fully realized.\"}",
+      "humor_score": 0.9162362217903137,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Apparently, masses can now be both relaxing and therapeutic...and slightly questionable.",
+      "style": "deadpan understatement",
+      "seed": 359604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2101",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Major League Baseball signs deals with Netflix, ESPN and NBCUniversal",
+    "raw": {
+      "id": "en_2101",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Major League Baseball signs deals with Netflix, ESPN and NBCUniversal"
+    }
+  },
+  "winner": "Why did Netflix, ESPN, and NBCUniversal sign contracts with Major League Baseball? Because they wanted to stream every pitch live, strike, ball, and error in the world!",
+  "candidates": [
+    {
+      "text": "Why did Major League Baseball sign deals with Netflix, ESPN, and NBCUniversal? To ensure that even if a game is dull, it can still be binge-watched!",
+      "style": "topical punchline",
+      "seed": 303605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.22247098684311,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, surprising, and specific to the headline, with a clever twist on binge-watching despite potential dullness of games.\"}",
+      "humor_score": 0.7112354934215546,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did MLB sign deals with Netflix, ESPN, and NBCUniversal? Because now they want viewers to \"strike out\" at home!",
+      "style": "reversal",
+      "seed": 303602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.891634523868561,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a play on 'strike out' from baseball, but the punchline could be more tightly connected to the deals mentioned.\"}",
+      "humor_score": 0.9458172619342804,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was Netflix, ESPN, and NBCUniversal all at the ballpark? Because they heard Major League Baseball was signing streaming deals.",
+      "style": "deadpan understatement",
+      "seed": 303604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.085119140148163,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the twist of streaming services at a ballpark, but it's a bit generic and relies heavily on the setup rather than a punchline.\"}",
+      "humor_score": 0.9425595700740814,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Major League Baseball sign contracts with Netflix, ESPN, and NBCUniversal? Because they wanted to ensure that every home run would now come with a streaming bonus!",
+      "style": "absurd literalism",
+      "seed": 303603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.86543972492218,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative but lacks strong surprise or specificity. The 'streaming bonus' idea is a mild pun but doesn't fully tie into the logic of why MLB would sign with those specific companies.\"}",
+      "humor_score": 0.8327198624610901,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Netflix, ESPN, and NBCUniversal sign contracts with Major League Baseball? Because they wanted to stream every pitch live, strike, ball, and error in the world!",
+      "style": "wordplay",
+      "seed": 303601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.794783306121826,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and uses wordplay on 'stream' and baseball terms, but it's a bit generic and lacks the sharp surprise or originality that would make it stand out in a humor competition.\"}",
+      "humor_score": 0.7973916530609131,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2039",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Alice Zaslavsky’s recipe for garlic red peppers with a creamy white bean dip, AKA papula",
+    "raw": {
+      "id": "en_2039",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Alice Zaslavsky’s recipe for garlic red peppers with a creamy white bean dip, AKA papula"
+    }
+  },
+  "winner": "At the party, everyone was raving about Alice's dish. One guest asked, \"What's this amazing spread you've got there?\" To which Alice replied, \"Oh, it's just some papula.\" The crowd went silent for a moment before someone timidly said, \"Uh... isn't that garlic red peppers with a creamy white bean dip?\" Alice just smiled and said, \"Well, technically I suppose. But around here we call it papula because it always brings people together and makes them feel alive!",
+  "candidates": [
+    {
+      "text": "Why did Alice Zaslavsky bring her white beans to a red pepper fight? Because they heard it was a garlic-ous brawl, and they wanted to make a papula!",
+      "style": "reversal",
+      "seed": 241602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.992358207702637,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with wordplay on 'garlic-ous' and 'papula,' but the reference to a 'red pepper fight' feels slightly forced and less specific to the recipe context.\"}",
+      "humor_score": 0.9961791038513184,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Alice Zaslavsky's recipe for garlic red peppers refuse to dance at the party? Because it had two left feet and a case of the papula!",
+      "style": "absurd literalism",
+      "seed": 241603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192182672023773,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the pun on 'papula,' but the setup is a bit forced and the humor relies too much on a weak pun rather than a clever twist.\"}",
+      "humor_score": 0.9960913360118866,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Alice Zaslavsky's garlic red peppers and creamy white bean dip refuse to play football? Because they were afraid of getting papula-ed by the referee!",
+      "style": "wordplay",
+      "seed": 241601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1913806915283205,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses the recipe name 'papula' as a pun on 'papula' (a skin lesion), which is somewhat surprising and specific. However, the setup involving football and being 'papula-ed' by a referee feels forced and lacks natural flow, reducing overall humor impact.\"}",
+      "humor_score": 0.9956903457641602,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Alice Zaslavsky's party get hotter? Because she added papula-chili to her white bean dip!",
+      "style": "topical punchline",
+      "seed": 241605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189157617092133,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks clarity and specificity; 'papula-chili' is not a standard term and may confuse readers.\"}",
+      "humor_score": 0.9945788085460663,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At the party, everyone was raving about Alice's dish. One guest asked, \"What's this amazing spread you've got there?\" To which Alice replied, \"Oh, it's just some papula.\" The crowd went silent for a moment before someone timidly said, \"Uh... isn't that garlic red peppers with a creamy white bean dip?\" Alice just smiled and said, \"Well, technically I suppose. But around here we call it papula because it always brings people together and makes them feel alive!",
+      "style": "deadpan understatement",
+      "seed": 241604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.160502982139588,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat humorous with the play on 'papula' and the dialogue between Alice and the guest. However, it's a bit long-winded and the humor relies more on setup than surprise or specificity.\"}",
+      "humor_score": 0.9802514910697937,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

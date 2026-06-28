@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2028",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "‘My husband collects pictures of old men’s faces to give me’: Keira Knightley on art, ghosts and West Ham’s midfield",
+    "raw": {
+      "id": "en_2028",
+      "word1": "-",
+      "word2": "-",
+      "headline": "‘My husband collects pictures of old men’s faces to give me’: Keira Knightley on art, ghosts and West Ham’s midfield"
+    }
+  },
+  "winner": "Why did Keira Knightley's husband start a collection of old men's faces? Because he wanted to give her a \"Gray Area Gallery\"!",
+  "candidates": [
+    {
+      "text": "I guess I've found my new collection of framed surprises - 'Portraits of Middle-aged Gentlemen in Hammersmith.' It's a bit heavier on midfield than I expected, though.",
+      "style": "deadpan understatement",
+      "seed": 230604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.39575129508972,
+      "judge_score": 8.2,
+      "judge_raw": "\n\n{\"score\": 8.2, \"reason\": \"Puns on 'midfield' and 'Hammersmith' show clever wordplay, ties into the headline's mention of West Ham, and is concise with a surprising twist.\"}",
+      "humor_score": 0.9178756475448608,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Keira Knightley's husband start an unusual art collection? Because he heard old paintings never fade... except when they run out of frame!",
+      "style": "topical punchline",
+      "seed": 230605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.194001030921936,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'old paintings' and 'run out of frame,' but it's a bit forced and doesn't directly tie into the headline's specific content about collecting pictures of old men’s faces. It lacks specificity and misses some punch.\"}",
+      "humor_score": 0.997000515460968,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Keira Knightley's husband start collecting pictures of old men's faces? To build a gallery, but he realized he already had them all at home!",
+      "style": "reversal",
+      "seed": 230602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189520311355591,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the headline, but it lacks a clear punchline and feels slightly forced. The humor is mild and could be more refined.\"}",
+      "humor_score": 0.9947601556777954,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Keira Knightley's husband start a gallery? Because he was hoarding portraits of aging West Ham fans!",
+      "style": "absurd literalism",
+      "seed": 230603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.18543792963028,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and ties into the headline, but it's a bit forced and lacks the surprise or cleverness needed for maximum humor.\"}",
+      "humor_score": 0.9927189648151398,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Keira Knightley's husband start a collection of old men's faces? Because he wanted to give her a \"Gray Area Gallery\"!",
+      "style": "wordplay",
+      "seed": 230601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.177608859539032,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'Gray Area Gallery,' but it's a bit forced and lacks specificity to the headline's context. It's not fully surprising or tightly connected to the original content.\"}",
+      "humor_score": 0.988804429769516,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

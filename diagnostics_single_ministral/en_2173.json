@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2173",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "MLB will comply with Senate’s request for gambling investigation documents, commissioner says",
+    "raw": {
+      "id": "en_2173",
+      "word1": "-",
+      "word2": "-",
+      "headline": "MLB will comply with Senate’s request for gambling investigation documents, commissioner says"
+    }
+  },
+  "winner": "The Commissioner of MLB, in a surprising twist, announced they're now seeking players who have never gambled before to review the investigation documents on gambling!",
+  "candidates": [
+    {
+      "text": "Why did the baseball commissioner bring a deck of cards to the Senate hearing? Because he was told to come prepared with all his gambling investigation documents!",
+      "style": "absurd literalism",
+      "seed": 375603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.785949814319611,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, specific to the headline, uses a pun on 'deck of cards' (related to gambling), and delivers a surprising twist that ties back to the request for documents.\"}",
+      "humor_score": 0.9929749071598053,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the baseball commissioner bring a stack of gambling investigation documents to the Senate hearing? Because he wanted to play it safe at third base!",
+      "style": "topical punchline",
+      "seed": 375605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.184061598777771,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline and uses a baseball pun, but the connection between 'playing it safe at third base' and bringing documents is weak and not very surprising.\"}",
+      "humor_score": 0.9920307993888855,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Commissioner Manfred bring a deck of cards to Congress? To shuffle up the odds for the MLB's gambling investigation documents!",
+      "style": "wordplay",
+      "seed": 375601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.156125557422638,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant and uses wordplay on 'shuffle up the odds,' which ties to both cards and gambling. However, it's a bit forced and lacks the punchiness needed for maximum humor.\"}",
+      "humor_score": 0.978062778711319,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The Commissioner of MLB, in a surprising twist, announced they're now seeking players who have never gambled before to review the investigation documents on gambling!",
+      "style": "reversal",
+      "seed": 375602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.918816554546357,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on the headline with a specific, concise joke that plays on the irony of seeking non-gamblers for gambling-related documents.\"}",
+      "humor_score": 0.0594082772731781,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Well, at least now we can finally settle those heated debates during baseball games - with a subpoena.",
+      "style": "deadpan understatement",
+      "seed": 375604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

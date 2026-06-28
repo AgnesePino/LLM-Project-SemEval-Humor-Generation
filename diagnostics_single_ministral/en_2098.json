@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2098",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Liverpool chairman opens up on contract talks with Salah and Van Dijk",
+    "raw": {
+      "id": "en_2098",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Liverpool chairman opens up on contract talks with Salah and Van Dijk"
+    }
+  },
+  "winner": "Liverpool chairman admits negotiations with Salah and Van Dijk are currently being handled by a team of particularly determined seagulls.",
+  "candidates": [
+    {
+      "text": "Why did Liverpool's chairman open a book on Salah and Van Dijk? Because he was trying to ink a deal in \"Hardcover Agreement\"!",
+      "style": "topical punchline",
+      "seed": 300605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.9704166650772095,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a play on 'Hardcover Agreement' and the context of contract talks, but it's slightly forced and not entirely natural in its wordplay.\"}",
+      "humor_score": 0.9852083325386047,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Apparently, they're not just negotiating contracts, they're also discussing who gets to keep the trophies in their living room.",
+      "style": "deadpan understatement",
+      "seed": 300604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.492585468292237,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising and specific twist on contract talks, with a touch of humor about trophies and living room dynamics.\"}",
+      "humor_score": 0.34629273414611816,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Liverpool's chairman invite a carpenter over for tea? To discuss table extensions with both Salah and Van Dijk!",
+      "style": "reversal",
+      "seed": 300602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.860025119781494,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat forced and lacks clear connection to the headline. The 'table extensions' pun is weak and doesn't effectively tie into contract talks or the specific players mentioned.\"}",
+      "humor_score": 0.8300125598907471,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Liverpool chairman admits negotiations with Salah and Van Dijk are currently being handled by a team of particularly determined seagulls.",
+      "style": "absurd literalism",
+      "seed": 300603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.814832019805909,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising and specific twist with seagulls handling negotiations, ties humor to Liverpool's real-life seagull issue, concise and natural.\"}",
+      "humor_score": 0.0074160099029541016,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Liverpool chairman bring a scale to his contract negotiations with Salah and Van Dijk? He wanted to make sure they weighed in on the decision!",
+      "style": "wordplay",
+      "seed": 300601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.614318382740021,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'weigh in,' but it's a bit generic and lacks the specificity that would make it stand out in a humor competition.\"}",
+      "humor_score": 0.7071591913700104,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

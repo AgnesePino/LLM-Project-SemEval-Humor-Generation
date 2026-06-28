@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2187",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "NASA Mars missions stop what they’re doing to capture images of astonishing interstellar comet",
+    "raw": {
+      "id": "en_2187",
+      "word1": "-",
+      "word2": "-",
+      "headline": "NASA Mars missions stop what they’re doing to capture images of astonishing interstellar comet"
+    }
+  },
+  "winner": "NASA Martians: \"Hey! Stop snapping pictures for a moment! We've got a comet heading straight for us!\" Martian Mission Control: \"Relax, we're just taking selfies with the interstellar comet!",
+  "candidates": [
+    {
+      "text": "Why did the Martian comet refuse to cooperate during NASA's photo shoot? Because it was a little camera-shy!",
+      "style": "wordplay",
+      "seed": 389601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192446124553681,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the 'camera-shy' twist, but it lacks specificity to the headline and feels a bit generic in its setup.\"}",
+      "humor_score": 0.9962230622768402,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the comet visit NASA on Mars? To take a selfie with the red planet!",
+      "style": "topical punchline",
+      "seed": 389605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.187615764141083,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative but lacks specificity and the punchline feels a bit forced. It doesn't fully tie into the headline's context or deliver a strong surprise element.\"}",
+      "humor_score": 0.9938078820705414,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "NASA Martians: \"Hey! Stop snapping pictures for a moment! We've got a comet heading straight for us!\" Martian Mission Control: \"Relax, we're just taking selfies with the interstellar comet!",
+      "style": "absurd literalism",
+      "seed": 389603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1740437865257265,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat humorous with the Martian twist and playful dialogue, but lacks surprise and specificity. The setup could be more clearly tied to the headline, and the humor feels a bit generic.\"}",
+      "humor_score": 0.9870218932628632,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "When asked if they were taking a break from exploring Mars for this comet, NASA replied, \"Oh, we don't get many visitors out here.",
+      "style": "deadpan understatement",
+      "seed": 389604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.538329136371613,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the humor is weak and relies on a vague setup. The punchline doesn't fully land due to lack of clarity and missed opportunity for stronger comedic contrast.\"}",
+      "humor_score": 0.6691645681858063,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Alien astronomers, upon hearing about the comet on Mars, halted their research on potato farming to take a peek.",
+      "style": "reversal",
+      "seed": 389602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.871832144260407,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the connection between alien astronomers and potato farming feels forced and lacks a clear punchline.\"}",
+      "humor_score": 0.33591607213020325,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

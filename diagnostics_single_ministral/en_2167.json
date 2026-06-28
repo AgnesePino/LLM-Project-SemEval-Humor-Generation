@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2167",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Call of Duty: Black Ops 7 review – hallucinogenic romp through dystopia is stupidly pleasurable",
+    "raw": {
+      "id": "en_2167",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Call of Duty: Black Ops 7 review – hallucinogenic romp through dystopia is stupidly pleasurable"
+    }
+  },
+  "winner": "Why did Call of Duty's newest recruit bring his hallucinogenic pills on the mission? Because he wanted to see a dystopia so beautiful, even Stalin would say, \"That's too much filter!",
+  "candidates": [
+    {
+      "text": "Why did Call of Duty's newest recruit bring his hallucinogenic pills on the mission? Because he wanted to see a dystopia so beautiful, even Stalin would say, \"That's too much filter!",
+      "style": "topical punchline",
+      "seed": 369605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.535178480148314,
+      "judge_score": 8.2,
+      "judge_raw": "\n\n{\"score\": 8.2, \"reason\": \"Puns on 'hallucinogenic' and 'filter' are clever and specific, with a surprising twist involving Stalin. Brevity and natural English are well-executed.\"}",
+      "humor_score": 0.9875892400741577,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Call of Duty: Black Ops 7, even the dystopia is asking for a truce... it's so pleasurable!",
+      "style": "reversal",
+      "seed": 369602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.13337301015854,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'pleasurable' and 'truce' add surprise and specificity, aligning well with the headline's tone.\"}",
+      "humor_score": 0.6666865050792694,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Call of Duty: Black Ops 7 join a circus? Because it was a hallucinogenic clown-opera through dystopia!",
+      "style": "absurd literalism",
+      "seed": 369603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.991145431995392,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is creative and ties well to the headline with a play on 'hallucinogenic romp' and 'clown-opera.' It's somewhat forced in its wordplay but still delivers a surprising and specific punchline.\"}",
+      "humor_score": 0.9955727159976959,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the dystopian soldier bring a mirror to his Call of Duty session? Because he wanted to see if Black Ops 7 was reflecting his sanity!",
+      "style": "wordplay",
+      "seed": 369601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.180615198612213,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the mirror and sanity twist, but it feels a bit forced and lacks strong specificity to the game's content. The humor is mild and not particularly surprising or concise.\"}",
+      "humor_score": 0.9903075993061066,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Call of Duty: Black Ops 7, the hallucinogenic romp through dystopia is so realistic, I found myself checking if my rations were still edible.",
+      "style": "deadpan understatement",
+      "seed": 369604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1087356328964235,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and has a mild twist, but the humor is weak and relies on a predictable callback to 'checking rations,' which doesn't fully align with the hallucinogenic and dystopian tone of the game.\"}",
+      "humor_score": 0.9543678164482117,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

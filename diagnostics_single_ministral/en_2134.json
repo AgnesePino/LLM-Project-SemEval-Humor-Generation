@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2134",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Ex-Labour MP condemns Starmer as he defects to Green Party",
+    "raw": {
+      "id": "en_2134",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Ex-Labour MP condemns Starmer as he defects to Green Party"
+    }
+  },
+  "winner": "Why did the ex-Labour MP switch parties like a chameleon? Because he wanted to blend in with his new leaf mates!",
+  "candidates": [
+    {
+      "text": "Why did the ex-Labour MP switch parties like a chameleon? Because he wanted to blend in with his new leaf mates!",
+      "style": "wordplay",
+      "seed": 336601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.984954416751862,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, uses a pun on 'leaf mates' (a play on 'team mates'), and ties in the political context. However, it's somewhat generic and lacks deeper surprise or specificity.\"}",
+      "humor_score": 0.9924772083759308,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the former Labour MP switch from green to red and then back to green? Because he couldn't decide if he was a Starmer or a Leafer!",
+      "style": "reversal",
+      "seed": 336602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.182363343238831,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'Starmer' and 'Leafer,' but it's a bit forced and lacks specificity about the political context. The pun is clear but not particularly surprising or original.\"}",
+      "humor_score": 0.9911816716194153,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the ex-Labour MP switch parties like a chameleon? Because he wanted to join Starmer's green team!",
+      "style": "topical punchline",
+      "seed": 336605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.181304883956909,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the chameleon and green team pun, but it's a bit generic and lacks specificity. The reference to Starmer's 'green team' is a mild surprise, but the humor could be stronger.\"}",
+      "humor_score": 0.9906524419784546,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "It seems the ex-Labour MP found a more eco-friendly party... Now they're part of the Green Party.",
+      "style": "deadpan understatement",
+      "seed": 336604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.093979847431183,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'eco-friendly' and 'Green Party,' but it's a bit generic and lacks surprising specificity. The pun is mild and could be more original.\"}",
+      "humor_score": 0.9469899237155914,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the ex-Labour MP bring a bag of star maples when he defected to the Green Party? Because he wanted to mark his territory!",
+      "style": "absurd literalism",
+      "seed": 336603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.5774390459060665,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"The joke is weak and relies on a forced pun that doesn't clearly connect to the headline. The 'star maples' reference is confusing and lacks specificity or surprise.\"}",
+      "humor_score": 0.9887195229530334,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

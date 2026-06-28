@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2090",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Where in the US scientists are concerned sea level rise will flood toxic sites",
+    "raw": {
+      "id": "en_2090",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Where in the US scientists are concerned sea level rise will flood toxic sites"
+    }
+  },
+  "winner": "A worried seagull said to a group of oceanographers on shore, \"I'm afraid you scientists have made a grave mistake! I thought you were studying tides, not trying to flood my beach party!",
+  "candidates": [
+    {
+      "text": "Why did the toxic waste site go on a date with the ocean? Because it heard sea level rise was looking for a mate with rising tides!",
+      "style": "wordplay",
+      "seed": 292601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191206586360932,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the pun on 'rising tides' and 'mate,' but it's a bit forced and lacks specificity in connecting to the headline about scientists and toxic sites.\"}",
+      "humor_score": 0.9956032931804657,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the toxic waste site pack its bags? Because it heard about the sea level rise and decided it'd rather be on dry land!",
+      "style": "topical punchline",
+      "seed": 292605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.186044228076935,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the topic, but it relies on a personification of 'toxic waste site' which may feel forced. The humor is mild and could be more concise.\"}",
+      "humor_score": 0.9930221140384674,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the scientist go to a polluted site in Florida? To see the rising tide of progress.",
+      "style": "reversal",
+      "seed": 292602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.182771635055542,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and the punchline feels forced. 'Rising tide of progress' is a cliché and doesn't clearly tie back to toxic sites or sea level rise.\"}",
+      "humor_score": 0.991385817527771,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A worried seagull said to a group of oceanographers on shore, \"I'm afraid you scientists have made a grave mistake! I thought you were studying tides, not trying to flood my beach party!",
+      "style": "absurd literalism",
+      "seed": 292603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.14178581237793,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks direct connection to toxic sites or scientific concerns about sea level rise. It's a mild pun with a seagull, but the humor feels forced and not fully aligned with the topic.\"}",
+      "humor_score": 0.9708929061889648,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A scientist in the affected area was heard saying, \"It's a shame the rising sea levels can't just wipe away our problems.",
+      "style": "deadpan understatement",
+      "seed": 292604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.492607128620148,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant and has a mild twist, but it's not particularly surprising or specific. The humor is weak and relies on a generic 'problems' reference rather than tying directly to toxic sites or scientific concerns.\"}",
+      "humor_score": 0.14630356431007385,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

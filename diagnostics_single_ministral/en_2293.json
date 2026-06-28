@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2293",
+    "kind": "word_inclusion",
+    "word1": "spray",
+    "word2": "laptop",
+    "headline": null,
+    "raw": {
+      "id": "en_2293",
+      "word1": "spray",
+      "word2": "laptop",
+      "headline": "-"
+    }
+  },
+  "winner": "Why did the laptop bring a can of spray paint to the tech convention? Because it heard about the \"Pixel Art Showcase\" and wanted to cover its pixels in style!",
+  "candidates": [
+    {
+      "text": "Why did the laptop bring a can of spray paint to the tech convention? Because it heard about the \"Pixel Art Showcase\" and wanted to cover its pixels in style!",
+      "style": "topical punchline",
+      "seed": 495605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.783153998851777,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative twist on pixel art, good use of required words, concise and surprising.\"}",
+      "humor_score": 0.9915769994258881,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the laptop join a car wash? It wanted to get a fresh spray of pixels!",
+      "style": "absurd literalism",
+      "seed": 495603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192161571979523,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses both required words and has a playful twist, but the pun on 'spray of pixels' is somewhat forced and not as surprising or specific as it could be.\"}",
+      "humor_score": 0.9960807859897614,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the laptop bring a can of spray paint to school? Because it wanted to cover up its freshly-installed operating system as an undetectable art project!",
+      "style": "reversal",
+      "seed": 495602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.182977688312531,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke includes both required words and has a clever twist, but the explanation feels slightly forced and the humor is mild rather than surprising or specific.\"}",
+      "humor_score": 0.9914888441562653,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't laptops go to parties? Because they can't handle too much spray-tea-spritz!",
+      "style": "wordplay",
+      "seed": 495601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:laptop"
+    },
+    {
+      "text": "While giving a presentation, I accidentally sprayed my coffee onto my laptop. It's now permanently watermarked with \"Latte Art.",
+      "style": "deadpan understatement",
+      "seed": 495604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:spray"
+    }
+  ]
+}

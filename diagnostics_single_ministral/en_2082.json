@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2082",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Hold an ice cube – and shake like a dog: therapists on 16 simple, surprising ways to beat stress",
+    "raw": {
+      "id": "en_2082",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Hold an ice cube – and shake like a dog: therapists on 16 simple, surprising ways to beat stress"
+    }
+  },
+  "winner": "Why did the therapist recommend holding an ice cube and shaking like a dog to reduce stress? Because sometimes life freezes us, and all we need is a shake-off to unthaw!",
+  "candidates": [
+    {
+      "text": "Why did the therapist tell his client to hold an ice cube and start a dance routine? Because apparently, all it takes to beat stress now is some frozen choreography.",
+      "style": "deadpan understatement",
+      "seed": 284604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.394169652462006,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, surprising, and ties directly to the headline with a playful twist involving dance and stress relief.\"}",
+      "humor_score": 0.9970848262310028,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the therapist recommend holding an ice cube and shaking like a dog? To chill out and relieve stress... literally!",
+      "style": "wordplay",
+      "seed": 284601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.390352809429169,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, uses wordplay on 'chill out' and 'literally,' and ties directly to the headline with a surprising twist.\"}",
+      "humor_score": 0.9951764047145844,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the therapist recommend holding an ice cube and shaking like a dog to reduce stress? Because sometimes life freezes us, and all we need is a shake-off to unthaw!",
+      "style": "absurd literalism",
+      "seed": 284603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.976851165294647,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever and ties well to the headline with a play on words ('freeze' and 'unthaw'), but it's slightly predictable and lacks deeper surprise or specificity.\"}",
+      "humor_score": 0.9884255826473236,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the therapist bring an ice cube to a dance competition? To shake like a dog and relieve his own stress!",
+      "style": "reversal",
+      "seed": 284602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190668535232544,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks clarity and punch. The connection between the ice cube, dance competition, and stress relief is weak and not clearly tied to the therapist's advice.\"}",
+      "humor_score": 0.995334267616272,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the stressed-out ice cube go to therapy? Because it couldn't chill out!",
+      "style": "topical punchline",
+      "seed": 284605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190193843841553,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline and uses a play on words with 'chill out,' but it's generic and lacks specificity or surprise compared to the potential of the topic.\"}",
+      "humor_score": 0.9950969219207764,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2201",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Titles That Examine the Middle East Win National Book Awards",
+    "raw": {
+      "id": "en_2201",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Titles That Examine the Middle East Win National Book Awards"
+    }
+  },
+  "winner": "Apparently, my copy of 'The ABC's of Camel Care and Desert Real Estate Investing' has won a National Book Award for titles that examine the Middle East. Who knew camel coops were such hot commodities?",
+  "candidates": [
+    {
+      "text": "Why did the Middle Eastern book win a national award without even opening it? Because it already knew its title would be a page-turner!",
+      "style": "wordplay",
+      "seed": 403601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.742524194717408,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'page-turner' and the book's title being a winner without opening it are clever and specific to the headline.\"}",
+      "humor_score": 0.9712620973587036,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Apparently, my copy of 'The ABC's of Camel Care and Desert Real Estate Investing' has won a National Book Award for titles that examine the Middle East. Who knew camel coops were such hot commodities?",
+      "style": "absurd literalism",
+      "seed": 403603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.312445390224457,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising and specific with a clever twist on the headline, using humor that ties back to the topic in an unexpected way.\"}",
+      "humor_score": 0.7562226951122284,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the book on Middle Eastern politics refuse to join a group? Because it didn't want to be part of any awards clique!",
+      "style": "topical punchline",
+      "seed": 403605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.158797574043274,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks strong surprise and specificity. The pun on 'awards clique' is mild and not tightly connected to the subject of Middle Eastern politics or book awards.\"}",
+      "humor_score": 0.979398787021637,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't books set in the Middle East ever win international awards? Because they always get stuck in the middle of the East Asia category!",
+      "style": "reversal",
+      "seed": 403602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.02984858751297,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the pun on 'middle of the East Asia category' feels forced and lacks natural flow. It also slightly misrepresents the context of book awards.\"}",
+      "humor_score": 0.914924293756485,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Well, at least now we can finally read a captivating novel on how to properly assemble a falafel sandwich in the Middle East.",
+      "style": "deadpan understatement",
+      "seed": 403604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.190063190460205,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and has a mild surprise element by twisting the headline's focus from serious examination to a humorous topic (falafel assembly). However, it lacks sharpness and feels slightly forced, reducing its overall impact.\"}",
+      "humor_score": 0.49503159523010254,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

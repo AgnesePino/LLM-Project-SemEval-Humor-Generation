@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2129",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "How generative AI in Arc Raiders started a scrap over the gaming industry’s future",
+    "raw": {
+      "id": "en_2129",
+      "word1": "-",
+      "word2": "-",
+      "headline": "How generative AI in Arc Raiders started a scrap over the gaming industry’s future"
+    }
+  },
+  "winner": "In Arc Raiders, they're not just generating AIs, they're creating a stir-y system!",
+  "candidates": [
+    {
+      "text": "In Arc Raiders, even the battles are resolved by a committee now.",
+      "style": "deadpan understatement",
+      "seed": 331604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.814362454414368,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising and specific, with a clever twist on AI decision-making in gaming.\"}",
+      "humor_score": 0.007181227207183838,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Arc Raiders, it seems the real battle isn't just against the aliens anymore... It's \"Friendly Fire\" versus \"Turf War\" for control of the gaming industry's future!",
+      "style": "topical punchline",
+      "seed": 331605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.527948701381684,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, specific to the game and industry context, and uses a clever twist with 'Friendly Fire' versus 'Turf War.' It's surprising and ties well to the headline.\"}",
+      "humor_score": 0.06397435069084167,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Arc Raiders, they say a new AI started a yard sale... for raiders, archers, and AI-ders!",
+      "style": "absurd literalism",
+      "seed": 331603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.257613790035248,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'AI-ders,' but it's a bit forced and lacks clear connection to the headline. It’s brief and has some surprise, but could be more specific and tighter.\"}",
+      "humor_score": 0.5288068950176239,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In the gaming world, it seemed Arc Raiders had started a \"scrap,\" but now players are wondering, \"Who let the AI upgrades loose?",
+      "style": "reversal",
+      "seed": 331602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.7218964219093325,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the wordplay on 'scrap' and 'AI upgrades,' but it lacks specificity about Arc Raiders or the gaming industry's future. It's a bit generic and doesn't fully land due to vague references.\"}",
+      "humor_score": 0.26094821095466614,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Arc Raiders, they're not just generating AIs, they're creating a stir-y system!",
+      "style": "wordplay",
+      "seed": 331601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.690043044090271,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'stir-y system,' but it's a bit forced and lacks specificity about the gaming industry or Arc Raiders.\"}",
+      "humor_score": 0.2450215220451355,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

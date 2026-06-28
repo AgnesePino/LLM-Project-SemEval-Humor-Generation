@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2047",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Black Friday deals for him that will make the perfect present",
+    "raw": {
+      "id": "en_2047",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Black Friday deals for him that will make the perfect present"
+    }
+  },
+  "winner": "A man asked me if I had any black Friday deals for him... I told him, \"Well, there's always that coal set.",
+  "candidates": [
+    {
+      "text": "A man asked me if I had any black Friday deals for him... I told him, \"Well, there's always that coal set.",
+      "style": "deadpan understatement",
+      "seed": 249604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.792972850799561,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, surprising, and specific with a clever twist on Black Friday deals and coal.\"}",
+      "humor_score": 0.9964864253997803,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the elephant go shopping on Black Friday? He wanted a present for his trumpelephant.",
+      "style": "absurd literalism",
+      "seed": 249603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1931934475898744,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the 'trumpelephant' pun, but it's a bit forced and lacks clarity. The setup could be more surprising, and the punchline doesn't fully land due to ambiguity.\"}",
+      "humor_score": 0.9965967237949371,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the man bring a ladder on Black Friday? To reach the perfect present at those deals for him!",
+      "style": "topical punchline",
+      "seed": 249605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.15445328950882,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks originality and surprise; the pun on 'reach the perfect present' is weak and predictable.\"}",
+      "humor_score": 0.9772266447544098,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Which Black Friday deals did she find for herself? Deals on presents for forgetting all the times he's forgotten her birthday!",
+      "style": "reversal",
+      "seed": 249602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.957948637008667,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke has some surprise and specificity, but the setup is a bit convoluted and the punchline feels forced. It also doesn't fully align with the headline's focus on 'him' rather than 'her.'\"}",
+      "humor_score": 0.8789743185043335,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't black fridays ever get married? Because they can't seem to settle down!",
+      "style": "wordplay",
+      "seed": 249601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 4.386369252204895,
+      "judge_score": 3.0,
+      "judge_raw": "\n\n{\"score\": 3.0, \"reason\": \"Generic pun with low surprise and weak connection to the headline\"}",
+      "humor_score": 0.9931846261024475,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

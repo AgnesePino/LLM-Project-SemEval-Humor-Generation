@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2210",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "The Weeknd’s ‘After Hours ‘Til Dawn’ Tour grosses over $1 billion, Live Nation says",
+    "raw": {
+      "id": "en_2210",
+      "word1": "-",
+      "word2": "-",
+      "headline": "The Weeknd’s ‘After Hours ‘Til Dawn’ Tour grosses over $1 billion, Live Nation says"
+    }
+  },
+  "winner": "Why did The Weeknd's tour need a security detail? Because it was grossing over a billion dollars and they didn't want anyone trying to \"Blinding Lights\" in their wallet!",
+  "candidates": [
+    {
+      "text": "Why did The Weeknd bring a calculator on his tour? Because he wanted to make sure the total earnings added up to more than just \"After Hours\"!",
+      "style": "topical punchline",
+      "seed": 412605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.961786985397339,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever and ties the album title to the tour's financial success, but it relies on a somewhat predictable pun and lacks deeper surprise or specificity.\"}",
+      "humor_score": 0.9808934926986694,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did The Weeknd's tour need a security detail? Because it was grossing over a billion dollars and they didn't want anyone trying to \"Blinding Lights\" in their wallet!",
+      "style": "wordplay",
+      "seed": 412601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.953772962093353,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a play on 'Blinding Lights' and the financial success of the tour, but the setup could be tighter for maximum impact.\"}",
+      "humor_score": 0.9768864810466766,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did The Weeknd refuse to take a nap during his tour? Because he was afraid of falling behind hours 'till dawn!",
+      "style": "absurd literalism",
+      "seed": 412603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.188870084285736,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke plays on the tour name with a pun involving 'hours 'till dawn,' but it's somewhat forced and lacks surprise. It's understandable but not particularly clever or specific to the headline.\"}",
+      "humor_score": 0.994435042142868,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't The Weeknd need an alarm clock? Because he can always wake up when his concert grosses 'After Hours 'Til Dawn'!",
+      "style": "reversal",
+      "seed": 412602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1667296409606935,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the play on 'After Hours 'Til Dawn' and the idea of not needing an alarm clock, but it's a bit forced and lacks punch. The connection between grossing money and waking up is weak, reducing the surprise and specificity.\"}",
+      "humor_score": 0.9833648204803467,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Wow, I didn't realize The Weeknd was running a side hustle as a night shift janitor.",
+      "style": "deadpan understatement",
+      "seed": 412604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.147448432445526,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the reference to a 'night shift janitor' feels forced and doesn't directly tie into the headline's context about tour earnings.\"}",
+      "humor_score": 0.9737242162227631,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

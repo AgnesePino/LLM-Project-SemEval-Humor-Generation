@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2037",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Polar vortex could bring wild weather pattern",
+    "raw": {
+      "id": "en_2037",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Polar vortex could bring wild weather pattern"
+    }
+  },
+  "winner": "Why did the weatherman refuse to join a polar dance group? Because he was concerned about the unpredictable swing of the vortex partner!",
+  "candidates": [
+    {
+      "text": "Why did the snowman break up with his girlfriend? Because she said they needed a polar change!",
+      "style": "wordplay",
+      "seed": 239601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190451395511627,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks strong surprise and specificity. The pun on 'polar change' is mild and not tightly connected to the weather pattern mentioned in the headline.\"}",
+      "humor_score": 0.9952256977558136,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the weatherman refuse to join a polar dance group? Because he was concerned about the unpredictable swing of the vortex partner!",
+      "style": "reversal",
+      "seed": 239602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.189721119403839,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks strong specificity and surprise. The pun on 'vortex partner' is weak and not clearly tied to the polar vortex concept.\"}",
+      "humor_score": 0.9948605597019196,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the vortex start a dance troupe? To spin around in wild patterns!",
+      "style": "absurd literalism",
+      "seed": 239603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.184214127063751,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the pun on 'spin around in wild patterns,' but it's a bit forced and lacks specificity to the polar vortex topic. It's brief and uses natural English, but the humor is mild and not particularly surprising.\"}",
+      "humor_score": 0.9921070635318756,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the weatherman bring a snow globe to work? To predict the polar vortex's wild weather pattern!",
+      "style": "topical punchline",
+      "seed": 239605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.157263171672821,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks originality and surprise; the snow globe reference is common and not strongly tied to the polar vortex concept.\"}",
+      "humor_score": 0.9786315858364105,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A polar vortex is causing quite a commotion. I guess Mother Nature just wanted a little more excitement in our lives.",
+      "style": "deadpan understatement",
+      "seed": 239604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.145822238922119,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relatable and uses personification of Mother Nature, but lacks specificity and surprise. It's generic and doesn't fully tie into the polar vortex or weather pattern mentioned in the headline.\"}",
+      "humor_score": 0.9729111194610596,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

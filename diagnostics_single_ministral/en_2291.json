@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2291",
+    "kind": "word_inclusion",
+    "word1": "blend",
+    "word2": "shoes",
+    "headline": null,
+    "raw": {
+      "id": "en_2291",
+      "word1": "blend",
+      "word2": "shoes",
+      "headline": "-"
+    }
+  },
+  "winner": "Why did the tomato join the dance competition? Because it wanted to show off its new blend-of-the-night shoes!",
+  "candidates": [
+    {
+      "text": "Why don't shoes ever get lost at a paint party? Because they always blend in with the crowd!",
+      "style": "wordplay",
+      "seed": 493601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.790498960018159,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative pun on 'blend in' with a play on paint party context; concise and surprising.\"}",
+      "humor_score": 0.995249480009079,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the pair of shoes join the smoothie shop? Because it wanted to blend in with the fruit juice crowd!",
+      "style": "absurd literalism",
+      "seed": 493603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.39033510684967,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Creative use of 'blend' and 'shoes,' concise and surprising twist with natural language.\"}",
+      "humor_score": 0.9951675534248352,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the tomato join the dance competition? Because it wanted to show off its new blend-of-the-night shoes!",
+      "style": "topical punchline",
+      "seed": 493605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1679766297340395,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses both required words but relies on a somewhat predictable pun ('blend-of-the-night shoes') and lacks originality in the setup.\"}",
+      "humor_score": 0.9839883148670197,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A man walks into a bar and orders a drink. \"Could you blend my shoes with this?\" he asks the bartender, holding up his worn-out footwear. The bartender looks confused but obliges, blending the shoes in the blender before pouring it into a glass. The man takes a sip and smiles. \"It's not bad, but I was thinking more of a shoe-smoothie.",
+      "style": "deadpan understatement",
+      "seed": 493604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.157171082496643,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses the required words 'blend' and 'shoes' in a creative way, but the humor is somewhat forced and relies on a niche pun. The setup is clear, but the punchline lacks the sharp surprise and specificity that would make it more effective.\"}",
+      "humor_score": 0.9785855412483215,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the shoe go to the blender? It wanted to become smooth sole-dier!",
+      "style": "reversal",
+      "seed": 493602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:blend,shoes"
+    }
+  ]
+}

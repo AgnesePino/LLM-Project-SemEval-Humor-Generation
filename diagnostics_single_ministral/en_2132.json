@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2132",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Past vice presidents make rare appearance together at Cheney’s funeral",
+    "raw": {
+      "id": "en_2132",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Past vice presidents make rare appearance together at Cheney’s funeral"
+    }
+  },
+  "winner": "At Cheney's funeral, the casket was opened for a rare moment of bipartisan unity... and Dick Cheney yelled, \"Wrong coffin!",
+  "candidates": [
+    {
+      "text": "At Cheney's funeral, a surprise eulogy was delivered...by a hamster named Dick.",
+      "style": "absurd literalism",
+      "seed": 334603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.697395372390748,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising and specific twist with a clever pun on 'Dick'.\"}",
+      "humor_score": 0.9486976861953735,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At Cheney's funeral, the casket was opened for a rare moment of bipartisan unity... and Dick Cheney yelled, \"Wrong coffin!",
+      "style": "reversal",
+      "seed": 334602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.187250125408173,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist with a specific reference to Dick Cheney, concise and funny\"}",
+      "humor_score": 0.6936250627040863,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't you find Dick Cheney's funerals hard to navigate? Because even in death, he still has a way of bringing all the former vice presidents together!",
+      "style": "wordplay",
+      "seed": 334601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.151779305934906,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat relevant and plays on the headline, but it's a bit forced and lacks originality. The pun on 'navigate' feels weak, and the humor doesn't fully land due to its predictability.\"}",
+      "humor_score": 0.975889652967453,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At Cheney's funeral, even Biden and Trump agreed - it was the first time in years they were both on their best behavior!",
+      "style": "topical punchline",
+      "seed": 334605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.070190954208375,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on political behavior, concise and specific with a touch of irony.\"}",
+      "humor_score": 0.135095477104187,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At Cheney's funeral, even Dick had a hard time keeping up with all the former vice presidents.",
+      "style": "deadpan understatement",
+      "seed": 334604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.79001749753952,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and has a mild pun on 'keeping up,' but it lacks surprise and feels slightly forced. The reference to 'Dick' (assuming Dick Cheney) is clear, but the humor is underdeveloped.\"}",
+      "humor_score": 0.29500874876976013,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

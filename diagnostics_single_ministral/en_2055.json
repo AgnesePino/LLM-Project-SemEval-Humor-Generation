@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2055",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Doing these fall garden chores will make your spring easier",
+    "raw": {
+      "id": "en_2055",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Doing these fall garden chores will make your spring easier"
+    }
+  },
+  "winner": "Why did the gardener refuse to procrastinate on his fall chores? Because he didn't want a Spring full of \"I should've weeded sooner\" jokes!",
+  "candidates": [
+    {
+      "text": "Why did the gardener refuse to procrastinate on his fall chores? Because he didn't want a Spring full of \"I should've weeded sooner\" jokes!",
+      "style": "topical punchline",
+      "seed": 257605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.790960776805878,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist with garden-related pun, concise and specific to the headline topic.\"}",
+      "humor_score": 0.9954803884029388,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "I heard they've found a secret ingredient for an easy spring - it's called 'doing your fall garden chores'. Seems like they've been hiding the key to happiness in the yard all along!",
+      "style": "wordplay",
+      "seed": 257601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.944329023361206,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever and ties the headline to a humorous twist, but it's slightly generic and lacks sharp specificity or surprise.\"}",
+      "humor_score": 0.972164511680603,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "I can't wait for Spring - I've been gardening all Fall just so I can enjoy my lazy summer afternoons.",
+      "style": "deadpan understatement",
+      "seed": 257604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.158394587039948,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks surprise and specificity. It's a bit generic and doesn't fully align with the idea of fall chores making spring easier.\"}",
+      "humor_score": 0.9791972935199738,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "If you ignore doing these fall garden chores, your winter will be much harder... but at least spring will still be easy!",
+      "style": "reversal",
+      "seed": 257602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.448090505599976,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline and provides a mild twist, but it's predictable and lacks originality or surprise.\"}",
+      "humor_score": 0.6240452527999878,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "If you plant marigolds in the fall instead of flowers, spring will be a walk in a field of confusion.",
+      "style": "absurd literalism",
+      "seed": 257603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.111832213401795,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the humor falls flat due to awkward phrasing ('a walk in a field of confusion') and lacks a clear connection to the headline's promise of making spring easier.\"}",
+      "humor_score": 0.4559161067008972,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

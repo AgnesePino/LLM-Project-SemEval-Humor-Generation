@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2130",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "UK investors pull out of London stock market at record pace",
+    "raw": {
+      "id": "en_2130",
+      "word1": "-",
+      "word2": "-",
+      "headline": "UK investors pull out of London stock market at record pace"
+    }
+  },
+  "winner": "Investors in London, it seems, are fleeing stocks so quickly, even the pigeons started selling their pebbles on the street corner.",
+  "candidates": [
+    {
+      "text": "Why did the Brits empty out their London Stock Fish Market? Because sardines were taking a dive!",
+      "style": "wordplay",
+      "seed": 332601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.19170458316803,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the wordplay on 'stock market' and 'stock fish market,' but 'sardines taking a dive' feels forced and less specific to the headline's context. It lacks precision in connecting the UK investors' actions to the humor.\"}",
+      "humor_score": 0.9958522915840149,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the UK investors leave the London Stock Market in a hurry? Because they heard there was a \"record\" sale at the flea market!",
+      "style": "topical punchline",
+      "seed": 332605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1879199862480165,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses a play on 'record' but the flea market reference is somewhat generic and not tightly connected to the stock market context.\"}",
+      "humor_score": 0.9939599931240082,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Investors in London, it seems, are fleeing stocks so quickly, even the pigeons started selling their pebbles on the street corner.",
+      "style": "absurd literalism",
+      "seed": 332603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.9889919638633735,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising and specific metaphor with a touch of absurdity, ties well to the headline and uses natural English.\"}",
+      "humor_score": 0.0944959819316864,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Even the British are finding more success on the Stock Exchange in Tea Leaves these days.",
+      "style": "deadpan understatement",
+      "seed": 332604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.162458062171936,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever and specific, using a pun on 'Tea Leaves' (a British reference) to comment on the stock market. It's concise and surprising, though the humor may be slightly niche.\"}",
+      "humor_score": 0.08122903108596802,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In a stunning turn of events, London's streets became so appealing that even the most stoic British investors were seen selling their stocks and hitting the pavement at a record pace!",
+      "style": "reversal",
+      "seed": 332602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.219533634185791,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the pun on 'hitting the pavement' feels forced and slightly awkward. It also doesn't fully align with the headline's focus on investors pulling out of the stock market.\"}",
+      "humor_score": 0.009766817092895508,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

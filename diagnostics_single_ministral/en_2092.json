@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2092",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "What you can do in your 30s to stay healthy at 70",
+    "raw": {
+      "id": "en_2092",
+      "word1": "-",
+      "word2": "-",
+      "headline": "What you can do in your 30s to stay healthy at 70"
+    }
+  },
+  "winner": "Why should you start a marathon in your 30s if you want to run at 70? Because you'll be so exhausted by age 70, you might think it's a sprint!",
+  "candidates": [
+    {
+      "text": "Why don't retired people play basketball at 30? Because they're waiting for their golden years to start dunking!",
+      "style": "absurd literalism",
+      "seed": 294603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.188702535629273,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke has some wordplay with 'golden years' but is slightly forced and not fully aligned with the headline's focus on health. It lacks specificity in connecting actions in the 30s to health at 70.\"}",
+      "humor_score": 0.9943512678146362,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why should you start a marathon in your 30s if you want to run at 70? Because you'll be so exhausted by age 70, you might think it's a sprint!",
+      "style": "wordplay",
+      "seed": 294601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.132619988918305,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke has a decent setup and a clever twist, but the punchline is slightly forced and lacks specificity. It's somewhat generic in its approach to health advice and aging.\"}",
+      "humor_score": 0.9663099944591522,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "At seventy, they say I should've been living healthier in my thirties, if only I'd known then that my metabolism would become a snail and my couch would turn into a trap!",
+      "style": "reversal",
+      "seed": 294602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    },
+    {
+      "text": "Well, I'm planning on becoming a teenager again once I hit 30. That should give me plenty of time to prepare for my golden years.",
+      "style": "deadpan understatement",
+      "seed": 294604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    },
+    {
+      "text": "Why did the 30-year-old decide to join a retirement home? He heard they had great aerobics classes for seniors!",
+      "style": "topical punchline",
+      "seed": 294605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

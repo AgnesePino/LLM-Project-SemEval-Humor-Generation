@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2286",
+    "kind": "word_inclusion",
+    "word1": "roll",
+    "word2": "banana",
+    "headline": null,
+    "raw": {
+      "id": "en_2286",
+      "word1": "roll",
+      "word2": "banana",
+      "headline": "-"
+    }
+  },
+  "winner": "Why did the banana go to the bar? It heard there was a roll of pool balls.",
+  "candidates": [
+    {
+      "text": "Why did the banana go to the bar? It heard there was a roll of pool balls.",
+      "style": "reversal",
+      "seed": 488602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.193699610233307,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"Includes required words but lacks strong humor or surprise; the pun is weak and somewhat forced.\"}",
+      "humor_score": 0.9968498051166534,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the banana put in detention? Because it was caught rolling down a hill during recess!",
+      "style": "wordplay",
+      "seed": 488601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:roll"
+    },
+    {
+      "text": "Why was the banana arrested? Because it was caught rolling down a hill!",
+      "style": "absurd literalism",
+      "seed": 488603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:roll"
+    },
+    {
+      "text": "A man rolled his banana down a hill, watched it bounce off a tree, and sadly exclaimed, \"That's the last time I ever trust a banana roller!",
+      "style": "deadpan understatement",
+      "seed": 488604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:roll"
+    },
+    {
+      "text": "Why was the banana sitting in a corner rolling its eyes? Because it couldn't peel away from the gossip about the yellow jacket incident!",
+      "style": "topical punchline",
+      "seed": 488605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:roll"
+    }
+  ]
+}

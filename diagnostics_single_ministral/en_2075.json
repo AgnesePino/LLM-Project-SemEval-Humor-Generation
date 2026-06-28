@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2075",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Why Gen Z and millennials are ditching management roles: the rise of 'conscious unbossing'",
+    "raw": {
+      "id": "en_2075",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Why Gen Z and millennials are ditching management roles: the rise of 'conscious unbossing'"
+    }
+  },
+  "winner": "A boss walked into a room full of Gen Z employees and asked, \"Who wants to climb the corporate ladder?\" A voice replied, \"I'd rather unplug the ladder, save on electricity costs, and start my own company with no bosses.",
+  "candidates": [
+    {
+      "text": "A boss walked into a room full of Gen Z employees and asked, \"Who wants to climb the corporate ladder?\" A voice replied, \"I'd rather unplug the ladder, save on electricity costs, and start my own company with no bosses.",
+      "style": "topical punchline",
+      "seed": 277605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.777244377136231,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, surprising, and specific to the topic with a clever twist on 'unbossing' and energy efficiency.\"}",
+      "humor_score": 0.9886221885681152,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "A manager walks into a meeting with his employees, who are all sitting in a circle. \"Why aren't we at our desks?\" he asks. One employee replies, \"We're practicing conscious unbossing.\" The manager looks confused and says, \"I didn't know I had a yoga mat.",
+      "style": "absurd literalism",
+      "seed": 277603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.776722300052644,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"The joke is concise, specific, and uses a modern concept ('conscious unbossing') in a clever twist with a touch of absurdity (the yoga mat). It delivers surprise and fits the headline well.\"}",
+      "humor_score": 0.9883611500263214,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The boss, tired of being ditched by Gen Z and millennials, decided to quit his job and become consciously unemployed. He's now the happiest unboss anyone has ever seen!",
+      "style": "reversal",
+      "seed": 277602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.491392242908478,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on 'conscious unbossing,' concise and specific with a playful punchline.\"}",
+      "humor_score": 0.8456961214542389,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In modern corporate culture, it seems the only role Gen Z and millennials are consciously embracing is that of... consciously unemployed bosses.",
+      "style": "deadpan understatement",
+      "seed": 277604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.954183804988862,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Puns on 'conscious unbossing' with a twist of irony and modern slang; concise, surprising, and specific to the topic.\"}",
+      "humor_score": 0.5770919024944305,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the boss resign? He realized he was more of a 'napkin' than a leader.",
+      "style": "wordplay",
+      "seed": 277601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.145922791957855,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the 'napkin' pun, but it lacks specificity and clear connection to the headline's topic of 'conscious unbossing.' The humor is mild and not strongly tied to the subject matter.\"}",
+      "humor_score": 0.9729613959789276,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

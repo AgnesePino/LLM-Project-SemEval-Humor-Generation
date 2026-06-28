@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2119",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "How do you judge the world’s best cheese?",
+    "raw": {
+      "id": "en_2119",
+      "word1": "-",
+      "word2": "-",
+      "headline": "How do you judge the world’s best cheese?"
+    }
+  },
+  "winner": "Why don't we send a blindfolded mouse to international cheese competitions? Because it already knows the world's best cheese by taste!",
+  "candidates": [
+    {
+      "text": "Why don't we send a blindfolded mouse to international cheese competitions? Because it already knows the world's best cheese by taste!",
+      "style": "absurd literalism",
+      "seed": 321603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.757421362400056,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist with a clever play on taste and mice, concise and specific.\"}",
+      "humor_score": 0.9787106812000275,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't we let cows decide who makes the world's best cheese? Because they'd just moo-ve it to pasteurization!",
+      "style": "topical punchline",
+      "seed": 321605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.393603885173798,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Puns on 'moo-ve' and 'pasteurization' are clever and specific, with a good surprise factor and natural flow.\"}",
+      "humor_score": 0.9968019425868988,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why don't cheese experts ever get lost? Because they always follow their gouda instincts!",
+      "style": "wordplay",
+      "seed": 321601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.9899595975875854,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a play on 'gouda' and 'good' instincts, but the surprise and specificity could be stronger.\"}",
+      "humor_score": 0.9949797987937927,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why do cows compete for the title of the world's best cheese maker? Because they've always thought moo-ving cheese was beneath them!",
+      "style": "reversal",
+      "seed": 321602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191382360458374,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the pun on 'moo-ving,' but it doesn't directly address the headline about judging cheese. It's a bit generic and lacks specificity in connecting cows to cheese judging.\"}",
+      "humor_score": 0.995691180229187,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Apparently, judging the world's best cheese isn't as easy as just eating it with a side of crackers.",
+      "style": "deadpan understatement",
+      "seed": 321604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.443770480155945,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising but lacks specificity and punch. It's a mild play on expectations but doesn't fully deliver on the humor potential of the headline.\"}",
+      "humor_score": 0.6218852400779724,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

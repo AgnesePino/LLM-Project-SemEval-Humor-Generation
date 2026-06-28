@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2139",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Germany masterclass hints at Liverpool revival for £100m Florian Wirtz",
+    "raw": {
+      "id": "en_2139",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Germany masterclass hints at Liverpool revival for £100m Florian Wirtz"
+    }
+  },
+  "winner": "Why did Florian Wirtz bring a chalkboard to Liverpool? Because he heard they were struggling with math in their midfield!",
+  "candidates": [
+    {
+      "text": "Which German masterclass is Liverpool's new £100m investment taking, you ask? Why, the \"Art of Revival\" course! But Florian Wirtz seems confused and insists he signed up for a \"Golf Swing Improvement Workshop\" instead. Oh, football transfer jokes - never change!",
+      "style": "reversal",
+      "seed": 341602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.239916441440581,
+      "judge_score": 8.2,
+      "judge_raw": "\n\n{\"score\": 8.2, \"reason\": \"Puns on 'masterclass' and 'course,' specific reference to Wirtz and Liverpool, and a humorous twist with the golf workshop. Slightly long but still concise and funny.\"}",
+      "humor_score": 0.8399582207202911,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Florian Wirtz bring a chalkboard to Liverpool? Because he heard they were struggling with math in their midfield!",
+      "style": "topical punchline",
+      "seed": 341605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190612030029297,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat specific and uses a play on Wirtz's potential impact, but the math/midfield pun feels forced and lacks natural flow.\"}",
+      "humor_score": 0.9953060150146484,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Florian Wirtz bring a German dictionary to Liverpool? Because he wanted to revise his English before the masterclass!",
+      "style": "wordplay",
+      "seed": 341601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.1807066917419435,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and surprise. The reference to a German dictionary and revising English is a mild pun but doesn't strongly tie into the £100m transfer or Liverpool revival context.\"}",
+      "humor_score": 0.9903533458709717,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Liverpool, they're hoping that their new midfielder, Florian Wirtz, can perform a complete 'Germany masterclass'... on the guitar, as they've just opened a new music school called 'The Revival Academy'.",
+      "style": "absurd literalism",
+      "seed": 341603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.380251300334931,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the 'Germany masterclass' twist and the music school reference, but it feels a bit forced and lacks strong connection to the original headline's context about football and revival.\"}",
+      "humor_score": 0.09012565016746521,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Germany's masterclass suggests that even a hundred-pound shopping cart could experience a revival if it had £100m.",
+      "style": "deadpan understatement",
+      "seed": 341604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.373758268356323,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the shopping cart analogy but lacks direct connection to the headline's focus on Liverpool and Florian Wirtz. It’s a bit generic and doesn't fully leverage the specific elements of the headline for maximum humor.\"}",
+      "humor_score": 0.08687913417816162,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

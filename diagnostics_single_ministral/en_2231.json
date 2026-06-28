@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2231",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Market town with 12,000 residents named Britain's least affordable",
+    "raw": {
+      "id": "en_2231",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Market town with 12,000 residents named Britain's least affordable"
+    }
+  },
+  "winner": "In Britain's least affordable market town with 12,000 residents, a humble home costs more than all 12,000 residents combined... each!",
+  "candidates": [
+    {
+      "text": "In Britain's least affordable market town with 12,000 residents, a humble home costs more than all 12,000 residents combined... each!",
+      "style": "absurd literalism",
+      "seed": 433603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.476935338973999,
+      "judge_score": 9.0,
+      "judge_raw": "\n\n{\"score\": 9.0, \"reason\": \"Surprising twist with clear specificity and concise delivery\"}",
+      "humor_score": 0.1384676694869995,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the smallest town in Britain refuse to buy a lottery ticket? Because it couldn't afford the inflated price of affordability!",
+      "style": "reversal",
+      "seed": 433602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.182708990573883,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks clarity and punch. The reference to 'affordability' is confusing and doesn't clearly tie back to the town's affordability issue.\"}",
+      "humor_score": 0.9913544952869415,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the small town with 12,000 residents refuse to lend money to its rich friend? Because it couldn't afford to!",
+      "style": "wordplay",
+      "seed": 433601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.161161017417908,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat related to the headline but lacks specificity and surprise. The pun on 'afford' is weak and feels forced, reducing its humor impact.\"}",
+      "humor_score": 0.9805805087089539,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In a surprising turn of events, even the pigeons in this small market town can't afford their favorite bread crumbs anymore.",
+      "style": "deadpan understatement",
+      "seed": 433604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.583792638778687,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific, but the humor feels a bit forced and lacks a clear connection to the headline's main point about affordability.\"}",
+      "humor_score": 0.19189631938934326,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In a bizarre twist of irony, it seems even the cheap seats in Britain's least affordable town come with a hefty price tag!",
+      "style": "topical punchline",
+      "seed": 433605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.320163500308991,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses irony and plays on the idea of 'cheap seats' being expensive, which is somewhat surprising. However, it's a bit generic and doesn't fully tie into the specific detail of the town having 12,000 residents.\"}",
+      "humor_score": 0.06008175015449524,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

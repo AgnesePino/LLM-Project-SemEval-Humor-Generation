@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2104",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "The mystery of the abandoned Achill Island village of Slievemore",
+    "raw": {
+      "id": "en_2104",
+      "word1": "-",
+      "word2": "-",
+      "headline": "The mystery of the abandoned Achill Island village of Slievemore"
+    }
+  },
+  "winner": "Why did the village on Achill Island leave Slievemore in a hurry? Because they heard there was a potluck at a different cliff!",
+  "candidates": [
+    {
+      "text": "Why did the village on Achill Island leave Slievemore in a hurry? Because they heard there was a potluck at a different cliff!",
+      "style": "absurd literalism",
+      "seed": 306603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.193005692958832,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the potluck twist, but lacks strong surprise and specificity related to Slievemore or Achill Island. The humor feels a bit forced and generic.\"}",
+      "humor_score": 0.9965028464794159,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the abandoned village on Achill Island move to the mountains? Because it wanted to be near Sliev-more hills!",
+      "style": "wordplay",
+      "seed": 306601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.178766739368439,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the wordplay on 'Slievemore,' but the setup is a bit forced and lacks genuine humor or surprise.\"}",
+      "humor_score": 0.9893833696842194,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the abandoned village of Slievemore abandon Achill Island? Because they found another place with fewer tourists.",
+      "style": "deadpan understatement",
+      "seed": 306604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.173171293735504,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the location, but it's a bit generic in its setup and lacks deeper humor or clever wordplay.\"}",
+      "humor_score": 0.9865856468677521,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the village on Achill Island abandon its mystery at Slievemore? Because it decided to keep all its secrets to itself!",
+      "style": "reversal",
+      "seed": 306602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.16367222070694,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat playful but lacks strong surprise or specificity related to the headline. It uses a pun on 'mystery' but feels a bit forced and generic.\"}",
+      "humor_score": 0.9818361103534698,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the abandoned Slievemore village move out west? Because it wanted to be on an island with a sea view!",
+      "style": "topical punchline",
+      "seed": 306605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.581485843658447,
+      "judge_score": 4.5,
+      "judge_raw": "\n\n{\"score\": 4.5, \"reason\": \"Lacks surprise and specificity; the joke is generic and doesn't engage with the mystery or unique aspects of Slievemore village.\"}",
+      "humor_score": 0.9907429218292236,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

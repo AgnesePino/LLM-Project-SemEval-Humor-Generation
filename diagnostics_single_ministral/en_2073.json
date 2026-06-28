@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2073",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Inside the courtroom for Australia's biggest trials",
+    "raw": {
+      "id": "en_2073",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Inside the courtroom for Australia's biggest trials"
+    }
+  },
+  "winner": "Why was Australia's largest trial a real page-turner? Because it kept everyone on the edge of their bench!",
+  "candidates": [
+    {
+      "text": "Why was Australia's largest trial a real page-turner? Because it kept everyone on the edge of their bench!",
+      "style": "wordplay",
+      "seed": 275601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.967747449874878,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a play on 'page-turner' and 'on the edge of their bench,' which ties to courtroom settings. It's concise and specific but lacks a bit of surprise and depth for a higher score.\"}",
+      "humor_score": 0.983873724937439,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the kangaroo take a seat in the front row during Australia's biggest trials? Because he heard it was the courtroom for \"hops\" justice!",
+      "style": "topical punchline",
+      "seed": 275605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190264356136322,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the wordplay on 'hops' and 'justice,' but it's a bit forced and lacks strong specificity to the courtroom context. The humor is mild and could be more surprising.\"}",
+      "humor_score": 0.995132178068161,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the courtroom take a break during Australia's biggest trial? Because they ran out of witnesses!",
+      "style": "reversal",
+      "seed": 275602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.18176383972168,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the courtroom setting, but 'ran out of witnesses' is a bit generic and could be seen as a cliché punchline.\"}",
+      "humor_score": 0.9908819198608398,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Well, at least they managed to find a jury that isn't on trial.",
+      "style": "deadpan understatement",
+      "seed": 275604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.018057096004487,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Surprising twist on the courtroom setting with a clever play on words.\"}",
+      "humor_score": 0.10902854800224304,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "The judge, after a long day of hearing cases, stood up and announced, \"Ladies and Gentlemen, remember, the only verdict more absurd than 'guilty' or 'not guilty' is 'still deliberating'.",
+      "style": "absurd literalism",
+      "seed": 275603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "weak_headline_overlap"
+    }
+  ]
+}

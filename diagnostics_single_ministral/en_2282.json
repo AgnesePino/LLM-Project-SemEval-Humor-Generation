@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2282",
+    "kind": "word_inclusion",
+    "word1": "spray",
+    "word2": "banana",
+    "headline": null,
+    "raw": {
+      "id": "en_2282",
+      "word1": "spray",
+      "word2": "banana",
+      "headline": "-"
+    }
+  },
+  "winner": "Why did the banana bring a can of spray paint to the art exhibit? It wanted to be a master-peel-a!",
+  "candidates": [
+    {
+      "text": "Why did the banana bring a can of spray paint to the art exhibit? It wanted to be a master-peel-a!",
+      "style": "topical punchline",
+      "seed": 484605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.791171777248383,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative pun on 'masterpiece' with 'master-peel-a,' incorporating both required words naturally and surprisingly.\"}",
+      "humor_score": 0.9955858886241913,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the banana bring a can of spray paint? Because it wanted to peel its own skin.",
+      "style": "deadpan understatement",
+      "seed": 484604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192156386375427,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses both required words and has a basic pun, but the humor is weak and somewhat forced. The setup could be more engaging, and the punchline lacks surprise and depth.\"}",
+      "humor_score": 0.9960781931877136,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the banana join the paintball team? Because it's great at being a \"spray-nanas!",
+      "style": "reversal",
+      "seed": 484602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192128789424896,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses both required words and has a playful pun, but the humor is somewhat predictable and the punchline lacks originality.\"}",
+      "humor_score": 0.9960643947124481,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the banana bring a can of spray paint? Because it wanted to yellow its peers!",
+      "style": "absurd literalism",
+      "seed": 484603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.191682648658753,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses both required words and has a basic pun, but the humor is weak and somewhat forced. The surprise factor is low, and the punchline doesn't land as effectively due to lack of context or cleverness.\"}",
+      "humor_score": 0.9958413243293762,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why was the banana a detective's worst suspect? Because it always had an alibi - it was always in a bunch!",
+      "style": "wordplay",
+      "seed": 484601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:spray"
+    }
+  ]
+}

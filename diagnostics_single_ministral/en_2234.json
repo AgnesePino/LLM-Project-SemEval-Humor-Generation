@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2234",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Waterfall City Junction breaks ground: setting new standards for urban development",
+    "raw": {
+      "id": "en_2234",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Waterfall City Junction breaks ground: setting new standards for urban development"
+    }
+  },
+  "winner": "In Waterfall City Junction, they're not just digging deep, they're making a splash in urban development... it's shaping up to be quite the runoff!",
+  "candidates": [
+    {
+      "text": "In Waterfall City Junction, they're not just digging deep, they're making a splash in urban development... it's shaping up to be quite the runoff!",
+      "style": "wordplay",
+      "seed": 436601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.35930427312851,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke is concise, uses wordplay on 'waterfall' and 'runoff,' and ties back to the headline with specificity and surprise.\"}",
+      "humor_score": 0.47965213656425476,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Waterfall City Junction, they're breaking ground... Literally, I hope the construction workers have umbrellas!",
+      "style": "topical punchline",
+      "seed": 436605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.079485011100769,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the headline, but the humor is weak and relies on a tired umbrella pun. It lacks originality and fails to fully engage with the concept of 'breaking ground' in an urban development context.\"}",
+      "humor_score": 0.9397425055503845,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Waterfall City Junction, they've finally found a way to ensure nobody ever loses their keys again - they're using giant magnets at every intersection! They call it \"Setting new standards for urban key-development.",
+      "style": "absurd literalism",
+      "seed": 436603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.629394543170929,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the magnet idea, but the pun on 'urban key-development' feels forced and less surprising. It's specific to the headline but lacks stronger humor impact.\"}",
+      "humor_score": 0.21469727158546448,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Waterfall City Junction, they've finally found a way to make sure everyone gets wet when it rains - they set the standards for urban development underground!",
+      "style": "reversal",
+      "seed": 436602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.374654841423035,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative and ties into the headline with a play on 'setting standards' and getting wet, but it's a bit forced and lacks stronger specificity or surprise.\"}",
+      "humor_score": 0.08732742071151733,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "In Waterfall City Junction, they've finally managed to find a way for citizens to truly experience nature - they just installed a giant water cooler at city center.",
+      "style": "deadpan understatement",
+      "seed": 436604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 5.357061994075775,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat surprising and specific to the headline, but 'giant water cooler' feels a bit generic and doesn't fully align with the idea of a 'waterfall' or 'urban development standards.' It's mildly funny but lacks sharper wordplay.\"}",
+      "humor_score": 0.07853099703788757,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

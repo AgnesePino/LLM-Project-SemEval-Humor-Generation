@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2241",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Investors eye Nvidia's latest earnings: Chipmaker Nvidia is set to release its latest financial results on Wednesday as investors anxiously await.",
+    "raw": {
+      "id": "en_2241",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Investors eye Nvidia's latest earnings: Chipmaker Nvidia is set to release its latest financial results on Wednesday as investors anxiously await."
+    }
+  },
+  "winner": "Why did the investor bring a magnifying glass to Nvidia's earnings meeting? Because he heard they were releasing some pixels!",
+  "candidates": [
+    {
+      "text": "Why are investors like excited puppies waiting for Nvidia's earnings report? Because they can't wait to see if they've been a good chip off the old block!",
+      "style": "topical punchline",
+      "seed": 443605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.959369599819183,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is clever with a pun on 'chip off the old block,' but the comparison to excited puppies feels slightly forced and less impactful than it could be.\"}",
+      "humor_score": 0.9796847999095917,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "After hearing about Nvidia's upcoming earnings report, one investor said, \"I can hardly contain my excitement... it's not like they've never missed an earnings target before.",
+      "style": "deadpan understatement",
+      "seed": 443604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.626626670360565,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is concise, specific, and uses a surprising twist by referencing Nvidia's history of missing earnings targets. It’s natural and funny but could be more original.\"}",
+      "humor_score": 0.8133133351802826,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the investor bring a magnifying glass to Nvidia's earnings meeting? Because he heard they were releasing some pixels!",
+      "style": "reversal",
+      "seed": 443602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.192841720581055,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the magnifying glass and 'pixels' pun, but the connection to Nvidia's earnings is weak and the humor feels forced.\"}",
+      "humor_score": 0.9964208602905273,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the investor bring a ladder to Nvidia's earnings meeting? Because he heard they were climbing the corporate wall of worry.",
+      "style": "absurd literalism",
+      "seed": 443603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.190152359008789,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat clever with the 'climbing the corporate wall of worry' twist, but the ladder reference feels a bit forced and the humor is mild rather than surprising or specific.\"}",
+      "humor_score": 0.9950761795043945,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why are investors keeping their eyes peeled for Nvidia's earnings? Because they can't afford to miss a chip off the old block!",
+      "style": "wordplay",
+      "seed": 443601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.094139766693115,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses a play on words with 'chip off the old block,' which is somewhat clever, but the connection to Nvidia's earnings is weak and not very specific. The humor is mild and could be more surprising or tightly tied to the context.\"}",
+      "humor_score": 0.9470698833465576,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}

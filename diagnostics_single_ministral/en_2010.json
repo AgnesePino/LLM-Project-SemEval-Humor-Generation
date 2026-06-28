@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "en_2010",
+    "kind": "news_headline",
+    "word1": null,
+    "word2": null,
+    "headline": "Ireland coach Farrell brings back Bundee Aki for clash with Springboks in Dublin",
+    "raw": {
+      "id": "en_2010",
+      "word1": "-",
+      "word2": "-",
+      "headline": "Ireland coach Farrell brings back Bundee Aki for clash with Springboks in Dublin"
+    }
+  },
+  "winner": "Ireland coach Farrell brings back Bundee Aki for a clash with the Springboks in Dublin. I assume he wants more of the same from Aki: a few good scrummages, some reliable passes, and one memorable tackle that's oddly reminiscent of a sheepdog herding wayward lambs.",
+  "candidates": [
+    {
+      "text": "Why did Ireland's coach bring back Bundee Aki? To ensure there would be no \"Bok-up\" call at the match!",
+      "style": "topical punchline",
+      "seed": 212605,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.186486411094666,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Play on 'Bok-up' (a rugby term) and 'break-up' is clever and specific, ties directly to the headline, and is concise with a surprising twist.\"}",
+      "humor_score": 0.6932432055473328,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Bundee Aki return from Dublin for the clash with the Springboks? Because Ireland's coach Farrell said, \"I need a second pair of hands... and a set of legs that can tackle!",
+      "style": "reversal",
+      "seed": 212602,
+      "temperature": 0.92,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.477953255176544,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is somewhat funny with a play on 'second pair of hands' implying Aki's return, but the punchline feels slightly forced and less surprising given the context.\"}",
+      "humor_score": 0.7389766275882721,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did the Ireland coach bring a Ziploc bag to the match against the Springboks? Because it seemed he needed to seal up Bundee Aki before the clash in Dublin!",
+      "style": "absurd literalism",
+      "seed": 212603,
+      "temperature": 1.02,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 7.135450851917267,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat creative with the Ziploc bag reference, but the connection to sealing up Bundee Aki feels a bit forced and lacks clarity. It's not immediately obvious why a Ziploc bag would be relevant, which reduces the surprise and specificity elements.\"}",
+      "humor_score": 0.9677254259586334,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Ireland coach Farrell brings back Bundee Aki for a clash with the Springboks in Dublin. I assume he wants more of the same from Aki: a few good scrummages, some reliable passes, and one memorable tackle that's oddly reminiscent of a sheepdog herding wayward lambs.",
+      "style": "deadpan understatement",
+      "seed": 212604,
+      "temperature": 1.08,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.937950551509857,
+      "judge_score": 7.5,
+      "judge_raw": "\n\n{\"score\": 7.5, \"reason\": \"The joke is specific to the context, uses a surprising metaphor (sheepdog herding lambs), and maintains brevity. However, it's slightly generic in its structure and lacks deeper punchline impact.\"}",
+      "humor_score": 0.4689752757549286,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "Why did Ireland's coach bring back Bundee Aki for the clash against the Springboks? Because he needed a player who could really shake things up in Dublin!",
+      "style": "wordplay",
+      "seed": 212601,
+      "temperature": 0.82,
+      "source_model": "mistral-7b-instruct-v03",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 6.862632048130036,
+      "judge_score": 6.5,
+      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke is somewhat forced and relies on a pun that doesn't land well. 'Shake things up' is vague and not clearly connected to Bundee Aki's role or the context of the match.\"}",
+      "humor_score": 0.8313160240650177,
+      "valid": true,
+      "invalid_reason": ""
+    }
+  ]
+}
