@@ -1,9 +1,9 @@
 # %% [markdown]
 # # MWAHAHA Task A EN - Ensemble Runs
 #
-# Notebook operativo per generare candidate pool sequenziali con Qwen, Gemma e Ministral, poi fare ranking finale con Qwen judge.
+# ## 0. Configuration
 #
-# Usa questo notebook quando puoi caricare un solo modello alla volta in LM Studio.
+# Set project paths, LM Studio connection details, model aliases, and generation/ranking constants.
 
 # %%
 from pathlib import Path
@@ -31,6 +31,11 @@ MODELS = [
 VARIANTS_PER_ENTRY = 3
 TIMEOUT = 300
 RERANK_TOP_K = 6
+
+# %% [markdown]
+# ## 0. Helpers And Input Count
+#
+# Define progress-aware command helpers, count the input rows, and reuse existing outputs when `--resume` is enabled.
 
 # %%
 def count_input_rows(path: Path) -> int:
@@ -103,9 +108,9 @@ TOTAL_ROWS = count_input_rows(INPUT)
 TOTAL_ROWS
 
 # %% [markdown]
-# ## 1. Generazione candidati con Qwen
+# ## 1. Generate Qwen Candidates
 #
-# Carica Qwen in LM Studio prima di eseguire questa cella.
+# Load Qwen in LM Studio, then write or resume `qwen3-14b.jsonl` with three candidates per input row.
 
 # %%
 m = MODELS[0]
@@ -125,9 +130,9 @@ run_with_progress(cmd, total=TOTAL_ROWS, label=f"generate {m['alias']}")
 pool_line_count()
 
 # %% [markdown]
-# ## 2. Generazione candidati con Gemma
+# ## 2. Generate Gemma Candidates
 #
-# Carica Gemma in LM Studio prima di eseguire questa cella. Aggiorna `MODELS[1]["model"]` se il nome esposto da LM Studio ? diverso.
+# Load Gemma in LM Studio, then write or resume `gemma-12b-qat.jsonl`; update `MODELS[1]["model"]` if LM Studio exposes a different name.
 
 # %%
 m = MODELS[1]
@@ -147,9 +152,9 @@ run_with_progress(cmd, total=TOTAL_ROWS, label=f"generate {m['alias']}")
 pool_line_count()
 
 # %% [markdown]
-# ## 3. Generazione candidati con Ministral
+# ## 3. Generate Ministral Candidates
 #
-# Carica Ministral in LM Studio prima di eseguire questa cella. Aggiorna `MODELS[2]["model"]` se necessario.
+# Load Ministral in LM Studio, then write or resume `ministral-3-14b-reasoning.jsonl`; update `MODELS[2]["model"]` if needed.
 
 # %%
 m = MODELS[2]
@@ -169,9 +174,9 @@ run_with_progress(cmd, total=TOTAL_ROWS, label=f"generate {m['alias']}")
 pool_line_count()
 
 # %% [markdown]
-# ## 4. Ranking finale con Qwen judge
+# ## 4. Rank The Ensemble With Qwen
 #
-# Ricarica Qwen in LM Studio prima di eseguire questa cella.
+# Reload Qwen in LM Studio, then merge all candidate pools, score them, run pairwise reranking, and write the ensemble TSV plus diagnostics.
 
 # %%
 cmd = [
@@ -194,14 +199,18 @@ cmd = [
 run_with_progress(cmd, total=TOTAL_ROWS, label="rank candidates")
 
 # %% [markdown]
-# ## 5. Validazione
+# ## 5. Validation
+#
+# Validate the ensemble TSV against the Task A input file before using it as a submission candidate.
 
 # %%
 cmd = [PYTHON, SCRIPT, "validate", "--input", INPUT, "--output", ENSEMBLE_OUTPUT]
 run_with_progress(cmd, label="validate")
 
 # %% [markdown]
-# ## 6. Riepilogo candidate pool e winner per modello
+# ## 6. Candidate Pool And Winner Summary By Model
+#
+# Count candidate-pool records and summarize how many final winners came from each source model.
 
 # %%
 total, by_file = pool_line_count()

@@ -1,24 +1,24 @@
-# Confronto diagnostics: single Ministral vs ensemble
+# Diagnostics Comparison: Single Ministral vs Ensemble
 
-Questo README confronta i diagnostics in:
+This README compares the diagnostics in:
 
 - `diagnostics_single_ministral/`
 - `diagnostics_ensemble/`
 
-La lettura segue il criterio descritto in `RERANKING.md`: le metriche non sono una metrica ufficiale della challenge, ma proxy interni per stimare quale battuta vincerebbe una preferenza umana pairwise. I segnali principali sono:
+The reading follows the criterion described in `RERANKING.md`: these metrics are not an official challenge metric, but internal proxies for estimating which joke would win a human pairwise preference. The main signals are:
 
-- `judge_score`: voto LLM judge da 0 a 10 su vincoli, brevita, sorpresa, specificita, naturalezza e comicita;
-- `humor_score`: probabilita di humor del classifier, usata come segnale ausiliario;
-- `score`: combinazione finale usata per ordinare i candidati prima del torneo pairwise;
-- `winner`: candidato selezionato dopo il reranking.
+- `judge_score`: LLM judge score from 0 to 10 for constraints, brevity, surprise, specificity, naturalness, and humor;
+- `humor_score`: classifier humor probability, used as an auxiliary signal;
+- `score`: final combination used to sort candidates before the pairwise tournament;
+- `winner`: candidate selected after reranking.
 
-## Sintesi
+## Summary
 
-L'ensemble produce winner mediamente piu forti per il judge, ma anche piu lunghi e piu esposti a pattern stilistici ripetuti. Il single Ministral e piu compatto e usa molto piu spesso formule classiche tipo `Why did...`, ma ha meno varieta e in un caso seleziona un winner non valido.
+The ensemble produces winners that are stronger on average according to the judge, but also longer and more exposed to repeated style patterns. The single Ministral run is more compact and much more likely to use classic joke formulas such as `Why did...`, but it has less variety and selects one invalid winner.
 
-La differenza piu importante e questa:
+The most important difference is:
 
-| metrica winner | single Ministral | ensemble | delta ensemble |
+| winner metric | single Ministral | ensemble | ensemble delta |
 | --- | ---: | ---: | ---: |
 | avg `score` | 7.303 | 7.517 | +0.214 |
 | avg `judge_score` | 7.250 | 8.053 | +0.802 |
@@ -27,76 +27,76 @@ La differenza piu importante e questa:
 | median chars | 133.0 | 163.0 | +30.0 |
 | invalid winner | 1 | 0 | -1 |
 
-Interpretazione: l'ensemble guadagna soprattutto per qualita percepita dal judge (`judge_score`), non per il classifier humor. Anzi, il suo `humor_score` medio e piu basso. Questo succede perche il judge premia spesso specificita, sorpresa e legame con la headline, mentre il classifier sembra favorire piu facilmente forme brevi e convenzionali.
+Interpretation: the ensemble gains mostly from judge-perceived quality (`judge_score`), not from the humor classifier. In fact, its average `humor_score` is lower. This happens because the judge often rewards specificity, surprise, and connection to the headline, while the classifier seems to favor shorter and more conventional forms.
 
-## Copertura e validita
+## Coverage And Validity
 
-Entrambe le strategie coprono gli stessi 300 input:
+Both strategies cover the same 300 inputs:
 
-| metrica | single Ministral | ensemble |
+| metric | single Ministral | ensemble |
 | --- | ---: | ---: |
 | ids | 300 | 300 |
 | news headline | 275 | 275 |
 | word inclusion | 25 | 25 |
-| candidati totali | 1500 | 2697 |
-| candidati validi | 1393 | 2578 |
-| candidati invalidi | 107 | 119 |
+| total candidates | 1500 | 2697 |
+| valid candidates | 1393 | 2578 |
+| invalid candidates | 107 | 119 |
 | invalid rate | 7.1% | 4.4% |
 
-Il single genera 5 candidati per id, tutti da `mistral-7b-instruct-v03`. L'ensemble genera quasi 9 candidati per id, usando `gemma-12b-qat`, `qwen3-14b` e `ministral-3-14b-reasoning`.
+The single run generates 5 candidates per ID, all from `ministral-3-14b-reasoning`. The ensemble generates almost 9 candidates per ID, using `gemma-12b-qat`, `qwen3-14b`, and `ministral-3-14b-reasoning`.
 
-Anche se l'ensemble ha piu invalidi in valore assoluto, ha un tasso di invalidita piu basso perche il pool e piu grande. Inoltre non seleziona winner invalidi. Nel single c'e un caso problematico:
+Although the ensemble has more invalid candidates in absolute terms, it has a lower invalid rate because the pool is larger. It also does not select invalid winners. In the single run, there is one problematic case:
 
-- `en_2287`: winner invalido per `missing_required_words:clothe`, con `score = 0.0` e `judge_score = 0.0`.
+- `en_2287`: invalid winner for `missing_required_words:clothe`, with `score = 0.0` and `judge_score = 0.0`.
 
-## Confronto diretto sui 300 winner
+## Direct Comparison On The 300 Winners
 
-I winner sono diversi in tutti i 300 casi: non c'e nessun testo finale identico tra le due strategie.
+The winners are different in all 300 cases: there is no identical final text between the two strategies.
 
-| confronto diretto | count |
+| direct comparison | count |
 | --- | ---: |
-| ensemble con `score` piu alto | 157 |
-| single con `score` piu alto | 143 |
-| ensemble con `judge_score` piu alto | 184 |
-| single con `judge_score` piu alto | 32 |
-| pari su `judge_score` | 84 |
-| ensemble piu corto | 96 |
-| single piu corto | 203 |
+| ensemble with higher `score` | 157 |
+| single with higher `score` | 143 |
+| ensemble with higher `judge_score` | 184 |
+| single with higher `judge_score` | 32 |
+| tied on `judge_score` | 84 |
+| ensemble shorter | 96 |
+| single shorter | 203 |
 
-Questa tabella spiega bene il tradeoff. Sullo `score` finale la gara e quasi pari, perche il `humor_score` piu basso dell'ensemble compensa parte del vantaggio del judge. Sul `judge_score`, invece, l'ensemble vince nettamente.
+This table captures the trade-off. On final `score`, the comparison is almost even because the ensemble's lower `humor_score` offsets part of its judge advantage. On `judge_score`, however, the ensemble wins clearly.
 
-## Differenze stilistiche
+## Style Differences
 
-| pattern sui winner | single Ministral | ensemble |
+| winner pattern | single Ministral | ensemble |
 | --- | ---: | ---: |
-| inizia con `Why did` | 127 | 16 |
-| inizia con `I tried` | 0 | 36 |
-| inizia con `I asked` | 0 | 7 |
-| inizia con `I told` | 0 | 5 |
-| contiene `turns out` | 6 | 36 |
-| contiene virgolette | 74 | 145 |
-| oltre 200 caratteri | 34 | 79 |
-| oltre 300 caratteri | 7 | 6 |
+| starts with `Why did` | 127 | 16 |
+| starts with `I tried` | 0 | 36 |
+| starts with `I asked` | 0 | 7 |
+| starts with `I told` | 0 | 5 |
+| contains `turns out` | 6 | 36 |
+| contains quotation marks | 74 | 145 |
+| over 200 characters | 34 | 79 |
+| over 300 characters | 7 | 6 |
 
-Il single Ministral tende a produrre battute piu corte e strutture da joke tradizionale. Questo rende l'output piu pulito e prevedibile, ma anche meno specifico sulle headline.
+The single Ministral run tends to produce shorter jokes and traditional joke structures. This makes the output cleaner and more predictable, but also less specific to the headlines.
 
-L'ensemble e piu vario nei modelli e spesso piu specifico, pero introduce piu frasi narrative, piu virgolette, piu `turns out` e molte piu battute sopra i 200 caratteri. Questi pattern sono rischiosi per la preferenza umana pairwise, perche possono sembrare template o troppo verbosi.
+The ensemble is more varied across models and often more specific, but it introduces more narrative phrasing, more quotation marks, more `turns out`, and many more jokes above 200 characters. These patterns are risky for human pairwise preference because they can feel templated or too verbose.
 
-## Modelli nell'ensemble
+## Models In The Ensemble
 
-| modello | candidati | validi | winner | win share |
+| model | candidates | valid | winners | win share |
 | --- | ---: | ---: | ---: | ---: |
 | `ministral-3-14b-reasoning` | 900 | 848 | 114 | 38.0% |
 | `gemma-12b-qat` | 900 | 873 | 98 | 32.7% |
 | `qwen3-14b` | 897 | 857 | 88 | 29.3% |
 
-`ministral-3-14b-reasoning` e il modello con piu winner nell'ensemble, ma la distribuzione e abbastanza bilanciata. Questo e un buon segnale: l'ensemble non sta solo replicando un singolo modello, ma sta davvero pescando da stili diversi.
+`ministral-3-14b-reasoning` is the model with the most winners in the ensemble, but the distribution is fairly balanced. This is a good sign: the ensemble is not merely replicating one model, but actually drawing from different styles.
 
-## Comportamento del torneo pairwise
+## Pairwise Tournament Behavior
 
-Nel single, il winner e spesso tra i primi candidati ordinati per `score`:
+In the single run, the winner is often among the first candidates sorted by `score`:
 
-| rank winner nel pool ordinato | single Ministral |
+| winner rank in sorted pool | single Ministral |
 | --- | ---: |
 | 1 | 76 |
 | 2 | 49 |
@@ -104,9 +104,9 @@ Nel single, il winner e spesso tra i primi candidati ordinati per `score`:
 | 4 | 54 |
 | 5 | 64 |
 
-Nell'ensemble, invece, il winner arriva molto spesso dalla parte bassa della top-k:
+In the ensemble, however, the winner very often comes from the lower part of the top-k:
 
-| rank winner nel pool ordinato | ensemble |
+| winner rank in sorted pool | ensemble |
 | --- | ---: |
 | 1 | 15 |
 | 2 | 16 |
@@ -115,20 +115,20 @@ Nell'ensemble, invece, il winner arriva molto spesso dalla parte bassa della top
 | 5 | 58 |
 | 6 | 144 |
 
-Questo indica che il torneo pairwise sta cambiando parecchio la scelta finale rispetto al puro ordinamento numerico. Nell'ensemble la top-k e piu competitiva e il judge pairwise sembra preferire candidati che non sempre hanno il massimo `score` iniziale.
+This indicates that the pairwise tournament changes the final choice substantially compared with pure numerical sorting. In the ensemble, the top-k is more competitive, and the pairwise judge seems to prefer candidates that do not always have the highest initial `score`.
 
-## Lettura pratica
+## Practical Reading
 
-L'ensemble e la strategia migliore se l'obiettivo e massimizzare il proxy piu vicino alla valutazione umana, cioe il giudizio LLM su specificita, sorpresa e qualita della battuta. Il vantaggio medio di `+0.802` su `judge_score` e sostanziale.
+The ensemble is the better strategy if the goal is to maximize the proxy closest to human evaluation: the LLM judgment on specificity, surprise, and joke quality. The average `+0.802` advantage on `judge_score` is substantial.
 
-Il single Ministral resta utile come baseline conservativa: e piu breve, piu uniforme e meno soggetto a pattern narrativi lunghi. Pero perde nettamente sul judge e ha meno diversita di candidati, quindi ha meno occasioni di trovare battute specifiche e sorprendenti.
+The single Ministral run remains useful as a conservative baseline: it is shorter, more uniform, and less exposed to long narrative patterns. However, it loses clearly on judge score and has less candidate diversity, so it has fewer opportunities to find specific and surprising jokes.
 
-La raccomandazione operativa e usare l'ensemble come incumbent, ma applicare un refine mirato sui suoi rischi stilistici:
+The operational recommendation is to use the ensemble as the incumbent, then apply targeted refinement to its style risks:
 
-1. ridurre winner oltre 200 caratteri;
-2. penalizzare aperture ripetute come `I tried`, `I asked`, `I told`;
-3. penalizzare `turns out` quando non aggiunge una vera sorpresa;
-4. controllare i casi con molte virgolette;
-5. mantenere il confronto pairwise conservativo prima di sostituire un incumbent gia valido.
+1. shorten winners over 200 characters;
+2. penalize repeated openings such as `I tried`, `I asked`, and `I told`;
+3. penalize `turns out` when it does not add a real surprise;
+4. check cases with many quotation marks;
+5. keep the conservative pairwise comparison before replacing an already valid incumbent.
 
-In breve: l'ensemble vince sulla qualita stimata, il single vince sulla compattezza. Per la submission finale conviene partire dall'ensemble e fare una pulizia stilistica, non tornare al single puro.
+In short: the ensemble wins on estimated quality, while the single run wins on compactness. For the final submission, it is better to start from the ensemble and clean up its style, rather than returning to the pure single-model run.
