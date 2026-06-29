@@ -12,59 +12,44 @@
       "headline": "-"
     }
   },
-  "winner": "Why did the corn go to art school? To blend into the impressionist paintings!",
+  "winner": "I tried to blend corn into my smoothie for a healthier option, but all I got was a kernel of doubt about my life choices.",
   "candidates": [
     {
-      "text": "Why did the corn go to art school? To blend into the impressionist paintings!",
-      "style": "absurd literalism",
-      "seed": 501603,
-      "temperature": 1.02,
-      "source_model": "mistral-7b-instruct-v03",
-      "source_backend": "openai",
-      "source_base_url": "http://localhost:1234/v1",
-      "score": 8.385109448432923,
-      "judge_score": 8.0,
-      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"The joke uses both required words naturally, is concise, and delivers a surprising twist with a play on 'blend' and art styles.\"}",
-      "humor_score": 0.9925547242164612,
-      "valid": true,
-      "invalid_reason": ""
-    },
-    {
-      "text": "Why was the maize at the party so popular? Because it knew how to blend in with the corn chips!",
-      "style": "topical punchline",
-      "seed": 501605,
-      "temperature": 0.82,
-      "source_model": "mistral-7b-instruct-v03",
-      "source_backend": "openai",
-      "source_base_url": "http://localhost:1234/v1",
-      "score": 7.189849030971527,
-      "judge_score": 6.5,
-      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses both required words and has a basic pun, but the humor is weak and somewhat forced. The surprise and specificity are low, and the connection between 'blend in' and 'maize' is not particularly clever.\"}",
-      "humor_score": 0.9949245154857635,
-      "valid": true,
-      "invalid_reason": ""
-    },
-    {
-      "text": "Why don't corn farmers ever blend their drinks with ice? Because they prefer to keep it cob-related!",
-      "style": "wordplay",
-      "seed": 501601,
-      "temperature": 0.82,
-      "source_model": "mistral-7b-instruct-v03",
-      "source_backend": "openai",
-      "source_base_url": "http://localhost:1234/v1",
-      "score": 7.188756775856018,
-      "judge_score": 6.5,
-      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses the required words 'blend' and 'corn,' and has a mild pun on 'cob-related.' However, it lacks surprise and feels somewhat forced, with limited humor impact.\"}",
-      "humor_score": 0.994378387928009,
-      "valid": true,
-      "invalid_reason": ""
-    },
-    {
-      "text": "Why don't corn farmers ever play cards in a blender? Because it's too easy for them to shuck the deck!",
+      "text": "Why did the corn refuse to blend into the crowd? Because it didn't want to be called a *maize*-termind!",
       "style": "reversal",
       "seed": 501602,
       "temperature": 0.92,
-      "source_model": "mistral-7b-instruct-v03",
+      "source_model": "ministral-3-14b-reasoning",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.79169272184372,
+      "judge_score": 8.5,
+      "judge_raw": "\n\n{\"score\": 8.5, \"reason\": \"Creative pun on 'maize' and 'misunderstood,' with good use of required words and a surprising twist.\"}",
+      "humor_score": 0.9958463609218597,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "I tried to blend corn into my smoothie for a healthier option, but all I got was a kernel of doubt about my life choices.",
+      "style": "wordplay",
+      "seed": 501601,
+      "temperature": 0.82,
+      "source_model": "ministral-3-14b-reasoning",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 8.256686294078827,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Creative use of 'kernel of doubt' ties in both required words naturally with a surprising twist.\"}",
+      "humor_score": 0.9283431470394135,
+      "valid": true,
+      "invalid_reason": ""
+    },
+    {
+      "text": "I blended corn into a smoothie—turns out, it was just as bland as the name suggests.",
+      "style": "absurd literalism",
+      "seed": 501603,
+      "temperature": 1.02,
+      "source_model": "ministral-3-14b-reasoning",
       "source_backend": "openai",
       "source_base_url": "http://localhost:1234/v1",
       "score": 0.0,
@@ -75,11 +60,11 @@
       "invalid_reason": "missing_required_words:blend"
     },
     {
-      "text": "I'm not a fan of country music, but I did hear one song about corn that really grew on me... It was called \"Blended Harvest.",
+      "text": "I blended corn into my smoothie today—it was surprisingly refreshing, like drinking a field of expectations.",
       "style": "deadpan understatement",
       "seed": 501604,
       "temperature": 1.08,
-      "source_model": "mistral-7b-instruct-v03",
+      "source_model": "ministral-3-14b-reasoning",
       "source_backend": "openai",
       "source_base_url": "http://localhost:1234/v1",
       "score": 0.0,
@@ -88,6 +73,21 @@
       "humor_score": null,
       "valid": false,
       "invalid_reason": "missing_required_words:blend"
+    },
+    {
+      "text": "Why did I bring a blender to the cornfield? Because I heard they were hiring for a *maize*-ing career, and I wanted to make sure my resume stood out!",
+      "style": "topical punchline",
+      "seed": 501605,
+      "temperature": 0.82,
+      "source_model": "ministral-3-14b-reasoning",
+      "source_backend": "openai",
+      "source_base_url": "http://localhost:1234/v1",
+      "score": 0.0,
+      "judge_score": 0.0,
+      "judge_raw": "",
+      "humor_score": null,
+      "valid": false,
+      "invalid_reason": "missing_required_words:blend,corn"
     }
   ]
 }

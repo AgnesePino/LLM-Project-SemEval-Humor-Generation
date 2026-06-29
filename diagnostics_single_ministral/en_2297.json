@@ -12,29 +12,29 @@
       "headline": "-"
     }
   },
-  "winner": "Why did the egg go to school? Because it wanted to improve its measure-ments!",
+  "winner": "I tried to measure my egg's circumference for a baking experiment, but it kept slipping out of my hands like a runaway omelette.",
   "candidates": [
     {
-      "text": "Why did the egg go to school? Because it wanted to improve its measure-ments!",
-      "style": "reversal",
-      "seed": 499602,
-      "temperature": 0.92,
-      "source_model": "mistral-7b-instruct-v03",
+      "text": "I tried to measure my egg's circumference for a baking experiment, but it kept slipping out of my hands like a runaway omelette.",
+      "style": "wordplay",
+      "seed": 499601,
+      "temperature": 0.82,
+      "source_model": "ministral-3-14b-reasoning",
       "source_backend": "openai",
       "source_base_url": "http://localhost:1234/v1",
-      "score": 7.1785276055336,
-      "judge_score": 6.5,
-      "judge_raw": "\n\n{\"score\": 6.5, \"reason\": \"The joke uses the required words 'measure' and 'egg' creatively with a pun on 'measurements,' but the humor is somewhat predictable and lacks originality.\"}",
-      "humor_score": 0.9892638027667999,
+      "score": 8.37861909866333,
+      "judge_score": 8.0,
+      "judge_raw": "\n\n{\"score\": 8.0, \"reason\": \"Creative analogy with 'runaway omelette,' good use of required words, concise and surprising.\"}",
+      "humor_score": 0.989309549331665,
       "valid": true,
       "invalid_reason": ""
     },
     {
-      "text": "Why did the egg take a measuring tape to the party? It wanted to crack up the guests with its well-timed lengthy jokes!",
-      "style": "wordplay",
-      "seed": 499601,
-      "temperature": 0.82,
-      "source_model": "mistral-7b-instruct-v03",
+      "text": "I tried measuring the height of my toaster, but I always end up with egg on my face—it turns out it was just an egg timer all along.",
+      "style": "reversal",
+      "seed": 499602,
+      "temperature": 0.92,
+      "source_model": "ministral-3-14b-reasoning",
       "source_backend": "openai",
       "source_base_url": "http://localhost:1234/v1",
       "score": 0.0,
@@ -45,11 +45,11 @@
       "invalid_reason": "missing_required_words:measure"
     },
     {
-      "text": "Why did the egg take a measuring tape to the party? It wanted to be the life of the crack-ers!",
+      "text": "I measured my egg to see if it could hold a gallon of milk, but apparently, it was too small.",
       "style": "absurd literalism",
       "seed": 499603,
       "temperature": 1.02,
-      "source_model": "mistral-7b-instruct-v03",
+      "source_model": "ministral-3-14b-reasoning",
       "source_backend": "openai",
       "source_base_url": "http://localhost:1234/v1",
       "score": 0.0,
@@ -60,11 +60,11 @@
       "invalid_reason": "missing_required_words:measure"
     },
     {
-      "text": "Why did the egg get a promotion at the bakery? Because it consistently measured up.",
+      "text": "I measured my egg to see if it was large enough for breakfast—it was exactly six inches.",
       "style": "deadpan understatement",
       "seed": 499604,
       "temperature": 1.08,
-      "source_model": "mistral-7b-instruct-v03",
+      "source_model": "ministral-3-14b-reasoning",
       "source_backend": "openai",
       "source_base_url": "http://localhost:1234/v1",
       "score": 0.0,
@@ -75,11 +75,11 @@
       "invalid_reason": "missing_required_words:measure"
     },
     {
-      "text": "Why don't eggs ever measure up in a beauty pageant? Because they always crack under pressure!",
+      "text": "What’s the problem with measuring an egg? It’s already got a yolk to it!",
       "style": "topical punchline",
       "seed": 499605,
       "temperature": 0.82,
-      "source_model": "mistral-7b-instruct-v03",
+      "source_model": "ministral-3-14b-reasoning",
       "source_backend": "openai",
       "source_base_url": "http://localhost:1234/v1",
       "score": 0.0,
@@ -87,7 +87,7 @@
       "judge_raw": "",
       "humor_score": null,
       "valid": false,
-      "invalid_reason": "missing_required_words:egg"
+      "invalid_reason": "missing_required_words:measure"
     }
   ]
 }

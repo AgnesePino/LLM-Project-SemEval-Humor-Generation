@@ -12,14 +12,14 @@
       "headline": "-"
     }
   },
-  "winner": "Why did the shirt refuse to dance? It was afraid it might get a shake and lose its cloth!",
+  "winner": "I shook hands with the guy at the store today, and then I clothe-d it right back up.",
   "candidates": [
     {
-      "text": "Why did the shirt go to jail? Because it got caught shaking its clothes in public!",
+      "text": "Why did the man bring a pair of clothes to the bar? He wanted to *shake* up his style with some *clothing* choices!",
       "style": "wordplay",
       "seed": 489601,
       "temperature": 0.82,
-      "source_model": "mistral-7b-instruct-v03",
+      "source_model": "ministral-3-14b-reasoning",
       "source_backend": "openai",
       "source_base_url": "http://localhost:1234/v1",
       "score": 0.0,
@@ -27,14 +27,14 @@
       "judge_raw": "",
       "humor_score": null,
       "valid": false,
-      "invalid_reason": "missing_required_words:shake,clothe"
+      "invalid_reason": "missing_required_words:clothe"
     },
     {
-      "text": "Why did the shirt refuse to dance? It was afraid it might get a shake and lose its cloth!",
+      "text": "I shook hands with the guy at the store today, and then I clothe-d it right back up.",
       "style": "reversal",
       "seed": 489602,
       "temperature": 0.92,
-      "source_model": "mistral-7b-instruct-v03",
+      "source_model": "ministral-3-14b-reasoning",
       "source_backend": "openai",
       "source_base_url": "http://localhost:1234/v1",
       "score": 0.0,
@@ -42,14 +42,14 @@
       "judge_raw": "",
       "humor_score": null,
       "valid": false,
-      "invalid_reason": "missing_required_words:clothe"
+      "invalid_reason": "missing_required_words:shake"
     },
     {
-      "text": "Why did the shake go to school wearing clothes? Because it didn't want to be a bare milkshake!",
+      "text": "I went to a store and asked for clothes to shake my hand with. The salesperson looked at me like I was crazy, but honestly, I just wanted something soft to grip while making an entrance.",
       "style": "absurd literalism",
       "seed": 489603,
       "temperature": 1.02,
-      "source_model": "mistral-7b-instruct-v03",
+      "source_model": "ministral-3-14b-reasoning",
       "source_backend": "openai",
       "source_base_url": "http://localhost:1234/v1",
       "score": 0.0,
@@ -60,11 +60,11 @@
       "invalid_reason": "missing_required_words:clothe"
     },
     {
-      "text": "When I saw my pants shaking uncontrollably at a party, I realized I had left my clothes in the washing machine again.",
+      "text": "I shook hands with my boss today. I thought he might have been trying to clothe me, but then he just said \"Let's make a deal.",
       "style": "deadpan understatement",
       "seed": 489604,
       "temperature": 1.08,
-      "source_model": "mistral-7b-instruct-v03",
+      "source_model": "ministral-3-14b-reasoning",
       "source_backend": "openai",
       "source_base_url": "http://localhost:1234/v1",
       "score": 0.0,
@@ -72,14 +72,14 @@
       "judge_raw": "",
       "humor_score": null,
       "valid": false,
-      "invalid_reason": "missing_required_words:shake,clothe"
+      "invalid_reason": "missing_required_words:shake"
     },
     {
-      "text": "Why did the shirt go to therapy? Because it had a serious case of the shakes!",
+      "text": "I went to the gym and tried a new workout routine—mostly just shaking weights while wearing a clothe that says \"No Gym Bro Here.\" Turns out, I was the gym bro, but at least my shirt matched my performance.",
       "style": "topical punchline",
       "seed": 489605,
       "temperature": 0.82,
-      "source_model": "mistral-7b-instruct-v03",
+      "source_model": "ministral-3-14b-reasoning",
       "source_backend": "openai",
       "source_base_url": "http://localhost:1234/v1",
       "score": 0.0,
@@ -87,7 +87,7 @@
       "judge_raw": "",
       "humor_score": null,
       "valid": false,
-      "invalid_reason": "missing_required_words:shake,clothe"
+      "invalid_reason": "missing_required_words:shake"
     }
   ]
 }
