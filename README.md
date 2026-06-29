@@ -1,74 +1,151 @@
-# MWAHAHA Task A English Local Pipeline
+# SemEval 2026 - Task 1: MWAHAHA, Humor Generation
 
-Pipeline locale per generare, validare, rifinire e impacchettare la submission `task-a-en.tsv` per il Task A English di MWAHAHA.
+This repository contains our local pipeline for **SemEval 2026 Task 1: MWAHAHA**, specifically **Task A English**, which focuses on constrained humor generation.
 
-Il flusso e pensato per hardware locale con RTX 4070 12GB VRAM e 32GB RAM, usando un modello open-source servito da LM Studio, llama.cpp server o Ollama.
+The goal of the task is to generate a funny text starting from one of two possible inputs:
 
-## Stato Del Progetto
+- a **news headline**, where the joke must remain related to the headline;
+- a **pair of required words**, where both words must appear verbatim in the generated joke.
 
-File principali:
+The system follows a **generation-and-selection approach**. Instead of producing only one joke directly, it generates several candidate jokes for each input, checks whether they satisfy the task constraints, scores them, and finally selects the best one through reranking.
 
-| File o directory | Ruolo |
-|---|---|
-| `mwahaha_task_a_en.py` | Script principale con comandi `run`, `validate`, `evaluate`, `refine` |
-| `data/input/task-a-en.tsv` | Input test set Task A English |
-| `submission/task-a-en.tsv` | Submission corrente validata |
-| `submission/task-a-en.refined.tsv` | Submission rifinita, se generata |
-| `submission.zip` | Archivio finale da caricare su CodaBench |
-| `diagnostics/` | Diagnostics della run principale |
-| `refine_diagnostics/` | Diagnostics della run di refinement |
-| `refine_report.json` | Report aggregato del refinement |
-| `REPORT.md` | Report locale sulla submission |
-| `RERANKING.md` | Spiegazione dettagliata del reranking |
+## Repository Overview
 
-Output richiesto dalla challenge:
+The repository is organized around one main script:
 
 ```text
-id	text
-en_2001	...
-en_2002	...
+mwahaha_task_a_en.py
 ```
 
-Il file finale deve chiamarsi `task-a-en.tsv` dentro lo ZIP.
+This script contains the main commands used to:
 
-## Requisiti
+- generate joke candidates;
+- validate generated outputs;
+- rank and rerank candidates;
+- refine weak or repetitive jokes;
+- create a final submission file.
 
-- Python 3.10+.
-- Un server LLM locale:
-  - LM Studio o llama.cpp server OpenAI-compatible su `http://localhost:1234/v1`;
-  - oppure Ollama su `http://localhost:11434`.
-- Modello generativo consigliato:
-  - `Qwen3-14B` GGUF quantizzato, idealmente `Q3_K_M`, `Q4_K_M` o simile in base alla VRAM disponibile.
-- Per i classifier humor opzionali:
+The project can be used in two main configurations:
 
-```powershell
+1. **Single-model pipeline**  
+   One local LLM generates multiple candidates for each input.
+
+2. **Ensemble pipeline**  
+   Three different LLMs generate candidates separately. Their outputs are then merged, validated, scored, and reranked together.
+
+After candidate generation, both configurations use the same validation, scoring, and reranking pipeline.
+
+## Main Features
+
+- **Local execution** with open-source LLMs.
+- **Support for headline-based and word-inclusion inputs**.
+- **Single-model generation** for simpler runs.
+- **Sequential multi-model ensemble generation** for more diverse candidates.
+- **Constraint validation** to ensure outputs follow the task rules.
+- **LLM-based scoring** to estimate candidate quality.
+- **Optional humor classifiers** as an auxiliary scoring signal.
+- **Pairwise reranking** to select the final joke.
+- **Targeted refinement** to improve weak or repetitive outputs.
+- **CodaBench-ready submission packaging**.
+
+## Project Workflow
+
+The general workflow is:
+
+```text
+Input file
+   ↓
+Candidate generation
+   ├── single-model generation
+   └── ensemble generation
+   ↓
+Constraint validation
+   ↓
+Candidate scoring
+   ↓
+Pairwise reranking
+   ↓
+Optional refinement
+   ↓
+Final submission
+```
+
+In practice, the pipeline works as follows:
+
+1. Load the Task A English input file.
+2. Generate multiple joke candidates for each input.
+3. Validate each candidate against the task constraints.
+4. Score valid candidates using an LLM judge and optional humor classifiers.
+5. Compare the best candidates using pairwise reranking.
+6. Select one final joke for each input.
+7. Save the final `task-a-en.tsv` file.
+8. Package the file into `submission.zip`.
+
+## Setup
+
+### Requirements
+
+The project requires:
+
+- Python 3.10+
+- A local LLM server, such as:
+  - LM Studio
+  - llama.cpp server
+  - Ollama
+
+Recommended hardware:
+
+```text
+NVIDIA RTX 4070 12GB VRAM
+32GB RAM
+```
+
+The basic script can run with the Python standard library. Optional humor classifiers require additional libraries such as `torch` and `transformers`.
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone <repository-url>
+cd <repository-name>
+```
+
+Install the dependencies:
+
+```bash
 pip install -r requirements.txt
 ```
 
-Lo script base funziona senza librerie esterne oltre alla standard library Python. Il notebook usa `tqdm`; i classifier richiedono `torch` e `transformers`.
+## Model Setup
 
-## Setup Del Modello
+The pipeline uses local open-source LLMs served through an API.
 
-### LM Studio
+### LM Studio or llama.cpp
 
-1. Scarica un GGUF di `Qwen3-14B`.
-2. Caricalo in LM Studio.
-3. Avvia il server OpenAI-compatible sulla porta `1234`.
-4. Controlla il nome esatto del modello:
+Start an OpenAI-compatible server at:
+
+```text
+http://localhost:1234/v1
+```
+
+Then check the available model name:
 
 ```powershell
 Invoke-WebRequest -Uri http://localhost:1234/v1/models -UseBasicParsing
 ```
 
-Usa quel nome in `--model`. Nel progetto e stato usato:
-
-```text
-qwen/qwen3-14b
-```
+Use the returned model name with the `--model` argument.
 
 ### Ollama
 
-Esempio:
+The pipeline can also run through Ollama, usually at:
+
+```text
+http://localhost:11434
+```
+
+Example:
 
 ```powershell
 python .\mwahaha_task_a_en.py run `
@@ -79,36 +156,11 @@ python .\mwahaha_task_a_en.py run `
   --model qwen3:14b
 ```
 
-## Input Supportato
+## Running the Pipeline
 
-Lo script accetta TSV, CSV, JSON e JSONL.
+### Single-Model Run
 
-Inferisce automaticamente:
-
-- `id` da colonne come `id`, `ID`, `sample_id`, `example_id`;
-- `word_inclusion` da `word1`/`word2` o da una colonna `words`;
-- `news_headline` da colonne come `headline`, `title`, `news_title`, `prompt`, `text`, `context`, `input`.
-
-Valori come `-`, `nan`, `none`, `null`, `n/a` sono trattati come mancanti.
-
-## Comandi Disponibili
-
-```powershell
-python .\mwahaha_task_a_en.py --help
-```
-
-Comandi:
-
-| Comando | Scopo |
-|---|---|
-| `run` | Genera una submission da input |
-| `validate` | Valida un TSV gia generato |
-| `evaluate` | Confronta la submission contro una baseline generata localmente |
-| `refine` | Rigenera solo righe deboli e sostituisce in modo conservativo |
-
-## Generazione Principale
-
-Comando consigliato per generare la submission base:
+The single-model configuration uses one LLM to generate all candidates. In this project, the single-model setup uses **Ministral 3 14B Reasoning**.
 
 ```powershell
 python .\mwahaha_task_a_en.py run `
@@ -116,31 +168,29 @@ python .\mwahaha_task_a_en.py run `
   --output .\submission\task-a-en.tsv `
   --backend openai `
   --base-url http://localhost:1234/v1 `
-  --model qwen/qwen3-14b `
+  --model mistralai/ministral-3-14b-reasoning `
   --variants-per-style 2 `
   --rerank-top-k 3 `
   --timeout 300 `
   --diagnostics-dir .\diagnostics `
-  --resume `
-  --humor-model Humor-Research/humor-detection-comb-23 `
-  --humor-model mohameddhiab/humor-no-humor `
-  --humor-weight 0.25 `
-  --humor-device -1
+  --resume
 ```
 
-Note:
+This command:
 
-- `--resume` rilegge l'output gia presente e salta gli ID gia generati.
-- `--diagnostics-dir` salva i candidati e gli score per ogni riga.
-- `--variants-per-style 2` genera 12 candidati per riga, perche gli stili base sono 6.
-- `--rerank-top-k 3` fa il torneo finale tra i migliori 3.
-- `--humor-device -1` usa CPU per i classifier, evitando pressione sulla VRAM gia occupata da Qwen.
+- reads the input file;
+- generates multiple jokes per row;
+- validates the candidates;
+- scores and reranks them;
+- writes the final output file.
 
-## Generazione Sequenziale Multi-Modello
+### Ensemble Run
 
-Se non puoi tenere piu modelli in VRAM contemporaneamente, usa il workflow a candidate pool. Ogni modello viene caricato manualmente in LM Studio, genera i suoi candidati e li salva su disco. Alla fine ricarichi Qwen come judge e fai il ranking globale.
+The ensemble configuration generates a larger candidate pool using multiple models.
 
-### 1. Genera candidati con Qwen
+The models are run sequentially because they may not fit in memory at the same time. Each model writes its candidates to disk, and the final ranking step merges and reranks all candidates.
+
+Example with Qwen:
 
 ```powershell
 python .\mwahaha_task_a_en.py generate-candidates `
@@ -154,35 +204,9 @@ python .\mwahaha_task_a_en.py generate-candidates `
   --resume
 ```
 
-### 2. Cambia modello in LM Studio e genera con Gemma
+The same command can be repeated with other models by changing `--model` and `--model-alias`.
 
-```powershell
-python .\mwahaha_task_a_en.py generate-candidates `
-  --input .\data\input\task-a-en.tsv `
-  --pool-dir .\candidate_pools\ensemble_v1 `
-  --backend openai `
-  --base-url http://localhost:1234/v1 `
-  --model GEMMA_12B_QAT_MODEL_NAME `
-  --model-alias gemma-12b-qat `
-  --variants-per-entry 3 `
-  --resume
-```
-
-### 3. Cambia modello in LM Studio e genera con Ministral
-
-```powershell
-python .\mwahaha_task_a_en.py generate-candidates `
-  --input .\data\input\task-a-en.tsv `
-  --pool-dir .\candidate_pools\ensemble_v1 `
-  --backend openai `
-  --base-url http://localhost:1234/v1 `
-  --model mistralai/ministral-3-14b-reasoning `
-  --model-alias ministral-3-14b-reasoning `
-  --variants-per-entry 3 `
-  --resume
-```
-
-### 4. Ricarica Qwen e ranka tutti i candidati
+After all candidate pools are generated, run the global ranking step:
 
 ```powershell
 python .\mwahaha_task_a_en.py rank-candidates `
@@ -194,33 +218,13 @@ python .\mwahaha_task_a_en.py rank-candidates `
   --model qwen/qwen3-14b `
   --rerank-top-k 6 `
   --diagnostics-dir .\diagnostics_ensemble `
-  --humor-model Humor-Research/humor-detection-comb-23 `
-  --humor-model mohameddhiab/humor-no-humor `
   --humor-weight 0.20 `
-  --humor-device -1 `
   --resume
 ```
 
-`generate-candidates --resume` non duplica righe gia presenti per lo stesso `--model-alias`. `rank-candidates` legge tutti i file `*.jsonl` nella pool, deduplica globalmente, valida i candidati e usa il normale reranking con Qwen judge.
+## Validation
 
-## Strategie Di Generazione
-
-Per ogni input vengono generati candidati usando stili diversi:
-
-- `wordplay`;
-- `reversal`;
-- `absurd literalism`;
-- `deadpan understatement`;
-- `topical punchline`;
-- `incongruity`.
-
-Per `word_inclusion`, il prompt chiede una battuta che includa entrambe le parole verbatim e faccia dipendere la punchline da entrambe.
-
-Per `news_headline`, il prompt chiede una battuta ispirata alla headline, mantenendo un legame chiaro senza limitarsi a riassumerla.
-
-## Validazione
-
-Comando:
+The validation command checks whether a generated submission satisfies the formal task requirements.
 
 ```powershell
 python .\mwahaha_task_a_en.py validate `
@@ -228,85 +232,45 @@ python .\mwahaha_task_a_en.py validate `
   --output .\submission\task-a-en.tsv
 ```
 
-Controlli:
+The validator checks that:
 
-- header esatto `id	text`;
-- tutti gli ID presenti una sola volta;
-- nessun ID extra;
-- testo non vuoto;
-- massimo 900 caratteri;
-- nessun tab o newline nel campo `text`;
-- nessun boilerplate tipo `Joke:` o `Here is a joke:`;
-- parole obbligatorie presenti per `word_inclusion`;
-- overlap minimo con la headline per `news_headline`.
+- the file has the correct header;
+- all expected IDs are present;
+- there are no duplicated or extra IDs;
+- the text field is not empty;
+- there are no tabs or line breaks inside the text field;
+- the output is not too long;
+- the joke does not contain boilerplate such as `Joke:` or `Here is a joke:`;
+- required words are included verbatim for word-inclusion examples;
+- headline-based jokes keep a minimum lexical connection to the headline.
 
 ## Reranking
 
-Il reranking cerca di approssimare la metrica reale della challenge: preferenza umana pairwise tra battute.
+The final selection does not use BLEU, ROUGE, or text similarity metrics.
 
-Non usa BLEU, ROUGE o similarita testuale.
+This is because humor is subjective and there is no single correct joke for each input. Instead, the system approximates human preference using an LLM judge.
 
-### Livello 1: filtro di validita
-
-I candidati non validi vengono messi in fondo o esclusi.
-
-### Livello 2: score numerico
-
-Qwen judge assegna uno score `0-10` considerando:
-
-- rispetto dei vincoli;
-- brevita;
-- sorpresa;
-- specificita;
-- inglese naturale;
-- comicita.
-
-Se sono attivi i classifier humor, lo score finale e:
+The reranking process has three steps:
 
 ```text
-final_score = (1 - humor_weight) * judge_score + humor_weight * (10 * humor_score)
+Validation
+   ↓
+Numerical scoring
+   ↓
+Pairwise tournament
 ```
 
-Esempio con `--humor-weight 0.25`:
+First, invalid candidates are removed or pushed to the bottom. Then valid candidates are scored by an LLM judge. If enabled, humor classifiers provide an additional auxiliary score. Finally, the best candidates are compared in a small pairwise tournament, and the winner becomes the final joke for that input.
 
-```text
-final_score = 0.75 * judge_score + 0.25 * (10 * humor_score)
-```
+More details are available in [`RERANKING.md`](RERANKING.md).
 
-### Livello 3: torneo pairwise
+## Refinement
 
-Dopo lo score numerico, lo script prende i migliori `--rerank-top-k` candidati e li confronta in mini torneo:
+The refinement step is used after a valid submission has already been created.
 
-```text
-champion = candidato #1
-champion vs candidato #2
-winner vs candidato #3
-winner vs candidato #4
-...
-```
+It does not regenerate the whole submission. Instead, it targets jokes that may be weak, too long, repetitive, or stylistically risky.
 
-Il winner del torneo e la battuta finale.
-
-Approfondimento: [RERANKING.md](RERANKING.md).
-
-## Refinement Mirato
-
-Il comando `refine` serve quando la submission e valida ma stilisticamente ripetitiva.
-
-Non rigenera tutto. Seleziona solo righe ad alto rischio, genera nuovi challenger e sostituisce la battuta esistente solo se il challenger vince un confronto pairwise.
-
-Target automatici:
-
-- inizio con `I tried`;
-- inizio con `I asked`;
-- inizio con `I told`;
-- presenza di `turns out`;
-- testo oltre 200 caratteri;
-- virgolette;
-- score basso nei diagnostics;
-- righe non valide, se presenti.
-
-Comando consigliato:
+Example:
 
 ```powershell
 python .\mwahaha_task_a_en.py refine `
@@ -315,315 +279,157 @@ python .\mwahaha_task_a_en.py refine `
   --output .\submission\task-a-en.refined.tsv `
   --backend openai `
   --base-url http://localhost:1234/v1 `
-  --model qwen/qwen3-14b `
+  --model mistralai/ministral-3-14b-reasoning `
   --variants-per-style 2 `
   --rerank-top-k 4 `
-  --timeout 300 `
   --diagnostics-dir .\diagnostics `
   --refine-diagnostics-dir .\refine_diagnostics `
   --report .\refine_report.json `
-  --resume `
-  --max-targets 120 `
-  --pairwise-votes 3 `
-  --replace-votes 2 `
-  --humor-model Humor-Research/humor-detection-comb-23 `
-  --humor-model mohameddhiab/humor-no-humor `
-  --humor-weight 0.20 `
-  --humor-device -1
+  --resume
 ```
 
-Note:
+The refinement step is useful for outputs with:
 
-- `--incumbent-output` e la submission valida da battere.
-- `--output` e il nuovo TSV refined; non sovrascrive automaticamente l'incumbent.
-- `--resume` riprende una run interrotta.
-- `--refine-diagnostics-dir` permette di saltare gli ID gia processati.
-- `--pairwise-votes 3` e `--replace-votes 2` richiedono almeno 2 vittorie su 3 contro l'incumbent.
+- repeated openings such as `I tried`, `I asked`, or `I told`;
+- frequent use of `turns out`;
+- excessive length;
+- unnecessary quotation marks;
+- low diagnostic scores;
+- invalid or weakly related text.
 
-### Dry Run Del Refinement
+A new candidate replaces the existing joke only if it wins a conservative pairwise comparison.
 
-Per vedere quali righe verrebbero selezionate senza generare:
+## Output Format
 
-```powershell
-python .\mwahaha_task_a_en.py refine `
-  --input .\data\input\task-a-en.tsv `
-  --incumbent-output .\submission\task-a-en.tsv `
-  --output .\submission\task-a-en.refined.tsv `
-  --backend openai `
-  --diagnostics-dir .\diagnostics `
-  --refine-diagnostics-dir .\refine_diagnostics `
-  --resume `
-  --dry-run
+The final submission must be a TSV file with this format:
+
+```text
+id	text
+en_2001	...
+en_2002	...
 ```
 
-Il dry-run non contatta il modello se non deve generare.
-
-### Ripresa Dopo Interruzione
-
-Se la run si interrompe:
-
-1. non cancellare `submission/task-a-en.refined.tsv`;
-2. non cancellare `refine_diagnostics/`;
-3. rilancia lo stesso comando con `--resume`.
-
-Lo script:
-
-- rilegge il refined parziale;
-- salta gli ID gia presenti in `refine_diagnostics`;
-- continua dai target mancanti;
-- aggiorna progressivamente `refine_report.json`.
-
-## Diagnostics
-
-Ogni file in `diagnostics/` contiene:
-
-```json
-{
-  "input": {
-    "id": "en_2001",
-    "kind": "news_headline",
-    "headline": "..."
-  },
-  "winner": "...",
-  "candidates": [
-    {
-      "text": "...",
-      "style": "wordplay",
-      "seed": 123,
-      "temperature": 0.92,
-      "score": 7.9,
-      "judge_score": 8.0,
-      "judge_raw": "...",
-      "humor_score": 0.75,
-      "valid": true,
-      "invalid_reason": ""
-    }
-  ]
-}
-```
-
-Campi utili:
-
-- `score`: score finale usato per ordinare i candidati;
-- `judge_score`: voto LLM judge;
-- `humor_score`: probabilita stimata dai classifier;
-- `valid`: rispetto dei vincoli;
-- `invalid_reason`: motivo di scarto;
-- `winner`: battuta scelta.
-
-I file in `refine_diagnostics/` contengono anche:
-
-```json
-{
-  "incumbent": "...",
-  "challenger": "...",
-  "challenger_votes": 2,
-  "vote_trace": ["B", "A", "B"],
-  "replaced": true
-}
-```
-
-Dove:
-
-- `A` = incumbent;
-- `B` = challenger;
-- `replaced: true` = il challenger ha sostituito l'incumbent.
-
-## Quality Check Locale
-
-Il comando `evaluate` genera una baseline locale nello stile dei prompt ufficiali e giudica submission vs baseline.
-
-```powershell
-python .\mwahaha_task_a_en.py evaluate `
-  --input .\data\input\task-a-en.tsv `
-  --output .\submission\task-a-en.tsv `
-  --backend openai `
-  --base-url http://localhost:1234/v1 `
-  --model qwen/qwen3-14b `
-  --timeout 300 `
-  --min-win-rate 0.55
-```
-
-Interpretazione:
-
-- `WIN`: la submission batte la baseline locale;
-- `LOSS`: la baseline locale viene preferita;
-- sotto `55%` il comando ritorna errore.
-
-Questo non e scoring ufficiale CodaBench. Serve solo come sanity check.
-
-## Baseline Ufficiali
-
-`data/baseline/task-a-en-baseline.tsv` contiene baseline della fase dev/trial. Non ha gli stessi ID del test finale, quindi non va confrontata riga per riga con `data/input/task-a-en.tsv`.
-
-Uso consigliato:
-
-- analisi stilistica;
-- confronto di lunghezza media;
-- confronto di pattern ripetitivi;
-- ispirazione per prompt e stili.
-
-Uso sconsigliato:
-
-- copiare righe;
-- assumere che gli ID corrispondano al test set finale;
-- usarla come ground truth.
-
-## Creazione ZIP Finale
-
-Dopo avere scelto il file finale, assicurati che dentro lo ZIP ci sia solo `task-a-en.tsv`.
-
-Se vuoi usare la refined come finale:
-
-```powershell
-Copy-Item .\submission\task-a-en.refined.tsv .\submission\task-a-en.tsv
-Compress-Archive -Path .\submission\task-a-en.tsv -DestinationPath .\submission.zip -Force
-```
-
-Verifica contenuto ZIP:
-
-```powershell
-tar -tf .\submission.zip
-```
-
-Output atteso:
+The file must be named:
 
 ```text
 task-a-en.tsv
 ```
 
-## Smoke Test Senza Modello
+The final ZIP archive must contain only this file:
 
-Run completa mock su tutto il dataset, scrivendo solo in `C:\tmp`:
-
-```powershell
-python .\mwahaha_task_a_en.py run `
-  --input .\data\input\task-a-en.tsv `
-  --output C:\tmp\mwahaha_mock_output.tsv `
-  --backend mock `
-  --diagnostics-dir C:\tmp\mwahaha_mock_diagnostics
+```text
+task-a-en.tsv
 ```
 
-Validazione mock:
+To create the ZIP:
 
 ```powershell
-python .\mwahaha_task_a_en.py validate `
-  --input .\data\input\task-a-en.tsv `
-  --output C:\tmp\mwahaha_mock_output.tsv
+Compress-Archive -Path .\submission\task-a-en.tsv -DestinationPath .\submission.zip -Force
 ```
 
-Evaluate mock:
+## File Structure
 
-```powershell
-python .\mwahaha_task_a_en.py evaluate `
-  --input .\data\input\task-a-en.tsv `
-  --output C:\tmp\mwahaha_mock_output.tsv `
-  --backend mock
+```text
+.
+├── mwahaha_task_a_en.py              # Main script for generation, validation, evaluation, refinement, and ranking
+├── requirements.txt                  # Python dependencies
+├── README.md                         # Main project guide
+├── RERANKING.md                      # Technical explanation of validation, scoring, and reranking
+├── REPORT_ENSEMBLE.md                # Report about the ensemble run
+├── DIAGNOSTICS_COMPARISON.md         # Comparison between single-model and ensemble runs
+├── refine_report.json                # Report generated by the refinement step
+├── data/
+│   ├── input/
+│   │   └── task-a-en.tsv             # Task A English input file
+│   └── baseline/
+│       └── task-a-en-baseline.tsv    # Baseline file for local analysis
+├── submission/
+│   ├── task-a-en.tsv                 # Final submission file
+│   ├── task-a-en.refined.tsv         # Refined submission, if generated
+│   └── task-a-en.ensemble.tsv        # Ensemble submission, if generated
+├── candidate_pools/
+│   └── ensemble_v1/                  # Candidate pools generated by different models
+├── diagnostics/
+│   └── ...                           # Diagnostics for the main run
+├── diagnostics_ensemble/
+│   └── ...                           # Diagnostics for the ensemble run
+├── diagnostics_single_ministral/
+│   └── ...                           # Diagnostics for the single-model run
+├── refine_diagnostics/
+│   └── ...                           # Diagnostics for refinement
+└── submission.zip                    # Final archive for CodaBench
 ```
 
-Refine mock:
+The `.venv/` folder is not included in this structure because it is a local virtual environment and should not be versioned.
 
-```powershell
-python .\mwahaha_task_a_en.py refine `
-  --input .\data\input\task-a-en.tsv `
-  --incumbent-output C:\tmp\mwahaha_mock_output.tsv `
-  --output C:\tmp\mwahaha_refined_mock.tsv `
-  --backend mock `
-  --diagnostics-dir C:\tmp\mwahaha_mock_diagnostics `
-  --refine-diagnostics-dir C:\tmp\mwahaha_refine_diagnostics_mock `
-  --report C:\tmp\mwahaha_refine_report_mock.json `
-  --limit 2 `
-  --resume
+## Main Files
+
+### `mwahaha_task_a_en.py`
+
+Main script of the project. It contains all commands used to generate, validate, rank, evaluate, and refine the submission.
+
+### `RERANKING.md`
+
+Explains how candidates are validated, scored, sorted, and compared through pairwise reranking.
+
+### `REPORT_ENSEMBLE.md`
+
+Contains the experimental report for the ensemble run, including model win shares, candidate validity, output style metrics, and refinement suggestions.
+
+### `DIAGNOSTICS_COMPARISON.md`
+
+Compares the single-model Ministral run with the multi-model ensemble. It highlights the trade-off between compactness and judged quality.
+
+## Models
+
+The project uses local instruction-tuned LLMs.
+
+The ensemble configuration supports:
+
+- Qwen3-14B
+- Gemma 12B QAT
+- Ministral 3 14B Reasoning
+
+The single-model configuration uses **Ministral 3 14B Reasoning** to generate all candidates. This is the 14B model used in our experiments, selected because it provided the strongest contribution inside the ensemble.
+
+Optional humor classifiers can be used as an auxiliary signal, but they do not decide the final output alone.
+
+## Notes
+
+This project is designed to be local and reproducible. Generated files such as candidate pools, diagnostics, refinement outputs, and submissions can become large, so they should usually be excluded from version control unless they are needed for reporting.
+
+Recommended files to keep in the repository:
+
+```text
+README.md
+RERANKING.md
+REPORT_ENSEMBLE.md
+DIAGNOSTICS_COMPARISON.md
+mwahaha_task_a_en.py
+requirements.txt
+data/
 ```
 
-## Troubleshooting
+Recommended files or folders to ignore:
 
-### Il comando sembra bloccato
-
-Possibili cause:
-
-- il modello locale sta generando lentamente;
-- LM Studio e occupato o non risponde;
-- il timeout e alto (`--timeout 300`);
-- i classifier su CPU stanno rallentando il batch.
-
-Controlli utili:
-
-```powershell
-Get-Process python -ErrorAction SilentlyContinue
-Get-ChildItem .\refine_diagnostics | Sort-Object LastWriteTime -Descending | Select-Object -First 5
-Get-Item .\submission\task-a-en.refined.tsv
+```text
+.venv/
+__pycache__/
+candidate_pools/
+diagnostics/
+diagnostics_ensemble/
+diagnostics_single_ministral/
+refine_diagnostics/
+submission.zip
 ```
 
-Se la run si e interrotta, rilancia con `--resume`.
+## License
 
-### Device set to use cpu
+This project is licensed under the MIT License.
 
-Messaggio normale quando `--humor-device -1`.
+## Acknowledgments
 
-Significa che i classifier Hugging Face girano su CPU. Questo evita di saturare la VRAM usata dal modello generativo.
-
-### Validation fallisce con `weak_headline_overlap`
-
-La battuta non contiene abbastanza segnali lessicali della headline. Soluzioni:
-
-- rigenerare l'ID;
-- usare `refine --target-ids en_xxxx`;
-- aumentare specificita del prompt.
-
-### Troppe battute iniziano con `I tried`
-
-Usa `refine`. Il comando penalizza automaticamente:
-
-- `I tried`;
-- `I asked`;
-- `I told`;
-- `turns out`;
-- testi lunghi;
-- virgolette.
-
-### Voglio rifinire solo pochi ID
-
-Usa `--target-ids`:
-
-```powershell
-python .\mwahaha_task_a_en.py refine `
-  --input .\data\input\task-a-en.tsv `
-  --incumbent-output .\submission\task-a-en.tsv `
-  --output .\submission\task-a-en.refined.tsv `
-  --backend openai `
-  --base-url http://localhost:1234/v1 `
-  --model qwen/qwen3-14b `
-  --target-ids en_2150,en_2075,en_2062 `
-  --resume
-```
-
-`--target-ids` puo anche puntare a un file di testo con ID separati da spazi, virgole o newline.
-
-## Workflow Consigliato
-
-1. Avvia LM Studio con Qwen.
-2. Esegui `run` con diagnostics e resume.
-3. Valida `submission/task-a-en.tsv`.
-4. Genera o aggiorna `REPORT.md`.
-5. Esegui `refine --dry-run` per vedere i target.
-6. Esegui `refine --resume`.
-7. Valida `submission/task-a-en.refined.tsv`.
-8. Confronta metriche e diagnostics.
-9. Se la refined e migliore, copiala come `submission/task-a-en.tsv`.
-10. Ricrea `submission.zip`.
-
-## Note Sulla Qualita
-
-Per questa challenge la qualita dipende piu da preferenza umana che da metriche testuali.
-
-Priorita pratiche:
-
-- battute brevi;
-- punchline specifica;
-- legame chiaro con headline o parole obbligatorie;
-- meno template ripetuti;
-- niente spiegazioni;
-- niente prefissi tipo `Joke:`;
-- evitare output troppo lunghi;
-- evitare contenuto offensivo o rischioso.
+- SemEval 2026 Task 1: MWAHAHA organizers.
+- Hugging Face for open-source models and humor classifiers.
+- LM Studio, llama.cpp, and Ollama for local LLM inference.
+- The open-source LLM community.
